@@ -11,12 +11,8 @@
             "id": "a5c7f5edae42bc3d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_pages/about.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_pages/about.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,41 +140,51 @@
   },
   "active": "a5c7f5edae42bc3d",
   "lastOpenFiles": [
-    "assets/img/prof_pic.jpg",
-    "assets/img/prof_picer.jpg",
-    "assets/img/Srikanth.jpg",
-    "assets/img/MSE-Profile-Pic-scaled-e1722589736453.jpg",
-    "_pages/404.md",
-    "_news/announcement_3.md",
-    "_news/announcement_2.md",
-    "_news/announcement_1.md",
-    "CUSTOMIZE.md",
-    "_projects/1_project.md",
-    "_site/assets/img/template_error-1400.webp",
-    "_site/assets/img/template_error-800.webp",
-    "_site/assets/img/template_error-480.webp",
-    "_site/assets/img/publication_preview/wave-mechanics-1400.webp",
-    "_site/assets/img/publication_preview/wave-mechanics-800.webp",
-    "_site/assets/img/publication_preview/wave-mechanics-480.webp",
-    "_site/assets/img/publication_preview/brownian-motion-1400.webp",
-    "_site/assets/img/publication_preview",
-    "_site/assets/img",
-    "_site/assets",
-    "_site",
-    "_pages/teaching.md",
-    "_teaching",
-    "untitled folder",
-    "_pages/repositories.md",
-    "_pages/publications.md",
-    "_pages/projects.md",
-    "_pages/profiles.md",
-    "_pages/news.md",
-    "_pages/dropdown.md",
-    "_pages/cv.md",
-    "_pages/blog.md",
-    "_pages/about_einstein.md",
-    "_pages/about.md",
+    "readme_preview/repositories.png",
+    "readme_preview/publications.png",
+    "readme_preview/projects.png",
+    "readme_preview/photos-screenshot.png",
+    "readme_preview/math.png",
+    "readme_preview/people.png",
+    "readme_preview/light.png",
+    "readme_preview/jupyter.png",
+    "readme_preview/dark.png",
+    "readme_preview/distill.png",
+    "readme_preview/cv.png",
+    "readme_preview",
+    "purgecss.config.js",
+    "package.json",
+    "package-lock.json",
+    "lighthouse_results/mobile/alshedivat_github_io_al_folio_.html",
+    "lighthouse_results/desktop/alshedivat_github_io_al_folio_.html",
+    "lighthouse_results/mobile",
+    "lighthouse_results/desktop",
+    "lighthouse_results",
+    "docker-compose.yml",
+    "_projects/9_project.md",
+    "_projects/8_project.md",
+    "_projects/7_project.md",
+    "_projects/6_project.md",
+    "_projects/5_project.md",
+    "_projects/4_project.md",
     "_projects/3_project.md",
-    "_projects/2_project.md"
+    "_projects/2_project.md",
+    "_projects/1_project.md",
+    "_posts/2024-05-01-tabs.md",
+    "_posts/2024-04-29-typograms.md",
+    "_posts/2024-04-28-post-citation.md",
+    "_posts/2024-04-15-pseudocode.md",
+    "_posts/2024-01-27-vega-lite.md",
+    "_posts/2024-01-27-code-diff.md",
+    "_posts/2024-01-27-advanced-images.md",
+    "_posts/2024-01-26-geojson-map.md",
+    "_posts/2024-01-26-echarts.md",
+    "_posts/2024-01-26-chartjs.md",
+    "_posts/2023-12-12-tikzjax.md",
+    "_posts/2023-07-12-post-bibliography.md",
+    "_posts/2023-07-04-jupyter-notebook.md",
+    "_posts/2023-05-12-custom-blockquotes.md",
+    "_posts/2023-04-25-sidebar-table-of-contents.md",
+    "_posts/2023-04-25-audios.md"
   ]
 }
