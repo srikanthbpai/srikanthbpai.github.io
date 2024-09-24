@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-This site contains details about my academic work. By training I am an electrical communication engineer(ME and PhD from <a href='https://iisc.ac.in'>I.I.Sc</a>, and B.Tech from <a href='https://www.nitk.ac.in'>NITK Surathkal</a>. 
+This site contains details about my academic work. By training I am an electrical communication engineer(ME and PhD from <a href='https://iisc.ac.in'>I.I.Sc</a>, and B.Tech from <a href='https://www.nitk.ac.in'>NITK Surathkal</a>, a theoretical physicist and a mathematician (M.Sc and PhD <a href='https://www.icts.res.in'>ICTS Bangalore</a>. I often believe I am a mathematician. 
 
-a theoretical physicist and a mathematician. I am presently an assistant professor at Madras School of Economics and I teach subjects related to Statistics and Probability.
+I am presently an assistant professor at Madras School of Economics and I teach subjects related to Statistics and Probability.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
