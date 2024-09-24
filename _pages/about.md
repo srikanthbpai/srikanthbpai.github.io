@@ -2,21 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Assistant Professor <a href='https://www.mse.ac.in'>Madras School of Economics</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+   <p>Gandhi Mandapam Road,</p>
+   <p>Behind Government Data Center,</p>
+   <p>Kotturpuram, Chennai - 600 025,</p>
+   <p>Tamil Nadu, India.</p>
+   <p> myfullname at mse dot ac dot in </p>
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+This site contains details about my academic and teaching work. I identify myself as a mathematician. Although by training I can pass off as an electrical communication engineer or a theoretical physicist. I am presently an assistant professor at Madras School of Economics and I teach subjects related to Statistics and Probability.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

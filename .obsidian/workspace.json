@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/1_project.md",
+                "file": "_pages/about.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_projects/1_project.md",
+                "file": "_pages/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_projects/1_project.md",
+                "file": "_pages/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_projects/1_project.md"
+                "file": "_pages/about.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "a5c7f5edae42bc3d",
   "lastOpenFiles": [
+    "_pages/404.md",
+    "_news/announcement_3.md",
+    "_news/announcement_2.md",
+    "_news/announcement_1.md",
+    "CUSTOMIZE.md",
+    "_projects/1_project.md",
     "_site/assets/img/template_error-1400.webp",
     "_site/assets/img/template_error-800.webp",
     "_site/assets/img/template_error-480.webp",
@@ -158,7 +164,6 @@
     "_site/assets/img/publication_preview/brownian-motion-800.webp",
     "_site/assets/img/publication_preview/brownian-motion-480.webp",
     "_site/assets/img/prof_pic_color-1400.webp",
-    "_site/assets/img/prof_pic_color-800.webp",
     "_site/assets/img/publication_preview",
     "_site/assets/img",
     "_site/assets",
@@ -177,7 +182,6 @@
     "_pages/about_einstein.md",
     "_pages/about.md",
     "_projects/3_project.md",
-    "_projects/2_project.md",
-    "_projects/1_project.md"
+    "_projects/2_project.md"
   ]
 }
