@@ -11,8 +11,12 @@
             "id": "a5c7f5edae42bc3d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_pages/about.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_pages/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_pages/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_pages/about.md"
+              }
             }
           }
         ]
@@ -144,12 +152,12 @@
     "readme_preview/publications.png",
     "readme_preview/projects.png",
     "readme_preview/photos-screenshot.png",
-    "readme_preview/math.png",
+    "readme_preview/distill.png",
     "readme_preview/people.png",
+    "readme_preview/math.png",
     "readme_preview/light.png",
     "readme_preview/jupyter.png",
     "readme_preview/dark.png",
-    "readme_preview/distill.png",
     "readme_preview/cv.png",
     "readme_preview",
     "purgecss.config.js",
@@ -170,21 +178,21 @@
     "_projects/3_project.md",
     "_projects/2_project.md",
     "_projects/1_project.md",
+    "_posts/2024-04-15-pseudocode.md",
     "_posts/2024-05-01-tabs.md",
     "_posts/2024-04-29-typograms.md",
     "_posts/2024-04-28-post-citation.md",
-    "_posts/2024-04-15-pseudocode.md",
     "_posts/2024-01-27-vega-lite.md",
     "_posts/2024-01-27-code-diff.md",
     "_posts/2024-01-27-advanced-images.md",
     "_posts/2024-01-26-geojson-map.md",
     "_posts/2024-01-26-echarts.md",
-    "_posts/2024-01-26-chartjs.md",
     "_posts/2023-12-12-tikzjax.md",
+    "_posts/2024-01-26-chartjs.md",
     "_posts/2023-07-12-post-bibliography.md",
     "_posts/2023-07-04-jupyter-notebook.md",
     "_posts/2023-05-12-custom-blockquotes.md",
     "_posts/2023-04-25-sidebar-table-of-contents.md",
-    "_posts/2023-04-25-audios.md"
+    "_posts/2023-03-21-tables.md"
   ]
 }

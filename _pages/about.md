@@ -23,7 +23,7 @@ I am an Assistant Professor at <a href='https://www.mse.ac.in'>Madras School of 
 
 In my free time, I like to think about higher categorical problems like constructing extended TQFTs, and representations of higher groups. I explain in detail on my Research page.
 
-By training I am an electrical communication engineer(ME and PhD from <a href='https://iisc.ac.in'>I.I.Sc</a>, and B.Tech from <a href='https://www.nitk.ac.in'>NITK Surathkal</a>, a theoretical physicist and a mathematician (M.Sc and PhD <a href='https://www.icts.res.in'>ICTS Bangalore</a>). 
+By training I am an electrical communication engineer(ME and PhD from <a href='https://iisc.ac.in'>I.I.Sc</a>, and B.Tech from <a href='https://www.nitk.ac.in'>NITK Surathkal</a>), a theoretical physicist and a mathematician (M.Sc and PhD <a href='https://www.icts.res.in'>ICTS Bangalore</a>). 
 
 Outside my working hours, I share my passion for mathematical problem solving on my <a href='https://youtube.com/@mudithamath?feature=shared'>channel Aha! Problems</a> on YouTube. 
 
