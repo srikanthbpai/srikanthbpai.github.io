@@ -108,7 +108,7 @@ wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
 x_username: # your X handle
-youtube_id: youtube.com/@@mudithamath # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: youtube.com/@mudithamath # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
@@ -149,9 +149,9 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
   repo: srikanthbpai/srikanthbpai.github.io # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
+  repo_id: R_kgDOM2F06Q # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
+  category_id: DIC_kwDOM2F06c4Ciuoy # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
