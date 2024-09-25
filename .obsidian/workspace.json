@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/about.md",
+                "file": "_posts/2024-01-27-advanced-images.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/about.md",
+                "file": "_posts/2024-01-27-advanced-images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/about.md",
+                "file": "_posts/2024-01-27-advanced-images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/about.md"
+                "file": "_posts/2024-01-27-advanced-images.md"
               }
             }
           }
@@ -148,20 +148,42 @@
   },
   "active": "a5c7f5edae42bc3d",
   "lastOpenFiles": [
-    "_pages/404.md",
+    "_posts/2024-01-27-code-diff.md",
+    "_posts/2024-01-27-vega-lite.md",
+    "_posts/2024-04-15-pseudocode.md",
+    "_posts/2024-04-28-post-citation.md",
+    "_posts/2024-04-29-typograms.md",
+    "_posts/2024-05-01-tabs.md",
+    "_posts/2023-04-25-sidebar-table-of-contents.md",
+    "_posts/2023-03-20-table-of-contents.md",
+    "_posts/2015-10-20-math.md",
     "_news/announcement_2.md",
+    "node_modules/@shopify/prettier-plugin-liquid/ThirdPartyNotices.txt",
+    "node_modules/@shopify/prettier-plugin-liquid/standalone.js.LICENSE.txt",
+    "node_modules/@shopify/prettier-plugin-liquid/dist/utils.d.ts",
+    "node_modules/@shopify/prettier-plugin-liquid/dist/types.d.ts",
+    "node_modules/@shopify/prettier-plugin-liquid/dist/printer/utils/string.d.ts",
+    "node_modules/@shopify/prettier-plugin-liquid/standalone.d.ts",
+    "node_modules/@shopify/prettier-plugin-liquid/dist/printer/print/tag.d.ts",
+    "node_modules/@shopify/prettier-plugin-liquid/dist/printer/printer-liquid-html.d.ts",
+    "node_modules/@shopify/prettier-plugin-liquid/dist/printer/print-preprocess.d.ts",
+    "node_modules/@shopify/prettier-plugin-liquid/dist/parser.d.ts",
+    "node_modules/@shopify/prettier-plugin-liquid/README.md",
+    "node_modules/@shopify/liquid-html-parser/README.md",
+    "node_modules/prettier/README.md",
+    "node_modules/html-styles/README.md",
+    "node_modules/html-styles/LICENSE.md",
+    "node_modules/ohm-js/README.md",
+    "node_modules/isarray/README.md",
+    "node_modules/line-column/README.md",
+    "node_modules/isobject/README.md",
     "_news/announcement_1.md",
-    "_pages/news.md",
     "_pages/about.md",
+    "_pages/404.md",
+    "_pages/news.md",
     "_posts/2023-04-24-videos.md",
     "_projects/9_project.md",
     "_projects/7_project.md",
-    "_projects/8_project.md",
-    "_projects/2_project.md",
-    "_projects/3_project.md",
-    "_projects/4_project.md",
-    "_projects/5_project.md",
-    "_projects/6_project.md",
     "readme_preview/repositories.png",
     "readme_preview/publications.png",
     "readme_preview/projects.png",
@@ -171,28 +193,6 @@
     "readme_preview/math.png",
     "readme_preview/light.png",
     "readme_preview/jupyter.png",
-    "readme_preview/dark.png",
-    "readme_preview",
-    "purgecss.config.js",
-    "package.json",
-    "package-lock.json",
-    "lighthouse_results/mobile/alshedivat_github_io_al_folio_.html",
-    "lighthouse_results/desktop/alshedivat_github_io_al_folio_.html",
-    "lighthouse_results/mobile",
-    "lighthouse_results/desktop",
-    "lighthouse_results",
-    "docker-compose.yml",
-    "_projects/1_project.md",
-    "_posts/2024-04-15-pseudocode.md",
-    "_posts/2024-05-01-tabs.md",
-    "_posts/2024-04-29-typograms.md",
-    "_posts/2024-04-28-post-citation.md",
-    "_posts/2024-01-27-vega-lite.md",
-    "_posts/2024-01-27-code-diff.md",
-    "_posts/2024-01-27-advanced-images.md",
-    "_posts/2024-01-26-geojson-map.md",
-    "_posts/2024-01-26-echarts.md",
-    "_posts/2023-12-12-tikzjax.md",
-    "_posts/2024-01-26-chartjs.md"
+    "readme_preview/dark.png"
   ]
 }
