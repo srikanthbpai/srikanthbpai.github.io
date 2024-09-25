@@ -148,6 +148,11 @@
   },
   "active": "a5c7f5edae42bc3d",
   "lastOpenFiles": [
+    "_pages/404.md",
+    "_news/announcement_2.md",
+    "_news/announcement_1.md",
+    "_pages/news.md",
+    "_pages/about.md",
     "_posts/2023-04-24-videos.md",
     "_projects/9_project.md",
     "_projects/7_project.md",
@@ -157,7 +162,6 @@
     "_projects/4_project.md",
     "_projects/5_project.md",
     "_projects/6_project.md",
-    "_pages/about.md",
     "readme_preview/repositories.png",
     "readme_preview/publications.png",
     "readme_preview/projects.png",
@@ -189,10 +193,6 @@
     "_posts/2024-01-26-geojson-map.md",
     "_posts/2024-01-26-echarts.md",
     "_posts/2023-12-12-tikzjax.md",
-    "_posts/2024-01-26-chartjs.md",
-    "_posts/2023-07-12-post-bibliography.md",
-    "_posts/2023-07-04-jupyter-notebook.md",
-    "_posts/2023-05-12-custom-blockquotes.md",
-    "_posts/2023-04-25-sidebar-table-of-contents.md"
+    "_posts/2024-01-26-chartjs.md"
   ]
 }
