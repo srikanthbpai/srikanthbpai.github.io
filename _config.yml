@@ -8,7 +8,7 @@ middle_name: B.
 last_name: Pai
 email: srikanthbpai@mse.ac.in
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Mathematic
+ Mathematic
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -112,7 +112,7 @@ youtube_id: youtube.com/@mudithamath # your youtube channel id (youtube.com/@<yo
 zotero_username: # your zotero username
 
 contact_note: >
-  The best way to reach me is to meet me in person, otherwise email.
+  The best way to reach me is to meet me in person, otherwise email. 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -151,7 +151,7 @@ giscus:
   repo: srikanthbpai/srikanthbpai.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id: R_kgDOM2F06Q # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
-  category_id: DIC_kwDOM2F06c4Ciuoy # leave empty or specify your category_id (see https://giscus.app/)
+  category_id: DIC_kwDOM2F06c4CixRN # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
@@ -168,12 +168,12 @@ disqus_shortname: # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # external_sources:
-# - name: medium.com
-#   rss_url: https://medium.com/@al-folio/feed
-# - name: Google Blog
-#   posts:
-#     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-#       published_date: 2024-05-14
+ # - name: medium.com
+ #   rss_url: https://medium.com/@al-folio/feed
+ # - name: Google Blog
+ #   posts:
+ #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+ #       published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -199,7 +199,7 @@ collections:
     permalink: /:collection/:title/
   teaching:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:title/  
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items

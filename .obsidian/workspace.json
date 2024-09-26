@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-01-27-advanced-images.md",
+                "file": "_teaching/Stochastic Processes July-Nov 2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-01-27-advanced-images.md",
+                "file": "_teaching/Stochastic Processes July-Nov 2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-01-27-advanced-images.md",
+                "file": "_teaching/Stochastic Processes July-Nov 2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-01-27-advanced-images.md"
+                "file": "_teaching/Stochastic Processes July-Nov 2024.md"
               }
             }
           }
@@ -148,6 +148,19 @@
   },
   "active": "a5c7f5edae42bc3d",
   "lastOpenFiles": [
+    "_teaching/Statistics for Economics July-Nov 2024.md",
+    "_teaching/Stochastic Processes July-Nov 2024.md",
+    "_pages/teaching.md",
+    "Statistics for Economics 2024.md",
+    "_pages/projects.md",
+    "_pages/about.md",
+    "_pages/publications.md",
+    "_pages/repositories.md",
+    "_pages/dropdown.md",
+    "_pages/cv.md",
+    "_pages/blog.md",
+    "_pages/about_einstein.md",
+    "_posts/2024-01-27-advanced-images.md",
     "_posts/2024-01-27-code-diff.md",
     "_posts/2024-01-27-vega-lite.md",
     "_posts/2024-04-15-pseudocode.md",
@@ -171,19 +184,6 @@
     "node_modules/@shopify/prettier-plugin-liquid/README.md",
     "node_modules/@shopify/liquid-html-parser/README.md",
     "node_modules/prettier/README.md",
-    "node_modules/html-styles/README.md",
-    "node_modules/html-styles/LICENSE.md",
-    "node_modules/ohm-js/README.md",
-    "node_modules/isarray/README.md",
-    "node_modules/line-column/README.md",
-    "node_modules/isobject/README.md",
-    "_news/announcement_1.md",
-    "_pages/about.md",
-    "_pages/404.md",
-    "_pages/news.md",
-    "_posts/2023-04-24-videos.md",
-    "_projects/9_project.md",
-    "_projects/7_project.md",
     "readme_preview/repositories.png",
     "readme_preview/publications.png",
     "readme_preview/projects.png",
