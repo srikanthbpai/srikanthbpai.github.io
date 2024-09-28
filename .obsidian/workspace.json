@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4676777e38d0b658",
+        "id": "a8b9c347a7d1fba2",
         "type": "tabs",
         "children": [
           {
-            "id": "a5c7f5edae42bc3d",
+            "id": "620f4c5e0fe234eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,20 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5c7f5edae42bc3d",
+  "active": "620f4c5e0fe234eb",
   "lastOpenFiles": [
-    "_teaching/Stochastic Processes July-Nov 2024.md",
-    "_teaching/Statistics for Economics July-Nov 2024.md",
+    "_pages/about_einstein.md",
     "_pages/teaching.md",
+    "_teaching/Statistics for Economics July-Nov 2024.md",
+    "teaching/Statistics.md",
+    "teaching",
+    "_pages/about.md",
+    "_teaching/Stochastic Processes July-Nov 2024.md",
     "Statistics for Economics 2024.md",
     "_pages/projects.md",
-    "_pages/about.md",
     "_pages/publications.md",
     "_pages/repositories.md",
     "_pages/dropdown.md",
     "_pages/cv.md",
     "_pages/blog.md",
-    "_pages/about_einstein.md",
     "_posts/2024-01-27-advanced-images.md",
     "_posts/2024-01-27-code-diff.md",
     "_posts/2024-01-27-vega-lite.md",
@@ -180,10 +182,8 @@
     "node_modules/@shopify/prettier-plugin-liquid/dist/printer/print/tag.d.ts",
     "node_modules/@shopify/prettier-plugin-liquid/dist/printer/printer-liquid-html.d.ts",
     "node_modules/@shopify/prettier-plugin-liquid/dist/printer/print-preprocess.d.ts",
-    "node_modules/@shopify/prettier-plugin-liquid/dist/parser.d.ts",
     "node_modules/@shopify/prettier-plugin-liquid/README.md",
     "node_modules/@shopify/liquid-html-parser/README.md",
-    "node_modules/prettier/README.md",
     "readme_preview/repositories.png",
     "readme_preview/publications.png",
     "readme_preview/projects.png",
