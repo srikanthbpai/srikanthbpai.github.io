@@ -1,14 +1,66 @@
 ---
 layout: page
+title: Courses
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Course materials.
 nav: true
-nav_order: 6
+nav_order: 3
+display_categories: [work, teaching]
+horizontal: false
+giscus_comments: true
 ---
 
-1. Statistics for Economics July-Nov 2024:
-   _Prerequisites: Single and Multivariable Calculus._ This is a rigorous course on probability and statistics focusing on applications to economics, given to BA Second-Year students. We are following the textbook by Larsen and Marx. The first half of the course establishes the foundations of probability theory, and the second half trains the students in statistics.
+<!-- pages/projects.md -->
+<div class="projects">
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
 
-2. Stochastic Processes July-Nov 2024:
-   _Prerequisites: Probability theory, Matrix Algebra, Differential equations._ An advanced course covering Markov processes, Poisson Process, Wiener Process, Martingales, and applications to finance and economics was given to BA third-year students. The first half was spent studying Discrete-time Markov Chain theory. In the second half, I plan to cover the Poisson and Weiner Process, Continuous-time Markov Chains, Martingales and the basics of Brownian motion.
+{% else %}
+
+<!-- Display projects without categories -->
+
+{% assign sorted_projects = site.projects | sort: "importance" %}
+
+  <!-- Generate cards for each project -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
