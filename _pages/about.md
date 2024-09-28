@@ -27,8 +27,6 @@ By training I am an electrical communication engineer(ME and PhD from <a href='h
 
 Outside my working hours, I share my passion for mathematical problem solving on my <a href='https://youtube.com/@mudithamath?feature=shared'>channel Aha! Problems</a> on YouTube. My favourite video is
 
-```xml
 <iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" </iframe>
-```
 
 I am a homebody. I love collecting stationaries (especially fountain pens and inks), watching animes and rom-coms. I have a decent collection of books and a diverse video game collection. You can look at Miscellany for more details.

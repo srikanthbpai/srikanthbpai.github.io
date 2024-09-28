@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Stochastic Processes July-Nov 2024.md",
+                "file": "_pages/about.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_teaching/Stochastic Processes July-Nov 2024.md",
+                "file": "_pages/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_teaching/Stochastic Processes July-Nov 2024.md",
+                "file": "_pages/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_teaching/Stochastic Processes July-Nov 2024.md"
+                "file": "_pages/about.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "a5c7f5edae42bc3d",
   "lastOpenFiles": [
-    "_teaching/Statistics for Economics July-Nov 2024.md",
     "_teaching/Stochastic Processes July-Nov 2024.md",
+    "_teaching/Statistics for Economics July-Nov 2024.md",
     "_pages/teaching.md",
     "Statistics for Economics 2024.md",
     "_pages/projects.md",
