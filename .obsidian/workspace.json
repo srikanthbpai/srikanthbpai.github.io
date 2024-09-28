@@ -148,6 +148,8 @@
   },
   "active": "620f4c5e0fe234eb",
   "lastOpenFiles": [
+    "assets/img/BrownianMotion.png",
+    "assets/img/11.png",
     "assets/img/12.jpg",
     "assets/img/StatBG.jpg",
     "_pages/about.md",
@@ -191,8 +193,6 @@
     "readme_preview/photos-screenshot.png",
     "readme_preview/distill.png",
     "readme_preview/people.png",
-    "readme_preview/math.png",
-    "readme_preview/light.png",
-    "readme_preview/jupyter.png"
+    "readme_preview/math.png"
   ]
 }
