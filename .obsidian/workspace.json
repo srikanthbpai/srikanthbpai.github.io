@@ -148,6 +148,8 @@
   },
   "active": "620f4c5e0fe234eb",
   "lastOpenFiles": [
+    "assets/img/12.jpg",
+    "assets/img/StatBG.jpg",
     "_pages/about.md",
     "_pages/teaching~.md",
     "_pages/teaching.md",
@@ -175,7 +177,6 @@
     "_posts/post templates/2023-04-25-sidebar-table-of-contents.md",
     "_posts/post templates/2023-04-25-audios.md",
     "_posts/post templates/2023-04-24-videos.md",
-    "_posts/post templates/2023-03-21-tables.md",
     "_posts/post templates",
     "_posts/New Folder With Items",
     "teaching",
@@ -192,7 +193,6 @@
     "readme_preview/people.png",
     "readme_preview/math.png",
     "readme_preview/light.png",
-    "readme_preview/jupyter.png",
-    "readme_preview/dark.png"
+    "readme_preview/jupyter.png"
   ]
 }
