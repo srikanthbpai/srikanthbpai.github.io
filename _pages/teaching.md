@@ -1,10 +1,10 @@
 ---
 layout: page
 title: teaching
-permalink: /projects/
+permalink: /teaching/
 description: Course materials.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [work, teaching]
 horizontal: false
 giscus_comments: true
