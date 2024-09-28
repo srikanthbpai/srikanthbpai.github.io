@@ -19,13 +19,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor at <a href='https://www.mse.ac.in'>Madras School of Economics</a>. I mainly teach statistics and probability related subjects to undergraduates. Look at the Teaching page for more details.
+I am an Assistant Professor at <a href='https://www.mse.ac.in'> Madras School of Economics</a>. I mainly teach statistics and probability related subjects to undergraduates. Look at the Teaching page for more details.
 
 In my free time, I like to think about higher categorical problems like constructing extended TQFTs, and representations of higher groups. I explain in detail on my Research page.
 
 By training I am an electrical communication engineer(ME and PhD from <a href='https://iisc.ac.in'>I.I.Sc</a>, and B.Tech from <a href='https://www.nitk.ac.in'>NITK Surathkal</a>), a theoretical physicist and a mathematician (M.Sc and PhD from <a href='https://www.icts.res.in'>ICTS Bangalore</a>).
 
-Outside my working hours, I share my passion for mathematical problem solving on my <a href='https://youtube.com/@mudithamath?feature=shared'>channel Aha! Problems</a> on YouTube. My favourite video is
+Outside my working hours, I share my passion for mathematical problem solving on my <a href='https://youtube.com/@mudithamath?feature=shared'>YouTube channel</a>. My favourite video is
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ebKPaj9Pj6s?si=2NHw--F9A2G60vwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
