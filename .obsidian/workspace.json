@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Statistics for Economics.md",
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_teaching/Statistics for Economics.md",
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_teaching/Statistics for Economics.md",
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_teaching/Statistics for Economics.md"
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "582ea4b8cae9fd30",
   "lastOpenFiles": [
-    "_teaching/Stochastic Processes.md",
     "_teaching/Statistics for Economics.md",
+    "_teaching/Stochastic Processes.md",
     "downloads/Stats24/Module-1-test.pdf",
     "downloads/Stats24/First-Internal-Stats.pdf",
     "downloads/Stats24/Week-10-HW.pdf",
