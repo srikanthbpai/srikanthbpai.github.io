@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a8b9c347a7d1fba2",
+        "id": "f2c1a306facf5147",
         "type": "tabs",
         "children": [
           {
-            "id": "620f4c5e0fe234eb",
+            "id": "582ea4b8cae9fd30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Statistics for Economics.md",
+                "file": "_teaching/Stochastic Processes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_teaching/Statistics for Economics.md",
+                "file": "_teaching/Stochastic Processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_teaching/Statistics for Economics.md",
+                "file": "_teaching/Stochastic Processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_teaching/Statistics for Economics.md"
+                "file": "_teaching/Stochastic Processes.md"
               }
             }
           }
@@ -146,20 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "620f4c5e0fe234eb",
+  "active": "582ea4b8cae9fd30",
   "lastOpenFiles": [
-    "{{.md",
     "_teaching/Statistics for Economics.md",
+    "downloads/Stats24/Module-1-test.pdf",
+    "downloads/Stats24/First-Internal-Stats.pdf",
+    "downloads/Stats24/Week-10-HW.pdf",
+    "downloads/Stats24/Week-9-HW.pdf",
+    "downloads/Stats24/Week-8-HW.pdf",
+    "{{.md",
     "downloads/Stats24/Week-1-HW.pdf",
     "downloads/Stats24/Week-5-HW.pdf",
     "downloads/Stats24/Week-4-HW.pdf",
     "downloads/Stats24/Week-3-HW.pdf",
     "downloads/Stats24/Week-2-HW.pdf",
-    "downloads/Stats24",
-    "downloads/untitled folder",
-    "downloads",
-    "untitled folder",
-    "assets/pdf/Week-1-HW.pdf",
     "assets/pdf/Week-1-HW.pdf.md",
     "_pages/teaching.md",
     "assets/pdf/Week.md",
@@ -188,7 +188,6 @@
     "_posts/post templates/2024-01-26-echarts.md",
     "_posts/post templates/2024-01-26-chartjs.md",
     "_posts/post templates/2023-12-12-tikzjax.md",
-    "_posts/post templates/2023-07-12-post-bibliography.md",
     "readme_preview/repositories.png",
     "readme_preview/publications.png",
     "readme_preview/projects.png",
