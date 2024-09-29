@@ -27,4 +27,4 @@ The first half of the course focuses on probability theory which lays the theore
 
 Weekly assignments are given:
 
-1) [Week 1](/assets/pdf/Week-1-HW.pdf)
+1) [Week 1]({{ site.url }}/assets/pdf/Week-1-HW.pdf)
