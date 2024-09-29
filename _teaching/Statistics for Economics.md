@@ -2,7 +2,7 @@
 layout: page
 title: Statistics for Economics 2024
 description: with background image
-img: assets/img/normal.png
+img: assets/img/Normal.png
 importance: 1
 category: work
 related_publications: true
