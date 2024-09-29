@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "346e4208509785d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-29-Andre's-reflection-trick.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/teaching.md",
+                "file": "_posts/2024-09-29-Andre's-reflection-trick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/teaching.md",
+                "file": "_posts/2024-09-29-Andre's-reflection-trick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/teaching.md"
+                "file": "_posts/2024-09-29-Andre's-reflection-trick.md"
               }
             }
           }
@@ -146,8 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "620f4c5e0fe234eb",
+  "active": "346e4208509785d7",
   "lastOpenFiles": [
+    "_posts/2024-09-29-Andre's-reflection-trick.md",
+    "_pages/teaching.md",
     "_teaching/Statistics for Economics~.md",
     "assets/img/Normal.png",
     "assets/img/BrownianMotion.png",
@@ -156,7 +171,6 @@
     "assets/img/StatBG.jpg",
     "_pages/about.md",
     "_pages/teaching~.md",
-    "_pages/teaching.md",
     "_pages/teaching_original.md",
     "_teaching/Stochastic Processes.md",
     "_teaching/Statistics for Economics.md",
@@ -180,7 +194,6 @@
     "_posts/post templates/2023-05-12-custom-blockquotes.md",
     "_posts/post templates/2023-04-25-sidebar-table-of-contents.md",
     "_posts/post templates/2023-04-25-audios.md",
-    "_posts/post templates/2023-04-24-videos.md",
     "_posts/post templates",
     "_posts/New Folder With Items",
     "teaching",
