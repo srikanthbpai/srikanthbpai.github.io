@@ -16,10 +16,15 @@ Venue: COE Building
 Basics of Probability theory, Random Variables and their distributions, Special distributions, Estimation, Hypothesis testing, Regression.
 
 ## Course Objectives
-the subject’s objective has been to provide the theoretical foundation for all of the var- ious procedures that are used for describing and analyzing data. What it has not spoken to at much length are the important questions of which procedure to use in a given situation, and why. But those are precisely the concerns that every user of statistics must inevitably confront. To that end, adding features that can create a path from the theory of statistics to its practice has become an increasingly high priority.
+The course will describe the basic techniques used to analyse and describe data. A student of this course will know standard procedures to estimate quantities of interest, compare among competing hypotheses and infer relations between different pieces of data. 
 
-
+The first half of the course focuses on probability theory which lays the theoretical foundation for the procedures studied in Statistics. In the second half, the procedures of statistics are discussed with rigorous justification.  
 ## References
 
+1) Richard J. Larsen, Morris L. Marx; ["Introduction to Mathematical Statistics and Its Applications"](https://www.google.co.in/books/edition/An_Introduction_to_Mathematical_Statisti/tZdbRAAACAAJ?hl=en), Prentice Hall, Fifth Edition, 2012.
+2) Sheldon M. Ross; ["Introduction to Probability Models"](https://www.google.co.in/books/edition/Introduction_to_Probability_Models/1uxBwhAb_zYC?hl=en&gbpv=0), Academic Press, Ninth Edition, 2007.
 ## Assignments
 
+Weekly assignments are given:
+
+1) [Week 1](/assets/pdf/Week-1-HW.pdf)
