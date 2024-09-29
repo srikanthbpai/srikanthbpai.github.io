@@ -6,7 +6,6 @@ description: Probability problem on vote count.
 tags:
   - Voting problems
   - Probability
-categories: Cool math
 giscus_comments: true
 related_posts: true
 ---
