@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9833dd8eba513292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
+                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
+                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md"
+                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md"
               }
             }
           }
@@ -146,9 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "582ea4b8cae9fd30",
+  "active": "9833dd8eba513292",
   "lastOpenFiles": [
+    "blair1984.pdf",
+    "downloads/blair1984.pdf",
+    "_posts/2024-09-29-Andres-reflection-trick.md",
+    "_posts/2024-09-30-Stable-Marriage-Survey.md",
     "_teaching/Statistics for Economics.md",
+    "_pages/blog~.md",
     "_teaching/Stochastic Processes.md",
     "downloads/Stats24/Module-1-test.pdf",
     "downloads/Stats24/First-Internal-Stats.pdf",
@@ -160,7 +178,6 @@
     "downloads/Stats24/Week-5-HW.pdf",
     "downloads/Stats24/Week-4-HW.pdf",
     "downloads/Stats24/Week-3-HW.pdf",
-    "downloads/Stats24/Week-2-HW.pdf",
     "assets/pdf/Week-1-HW.pdf.md",
     "_pages/teaching.md",
     "assets/pdf/Week.md",
@@ -185,9 +202,6 @@
     "_posts/post templates/2024-01-27-code-diff.md",
     "_posts/post templates/2024-01-27-advanced-images.md",
     "_posts/post templates/2024-01-26-geojson-map.md",
-    "_posts/post templates/2024-01-26-echarts.md",
-    "_posts/post templates/2024-01-26-chartjs.md",
-    "_posts/post templates/2023-12-12-tikzjax.md",
     "readme_preview/repositories.png",
     "readme_preview/publications.png",
     "readme_preview/projects.png",

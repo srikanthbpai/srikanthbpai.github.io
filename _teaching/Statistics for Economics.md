@@ -24,7 +24,9 @@ The first half of the course focuses on probability theory which lays the theore
 
 - Richard J. Larsen, Morris L. Marx; ["Introduction to Mathematical Statistics and Its Applications"](https://www.google.co.in/books/edition/An_Introduction_to_Mathematical_Statisti/tZdbRAAACAAJ?hl=en), Prentice Hall, Fifth Edition, 2012.
 - Sheldon M. Ross; ["Introduction to Probability Models"](https://www.google.co.in/books/edition/Introduction_to_Probability_Models/1uxBwhAb_zYC?hl=en&gbpv=0), Academic Press, Ninth Edition, 2007.
+
 ## Assignments
+
 
 Weekly assignments are given:
 1) [Week 1]({{ site.url }}/downloads/Stats24/Week-1-HW.pdf)
