@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md",
+                "file": "_projects/1_project.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md",
+                "file": "_projects/1_project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md",
+                "file": "_projects/1_project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md"
+                "file": "_projects/1_project.md"
               }
             }
           }
@@ -161,11 +161,20 @@
   },
   "active": "9833dd8eba513292",
   "lastOpenFiles": [
-    "blair1984.pdf",
-    "downloads/blair1984.pdf",
+    "_projects/8_project.md",
+    "_projects/9_project.md",
+    "_projects/7_project.md",
+    "_projects/6_project.md",
+    "_projects/5_project.md",
+    "_projects/4_project.md",
+    "_projects/3_project.md",
+    "_projects/2_project.md",
+    "_projects/1_project.md",
     "_posts/2024-09-29-Andres-reflection-trick.md",
     "_posts/2024-09-30-Stable-Marriage-Survey.md",
     "_teaching/Statistics for Economics.md",
+    "blair1984.pdf",
+    "downloads/blair1984.pdf",
     "_pages/blog~.md",
     "_teaching/Stochastic Processes.md",
     "downloads/Stats24/Module-1-test.pdf",
@@ -177,7 +186,6 @@
     "downloads/Stats24/Week-1-HW.pdf",
     "downloads/Stats24/Week-5-HW.pdf",
     "downloads/Stats24/Week-4-HW.pdf",
-    "downloads/Stats24/Week-3-HW.pdf",
     "assets/pdf/Week-1-HW.pdf.md",
     "_pages/teaching.md",
     "assets/pdf/Week.md",
@@ -194,14 +202,6 @@
     "_pages/teaching_original.md",
     "_pages/projects copy 2.md",
     "_pages/projects copy.md",
-    "_posts/post templates/2024-04-29-typograms.md",
-    "_posts/post templates/2024-05-01-tabs.md",
-    "_posts/post templates/2024-04-28-post-citation.md",
-    "_posts/post templates/2024-04-15-pseudocode.md",
-    "_posts/post templates/2024-01-27-vega-lite.md",
-    "_posts/post templates/2024-01-27-code-diff.md",
-    "_posts/post templates/2024-01-27-advanced-images.md",
-    "_posts/post templates/2024-01-26-geojson-map.md",
     "readme_preview/repositories.png",
     "readme_preview/publications.png",
     "readme_preview/projects.png",

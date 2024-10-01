@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: Universal property of bispans
 description: another without an image
 img:
 importance: 3

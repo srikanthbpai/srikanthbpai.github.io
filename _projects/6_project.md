@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 6
+title: Galois theory of combi expressions
 description: a project with no image
 img:
 importance: 4

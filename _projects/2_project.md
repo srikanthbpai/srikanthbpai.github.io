@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Maximal subspace distance codes
+description: A conjecture is settled!
 img: assets/img/3.jpg
 importance: 2
 category: work

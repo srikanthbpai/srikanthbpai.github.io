@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Dirty paper broadcast
+description: A naive coding attempt at dirty paper methods.
 img: assets/img/12.jpg
 importance: 1
 category: work

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 7
+title: Stable marriage category
 description: with background image
 img: assets/img/4.jpg
 importance: 1

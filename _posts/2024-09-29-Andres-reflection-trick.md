@@ -14,9 +14,7 @@ related_posts: true
 
 Here's an interesting problem related to voting and ballot counts:
 
-```quote
-Suppose A and B win p and q votes respectively in an election with p > q. While counting the ballots, what is the probability that A always remains ahead of B throughout the count?
-```
+**Suppose A and B win p and q votes respectively in an election with p > q. While counting the ballots, what is the probability that A always remains ahead of B throughout the count?**
 
 The problem is recast graphically and then Andre's beautiful insight solves the problem quickly. Watch it explained in this video:
 
