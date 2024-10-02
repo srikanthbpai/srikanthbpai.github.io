@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor at <a href='https://www.mse.ac.in'> Madras School of Economics</a>. I mainly teach statistics and probability related subjects to undergraduates. Look at the <a href='https://srikanthbpai.github.io/teaching/'> teaching page </a> for more details.
+I am an Assistant Professor at <a href='https://www.mse.ac.in'> Madras School of Economics</a>. I mainly teach statistics and probability related subjects to undergraduates. Look at the <a href='https://srikanthbpai.github.io/teaching/'> teaching page </a> for more details. I am writing some notes for the [Stochastic Process course]({{ site.url }}/UGStochastic/Stochastic-Processes.pdf)
 
 In my free time, I like to think about higher categorical problems like constructing extended TQFTs, and representations of higher groups. The <a href='https://srikanthbpai.github.io/projects/'> projects page </a> contains details about my research work.
 
