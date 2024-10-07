@@ -10,6 +10,7 @@ tags:
 categories: Survey
 giscus_comments: true
 ---
+
 In 2012, Alvin Roth and Lloyd Shapley were awarded the Nobel Prize in Economic Sciences for their groundbreaking work on practical market systems. The heart of their achievement lay in solving a deceptively simple mathematical puzzle known as the **Stable Marriage Problem**. Though initially theoretical, this problem has since revolutionised how we handle real-world matching processes that impact everyday life—everything from job placements to college admissions and organ transplants.
 
 The **Stable Marriage Problem** was introduced in 1962 by David Gale and Lloyd Shapley. Their goal? To solve a tricky question: how do you match two sets of individuals (say, men and women) so that no one would prefer someone else over their current partner? In other words, how do you create a “stable” arrangement where no two people would leave their current matches for each other? This might seem abstract, but the consequences of match instability can be serious—think about hospitals competing for medical residents or students competing for university spots.
