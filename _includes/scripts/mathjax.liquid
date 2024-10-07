@@ -2,20 +2,19 @@
   {% unless page.pseudocode %}
     <!-- MathJax -->
     <script type="text/javascript">
-        window.MathJax = {
-          tex: {
-            tags: 'ams',
-            inlineMath: [['$', '$']],
-            displayMath: [['$$', '$$']],
-            processEscapes: true,
-            processEnvironments: true
-      },
-      options: {
-        ignoreHtmlClass: ".*|", // Ensures no conflicts with other markdown parsers
-        processHtmlClass: "arithmatex" // Customize to match the math blocks
-      }
-          },
-        };
+      window.MathJax = {
+        tex: {
+          tags: 'ams',
+          inlineMath: [['$', '$']],
+          displayMath: [['$$', '$$']],
+          processEscapes: true,
+          processEnvironments: true,
+        },
+        options: {
+          ignoreHtmlClass: '.*|', // Ensures no conflicts with other markdown parsers
+          processHtmlClass: 'arithmatex', // Customize to match the math blocks
+        },
+      };
     </script>
     <script
       defer
