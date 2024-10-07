@@ -37,13 +37,13 @@ _Proof:_
 
 ---
 
-**A teacher wrote the quadratic $x^2 +10x+20$ on the board. Then, each student either increased by $1$ or decreased by $1$ either the constant or the linear coefficient. Finally $x^2 +20x+10$ appeared. Did a quadratic expression with integer zeros necessarily appear on the board in the process?**
+> **A teacher wrote the quadratic $x^2 +10x+20$ on the board. Then, each student either increased by $1$ or decreased by $1$ either the constant or the linear coefficient. Finally $x^2 +20x+10$ appeared. Did a quadratic expression with integer zeros necessarily appear on the board in the process?**
 
 _Proof:_ (sketch) Represent the polynomial $x^2+ax+b$ on the plane by the point $(a,b)$. students moves will create a path out of lattice points. Now the family of polynomials $x^2 + (n+1)x + n$ is represented by the set of lattice points on the line y=x-1. Since the starting and ending points lie on the either side, the path must cross the polynomial $x^2 + (n+1)x + n$ which has integer roots.
 
 ---
 
-(BMO R2 2016) **Naomi and Tom play a game, with Naomi going first. They take it in turns to pick an integer from 1 to 100, each time selecting an integer which no-one has chosen before. A player loses the game if, after their turn, the sum of all the integers chosen since the start of the game (by both of them) cannot be written as the difference of two square numbers. Determine if one of the players has a winning strategy, and if so, which.**
+> (BMO R2 2016) **Naomi and Tom play a game, with Naomi going first. They take it in turns to pick an integer from 1 to 100, each time selecting an integer which no-one has chosen before. A player loses the game if, after their turn, the sum of all the integers chosen since the start of the game (by both of them) cannot be written as the difference of two square numbers. Determine if one of the players has a winning strategy, and if so, which.**
 
 _Proof:_ I claim Naomi has a winning strategy. First we note that n cannot be written as difference of two squares iff $n \equiv 2  \mod 4$ . 25 numbers are 0,1,2,3 mod 4 from 1 to 100. Naomi's strategy is to maintain the sum of the picked numbers as a multiple of 4 forcing Tom to eventually pick a number congruent to 2 mod 4. She can implement the strategy by the following procedure:
 
@@ -57,7 +57,7 @@ _Proof:_ I claim Naomi has a winning strategy. First we note that n cannot be wr
 
 ---
 
-(BMO R1 2017) **Matthew has a deck of 300 cards numbered 1 to 300. He takes cards from the deck one at a time and places the selected cards in a row, with each new card added at the right end. Matthew must arrange for the mean of the numbers on the cards in the row to be an integer. If, at some point, there is no card remaining in the deck, which allows Matthew to continue, then he stops. When Matthew stopped, what was the smallest possible number of cards that he could have placed in the row? Give an example of such a row.**
+> (BMO R1 2017) **Matthew has a deck of 300 cards numbered 1 to 300. He takes cards from the deck one at a time and places the selected cards in a row, with each new card added at the right end. Matthew must arrange for the mean of the numbers on the cards in the row to be an integer. If, at some point, there is no card remaining in the deck, which allows Matthew to continue, then he stops. When Matthew stopped, what was the smallest possible number of cards that he could have placed in the row? Give an example of such a row.**
 
 _Proof:_ We claim the smallest possible number of cards is 17.
 First we show that Matthew must have placed at least 17 cards on the table.
