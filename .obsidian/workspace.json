@@ -35,7 +35,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "_posts/2024-09-29-Andres-reflection-trick.md",
+                    "file": "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
                     "mode": "source",
                     "source": false
                   }
@@ -47,7 +47,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "_posts/2024-09-30-less-technical-Stable-Marriage-Survey.md",
+                    "file": "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
                     "mode": "source",
                     "source": false
                   }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
+                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
+                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md"
+                "file": "_posts/2024-09-30-Stable-Marriage-Survey.md"
               }
             }
           },
@@ -179,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,12 +193,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fd93490ecbe713ed",
+  "active": "52f81a416543c422",
   "lastOpenFiles": [
-    "_posts/2024-10-06-Number-theory-Problems.md",
-    "_posts/2024-09-29-Andres-reflection-trick.md",
+    "downloads/MWOSM.gif",
+    "downloads/images_medium_fg2.gif",
+    "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
     "_posts/2024-09-30-Stable-Marriage-Survey.md",
-    "_posts/2024-09-30-less-technical-Stable-Marriage-Survey.md",
+    "_posts/2024-09-29-Andres-reflection-trick.md",
+    "_posts/2024-10-06-Number-theory-Problems.md",
     "Stable marriage.md",
     "Less technical version.md",
     "images_medium_fg2.gif",
@@ -230,7 +233,6 @@
     "assets/pdf/Week-1-HW.pdf.md",
     "_pages/teaching.md",
     "assets/pdf/Week.md",
-    "Week 1.md",
     "assets/img/Normal.png",
     "assets/img/BrownianMotion.png",
     "assets/img/11.png",
@@ -238,7 +240,6 @@
     "assets/img/StatBG.jpg",
     "readme_preview/repositories.png",
     "readme_preview/publications.png",
-    "readme_preview/projects.png",
-    "readme_preview/photos-screenshot.png"
+    "readme_preview/projects.png"
   ]
 }
