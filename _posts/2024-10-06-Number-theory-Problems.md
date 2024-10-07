@@ -1,3 +1,30 @@
+---
+layout: post
+date: 2024-10-7 11:59:00-0400
+title: Number theory practice for RMO 2024
+description: Miscellaneous problems from RMO and BMO
+tags:
+  - Olympiad
+  - Number-theory
+  - Diophantine-equations
+related_posts: true
+giscus_comments: true
+display_categories:
+  - teaching
+  - fun
+---
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="path-to-MathJax/MathJax.js?config=TeX-AMS_HTML">
+</script>
+
 (BMO R1 2009) Find all integers $x,y,z$ such that $x^2 + y^2 + z^2 =2(yz+1)$ and $x+y+z=4018$.
 _Proof_: The first equation can be written as $x^2 + (y-z)^2=2.$ So $x = \pm 1, (y-z)=\pm 1.$
 

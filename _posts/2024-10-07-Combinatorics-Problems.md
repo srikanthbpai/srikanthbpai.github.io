@@ -1,7 +1,7 @@
 A 6 x 6 square is dissected into nine rectangles by lines parallel to its side such that all these rectangles have integer sides. Prove that there are always two congruent rectangles.
 _Proof:_ We proceed by contradiction. If the square can be dissected into nine non-congruent rectangles, then we will show that the total area will exceed 36.
 
-We will enumerate the areas of the rectangles of sidelengths at most 6 units, along with the number of such non-congruent rectangles.
+We will enumerate the areas of the rectangles of sidelengths at most 6 units and the number of such non-congruent rectangles.
 
 | Area | a x b        | number |
 | ---- | ------------ | ------ |

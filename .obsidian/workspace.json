@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-10-07-Combinatorics-Problems.md",
+                "file": "_posts/2024-10-06-Number-theory-Problems.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d782c2398b6b68e9",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-07-Combinatorics-Problems.md",
+                "file": "_posts/2024-10-06-Number-theory-Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-07-Combinatorics-Problems.md",
+                "file": "_posts/2024-10-06-Number-theory-Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-10-07-Combinatorics-Problems.md"
+                "file": "_posts/2024-10-06-Number-theory-Problems.md"
               }
             }
           },
@@ -157,15 +156,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cabfab7832911eb1",
+  "active": "52f81a416543c422",
   "lastOpenFiles": [
+    "_posts/2024-09-29-Andres-reflection-trick.md",
     "_posts/2024-10-06-Number-theory-Problems.md",
-    "_posts/2024-10-07-Combinatorics-Problems.md",
     "_posts/2024-09-30-Stable-Marriage-Survey.md",
+    "_posts/2024-10-07-Combinatorics-Problems.md",
     "downloads/MWOSM.gif",
     "downloads/images_medium_fg2.gif",
     "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
-    "_posts/2024-09-29-Andres-reflection-trick.md",
     "Stable marriage.md",
     "Less technical version.md",
     "images_medium_fg2.gif",
