@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.19)  2 OCT 2024 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.19)  8 OCT 2024 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -754,69 +754,70 @@ LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
 \c@theorem=\count317
+\c@exercise=\count318
 
 (./Stochastic-Processes.aux)
 \openout1 = `Stochastic-Processes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 200.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 201.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
- 200.
+ 201.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 201.
 LaTeX Font Info:    Trying to load font information for U+npxexa on input line 
-200.
+201.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 201.
 LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line
- 200.
+ 201.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 200.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 201.
 LaTeX Font Info:    Trying to load font information for LMX+npxexx on input lin
-e 200.
+e 201.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    ... okay on input line 201.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
+\scratchcounter=\count319
 \scratchdimen=\dimen197
 \scratchbox=\box58
-\nofMPsegments=\count319
-\nofMParguments=\count320
+\nofMPsegments=\count320
+\nofMParguments=\count321
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count321
+\MPscratchCnt=\count322
 \MPscratchDim=\dimen198
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
 \everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -841,13 +842,13 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count324
+\c@lstlisting=\count325
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-Package hyperref Info: Link coloring ON on input line 200.
+Package hyperref Info: Link coloring ON on input line 201.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -859,17 +860,17 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count325
+\c@section@level=\count326
 )
-LaTeX Info: Redefining \ref on input line 200.
-LaTeX Info: Redefining \pageref on input line 200.
-LaTeX Info: Redefining \nameref on input line 200.
+LaTeX Info: Redefining \ref on input line 201.
+LaTeX Info: Redefining \pageref on input line 201.
+LaTeX Info: Redefining \nameref on input line 201.
  (./Stochastic-Processes.out) (./Stochastic-Processes.out)
 \@outlinefile=\write3
 \openout3 = `Stochastic-Processes.out'.
 
-\c@mv@tabular=\count326
-\c@mv@boldtabular=\count327
+\c@mv@tabular=\count327
+\c@mv@boldtabular=\count328
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -906,52 +907,52 @@ LaTeX Info: Redefining \nameref on input line 200.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 215.
+(Font)              scaled to size 20.74pt on input line 216.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 215.
+(Font)              scaled to size 14.4pt on input line 216.
 LaTeX Font Info:    Trying to load font information for OT1+zpltlf on input lin
-e 215.
+e 216.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 215.
+(Font)              scaled to size 14.4pt on input line 216.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 10.5pt on input line 215.
+(Font)              scaled to size 10.5pt on input line 216.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 7.9pt on input line 215.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 215
+(Font)              scaled to size 7.9pt on input line 216.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 216
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 215
+LaTeX Font Info:    Trying to load font information for U+msb on input line 216
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
-215.
+216.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
-215.
+216.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
-215.
+216.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 215.
+(Font)              scaled to size 14.4pt on input line 216.
 
 (./Stochastic-Processes.toc
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
@@ -970,9 +971,9 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 224.
+(Font)              scaled to size 10.95pt on input line 225.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 224.
+(Font)              scaled to size 10.95pt on input line 225.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -984,21 +985,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 19.0pt on input line 226.
+(Font)              scaled to size 19.0pt on input line 227.
 Package textcomp Info: Symbol \textreferencemark not provided by
 (textcomp)             font family zpltlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 226.
+(textcomp)             Default family used instead on input line 227.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/b/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 226.
+(Font)              size <17.28> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `TS1/cmr/b/n' in size <19> not available
-(Font)              size <17.28> substituted on input line 226.
+(Font)              size <17.28> substituted on input line 227.
 
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 249.
+(Font)              scaled to size 12.0pt on input line 250.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1036,9 +1037,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 356.
+(Font)              scaled to size 8.8pt on input line 357.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 356.
+(Font)              scaled to size 6.6pt on input line 357.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1060,18 +1061,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8]
 Package textcomp Info: Symbol \textreferencemark not provided by
 (textcomp)             font family zpltlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 418.
+(textcomp)             Default family used instead on input line 419.
 LaTeX Font Info:    Trying to load font information for T1+zplsups on input lin
-e 422.
+e 423.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/t1zplsups.fd
 File: t1zplsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
-(Font)              scaled to size 12.0pt on input line 422.
+(Font)              scaled to size 12.0pt on input line 423.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 422.
+(Font)              scaled to size 10.0pt on input line 423.
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 422.
+(Font)              scaled to size 10.0pt on input line 423.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1100,7 +1101,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-Overfull \hbox (33.91402pt too wide) in paragraph at lines 480--481
+Overfull \hbox (33.91402pt too wide) in paragraph at lines 481--482
 \LMS/npxsy/m/n/12 ¹\OML/npxmi/m/it/12 H; T; T; H; T; H; T; T; T; T; []\LMS/npxs
 y/m/n/12 º \U/npxmia/m/it/12 = \OML/npxmi/m/it/12 HTTHTHTTTT []$\T1/zpltlf/m/n/
 12 , the se-quence is $\LMS/npxsy/m/n/12 ¹\OT1/zpltlf/m/n/12 0\OML/npxmi/m/it/1
@@ -1141,13 +1142,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14]
 Package textcomp Info: Symbol \textreferencemark not provided by
 (textcomp)             font family zpltlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 517.
+(textcomp)             Default family used instead on input line 518.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 520.
+(Font)              scaled to size 10.0pt on input line 521.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 520.
+(Font)              scaled to size 7.3pt on input line 521.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 520.
+(Font)              scaled to size 5.5pt on input line 521.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1169,19 +1170,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [16]
 Package textcomp Info: Symbol \textreferencemark not provided by
 (textcomp)             font family zpltlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 566.
+(textcomp)             Default family used instead on input line 567.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 603.
+(Font)              scaled to size 10.95pt on input line 604.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 603.
+(Font)              scaled to size 8.0pt on input line 604.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 603.
+(Font)              scaled to size 6.1pt on input line 604.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 609.
+(Font)              scaled to size 8.0pt on input line 610.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 609.
+(Font)              scaled to size 6.1pt on input line 610.
 
-Overfull \hbox (47.51726pt too wide) detected at line 609
+Overfull \hbox (47.51726pt too wide) detected at line 610
 []
  []
 
@@ -1246,6 +1247,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20]
+Overfull \hbox (21.78658pt too wide) detected at line 728
+[]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1264,12 +1269,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
-Package textcomp Info: Symbol \textreferencemark not provided by
-(textcomp)             font family zpltlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 774.
-Package textcomp Info: Symbol \textreferencemark not provided by
-(textcomp)             font family zpltlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 778.
+
+LaTeX Warning: Citation `SR05' on page 23 undefined on input line 776.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1279,20 +1280,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23] (./Stochastic-Processes.aux)
+[23]
+Package textcomp Info: Symbol \textreferencemark not provided by
+(textcomp)             font family zpltlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 795.
+Package textcomp Info: Symbol \textreferencemark not provided by
+(textcomp)             font family zpltlf in TS1 encoding.
+(textcomp)             Default family used instead on input line 799.
+LaTeX Font Info:    Trying to load font information for T1+npxtt on input line 
+804.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/newpx/t1npxtt.fd
+File: t1npxtt.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 804.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24] (./Stochastic-Processes.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.72pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Stochastic-Processes.out' has not changed.
 (rerunfilecheck)             Checksum: 49C1FA87D68AB84C410E273FE0DA7E10;1747.
  ) 
 Here is how much of TeX's memory you used:
- 17705 strings out of 478994
- 262075 string characters out of 5858184
- 710004 words of memory out of 5000000
- 34708 multiletter control sequences out of 15000+600000
- 517126 words of font info for 210 fonts, out of 8000000 for 9000
+ 17751 strings out of 478994
+ 262790 string characters out of 5858184
+ 711004 words of memory out of 5000000
+ 34744 multiletter control sequences out of 15000+600000
+ 517448 words of font info for 211 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,79p,1051b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
@@ -1311,15 +1338,16 @@ exmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local/texlive/2021/texmf-
 dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/cm-super/sfrb1728.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/newtx/txexs.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
-ublic/txfonts/txsya.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-txfonts/txsyb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/
-zplb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on Stochastic-Processes.pdf (23 pages, 198367 bytes).
+/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/newtx/txexs.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+txfonts/txsya.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfont
+s/txsyb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
+Output written on Stochastic-Processes.pdf (24 pages, 205630 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 115 named destinations out of 1000 (max. 500000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
+ 121 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

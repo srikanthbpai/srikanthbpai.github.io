@@ -181,6 +181,7 @@
 \newtheorem*{remark*}{Remark}
 \newtheorem*{claim}{Claim}
 \newtheorem*{axioms*}{Kolmogorov's Axioms}
+\newtheorem{exercise}{Exercise}
 % --- Left/right header text (to appear on every page) ---
 
 % Do not include a line under header or above footer
@@ -224,7 +225,7 @@ The goal of mathematical training is to make ideas precise. So when mathematics 
 \newpage
 
 \section{Fundamentals of Probability}
-The primary objective of probability theory is to provide a framework for studying the chances of interesting events that happen in the real world. We view all such interesting phenomena as experiments. Imagine we are studying an experiment that involves chance and we can contemplate the collection of all possible outcomes of the experiment. The plan is to model real life events uses {\bf set theory}. The textbook example of an experiment is tossing a coin indefinitely and here is a quick dictionary:
+The primary objective of probability theory is to provide a framework for studying the chances of interesting events that happen in the real world. We view all such interesting phenomena as experiments. Imagine we are studying an experiment that involves chance and we can contemplate the collection of all possible outcomes of the experiment. The plan is to model real life events using {\bf set theory}. A textbook example of an experiment is tossing a coin indefinitely and here is a quick dictionary:
 
 \begin{table}[h]
 \begin{tabular}{|l|l|}
@@ -630,12 +631,11 @@ It turns out that any calculation in Poisson process theory is executed by rewri
 
 \begin{definition}
     \label{defn:incrementnotation}
-    Let $N(t)$ be a Poisson point process with rate $\lambda$, then for $0 < a < b < c < d < \ldots$ let us write \[ N[a,b,c,d,\ldots] = [p,q,r,s\ldots]\] to mean \begin{align*}
-                              N(a)-N(0)&=p\\
-                              N(b)-N(a)&=q\\
-                              N(c)-N(b)&=r\\
-                              N(d)-N(c)&=s\\
-                              .-N(d)&=.\\
+    Let $N(t)$ be a Poisson point process with rate $\lambda$, then for $0 < a < b < c < d < \ldots$ let us write \[ N[a,b,c,d,e\ldots] = [p,q,r,s\ldots]\] to mean \begin{align*}
+                              N(b)-N(a)&=p\\
+                              N(c)-N(b)&=q\\
+                              N(d)-N(c)&=r\\
+                              N(e)-N(d)&=s\\
                               .&=.\\
                               .&=.\\\end{align*}
 \end{definition}
@@ -648,9 +648,9 @@ A dictionary of equivalent events that translates events of arrival times to eve
 \hline
 {\bf Events in terms of (inter-)arrival times and process}             & {\bf Events in terms of increments of disjoint intervals} \\
 \hline
-$\{T_1 > t_1\}$                                                  & $\{N[t_1]=[0]\}$ \\ \hline  
-$\{T_1 = t_1, N(t)=2 \}$                                         & $\{N[s,t_1,t]=[0,1,1] \text{ for all } s < t_1 \}$  \\ \hline
-$\{t_1 \leq T_1 < t_1 +dt_1,t_2 \leq  T_2 < t_2 +dt_2, N(t)=3\}$ & $\{N[t_1, t_1+dt_1,t_2,t_2+dt_2,t]=[0,1,0,1,1]\}$  \\
+$\{T_1 > t_1\}$                                                  & $\{N[0,t_1]=[0]\}$ \\ \hline  
+$\{T_1 = t_1, N(t)=2 \}$                                         & $\{N[0,s,t_1,t]=[0,1,1] \text{ for all } s < t_1 \}$  \\ \hline
+$\{t_1 \leq T_1 < t_1 +dt_1,t_2 \leq  T_2 < t_2 +dt_2, N(t)=3\}$ & $\{N[0,t_1, t_1+dt_1,t_2,t_2+dt_2,t]=[0,1,0,1,1]\}$  \\
 \hline
 \end{tabular}
 \caption{Few examples of moving between equivalent events.}
@@ -675,7 +675,7 @@ Let us see an example of how to use the above intuitive rules.
 Let $N(t)$ be a Poisson process with rate $\lambda$, then the joint distribution of arrival times $T_1, T_2$ is computed below. Let $0 < t_1 < t_2$, then
 \begin{align*}
 f_{T_1,T_2}(t_1,t_2)dt_1\,dt_2 &= \Pr\{t_1 < T_1 \leq t_1+dt_1,t_2 < T_2 \leq t_2+dt_2\}\\
-                               &= \Pr\{N[t_1,t_1+dt_1,t_2,t_2+dt_2]=[0,1,0,1]\}\\
+                               &= \Pr\{N[0,t_1,t_1+dt_1,t_2,t_2+dt_2]=[0,1,0,1]\}\\
                                &= (e^{-\lambda t_1})(e^{-\lambda dt_1}\lambda dt_1)(e^{-\lambda (t_2-t_1-dt_1)})(e^{-\lambda dt_2}\lambda dt_2)\\
                                &= (e^{-\lambda t_1})(e^{-\lambda dt_1}\lambda dt_1)(e^{-\lambda (t_2-t_1-dt_1)})(e^{-\lambda dt_2}\lambda dt_2)\\
                                &= e^{-\lambda t_2} \lambda^2 dt_1 \, dt_2.
@@ -688,12 +688,12 @@ Here is a list of exercises for you to practice.
 \begin{lemma}
 Let $N(t)$ be a Poisson process with rate $\lambda$, then 
 \begin{align*}
-\Pr\{ N[t_1,t_1+dt_1]=[0,1]\} &= e^{-\lambda t_1} \lambda \, dt_1\\
-\Pr\{N[t_1,t_1+dt_1,t]=[0,1,0]\} &= e^{-\lambda t} \lambda \, dt_1\\
-\Pr\{N[t_1,t_1+dt_1,t]=[0,1,1]\} &= e^{-\lambda t} \lambda^2 (t-t_1)\, dt_1\\
-\Pr\{N[t_1,t_1+dt_1,t_2,t_2+dt_2]=[0,1,0,1]\} &= e^{-\lambda t_2} \lambda^2 \, dt_1,dt_2\\
-\Pr\{N[t_1,t_1+dt_1,t_2,t_2+dt_2,t]=[0,1,0,1,0]\} &= e^{-\lambda t} \lambda^2 \, dt_1,dt_2\\
-\Pr\{N[t_1,t_1+dt_1,t_2,t_2+dt_2,t]=[0,1,0,1,1]\} &= e^{-\lambda t} \lambda^3 (t-t_2) \, dt_1,dt_2
+\Pr\{ N[0,t_1,t_1+dt_1]=[0,1]\} &= e^{-\lambda t_1} \lambda \, dt_1\\
+\Pr\{N[0,t_1,t_1+dt_1,t]=[0,1,0]\} &= e^{-\lambda t} \lambda \, dt_1\\
+\Pr\{N[0,t_1,t_1+dt_1,t]=[0,1,1]\} &= e^{-\lambda t} \lambda^2 (t-t_1)\, dt_1\\
+\Pr\{N[0,t_1,t_1+dt_1,t_2,t_2+dt_2]=[0,1,0,1]\} &= e^{-\lambda t_2} \lambda^2 \, dt_1,dt_2\\
+\Pr\{N[0,t_1,t_1+dt_1,t_2,t_2+dt_2,t]=[0,1,0,1,0]\} &= e^{-\lambda t} \lambda^2 \, dt_1,dt_2\\
+\Pr\{N[0,t_1,t_1+dt_1,t_2,t_2+dt_2,t]=[0,1,0,1,1]\} &= e^{-\lambda t} \lambda^3 (t-t_2) \, dt_1,dt_2
 \end{align*}
 For $k > 1$ $\Pr\{N[dt]=[k]\}=0$.  
 \end{lemma}
@@ -702,24 +702,45 @@ For $k > 1$ $\Pr\{N[dt]=[k]\}=0$.
 \label{example:Nuniform}
 Let us calculate a couple of related distributions.
 \begin{enumerate}
-\item The conditional p.d.f \[f_{T_1 \mid N(t)}(s \mid N(t)=1)=\dfrac1{t}\] for $0<s<t$ and $0$ otherwise. This tells us that if it is known a point has arrived in the interval $[0,t]$, then the arrival time is uniformly distributed in the interval $[0,t]$.
-\item The conditional p.d.f \[f_{T_2 \mid T_1, N(t)}(s \mid T_1=t_1, N(t)=1)=\dfrac{n}{t}\left(1- \dfrac{t_1}{t}\right)^{n-1}\] for $0<s<t$ and $0$ otherwise.
+\item Let $n \geq 1$. The conditional p.d.f \[f_{T_1 \mid N(t)}(s \mid N(t)=n)=\frac{n}{t} \left(1-\dfrac{s}{t}\right)^{n-1}\] for $0<s<t$ and $0$ otherwise. This tells us that if it is known a point has arrived in the interval $[0,t]$, then the arrival time is uniformly distributed in the interval $[0,t]$.
+\item The conditional p.d.f \[f_{T_2 \mid T_1, N(t)}(t_2 \mid T_1=t_1, N(t)=n)=\dfrac{n-1}{t-t_1}\left(1- \dfrac{t_2-t_1}{t-t_1}\right)^{n-1}, \,\,\, t_1 < t < t_2 \] for $t_1<t_2<t$ and $0$ otherwise.
 \end{enumerate}
 \begin{proof}
 \begin{enumerate}
 \item Assume $0 < s< t$, 
 \begin{align*}
-f_{T_1 \mid N(t)}(s \mid N(t)=1)\, ds &= \Pr\{s < T_1 < s+ds | N(t)=1\}\\
-                                      &= \dfrac{\Pr\{s < T_1 < s+ds , N(t)=1\}}{\Pr\{N(t)=1\}}\\
-                                      &= \dfrac{\Pr\{N[s,s+ds,t]=[0,1,0]\}}{\Pr\{N(t)=1\}}\\
-                                      &= \dfrac{e^{-\lambda t}\lambda \, ds}{e^{-\lambda t}(\lambda t)}\\
-                                      &= \dfrac{ds}{t}
+f_{T_1 \mid N(t)}(s \mid N(t)=n)\, ds &= \Pr\{s < T_1 < s+ds | N(t)=n\}\\
+                                      &= \dfrac{\Pr\{s < T_1 < s+ds , N(t)=n\}}{\Pr\{N(t)=n\}}\\
+                                      &= \dfrac{\Pr\{N[0,s,s+ds,t]=[0,1,n-1]\}}{\Pr\{N(t)=n\}}\\
+                                      &= \dfrac{e^{-\lambda t}(\lambda \, ds) \frac{(\lambda(t-s))^{n-1}}{(n-1)!}}{e^{-\lambda t}\frac{(\lambda t)^n}{n!}}\\
+                                      &= \frac{n}{t} \left(1-\dfrac{s}{t}\right)^{n-1}ds
 \end{align*}
 Clearly if $s > t$, \[f_{T_1 \mid N(t)}(s \mid N(t)=1) \, ds = \Pr\{s < T_1 < s+ds | N(t)=1\} = 0.\]
-\item Exercise to the reader :)
+\item Assume $t_1 < t_2 < t$,
+\begin{align*}
+f_{T_2 \mid T_1, N(t)}(t_2 \mid T_1=t_1, N(t)=n)\, dt_2 &= \Pr\{t_2 < T_2 < t_2+dt_2 |T_1=t_1, N(t)=n\}\\
+                                      &= \dfrac{\Pr\{t_2 < T_2 < t_2+dt_2 , N(t)=n \mid T_1=t_1\}}{\Pr\{N(t)=n \mid T_1=t_1\}}\\
+                                      &= \dfrac{\Pr\{t_2 < T_2 < t_2+dt_2 , N(t) - N(t_1)=n-1 \mid T_1=t_1\}}{\Pr\{N(t) - N(t_1)=n-1 \mid T_1=t_1\}}\\
+                                      &= \dfrac{\Pr\{t_2 < T_2 < t_2+dt_2 , N(t) - N(t_1)=n-1\}}{\Pr\{N(t) - N(t_1)=n-1\}}\\
+                                      &= \dfrac{\Pr\{N[t_1,t_2,t_2+dt_2,t]=[0,1,n-2]\}}{\Pr\{N(t)- N(t_1)=n-1\}}\\
+                                      &= \dfrac{e^{-\lambda (t-t_1)}(\lambda \, dt_2) \left(\frac{(\lambda (t-t_2))^{n-2}}{(n-2)!}\right)}{e^{-\lambda (t-t_1)}\frac{(\lambda(t-t_1))^{n-1}}{(n-1)!}}\\
+                                      &= \dfrac{n-1}{t-t_1} \left( 1 - \dfrac{t_2-t_1}{t-t_1}\right)^{n-2} \, dt_2
+\end{align*}
 \end{enumerate}
 \end{proof} 
 \end{example}
+
+From the above examples, we see that for $T_1$ is uniformly distributed in $[0,t]$ given $N(t)=1$. If it is given that $N(t) \geq 2$, then the first arrival time $T_1$ is not uniformly distributed in $[0,t]$.
+
+
+\begin{exercise}A couple of exercises for the reader:
+\begin{enumerate}
+    \item Show that $$f_{T_1|N(t)}(s \mid N(t)=0) = \lambda e^{-\lambda(s-t)} \,\, \text{for }s \geq t$$ and it is zero elsewhere. 
+    \item Show that for $n > 0$, \[\mathbb{E}(T_1 \mid N(t)=n) = \dfrac{t}{n+1}.\]
+    \item Compute \[\mathbb{E}(T_1 \mid N(t)=0).\]
+    \item Compute $\mathbb{E}(T_2 \mid T_1,N(t))$.
+\end{enumerate}
+\end{exercise}
 
 Supposing we knew that $N(t)=n$, then what is the distribution of the arrival times $T_1,T_2,\ldots,T_n$? The answer is interesting. 
 \begin{theorem}
@@ -779,9 +800,9 @@ The first time t such that $U(t)<0$ is called the ruin time. \textcolor{red}{Dis
 \label{sec:Mart}
 
 \begin{thebibliography}{9}
-\bibitem{SR05}
-RAMASUBRAMANIAN. S
- (2005) \emph{POISSON PROCESS AND INSURANCE : AN INTRODUCTION}, https://www.isibang.ac.in/~statmath/ram/ASPDelhi05.pdf
+\bibitem{Ramasubramanian2005}
+S. Ramasubramanian, \emph{Poisson Process and Insurance: An Introduction}, 2005. Available at: \url{https://www.isibang.ac.in/~statmath/ram/ASPDelhi05.pdf}.
+
 \end{thebibliography}
 
 
