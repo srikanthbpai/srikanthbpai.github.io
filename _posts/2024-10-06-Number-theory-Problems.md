@@ -27,18 +27,6 @@ Solving the four equations (by adding and subtracting), we get the solution set 
 
 ---
 
-> (BMO R1 2011) Find all integers $n$ for which $n^2 +20n+11$ is a perfect square.
-
-_Proof_: We claim that $n=35,-55$ are the only solutions. We proceed by completing the square. We must solve for $n$ in the following equation: \\[(n+10)^2-89=k^2.\\]
-Now $(n+10)^2 - k^2 =89$ and thus $(n+10-k)(n+10+k)=89$ . Since $89$ is prime, we get a couple of cases.
-**Case 1:** $\{n+10-k,n+10+k\}=\{1,89\}$. By adding and simplifying, we get $n=35$.
-**Case 2:** $\{n+10-k,n+10+k\}=\{-1,-89\}$. By adding and simplifying, we get $n=-55$.
-
-_Aliter_: Let $N = n^2 + 20n + 11$. We note that for $n> 35$, since $0 < 2n-70$, by adding $n^2 + 18n + 81$ to both sides we see that $(n+9)^2 < n^2 +20n + 11$. On the other hand, $n^2 +  20n + 11 < n^2 + 20 n + 100$. Thus we have for $n > 35$, \\[(n+9)^2 < n^2 + 20n + 11 < (n+10)^2.\\] Since $N$ is bounded between two consecutive squares, it cannot be a perfect square.
-Since 11 is not a quadratic residue of 3 or 4, $N = k^2$ has no solutions if 3 or 4 divide $n$. Thus we have to check only 1,2,5,7,10,11,13,14,17,19,22,23,25,26,29,31,34,35. (Don't do this in RMO) ~~It turns out 35 is the only solutions in this case.~~
-
----
-
 (RMO 2002) Find all integers a, b, c, d satisfying the following relations: 1. $1\leq a\leq b\leq c\leq d$ 2. $ab+cd=a+b+c+d+3.$
 _Proof_: Writing the second equation as $$(a-1)(b-1)+(c-1)(d-1)=5.$$ From the first relation, we see that $0 \leq (a-1)(b-1) \leq (c-1)(d-1)$. Thus we have three cases according to the partition of 5 as $0+5,1+4,2+3$:
 **Case 1:** $(a-1)(b-1)=0, (c-1)(d-1)=5.$

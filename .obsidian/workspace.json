@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-10-06-Number-theory-Problems.md",
+                "file": "_posts/2024-11-06-Perfect-square-Olympiad.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-06-Number-theory-Problems.md",
+                "file": "_posts/2024-11-06-Perfect-square-Olympiad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-06-Number-theory-Problems.md",
+                "file": "_posts/2024-11-06-Perfect-square-Olympiad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-10-06-Number-theory-Problems.md"
+                "file": "_posts/2024-11-06-Perfect-square-Olympiad.md"
               }
             }
           },
@@ -157,50 +157,50 @@
   },
   "active": "52f81a416543c422",
   "lastOpenFiles": [
+    "_teaching/Statistics for Economics.md",
+    "_posts/2024-11-06-Perfect-square-Olympiad.md",
+    "_site/assets/img/Bruceleeperfectsquare.png",
+    "_site/assets/img/Bruceleeperfectsquare-1400.webp",
+    "_site/assets/img/Bruceleeperfectsquare-800.webp",
+    "_site/assets/img/Bruceleeperfectsquare-480.webp",
+    "assets/img/Bruceleeperfectsquare.png",
+    "_pages/teaching.md",
+    "_pages/publications.md",
+    "_pages/projects.md",
+    "_pages/news.md",
+    "_pages/dropdown.md",
+    "_pages/cv.md",
+    "_pages/blog.md",
+    "_pages/about_einstein.md",
+    "_pages/about.md",
+    "Stable marriage.md",
+    "Less technical version.md",
+    "images_medium_fg2.gif",
+    "{{.md",
+    "_site/{{.md",
+    "_site/assets/img/Bruceleeperfectsquare.webp",
+    "assets/img/Bruceleeperfectsquare.webp",
+    "Gemfile.lock",
+    "_site/blog/2024/Perfect-square-Olympiad/index.html",
+    "_site/blog/2024/Perfect-square-Olympiad",
+    "_site/blog/tag/perfect-square/index.html",
+    "_site/blog/tag/perfect-square",
+    "_site/blog/2024/Number-theory-Problems-1/index.html",
+    "_site/blog/2024/Number-theory-Problems-1",
+    "_site/blog/page/2/index.html",
+    "_site/blog/page/2",
+    "_site/blog/page",
+    "_posts/2024-10-06-Number-theory-Problems.md",
     "_posts/2024-10-07-Combinatorics-Problems.md",
-    "_site/teaching/Stochastic-Processes/index.html",
-    "_site/teaching/Stochastic-Processes",
-    "_site/teaching/Statistics-for-Economics/index.html",
-    "_site/teaching/Statistics-for-Economics",
-    "_site/projects/9_project/index.html",
-    "_site/projects/9_project",
-    "_site/projects/8_project/index.html",
-    "_site/projects/8_project",
-    "_site/projects/7_project/index.html",
-    "_site/projects/7_project",
     "_site/images_medium_fg2.gif",
     "_site/assets/img/template_error.png",
-    "_site/assets/img/publication_preview/wave-mechanics.gif",
-    "_site/assets/img/publication_preview/brownian-motion.gif",
-    "_site/assets/img/prof_picer.jpg",
-    "_site/assets/img/prof_pic_color.png",
-    "_site/assets/img/prof_pic.jpg",
-    "_site/assets/img/Normal.png",
-    "_site/assets/img/BrownianMotion.png",
-    "_site/assets/img/9.jpg",
     "_site/Stable marriage.md",
     "_site/Less technical version.md",
     "Untitled.md",
-    "_posts/2024-10-06-Number-theory-Problems.md",
     "_posts/2024-09-29-Andres-reflection-trick.md",
     "_posts/2024-09-30-Stable-Marriage-Survey.md",
     "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
-    "Stable marriage.md",
-    "Less technical version.md",
-    "_teaching/Statistics for Economics.md",
-    "_pages/about.md",
-    "{{.md",
     "_pages/cv~.md",
-    "_pages/dropdown~.md",
-    "_projects/8_project.md",
-    "_projects/9_project.md",
-    "_projects/7_project.md",
-    "_projects/6_project.md",
-    "_projects/5_project.md",
-    "_projects/4_project.md",
-    "_projects/3_project.md",
-    "_projects/2_project.md",
-    "_projects/1_project.md",
-    "_pages/blog~.md"
+    "_pages/dropdown~.md"
   ]
 }
