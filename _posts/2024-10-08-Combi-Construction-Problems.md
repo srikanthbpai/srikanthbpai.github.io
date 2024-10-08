@@ -10,9 +10,7 @@ tags:
 related_posts: true
 ---
 
-
-
->(BMO R1 2017) **Matthew has a deck of 300 cards numbered 1 to 300. He takes cards from the deck one at a time and places the selected cards in a row, with each new card added at the right end. Matthew must arrange for the mean of the numbers on the cards in the row to be an integer. If, at some point, there is no card remaining in the deck, which allows Matthew to continue, then he stops. When Matthew stopped, what was the smallest possible number of cards that he could have placed in the row? Give an example of such a row.**
+> (BMO R1 2017) **Matthew has a deck of 300 cards numbered 1 to 300. He takes cards from the deck one at a time and places the selected cards in a row, with each new card added at the right end. Matthew must arrange for the mean of the numbers on the cards in the row to be an integer. If, at some point, there is no card remaining in the deck, which allows Matthew to continue, then he stops. When Matthew stopped, what was the smallest possible number of cards that he could have placed in the row? Give an example of such a row.**
 
 _Proof:_ We claim the smallest possible number of cards is 17.
 First we show that Matthew must have placed at least 17 cards on the table.
