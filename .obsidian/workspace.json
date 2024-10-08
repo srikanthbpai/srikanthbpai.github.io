@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-11-06-Perfect-square-Olympiad.md",
+                "file": "_posts/2024-10-08-Combi-Construction-Problems.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-11-06-Perfect-square-Olympiad.md",
+                "file": "_posts/2024-10-08-Combi-Construction-Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-11-06-Perfect-square-Olympiad.md",
+                "file": "_posts/2024-10-08-Combi-Construction-Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-11-06-Perfect-square-Olympiad.md"
+                "file": "_posts/2024-10-08-Combi-Construction-Problems.md"
               }
             }
           },
@@ -157,10 +157,23 @@
   },
   "active": "52f81a416543c422",
   "lastOpenFiles": [
+    "_site/blog/2024/Combi-Construction-Problems/index.html",
+    "_site/blog/2024/Combi-Construction-Problems",
+    "_posts/2024-10-07-Combinatorics-Problems.md",
+    "_posts/2024-10-08-Combi-Construction-Problems.md",
+    "_site/blog/tag/construction/index.html",
+    "_site/blog/tag/construction",
+    "_site/blog/2024/Combinatorics-Problems-1/index.html",
+    "_site/blog/2024/Combinatorics-Problems-1",
+    "_site/blog/page/2/index.html",
+    "_site/blog/page/2",
+    "_site/blog/page",
+    "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
+    "_posts/2024-11-06-Perfect-square-Olympiad.md",
+    "Gemfile.lock",
     "assets/img/Bruceleeperfectsquare.png",
     "assets/img/Bruce lee kick.png",
     "_teaching/Statistics for Economics.md",
-    "_posts/2024-11-06-Perfect-square-Olympiad.md",
     "_site/assets/img/Bruceleeperfectsquare.png",
     "_site/assets/img/Bruceleeperfectsquare-1400.webp",
     "_site/assets/img/Bruceleeperfectsquare-800.webp",
@@ -181,27 +194,14 @@
     "_site/{{.md",
     "_site/assets/img/Bruceleeperfectsquare.webp",
     "assets/img/Bruceleeperfectsquare.webp",
-    "Gemfile.lock",
     "_site/blog/2024/Perfect-square-Olympiad/index.html",
-    "_site/blog/2024/Perfect-square-Olympiad",
-    "_site/blog/tag/perfect-square/index.html",
-    "_site/blog/tag/perfect-square",
-    "_site/blog/2024/Number-theory-Problems-1/index.html",
-    "_site/blog/2024/Number-theory-Problems-1",
-    "_site/blog/page/2/index.html",
-    "_site/blog/page/2",
-    "_site/blog/page",
     "_posts/2024-10-06-Number-theory-Problems.md",
-    "_posts/2024-10-07-Combinatorics-Problems.md",
     "_site/images_medium_fg2.gif",
-    "_site/assets/img/template_error.png",
     "_site/Stable marriage.md",
     "_site/Less technical version.md",
     "Untitled.md",
     "_posts/2024-09-29-Andres-reflection-trick.md",
     "_posts/2024-09-30-Stable-Marriage-Survey.md",
-    "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
-    "_pages/cv~.md",
-    "_pages/dropdown~.md"
+    "_pages/cv~.md"
   ]
 }
