@@ -22,5 +22,3 @@ Now we show k=17 can be achieved. Matt writes all the numbers of the form 1 mod 
 Now Matt has exhausted all the numbers of the form 1 mod 18 and thus cant continue. So 17 cards is achievable.
 
 ---
-
-<iframe src="https://www.desmos.com/calculator/fiwazjss7l?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
