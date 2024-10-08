@@ -24,15 +24,23 @@ hr {
 }
 
 table {
-  td,
-  th {
-    font-size: 1rem;
-    padding: 1px 1rem 1px 0;
-  }
+  border-collapse: collapse;
+  width: 60%;
+  border: 2px solid #ddd;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  th {
-    font-weight: bold;
-  }
+th,
+td {
+  border: 2px solid #ddd;
+  padding: 1px;
+  font-size: 1rem;
+  padding: 1px 1rem 1px 0;
+  text-align: centre;
+}
+
+th {
 }
 
 a,
@@ -188,6 +196,10 @@ ul.task-list input[type="checkbox"] {
 .citation,
 .citation-number {
   color: var(--global-theme-color);
+}
+
+body {
+  font-family: "Verdana", sans-serif;
 }
 
 // Profile
@@ -872,7 +884,7 @@ html.transition *:after {
 .post {
   .post-meta {
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 0.875 rem;
     margin-bottom: 0;
   }
 

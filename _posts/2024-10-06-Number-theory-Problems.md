@@ -14,24 +14,14 @@ display_categories:
   - fun
 ---
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script type="text/javascript" src="path-to-MathJax/MathJax.js?config=TeX-AMS_HTML">
-</script>
+> (BMO R1 2009) **Find all integers $x,y,z$ such that \\[x^2 + y^2 + z^2 =2(yz+1)\\] \\[x+y+z=4018.\\]**
 
-(BMO R1 2009) Find all integers $x,y,z$ such that $x^2 + y^2 + z^2 =2(yz+1)$ and $x+y+z=4018$.
-_Proof_: The first equation can be written as $x^2 + (y-z)^2=2.$ So $x = \pm 1, (y-z)=\pm 1.$
+_Proof_: The first equation can be written as $x^2 + (y-z)^2=2.$ So $x = \pm 1, (y-z)=\pm 1.$ So we have four possibilities:
 
-| x,(y-z) | 1                | -1                |
-| ------- | ---------------- | ----------------- |
-| 1       | $y+z=4017,y-z=1$ | $y+z=4017,y-z=-1$ |
-| -1      | $y+z=4019,y-z=1$ | $y+z=4019,y-z=-1$ |
+|            | \\[(y-z)=1\\]        | \\[(y-z)=-1\\]        |
+| :--------: | -------------------- | --------------------- |
+| \\[x=1\\]  | \\[y+z=4017,y-z=1\\] | \\[y+z=4017,y-z=-1\\] |
+| \\[x=-1\\] | \\[y+z=4019,y-z=1\\] | \\[y+z=4019,y-z=-1\\] |
 
 Solving the four equations (by adding and subtracting), we get the solution set for (x,y,z) as $\{(1,2009,2008),(-1,2010,2009),(-1,2009,2010),(1,2008,2009)\}$.
 

@@ -26,7 +26,7 @@ We will enumerate the areas of non-congruent rectangles with sidelengths of at m
 |  6   | 1x 6, 2 x 3  |   2    |
 |  8   |    2 x 4     |   1    |
 
-Total sum of 9 rectangles $\geq$ 1 + 2+ 3+4 +4 + 5 +6 +6 +8 = 39
+Total sum of areas of 9 rectangles $\geq$ 1 + 2+ 3+4 +4 + 5 +6 +6 +8 = 39
 This means that any dissection of a 6 x 6 square into 9 incongruent rectangles has atleast 39 sq units as area. But 6x6 square has area 36. So this is the required contradiction.
 
 ---
@@ -61,9 +61,9 @@ _Proof:_ I claim Naomi has a winning strategy. First we note that n cannot be wr
 
 _Proof:_ We claim the smallest possible number of cards is 17.
 First we show that Matthew must have placed at least 17 cards on the table.
-Suppose Matt has $k$ cards on the table and let us denote it by $x_1,x_2,\ldots,x_k$. If Matt can place a new card $x_{k+1}$ on the table, then we need (k+1) must divide $\sum_{i=1}^{k+1} x_i$ and thus $$x_{k+1}\equiv -(x_1+x_2+\ldots x_{k}) \mod (k+1).$$Let $a$ denote the congruence class of $-(x_1+x_2+\ldots x_{k})$ modulo $(k+1)$. The only way he cannot place card $x_{k+1}$ is if all the cards with $-a \mod (k+1)$ has already been placed on the table. Since each congruence class appears at most $\left\lfloor \dfrac{300}{k+1} \right\rfloor$ times. Since we have placed only $k$ cards, we must have $$\left\lfloor \dfrac{300}{k+1} \right\rfloor < k+1 $$ This inequality is satisfied iff $k \geq 17$.
+Suppose Matt has $k$ cards on the table and let us denote it by $x_1,x_2,\ldots,x_k$. If Matt can place a new card $x_{k+1}$ on the table, then we need (k+1) to divide $\displaystyle \sum_{i=1}^{k+1} x_i$ and thus \\[x_{k+1}\equiv -(x_1+x_2+\ldots x_{k}) \mod (k+1).\\] Let $a$ denote the congruence class of $-(x_1+x_2+\ldots x_{k})$ modulo $(k+1)$. The only way he cannot place card $x_{k+1}$ is if all the cards with $-a \mod (k+1)$ has already been placed on the table. Since each congruence class appears at most $\left\lfloor \dfrac{300}{k+1} \right\rfloor$ times. Since we have placed only $k$ cards, we must have \\[ \left\lfloor \dfrac{300}{k+1} \right\rfloor < k+1 \\] This inequality is satisfied iff $k \geq 17$.
 
-Now we show k=17 can be achieved. Matt writes all the numbers of the form 1 mod 18 in increasing order. So he writes 17 numbers this way. Now the sum of the cards on the table is $$\sum_{k=0}^{16} (18k+1) = 18*(16*17)/2+17 \equiv 0+(-1) \mod 18.$$
+Now we show k=17 can be achieved. Matt writes all the numbers of the form 1 mod 18 in increasing order. So he writes 17 numbers this way. Now the sum of the cards on the table is \\[\sum_{k=0}^{16} (18k+1) = 18 \times \frac{(16 \times 17)}{2}+17 \equiv 0+(-1) \mod 18.\\]
 Now Matt has exhausted all the numbers of the form 1 mod 18 and thus cant continue. So 17 cards is achievable.
 
 ---

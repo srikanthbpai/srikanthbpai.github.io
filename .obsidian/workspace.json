@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-10-07-Combinatorics-Problems.md",
+                "file": "_posts/2024-10-06-Number-theory-Problems.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-07-Combinatorics-Problems.md",
+                "file": "_posts/2024-10-06-Number-theory-Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-07-Combinatorics-Problems.md",
+                "file": "_posts/2024-10-06-Number-theory-Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-10-07-Combinatorics-Problems.md"
+                "file": "_posts/2024-10-06-Number-theory-Problems.md"
               }
             }
           },
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,22 +157,37 @@
   },
   "active": "52f81a416543c422",
   "lastOpenFiles": [
-    "_includes/scripts/mathjax.liquid.sb-475a603c-98Wcu6",
-    "Untitled.md",
     "_posts/2024-10-07-Combinatorics-Problems.md",
+    "_site/teaching/Stochastic-Processes/index.html",
+    "_site/teaching/Stochastic-Processes",
+    "_site/teaching/Statistics-for-Economics/index.html",
+    "_site/teaching/Statistics-for-Economics",
+    "_site/projects/9_project/index.html",
+    "_site/projects/9_project",
+    "_site/projects/8_project/index.html",
+    "_site/projects/8_project",
+    "_site/projects/7_project/index.html",
+    "_site/projects/7_project",
+    "_site/images_medium_fg2.gif",
+    "_site/assets/img/template_error.png",
+    "_site/assets/img/publication_preview/wave-mechanics.gif",
+    "_site/assets/img/publication_preview/brownian-motion.gif",
+    "_site/assets/img/prof_picer.jpg",
+    "_site/assets/img/prof_pic_color.png",
+    "_site/assets/img/prof_pic.jpg",
+    "_site/assets/img/Normal.png",
+    "_site/assets/img/BrownianMotion.png",
+    "_site/assets/img/9.jpg",
+    "_site/Stable marriage.md",
+    "_site/Less technical version.md",
+    "Untitled.md",
     "_posts/2024-10-06-Number-theory-Problems.md",
     "_posts/2024-09-29-Andres-reflection-trick.md",
     "_posts/2024-09-30-Stable-Marriage-Survey.md",
-    "downloads/MWOSM.gif",
-    "downloads/images_medium_fg2.gif",
     "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
     "Stable marriage.md",
     "Less technical version.md",
-    "images_medium_fg2.gif",
     "_teaching/Statistics for Economics.md",
-    "downloads/Stats24/Week-11-HW.pdf",
-    "downloads/Stats24/Week 11.pdf",
-    "downloads/blair1984.pdf",
     "_pages/about.md",
     "{{.md",
     "_pages/cv~.md",
@@ -187,22 +201,6 @@
     "_projects/3_project.md",
     "_projects/2_project.md",
     "_projects/1_project.md",
-    "blair1984.pdf",
-    "_pages/blog~.md",
-    "_teaching/Stochastic Processes.md",
-    "downloads/Stats24/Module-1-test.pdf",
-    "downloads/Stats24/First-Internal-Stats.pdf",
-    "downloads/Stats24/Week-10-HW.pdf",
-    "downloads/Stats24/Week-9-HW.pdf",
-    "downloads/Stats24/Week-8-HW.pdf",
-    "downloads/Stats24/Week-1-HW.pdf",
-    "assets/pdf/Week-1-HW.pdf.md",
-    "assets/img/Normal.png",
-    "assets/img/BrownianMotion.png",
-    "assets/img/11.png",
-    "assets/img/12.jpg",
-    "assets/img/StatBG.jpg",
-    "readme_preview/repositories.png",
-    "readme_preview/publications.png"
+    "_pages/blog~.md"
   ]
 }
