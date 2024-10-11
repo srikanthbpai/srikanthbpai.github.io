@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-10-08-Combi-Construction-Problems.md",
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "024b415c2e2bc357",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-08-Combi-Construction-Problems.md",
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-08-Combi-Construction-Problems.md",
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-10-08-Combi-Construction-Problems.md"
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md"
               }
             }
           },
@@ -142,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,21 +170,28 @@
   },
   "active": "52f81a416543c422",
   "lastOpenFiles": [
-    "downloads/UGSP/ASPDelhi05.pdf",
-    "downloads/UGSP/Stochastic-Processes.synctex(busy)",
-    "downloads/UGSP/pdflatex54716.fls",
-    "downloads/UGSP/pdflatex54640.fls",
-    "downloads/UGSP/pdflatex54638.fls",
-    "downloads/UGSP/pdflatex54625.fls",
-    "downloads/UGSP/pdflatex54623.fls",
-    "downloads/UGSP/pdflatex54590.fls",
-    "downloads/UGSP/pdflatex54576.fls",
-    "downloads/UGSP/pdflatex54559.fls",
-    "downloads/UGSP/pdflatex54522.fls",
+    "_posts/2024-09-30-Stable-Marriage-Survey.md",
     "_posts/2024-10-07-Combinatorics-Problems.md",
-    "_posts/2024-10-08-Combi-Construction-Problems.md",
     "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
+    "_posts/2024-09-10-Algebra-RMO-prep.md",
+    "_posts/2024-10-06-Number-theory-Problems.md",
+    "_site/blog/2024/Algebra-RMO-prep/index.html",
+    "_site/blog/2024/Algebra-RMO-prep",
+    "_site/blog/tag/bmo/index.html",
+    "_site/blog/tag/bmo",
+    "_site/blog/tag/fe/index.html",
+    "_site/blog/tag/fe",
+    "_site/blog/tag/inequality/index.html",
+    "_site/blog/tag/inequality",
+    "_site/blog/tag/algebra/index.html",
+    "_site/blog/tag/algebra",
+    "_posts/2024-09-29-Andres-reflection-trick.md",
+    "_posts/2024-10-08-Combi-Construction-Problems.md",
+    "_site/Pasted image 20241009183916.png",
+    "_posts/Untitled.md",
+    "Pasted image 20241009183916.png",
     "_posts/2024-11-06-Perfect-square-Olympiad.md",
+    "_posts/2024-11-06-Perfect-square-Olympiad 1.md",
     "assets/img/Bruceleeperfectsquare.png",
     "assets/img/Bruce lee kick.png",
     "_teaching/Statistics for Economics.md",
@@ -194,14 +214,6 @@
     "{{.md",
     "_site/{{.md",
     "_site/assets/img/Bruceleeperfectsquare.webp",
-    "assets/img/Bruceleeperfectsquare.webp",
-    "_posts/2024-10-06-Number-theory-Problems.md",
-    "_site/images_medium_fg2.gif",
-    "_site/Stable marriage.md",
-    "_site/Less technical version.md",
-    "Untitled.md",
-    "_posts/2024-09-29-Andres-reflection-trick.md",
-    "_posts/2024-09-30-Stable-Marriage-Survey.md",
-    "_pages/cv~.md"
+    "_site/Stable marriage.md"
   ]
 }
