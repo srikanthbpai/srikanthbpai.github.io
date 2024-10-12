@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52f81a416543c422",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_teaching/Statistics for Economics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "024b415c2e2bc357",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Untitled.md",
+                "file": "_teaching/Stochastic Processes.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_teaching/Statistics for Economics.md",
+                "file": "_teaching/Stochastic Processes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_teaching/Statistics for Economics.md",
+                "file": "_teaching/Stochastic Processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_teaching/Statistics for Economics.md"
+                "file": "_teaching/Stochastic Processes.md"
               }
             }
           },
@@ -168,34 +156,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52f81a416543c422",
+  "active": "024b415c2e2bc357",
   "lastOpenFiles": [
-    "_site/downloads/Stats24/Week-12-HW.pdf",
-    "downloads/Stats24/Week-12-HW.pdf",
-    "_site/downloads/Stats24/Week12.pdf",
-    "downloads/Stats24/Week12.pdf",
+    "_site/downloads/UGSP/First-Internals.pdf",
+    "downloads/UGSP/First-Internals.pdf",
+    "_posts/Untitled.md",
+    "_site/{{.md",
+    "{{.md",
+    "_site/downloads/UGSP/Welcometest(answers).pdf",
+    "_teaching/Stochastic Processes.md",
+    "downloads/UGSP/Welcometest(answers).pdf",
+    "_site/downloads/UGSP/First Internals.pdf",
+    "_site/downloads/UGSP/Answers to Welcome test.pdf",
+    "downloads/UGSP/First Internals.pdf",
+    "downloads/UGSP/Answers to Welcome test.pdf",
+    "_site/downloads/UGSP/HW-5.pdf",
+    "downloads/UGSP/HW-5.pdf",
+    "_site/downloads/UGSP/HW-11.pdf",
+    "_teaching/Statistics for Economics.md",
     "_posts/2024-10-08-Combi-Construction-Problems.md",
     "_posts/2024-10-07-Combinatorics-Problems.md",
     "_posts/2024-10-10-Algebra-RMO-prep.md",
-    "Gemfile.lock",
     "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
     "_posts/2024-11-06-Perfect-square-Olympiad.md",
     "_posts/2024-10-06-Number-theory-Problems.md",
     "_posts/2024-09-30-Stable-Marriage-Survey.md",
     "_posts/2024-09-29-Andres-reflection-trick.md",
-    "_posts/Untitled.md",
-    "_site/blog/2024/Algebra-RMO-prep/index.html",
-    "_site/blog/2024/Algebra-RMO-prep",
-    "_site/blog/tag/bmo/index.html",
-    "_site/blog/tag/bmo",
-    "_site/blog/tag/fe/index.html",
-    "_site/blog/tag/fe",
     "_site/Pasted image 20241009183916.png",
     "Pasted image 20241009183916.png",
     "_posts/2024-11-06-Perfect-square-Olympiad 1.md",
     "assets/img/Bruceleeperfectsquare.png",
     "assets/img/Bruce lee kick.png",
-    "_teaching/Statistics for Economics.md",
     "_site/assets/img/Bruceleeperfectsquare.png",
     "_site/assets/img/Bruceleeperfectsquare-1400.webp",
     "_site/assets/img/Bruceleeperfectsquare-800.webp",
@@ -212,9 +203,6 @@
     "Stable marriage.md",
     "Less technical version.md",
     "images_medium_fg2.gif",
-    "{{.md",
-    "_site/{{.md",
-    "_site/assets/img/Bruceleeperfectsquare.webp",
-    "_site/Stable marriage.md"
+    "_site/assets/img/Bruceleeperfectsquare.webp"
   ]
 }
