@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
+                "file": "_posts/2024-10-10-Algebra-RMO-prep.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
+                "file": "_posts/2024-10-10-Algebra-RMO-prep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
+                "file": "_posts/2024-10-10-Algebra-RMO-prep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-29-Andres-reflection-trick.md"
+                "file": "_posts/2024-10-10-Algebra-RMO-prep.md"
               }
             }
           },
@@ -170,11 +170,16 @@
   },
   "active": "52f81a416543c422",
   "lastOpenFiles": [
-    "_posts/2024-09-30-Stable-Marriage-Survey.md",
     "_posts/2024-10-07-Combinatorics-Problems.md",
     "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
-    "_posts/2024-09-10-Algebra-RMO-prep.md",
+    "_posts/2024-10-08-Combi-Construction-Problems.md",
+    "_posts/2024-10-10-Algebra-RMO-prep.md",
+    "_posts/2024-11-06-Perfect-square-Olympiad.md",
     "_posts/2024-10-06-Number-theory-Problems.md",
+    "_posts/2024-09-30-Stable-Marriage-Survey.md",
+    "_posts/2024-09-29-Andres-reflection-trick.md",
+    "_posts/Untitled.md",
+    "Gemfile.lock",
     "_site/blog/2024/Algebra-RMO-prep/index.html",
     "_site/blog/2024/Algebra-RMO-prep",
     "_site/blog/tag/bmo/index.html",
@@ -184,13 +189,8 @@
     "_site/blog/tag/inequality/index.html",
     "_site/blog/tag/inequality",
     "_site/blog/tag/algebra/index.html",
-    "_site/blog/tag/algebra",
-    "_posts/2024-09-29-Andres-reflection-trick.md",
-    "_posts/2024-10-08-Combi-Construction-Problems.md",
     "_site/Pasted image 20241009183916.png",
-    "_posts/Untitled.md",
     "Pasted image 20241009183916.png",
-    "_posts/2024-11-06-Perfect-square-Olympiad.md",
     "_posts/2024-11-06-Perfect-square-Olympiad 1.md",
     "assets/img/Bruceleeperfectsquare.png",
     "assets/img/Bruce lee kick.png",
