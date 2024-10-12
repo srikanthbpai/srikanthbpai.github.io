@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Stochastic Processes.md",
+                "file": "_posts/2024-10-10-Algebra-RMO-prep.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_teaching/Stochastic Processes.md",
+                "file": "_posts/2024-10-10-Algebra-RMO-prep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_teaching/Stochastic Processes.md",
+                "file": "_posts/2024-10-10-Algebra-RMO-prep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_teaching/Stochastic Processes.md"
+                "file": "_posts/2024-10-10-Algebra-RMO-prep.md"
               }
             }
           },
@@ -158,13 +158,14 @@
   },
   "active": "024b415c2e2bc357",
   "lastOpenFiles": [
+    "_teaching/Statistics for Economics.md",
+    "_teaching/Stochastic Processes.md",
     "_site/downloads/UGSP/First-Internals.pdf",
     "downloads/UGSP/First-Internals.pdf",
     "_posts/Untitled.md",
     "_site/{{.md",
     "{{.md",
     "_site/downloads/UGSP/Welcometest(answers).pdf",
-    "_teaching/Stochastic Processes.md",
     "downloads/UGSP/Welcometest(answers).pdf",
     "_site/downloads/UGSP/First Internals.pdf",
     "_site/downloads/UGSP/Answers to Welcome test.pdf",
@@ -172,8 +173,6 @@
     "downloads/UGSP/Answers to Welcome test.pdf",
     "_site/downloads/UGSP/HW-5.pdf",
     "downloads/UGSP/HW-5.pdf",
-    "_site/downloads/UGSP/HW-11.pdf",
-    "_teaching/Statistics for Economics.md",
     "_posts/2024-10-08-Combi-Construction-Problems.md",
     "_posts/2024-10-07-Combinatorics-Problems.md",
     "_posts/2024-10-10-Algebra-RMO-prep.md",
