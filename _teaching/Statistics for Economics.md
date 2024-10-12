@@ -43,7 +43,7 @@ The first half of the course focuses on probability theory which lays the theore
 - [Week 9]({{ site.url }}/downloads/Stats24/Week-9-HW.pdf)
 - [Week 10]({{ site.url }}/downloads/Stats24/Week-10-HW.pdf)
 - [Week 11]({{ site.url }}/downloads/Stats24/Week-11-HW.pdf)
-- Week 12
+- [Week 12]({{ site.url }}/downloads/Stats24/Week-12-HW.pdf)
 
 ## Main Tests
 
