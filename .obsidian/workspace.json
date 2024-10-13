@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-10-10-Algebra-RMO-prep.md",
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-10-10-Algebra-RMO-prep.md",
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-10-10-Algebra-RMO-prep.md",
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-10-10-Algebra-RMO-prep.md"
+                "file": "_posts/2024-09-29-Andres-reflection-trick.md"
               }
             }
           },
@@ -158,6 +158,17 @@
   },
   "active": "024b415c2e2bc357",
   "lastOpenFiles": [
+    "_posts/2024-10-06-Number-theory-Problems.md",
+    "_posts/2024-10-07-Combinatorics-Problems.md",
+    "_posts/2024-10-08-Combi-Construction-Problems.md",
+    "_posts/2024-10-10-Algebra-RMO-prep.md",
+    "_posts/2024-11-06-Perfect-square-Olympiad.md",
+    "2024-09-30-Stable-Marriage-Survey.md",
+    "Less technical version.md",
+    "images_medium_fg2.gif",
+    "Pasted image 20241009183916.png",
+    "Stable marriage.md",
+    "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
     "_teaching/Statistics for Economics.md",
     "_teaching/Stochastic Processes.md",
     "_site/downloads/UGSP/First-Internals.pdf",
@@ -173,16 +184,8 @@
     "downloads/UGSP/Answers to Welcome test.pdf",
     "_site/downloads/UGSP/HW-5.pdf",
     "downloads/UGSP/HW-5.pdf",
-    "_posts/2024-10-08-Combi-Construction-Problems.md",
-    "_posts/2024-10-07-Combinatorics-Problems.md",
-    "_posts/2024-10-10-Algebra-RMO-prep.md",
-    "_posts/2024-10-07-less-technical-Stable-Marriage-Survey.md",
-    "_posts/2024-11-06-Perfect-square-Olympiad.md",
-    "_posts/2024-10-06-Number-theory-Problems.md",
-    "_posts/2024-09-30-Stable-Marriage-Survey.md",
     "_posts/2024-09-29-Andres-reflection-trick.md",
     "_site/Pasted image 20241009183916.png",
-    "Pasted image 20241009183916.png",
     "_posts/2024-11-06-Perfect-square-Olympiad 1.md",
     "assets/img/Bruceleeperfectsquare.png",
     "assets/img/Bruce lee kick.png",
@@ -199,9 +202,6 @@
     "_pages/blog.md",
     "_pages/about_einstein.md",
     "_pages/about.md",
-    "Stable marriage.md",
-    "Less technical version.md",
-    "images_medium_fg2.gif",
     "_site/assets/img/Bruceleeperfectsquare.webp"
   ]
 }
