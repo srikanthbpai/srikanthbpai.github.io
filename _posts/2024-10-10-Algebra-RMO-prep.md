@@ -71,10 +71,11 @@ We shall also use the fact that sum, difference, product and quotient (as long a
 ---
 
 > (BMO 2004) Let S be a set of rational numbers with the following properties:
->1.  $\frac12 \in S$
->2.  If x ∈ S , then both $\frac1{x+1} \in S$ and $\frac{x}{x+1} \in S$.
 >
-  Prove that S contains all rational numbers in the interval 0<x<1 .
+> 1.  $\frac12 \in S$
+> 2.  If x ∈ S , then both $\frac1{x+1} \in S$ and $\frac{x}{x+1} \in S$.
+>
+> Prove that S contains all rational numbers in the interval 0<x<1 .
 
 _Proof(Rishon):_ The proof is by strong induction on the denominator of a rational number between 0 and 1. The base case is $n=2$ and the only fraction with denominator 2 is $\frac12$. It is given that S contains this fraction.  
 Suppose we have shown that all rational numbers, in their simplest form with denominator strictly less than $n$, are in $S$. We break the calculation into two cases:
