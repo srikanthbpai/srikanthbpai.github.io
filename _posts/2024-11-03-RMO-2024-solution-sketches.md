@@ -78,7 +78,7 @@ Now _it can be shown that_ (meaning you should do some work!) \\[a_1^2 +a_2^2+a_
 
 _RMO difficulty feeling:_ <b>1.5</b>.
 
-It's a pleasant and straightforward problem, but once you realise it, you can do it by trigonometry. A single cyclic quadrilateral with angle conditions is usually a poster boy for trigonometry problems.
+It's a pleasant and straightforward problem, once you realise that you can do it by trigonometry. A single cyclic quadrilateral with angle conditions is usually a poster boy for trigonometry problems.
 
 The problem is pretty cute, though, and I will include it as an application of the sine rule in my geometry courses. The proof is straightforward once you have chased angles. I like cute and sweet problems in the Olympiad.
 
