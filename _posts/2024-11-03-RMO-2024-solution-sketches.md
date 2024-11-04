@@ -97,9 +97,9 @@ But this simply follows from applying $\sin x + \sin y = 2\sin \left(\dfrac{x+y}
 
 _Comment:_ My student Rishon Fernandes pointed to me that this problem is a subproblem of British Math Olympiad 2022 Round 1, Problem 5.
 
-_RMO difficulty feeling:_ <b>3</b>.
+_RMO difficulty feeling:_ 3.
 
-Nice problem. This problem is asking for the number of chains in a divisor lattice. In fact if $f(n)$ denotes the number of chains of divisors of $n$, then one can easily prove the recursion \\[2f(n) = \sum_{d|n} f(d).\\] I thought Mobius inversion and the associated techniques will be useful. I like the question since it is steeped in Lattice theory and it is asking for a special case. So it has room for exploration and tingles the scientist in me.
+Nice problem. This problem is asking for the number of chains in a divisor lattice. In fact if $f(n)$ denotes the number of chains of divisors of $n$, then one can easily prove the recursion \\[2f(n) = \sum_{d \mid n} f(d).\\] I thought Mobius inversion and the associated techniques will be useful. I like the question since it is steeped in Lattice theory and it is asking for a special case. So it has room for exploration and tingles the scientist in me.
 
 As a RMO problem, either you had to set-up a recursion, or solve it by bijecting it to some associated problem like I did in my solution below. There are many lines of attack and all of them involve some careful computation. Since it has many approaches, my difficulty feeling is lower. The difficulty rating is still 3 since writing a clear solution is tricky and the use of the bijection/recursion to get to the answer is non-trivial.
 
