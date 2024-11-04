@@ -2,7 +2,7 @@
 layout: post
 date: 2024-10-7 11:59:00-0400
 title: Olympiad Combinatorics Construction puzzles
-categories: Cool math, Olympiad
+categories: " Olympiad, solving"
 tags:
   - combinatorics
   - Olympiad

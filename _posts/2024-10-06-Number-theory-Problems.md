@@ -5,13 +5,14 @@ title: Number theory practice for RMO 2024
 description: Miscellaneous problems from RMO and BMO
 tags:
   - Olympiad
-  - Number-theory
   - Diophantine-equations
+  - number_theory
 related_posts: true
 giscus_comments: true
 display_categories:
   - teaching
   - fun
+categories: " Olympiad, solving"
 ---
 
 > (BMO R1 2009) Find all integers $x,y,z$ such that \\[x^2 + y^2 + z^2 =2(yz+1)\\] \\[x+y+z=4018.\\]

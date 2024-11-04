@@ -9,7 +9,7 @@ tags:
   - inequality
   - fe
   - bmo
-categories: Olympiad
+categories: Olympiad, solving
 giscus_comments: true
 ---
 

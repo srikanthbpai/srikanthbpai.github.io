@@ -4,14 +4,14 @@ date: 2024-10-8 11:59:00-0400
 title: Can the given expression equal a perfect square?
 description: Standard problems in olympiads
 tags:
-  - Olympiad
-  - Number-theory
   - perfect-square
+  - number_theory
 related_posts: true
 giscus_comments: true
 display_categories:
   - teaching
   - fun
+categories: " Olympiad, teaching"
 ---
 
 > "I fear not the man who has practised 10,000 kicks once, but I fear the man who has practised one kick 10,000 times."

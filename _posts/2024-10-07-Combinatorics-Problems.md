@@ -2,7 +2,7 @@
 layout: post
 date: 2024-10-7 11:59:00-0400
 title: Combinatorics Configuration problems from BMO and RMO
-categories: Cool math, Olympiad
+categories: " Olympiad, solving"
 tags:
   - invariant
   - monovariant
