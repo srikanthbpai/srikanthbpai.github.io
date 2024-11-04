@@ -9,7 +9,7 @@ categories: Olympiad, solving
 giscus_comments: true
 ---
 
-I solved the RMO problems today after the exam. I am documenting the solutions and my feelings of difficulty for each problem. I hope you enjoy the solutions. Let me know if you liked it, and share the solutions with interested people.
+I solved the RMO problems today after the exam. I am documenting the solutions and my feelings of difficulty (out of 5) for each problem. I hope you enjoy the solutions. Let me know if you liked it, and share the solutions with interested people.
 
 ![Problem 1](/assets/img/Pasted image 20241103231432.png)
 
@@ -116,4 +116,4 @@ So totally we have $m\cdot 2^{m-1} + 2^m = (m+2)2^{m-1}$ chains.
 
 ---
 
-I liked solving the problems and it was balanced for an RMO. I am suspecting the cut-off is upwards of 50 points since 3 problems were doable by standard problem solving techniques. I think it will be less that 70 since I think very few students will get upwards of 4 problems I will update this post once the actual cutoff is released.
+I liked solving the problems and it was balanced for an RMO. I am suspecting the cut-off is upwards of 50 points since 3 problems were doable by standard problem solving techniques. I think it will be less that 70 since I think very few students will get upwards of 4 problems. I will update this post once the actual cutoff is released.
