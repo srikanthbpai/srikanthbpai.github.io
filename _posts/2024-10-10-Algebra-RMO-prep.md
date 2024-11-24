@@ -78,23 +78,25 @@ We shall also use the fact that sum, difference, product and quotient (as long a
 > Prove that S contains all rational numbers in the interval 0<x<1 .
 
 _Proof(Rishon):_ The proof is by strong induction on the denominator of a rational number between 0 and 1. The base case is $n=2$ and the only fraction with denominator 2 is $\frac12$. It is given that S contains this fraction.  
-Suppose we have shown that all rational numbers, in their simplest form with denominator strictly less than $n$, are in $S$. We break the calculation into two cases:
+Suppose we have shown that all rational numbers, in their simplest form with denominator strictly less than $n$, are in $S$. We break the calculation into three cases:
 
 <u>Case 1:</u> If $k < n/2$, then $k < n-k$. Now \\[\dfrac{k}{n-k}\in S \implies \dfrac{k}{n}=\dfrac{\frac{k}{n-k}}{\frac{k}{n-k}+1} \in S\\]
-<u>Case 2:</u> If $k \ge n/2$, then $k \ge n-k$. Again we see \\[\dfrac{n-k}{k}\in S \implies \dfrac{k}{n}=\dfrac{1}{\frac{n-k}{k}+1} \in S.\\] So we are done.
+<u>Case 2:</u> If $k > n/2$, then $k > n-k$. Again we see \\[\dfrac{n-k}{k}\in S \implies \dfrac{k}{n}=\dfrac{1}{\frac{n-k}{k}+1} \in S.\\] 
+<u>Case 3:</u> If $k = n/2$, then \\[\dfrac{k}{n} = \dfrac12 \\] which is in $S$ by the hypothesis of the problem. 
+So we are done.
 
 ---
 
 > (BMO R2 2019) Find all functions $f$ from the positive real numbers to the positive real numbers for which $f( x ) \leq f( y )$ whenever $x \leq y$ and \\[f( x^4 ) +f( x^2 ) +f( x ) +f( 1 ) = x^4 + x^2 +x+1.\\] for all $x>0$.
 
-_Proof (Rishon, Lauren, Abhhi and Srikanth):_ Clearly $f(1)=1.$ If we define $g(x) = f(x) - x$, then we see $g(x^4)+g(x^2)+g(x)=0.$ But $x=y,x=y^2$ and subtract to get \\[g(y^8) = g(y)\\] for all real $y > 0$. Note that this means \\[\displaystyle g(x^{2^n}) =g(x)=g(x^{\frac1{2^n}})\\] for all $n$ and for all $x>0$.
+_Proof (Rishon, Lauren, Abhhi and Srikanth):_ Clearly $f(1)=1.$ If we define $g(x) = f(x) - x$, then we see $g(x^4)+g(x^2)+g(x)=0.$ But $x=y,x=y^2$ and subtract to get \\[g(y^8) = g(y)\\] for all real $y > 0$. Note that this means \\[\displaystyle g(x^{8^n}) =g(x)=g(x^{\frac1{8^n}})\\] for all $n$ and for all $x>0$.
 
 Now we show that $g\equiv0$, by analysing two cases.
 
-<u>Case 1:</u> For $x < 1$, since $g(1)=0$, and the non-decreasing nature of $f$ we get: \\[g(x) + x \leq g(1)+1 = 1\\] Now we note that $x^{\frac1{2^n}}<1$ since $x<1$. So \\[g(x) + x^{\frac1{2^n}} = g(x^{\frac1{2^n}}) + x^{\frac1{2^n}} \leq 1.\\]
-Thus $g(x) \leq 1 - x^{\frac1{2^n}}$ for all $n$. By applying $lim_{n \to \infty}$ on both sides and noting $\lim_{n\to \infty} x^{\frac1{2^n}} = 1$ for $x>0$, we get \\[g(x) \leq 0.\\]If $x<1$, then $x^2,x^4 < 1$. So $g(x^4),g(x^2),g(x)\leq 0$. But $g(x^4)+g(x^2)+g(x)=0$ and thus each term is individually zero. So we conclude $g(x) = 0$ for $0 < x < 1$.
+<u>Case 1:</u> For $x < 1$, since $g(1)=0$, and the non-decreasing nature of $f$ we get: \\[g(x) + x \leq g(1)+1 = 1\\] Now we note that $x^{\frac1{8^n}}<1$ since $x<1$. So \\[g(x) + x^{\frac1{8^n}} = g(x^{\frac1{8^n}}) + x^{\frac1{8^n}} \leq 1.\\]
+Thus $g(x) \leq 1 - x^{\frac1{8^n}}$ for all $n$. By applying $lim_{n \to \infty}$ on both sides and noting $\lim_{n\to \infty} x^{\frac1{8^n}} = 1$ for $x>0$, we get \\[g(x) \leq 0.\\]If $x<1$, then $x^2,x^4 < 1$. So $g(x^4),g(x^2),g(x)\leq 0$. But $g(x^4)+g(x^2)+g(x)=0$ and thus each term is individually zero. So we conclude $g(x) = 0$ for $0 < x < 1$.
 
-<u>Case 2:</u> For $x > 1$, since $g(1)=0$, \\[g(x) + x \geq 1\\] Now we note that $x^{\frac1{2^n}}>1$ since $x>1$. So \\[g(x) + x^{\frac1{2^n}} = g(x^{\frac1{2^n}}) + x^{\frac1{2^n}} \geq 1.\\] Thus $g(x) \geq 1 - x^{\frac1{2^n}}$ for all $n$. By applying $\displaystyle \lim_{n \to \infty}$ on both sides and noting $\displaystyle \lim_{n\to \infty} x^{\frac1{2^n}} = 1$ for $x>0$, we get \\[g(x) \geq 0.\\] If $x>1$, then $x^2,x^4 > 1$. So $g(x^4),g(x^2),g(x)\geq 0$. But $g(x^4)+g(x^2)+g(x)=0$ and thus each is individually zero. So we conclude $g(x)  = 0$ for $x >1$.
+<u>Case 2:</u> For $x > 1$, since $g(1)=0$, \\[g(x) + x \geq 1\\] Now we note that $x^{\frac1{8^n}}>1$ since $x>1$. So \\[g(x) + x^{\frac1{8^n}} = g(x^{\frac1{8^n}}) + x^{\frac1{8^n}} \geq 1.\\] Thus $g(x) \geq 1 - x^{\frac1{8^n}}$ for all $n$. By applying $\displaystyle \lim_{n \to \infty}$ on both sides and noting $\displaystyle \lim_{n\to \infty} x^{\frac1{8^n}} = 1$ for $x>0$, we get \\[g(x) \geq 0.\\] If $x>1$, then $x^2,x^4 > 1$. So $g(x^4),g(x^2),g(x)\geq 0$. But $g(x^4)+g(x^2)+g(x)=0$ and thus each is individually zero. So we conclude $g(x)  = 0$ for $x >1$.
 
 Thus we have showed that $g\equiv0$.
 
@@ -104,13 +106,13 @@ Thus we have showed that $g\equiv0$.
 > than 1. Prove that
 > \\[\dfrac{x+1}{y+1} + \dfrac{y+1}{z+1} + \dfrac{z+1}{x+1} \leq \dfrac{x-1}{y-1} + \dfrac{y-1}{z-1} + \dfrac{z-1}{x-1}.\\]
 
-_Proof(Mrinal)._ WLOG, let us assume that $x \geq y \geq z$. We are to show that
+_Proof(Mrinal)._ Let us assume that $x \geq y \geq z$. We are to show that
 \\[\sum_{cyc} \left(\dfrac{x-1}{y-1}-\dfrac{x+1}{y+1}\right) = \sum_{cyc} \left( \dfrac{x-y}{y^2-1} \right) \geq 0.\\]
 Begin by calling the latter quantity $G$. Since $x \geq y \geq z$, we
 have \\[G=\dfrac{x-y}{y^2-1}+\dfrac{y-z}{z^2-1}+\dfrac{z-y+y-x}{x^2-1}.\\]
 This is equivalent to
 \\[G=(y-z)\left( \dfrac{1}{z^2-1}-\dfrac{1}{x^2-1}\right)+(x-y)\left( \dfrac{1}{y^2-1}-\dfrac{1}{x^2-1}\right).\\]
-Since $x \geq y, y \geq z$ and $x \geq z$, each expression bounded by paranthesis is non-negative. So we conclude that $G \geq 0$, and we are done.
+Since $x \geq y, y \geq z$ and $x \geq z$, each expression bounded by paranthesis is non-negative. So we conclude that $G \geq 0$, and we are done. A similar proof is needed for $x \geq z \geq y$ which we leave to the reader.
 
 ---
 

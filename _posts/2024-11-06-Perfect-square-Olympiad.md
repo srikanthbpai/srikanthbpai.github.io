@@ -63,8 +63,7 @@ Next, I will show you another kick that uses quadratic residues. Watch closely.
 
 > (Croatian MO 2009) Find all positive integers $m, n$ such that $6^m+2^n+2$ is a perfect square.
 
-_Proof:_ We claim the only solution is $m=1,n=3.$
-
+_Proof:_ We claim the only solution is $m=1,n=3.$ 
 Let $N = 6^m+2^n+2=2(2^{m-1}3^m+2^{n-1}+1)$ be a perfect square. Since $N$ is even, if it is a square, then 4 should divide $N$. This means $2^{m-1}3^m+2^{n-1}+1$ is even. Since the expression is odd if $m,n>1$, we must have $m=1$ or $n=1$.
 
 _Case 1:_ In this case we consider $m=1$. This condition reduces to finding $n$ so that $N=2^{n} + 8$ is a perfect square. We know that the quadratic residues modulo 16 are only $0,1,4,9$. But if $n > 3$, then $N \equiv 8 \mod 16$ , so it cannot be a perfect square. So n can only be 1,2 or 3. Trying each of the cases, we get N as $10,12,16$. Thus $(m,n) = (1,3)$ is the only solution in this case.

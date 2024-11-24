@@ -45,7 +45,7 @@ _Proof:_ (sketch) Represent the polynomial $x^2+ax+b$ on the plane by the point 
 
 > (BMO R2 2016) **Naomi and Tom play a game, with Naomi going first. They take it in turns to pick an integer from 1 to 100, each time selecting an integer which no-one has chosen before. A player loses the game if, after their turn, the sum of all the integers chosen since the start of the game (by both of them) cannot be written as the difference of two square numbers. Determine if one of the players has a winning strategy, and if so, which.**
 
-_Proof:_ I claim Naomi has a winning strategy. First we note that n cannot be written as difference of two squares iff $n \equiv 2  \mod 4$ . 25 numbers are 0,1,2,3 mod 4 from 1 to 100. Naomi's strategy is to maintain the sum of the picked numbers as a multiple of 4 forcing Tom to eventually pick a number congruent to 2 mod 4. She can implement the strategy by the following procedure:
+_Proof:_ I claim Naomi has a winning strategy. First we note that n cannot be written as difference of two squares iff $n \equiv 2  \mod 4$ . Twenty-five numbers from  1 to 100 are in each remainder class modulo 4. Naomi's strategy is to maintain the sum of the picked numbers as a multiple of 4, forcing Tom to pick a number congruent to 2 mod 4 eventually. She can implement the strategy by the following procedure:
 
 - Start with a 4
 - If tom picks 1 mod 4, then choose a number that is 3 mod 4 number and vice versa.
