@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Next semester, Jan-May 2025, I will teach a course on Time series analysis, Real analysis and Introduction to Programming (with MATLAB, R and Python) in MSE.
+Next semester, Jan-May 2025, I will teach a course on time series analysis, real analysis, and introduction to programming (with MATLAB, R, and Python) at MSE.
