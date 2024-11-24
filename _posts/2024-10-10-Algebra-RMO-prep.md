@@ -81,8 +81,8 @@ _Proof(Rishon):_ The proof is by strong induction on the denominator of a ration
 Suppose we have shown that all rational numbers, in their simplest form with denominator strictly less than $n$, are in $S$. We break the calculation into three cases:
 
 <u>Case 1:</u> If $k < n/2$, then $k < n-k$. Now \\[\dfrac{k}{n-k}\in S \implies \dfrac{k}{n}=\dfrac{\frac{k}{n-k}}{\frac{k}{n-k}+1} \in S\\]
-<u>Case 2:</u> If $k > n/2$, then $k > n-k$. Again we see \\[\dfrac{n-k}{k}\in S \implies \dfrac{k}{n}=\dfrac{1}{\frac{n-k}{k}+1} \in S.\\] 
-<u>Case 3:</u> If $k = n/2$, then \\[\dfrac{k}{n} = \dfrac12 \\] which is in $S$ by the hypothesis of the problem. 
+<u>Case 2:</u> If $k > n/2$, then $k > n-k$. Again we see \\[\dfrac{n-k}{k}\in S \implies \dfrac{k}{n}=\dfrac{1}{\frac{n-k}{k}+1} \in S.\\]
+<u>Case 3:</u> If $k = n/2$, then \\[\dfrac{k}{n} = \dfrac12 \\] which is in $S$ by the hypothesis of the problem.
 So we are done.
 
 ---
