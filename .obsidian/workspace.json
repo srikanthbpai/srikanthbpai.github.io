@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "9_project"
             }
+          },
+          {
+            "id": "7fdd6d8c44399bdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-12-08-Inversion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-12-08-Inversion"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,45 +189,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b5e773b0f5546460",
+  "active": "7fdd6d8c44399bdf",
   "lastOpenFiles": [
+    "_site/blog/tag/inmo/index.html",
+    "_site/blog/tag/inmo",
+    "Gemfile.lock",
+    "_site/blog/2024/Inversion/index.html",
+    "_site/blog/2024/Inversion",
+    "_site/Untitled.md",
+    "_site/blog/tag/geometry/index.html",
+    "_site/blog/tag/geometry",
+    "_posts/2024-11-06-Perfect-square-Olympiad.md",
+    "_posts/2024-12-08-Inversion.md",
+    "_posts/2024-12-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
+    "_posts/Untitled.md",
+    "_posts/2024-09-29-Andres-reflection-trick.md",
+    "_projects/9_project.md",
+    "_projects/1_project.md",
+    "_projects/2_project.md",
+    "_projects/3_project.md",
+    "_projects/4_project.md",
+    "_projects/5_project.md",
     "_projects/8_project.md",
     "_projects/7_project.md",
+    "_projects/6_project.md",
+    "Untitled.md",
     "_news/announcement_1.md",
     "_news/announcement_3.md",
     "_news/announcement_4.md",
     "_news/announcement_2.md",
     "_pages/cv.md",
     "images_medium_fg2.gif",
-    "Untitled.md",
     "Combi problems.md",
     "2024-09-30-Stable-Marriage-Survey.md",
     "_pages/news.md",
-    "_posts/2024-12-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
-    "_projects/4_project.md",
-    "_projects/1_project.md",
     "_site/projects/7_project/index.html",
     "_site/projects/7_project",
-    "Gemfile.lock",
-    "_posts/2024-11-06-Perfect-square-Olympiad.md",
     "_projects/10_project.md",
-    "_projects/9_project.md",
-    "_pages/about_einstein.md",
-    "_pages/blog.md",
-    "_pages/dropdown.md",
-    "_pages/projects.md",
     "_site/projects/10_project/index.html",
     "_site/projects/10_project",
-    "_site/blog/2024/Survey-of-Levy-stable-processes-in-Quantitative-Finance/index.html",
-    "_site/blog/2024/Survey-of-Levy-stable-processes-in-Quantitative-Finance",
-    "_site/Untitled.md",
-    "_site/blog/category/research/index.html",
-    "_site/blog/category/research",
-    "_site/blog/category/stochastic-process/index.html",
-    "_projects/6_project.md",
-    "_projects/5_project.md",
-    "_projects/3_project.md",
-    "_projects/2_project.md",
     "_site/assets/img/Screenshot 2024-11-02 at 10.14.49 AM.png",
     "assets/img/Screenshot 2024-11-02 at 10.14.49 AM.png",
     "_site/assets/img/Screenshot 2024-11-02 at 10.14.49 AM-1400.webp",
