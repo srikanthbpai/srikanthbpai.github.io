@@ -13,9 +13,7 @@ display_categories:
 categories: " Olympiad, teaching"
 ---
 
-> "One of the endearing things about mathematicians is the extent to which they will go to avoid doing any real work."
-
-    										      –Matthew Pordage
+> "One of the endearing things about mathematicians is the extent to which they will go to avoid doing any real work."                                                  –Matthew Pordage
 
 In this blog post, we discuss the definition and properties of inversion, suggest a few configurations, outline the solution to a sample problem, and conclude with a few exercises.
 
