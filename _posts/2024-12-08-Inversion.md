@@ -13,7 +13,7 @@ display_categories:
 categories: " Olympiad, teaching"
 ---
 
-> "One of the endearing things about mathematicians is the extent to which they will go to avoid doing any real work."                                                  –Matthew Pordage
+> "One of the endearing things about mathematicians is the extent to which they will go to avoid doing any real work." –Matthew Pordage
 
 In this blog post, we discuss the definition and properties of inversion, suggest a few configurations, outline the solution to a sample problem, and conclude with a few exercises.
 
@@ -27,9 +27,10 @@ _Facts:_ If $C$ is a given circle, and $I_C$ represents the inversion of the pla
 3. A circle orthogonal to C inverts to itself.
 4. Given a circle $\omega$ not passing through $O$, inverts to a circle $\overline{\omega}$ not passing though $O$. The circle $\overline{\omega}$ can be obtained by dilating $\omega$ about $O$ with a dilation factor $\dfrac{k^2}{Pow_{\omega}(O)}.$
 5. Tangency is preserved under inversion.
-The following video series details the proofs of the above facts.
-<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/arz-iAd7CAU?si=ZvbASwPlcs6ySxe5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+The following video series details the proofs of the above facts.
+
+<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/FRb3rG9vuxM?si=orXoY-zpDCm6BrNv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 # Configurations
 
 > (Length formula) If A',B' are the inverse of A,B w.r.t a circle with centre O and radius $k$, show that the length of the segment A'B' is \\[A'B' = k^2 \dfrac{AB}{OA \times OB}.\\]
