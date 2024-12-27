@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-12-08-Inversion.md",
+                "file": "_posts/2024-12-26-INMO Practice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-08-Inversion"
+              "title": "2024-12-26-INMO Practice"
             }
           }
         ],
@@ -191,6 +191,20 @@
   },
   "active": "7fdd6d8c44399bdf",
   "lastOpenFiles": [
+    "_includes/comments-new.html",
+    "staticman.yml",
+    "_config copy.yml",
+    "_posts/2024-12-08-Inversion.md",
+    "_posts/2025-1-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
+    "_posts/2024-12-26-INMO Practice.md",
+    "_projects/9_project.md",
+    "_posts/Untitled.md",
+    "_projects/8_project.md",
+    "_posts/2024-10-08-Combi-Construction-Problems.md",
+    "_posts/2024-11-03-RMO-2024-solution-sketches.md",
+    "_posts/2024-11-06-Perfect-square-Olympiad.md",
+    "Screenshot 2024-12-17 at 11.13.33 AM.png",
+    "Screenshot 2024-12-17 at 11.11.00 AM.png",
     "Gemfile.lock",
     "_site/blog/tag/inmo/index.html",
     "_site/blog/tag/inmo",
@@ -199,18 +213,12 @@
     "_site/Untitled.md",
     "_site/blog/tag/geometry/index.html",
     "_site/blog/tag/geometry",
-    "_posts/2024-11-06-Perfect-square-Olympiad.md",
-    "_posts/2024-12-08-Inversion.md",
-    "_posts/2024-12-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
-    "_posts/Untitled.md",
     "_posts/2024-09-29-Andres-reflection-trick.md",
-    "_projects/9_project.md",
     "_projects/1_project.md",
     "_projects/2_project.md",
     "_projects/3_project.md",
     "_projects/4_project.md",
     "_projects/5_project.md",
-    "_projects/8_project.md",
     "_projects/7_project.md",
     "_projects/6_project.md",
     "Untitled.md",
@@ -221,21 +229,13 @@
     "_pages/cv.md",
     "images_medium_fg2.gif",
     "Combi problems.md",
-    "2024-09-30-Stable-Marriage-Survey.md",
-    "_pages/news.md",
     "_site/projects/7_project/index.html",
-    "_site/projects/7_project",
-    "_projects/10_project.md",
-    "_site/projects/10_project/index.html",
-    "_site/projects/10_project",
     "_site/assets/img/Screenshot 2024-11-02 at 10.14.49 AM.png",
     "assets/img/Screenshot 2024-11-02 at 10.14.49 AM.png",
     "_site/assets/img/Screenshot 2024-11-02 at 10.14.49 AM-1400.webp",
     "_site/assets/img/Screenshot 2024-11-02 at 10.14.49 AM-800.webp",
     "_site/assets/img/Screenshot 2024-11-02 at 10.14.49 AM-480.webp",
     "_site/assets/img/Pasted image 20241104074433.png",
-    "_site/assets/img/Pasted image 20241104074433-1400.webp",
-    "_site/assets/img/Pasted image 20241104074433-800.webp",
-    "_site/assets/img/Pasted image 20241104074433-480.webp"
+    "_site/assets/img/Pasted image 20241104074433-1400.webp"
   ]
 }

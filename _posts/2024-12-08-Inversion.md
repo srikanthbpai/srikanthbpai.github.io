@@ -29,6 +29,7 @@ _Facts:_ If $C$ is a given circle, and $I_C$ represents the inversion of the pla
 5. Tangency is preserved under inversion.
 
 The following video series details the proofs of the above facts.
+
 <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=R8xRcn2Kjbse2M_N&amp;list=PL2eijNv2W5mgDJcaPQBEl-B1H2dRtj84k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 # Configurations
 
