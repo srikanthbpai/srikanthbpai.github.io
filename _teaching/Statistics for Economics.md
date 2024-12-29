@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-## Logisitics 
+## Logistics 
 
 Timings: Thursday at 9:00 AM and Friday at 2:00 PM
 
@@ -22,11 +22,11 @@ Basics of probability theory, random variables and their distributions, special 
 
 ## Course Objectives
 
-The course will describe the basic techniques used to analyse and describe data. A student of this course will know standard procedures to estimate quantities of interest, compare among competing hypotheses and infer relations between different pieces of data. 
+Our world is ruled by uncertainty, and economists routinely devise procedures for deciding under uncertainty. The course equips students with mathematical foundations for dealing with uncertainty. 
 
-The first half of the course focuses on probability theory which lays the theoretical foundation for the procedures studied in Statistics. In the second half, the procedures of statistics are discussed with rigorous justification.  
+First, the student should have a rigorous understanding of elementary probability theory involving calculus of events, axioms of probability, distributions and moment-generating functions. Secondly, the student must be well versed in standard statistical inference procedures: estimate quantities of interest, compare among competing hypotheses and infer relations between different pieces of data. 
+
 ## References
-
 
 - Richard J. Larsen, Morris L. Marx; ["Introduction to Mathematical Statistics and Its Applications"](https://www.google.co.in/books/edition/An_Introduction_to_Mathematical_Statisti/tZdbRAAACAAJ?hl=en), Prentice Hall, Fifth Edition, 2012.
 - Sheldon M. Ross; ["Introduction to Probability Models"](https://www.google.co.in/books/edition/Introduction_to_Probability_Models/1uxBwhAb_zYC?hl=en&gbpv=0), Academic Press, Ninth Edition, 2007.
@@ -48,3 +48,13 @@ The first half of the course focuses on probability theory which lays the theore
 
 - [Module test 1]({{ site.url }}/downloads/Stats24/Module-1-test.pdf): Covering basics of discrete probability theory and random variables.
 - [Internal I]({{ site.url }}/downloads/Stats24/First-Internal-Stats.pdf): Probability theory (discrete and continuous), random variables, special distributions, Law of large numbers, DeMoivre-Laplace theorem, Poisson approximation and Central limit theorem.
+- [Internal II]({{ site.url }}/downloads/Stats24/Sec-Internal-Stats.pdf): Estimators, maximum likelihood estimator, method of moments estimator, bias, consistency, efficient estimator and Cramer-Rao bound, t-statistic, z-statistic, $\chi^2$ -statistic, confidence intervals, hypothesis testing. 
+- [Finals]({{ site.url }}/downloads/Stats24/Finals24.pdf): All the syllabus in internals 1 and 2. Additionally, goodness of fit tests and linear regression were included.   
+
+## Results
+
+My course was modelled on the [MIT course on statistics for economists.](https://ocw.mit.edu/courses/14-30-introduction-to-statistical-method-in-economics-spring-2006/pages/readings/) Some students found it challenging, but I have balanced this issue by correcting the exams leniently. 
+
+Anyway, I am satisfied with the class performance. I am happy to announce that seven students scored O grades (highest grade). All these students are very good at probability and statistics. 
+
+ Due to the institution's constraints, my lenient correction has some unintended consequences. Some students below a B+ grade may know very little probability and statistics. For institutions gauging a student's marks and relative performance, please ask me for a reference letter, and I can tell you precisely where my students stand.

@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-12-08 11:59:00-0400
+date: 2025-01-08 11:59:00-0400
 title: INMO 24-25 Practice
 description: Hints for INMO problems
 tags:

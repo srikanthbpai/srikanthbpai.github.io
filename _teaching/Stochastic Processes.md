@@ -6,7 +6,7 @@ img: assets/img/BrownianMotion.png
 importance: 1
 category: work
 ---
-## Logisitics 
+## Logistics 
 
 Timings: Thursday at 2:00 PM and Friday at 9:00 AM
 
@@ -20,12 +20,12 @@ Introduction to Discrete time Markov chains: Definition, examples. Chapman-Kolmo
 
 Poisson processes and theorems related to waiting times under various conditions. Thinning and superposition properties of Poisson processes. 
 
-Continuous time markov chains: Chapman-Kolmogorov. Rate transition matrix along with Kolmogorov backward/forward differential equations. ODE approach to CTMC and matrix exponentials. Idea of pure jump regular CTMC data decomposed into sojourn times and an embedded DTMC. Poisson process as a CTMC. Birth-Death processes. 
+Continuous time Markov chains: Chapman-Kolmogorov. Rate transition matrix along with Kolmogorov backward/forward differential equations. ODE approach to CTMC and matrix exponentials. Poisson process as a CTMC. Birth-Death processes. 
 
-Wigner process and intro to Brownian motion.
+Wiener process and intro to Brownian motion.
 ## Course Objectives
 
-The basic objective of the course is to expose undergraduates to random processes and probability theory techniques used to analyse such processes. Since most phenomenon in economics and finance are studied over time, the course is designed to enable the students identify crucial properties of a stochastic process and compute relevant quantities.
+The fundamental objective of the course is to expose undergraduates to random processes and probability theory techniques used to analyse such processes. Since most phenomena in economics and finance are studied over time, the course is designed to enable the students to identify crucial properties of a stochastic process and compute relevant quantities.
 
 ## References
 - Sheldon M. Ross; ["Introduction to Probability Models"](https://www.google.co.in/books/edition/Introduction_to_Probability_Models/1uxBwhAb_zYC?hl=en&gbpv=0), Academic Press, Ninth Edition, 2007.
@@ -46,5 +46,13 @@ The basic objective of the course is to expose undergraduates to random processe
 
 ## Main Tests
 
-- [Welcome test]({{ site.url }}/downloads/UGSP/Welcometest(answers).pdf): A test for prerequisities in discrete probability theory and random variables.
-- [Internal I]({{ site.url }}/downloads/UGSP/First-Internals.pdf): Discrete time markov chains. Independent increment and stationary increment properties of a stochastic process.
+- [Welcome test]({{ site.url }}/downloads/UGSP/Welcometest(answers).pdf): A test for prerequisites in discrete probability theory and random variables.
+- [Internal I]({{ site.url }}/downloads/UGSP/First-Internals.pdf): Students were tested on Discrete-time Markov chains, independent increment and stationary increment properties of a stochastic process.
+- [Internal II]({{ site.url }}/downloads/UGSP/Second-Internals.pdf): Axioms of probability theory and continuous distributions, Poisson process, CTMC and Chapman-Kolmogorov equations, differential equation viewpoint of CTMCs.
+- [Finals]({{ site.url }}/downloads/UGSP/SP-Finals-24.pdf): All the syllabi of the internals and additionally Brownian motion.
+
+## Results
+
+Three students scored the highest grades. Undergraduate students usually find this course hard, and my course was challenging because there was no proper reference material. However, I am pleased with the final paper. Lots of students surprised me with their understanding of the subject.
+
+Many students who have scored below B+ may have no understanding of stochastic processes at all. If an employer or college wants to inquire about one of my students' relative standing, please mail me. 
