@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Stochastic Processes.md",
+                "file": "_news/announcement_1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stochastic Processes"
+              "title": "announcement_1"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "b5e773b0f5546460",
   "lastOpenFiles": [
-    "_teaching/Statistics for Economics.md",
     "_teaching/Stochastic Processes.md",
+    "_teaching/Statistics for Economics.md",
     "_projects/9_project.md",
     "downloads/UGSP/SP-Finals-24.pdf",
     "downloads/UGSP/DE13_Stochastic_Process_Srikanth_BA_Semester5_Regular.pdf",
