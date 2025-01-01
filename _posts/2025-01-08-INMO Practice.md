@@ -14,31 +14,31 @@ categories: " Olympiad, teaching"
 ---
 
 1. Let ABCD be a trapezoid with BC parallel to AD and AB = CD. A circle ω centred at I is tangent to the segments AB, CD, and DA. The circle BIC meets the side AB at points B, and E. Prove that CE is tangent to ω.
-   (Proof sketch: $AB$ meet $CD$ at P. Let tangent from E meet $CD$ at C'. Incentre-Excentre lemma in triangle $PEC'$ says $\angle EIC' = 90 - p/2$ where $p = \angle EPC'$. $BC || AD$ means $\angle EBC = 90+p/2$ and since $E,B,C,I$ are concyclic,$\angle EIC = 90 - p/2$. Thus angle EIC = angle EIC' and thus C=C'.)
+   *Proof sketch:* $AB$ meet $CD$ at P. Let tangent from E meet $CD$ at C'. Incentre-Excentre lemma in triangle $PEC'$ says $\angle EIC' = 90 - p/2$ where $p = \angle EPC'$. $BC || AD$ means $\angle EBC = 90+p/2$ and since $E,B,C,I$ are concyclic,$\angle EIC = 90 - p/2$. Thus angle EIC = angle EIC' and thus C=C'.
 2. Let ABC be an acute-angled triangle. The feet of the altitudes from A,B and C are D, E and F, respectively. Prove that DE+DF≤BC and determine the triangles for which equality holds.
-   Two solutions:
+
    Hint: Reflect F about BC to F'. Show E,D,F' are collinear. Now consider circle with diameter BC and diameter > chord EF'.
-   Hint: trig kills the problem; use circle DEF is a nine-point circle, so get the radius.
+   
+   Another hint: trig kills the problem; use circle DEF is a nine-point circle, so get the radius.
 3. Let O be the centre of the circumcircle ω of an acute-angle triangle ABC. A circle ω$_1$ with centre K passing through A, O and C and intersecting AB at M and BC at N . Point L is symmetric to K with respect to line NM. Prove that BL ⊥ AC
-   Sketch of proof: Show O is the orthocentre of triangle BMN. Circle (BMN) reflects about MN to $\omega_1$. So L is the centre of (BMN). OB is parallel to LK since both are perpendicular to MN and OK=LB since the segments are radii of reflected circles. Thus OBLK is a parallelogram and BL is parallel to OK. Now OK is perpendicular to AC since line joining centres is perpendicular to the common chord. Thus $BL \perp AC$.
-4. Let a,b,c and d denote the sides of a cyclic quadrilateral and m and n its diagonals. Prove that mn=ac+bd .
-   Let p,q,r,s be complex numbers associated to the vertices P,Q,R,S of the cyclic quadrilateral PQRS. Now note that $(p-q)(r-s)+($
-5. Let BC be a chord of a circle Γ. Let ω be a circle tangent to chord BC at K and internally tangent to ω at T. Then ray TK passes through the midpoint M of the arc BC not containing T.
+   
+   *Proof sketch:* Show O is the orthocentre of triangle BMN. Circle (BMN) reflects about MN to $\omega_1$. So L is the centre of (BMN). OB is parallel to LK since both are perpendicular to MN and OK=LB since the segments are radii of reflected circles. Thus OBLK is a parallelogram and BL is parallel to OK. Now OK is perpendicular to AC since line joining centres is perpendicular to the common chord. Thus $BL \perp AC$.
+4. Let a,b,c and d denote the sides of a quadrilateral and m and n its diagonals. Prove that $mn\leq ac+bd,$ equality iff the quadrilateral is cyclic.
+  
+   *Proof:* Let p,q,r,s be complex numbers associated to the vertices P,Q,R,S of the cyclic quadrilateral PQRS. Note that $(p-q)(r-s)+(q-r)(p-s) = (p-r)(q-s)$ and thus by triangle inequality we are done. Equality holds iff the ratio of summands is real and thus the cross-ratio is real (cyclicity condition). 
 6. Let ABC be a triangle and AD,BE,CF be altitudes with H as orthocenter with D,E,F on sides. Suppose X is the intersection of circle passing through points A,E, F and the circumcircle of triangle ABC. Let EF meet BC at T. Show that A, T, X are collinear.
 
-   Inversion in my homework set. use root(AH.AD) inversion
-
+   *Hint:* Use inversion with centre A and radius $\sqrt{AH.AD}$. Note that the inversion exchanges B,D,C with F,H,E respectively. 
 7. Let ABC be a triangle with orthocenter H and let D,E,F be the feet of the altitudes lying on the sides BC, CA, AB respectively. Let T=EF ∩ BC . Prove that TH is perpendicular to the A-median of triangle ABC.
-
-   inversion set in my note
-
+   
+   *Hint:* Use the previous problem to show H is the orthocentre of triangle ATM where M is the mid-point of BC.
 8. Let AB be the diameter of a circle Γ and let C be a point on Γ different from A and B. Let D be the foot of perpendicular from C on to AB.Let K be a point on the segment CD such that AC is equal to the semi perimeter of ADK.Show that the excircle of ADK opposite A is tangent to Γ.
 9. Let  E  and  F  be the midpoints on the respective sides  CA  and  AB  of triangle  ABC, and let  P  be the second point of intersection of the circles  ABE  and  ACF . Prove that the circle  AEF  intersects the line  AP  again in the point  X  for which  AX = 2XP .
 
    Blog inversion solution
 
 10. Let the incircle of triangle ABC touch side BC at D , and let DT be a diameter of the circle. If line AT meets BC at X , then BD=CX .
-11. Prove that the midpoints of the sides, feet of the altitudes, and the midpoints of the segments joining a vertex to the orthocentre lie on a common circle whose centre is the midpoint of the segment joining the circumcentre and the orthocentre and the diameter is the circumradius.Additionally, show that this circle is tangent to the incircle and the excircles!
+11. Prove that the midpoints of the sides, feet of the altitudes, and the midpoints of the segments joining a vertex to the orthocentre lie on a common circle whose centre is the midpoint of the segment joining the circumcentre and the orthocentre and the diameter is the circumradius. Additionally, show that this circle is tangent to the incircle and the excircles!
 12. Let ABCD be a square. Let P be point inside the square such that PA = 1,PB = 2,PC = 3. Find ∠APB in degrees.
 13. ABCD is a unit square. Points P,Q,M,N are on sides AB, BC, CD, DA respectively such that AP + AN + CQ + CM = 2. Prove that PM⊥QN.
 14. Show that the composition of two rotations of angle magnitudes a and b, respectively around centres A and B, is equal to a rotation a + b around another centre X. This centre X is located at a position where ∠XAB = a/2 and ∠ABX = b/2.
