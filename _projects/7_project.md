@@ -10,14 +10,14 @@ giscus_comments: true
 
 # Hello,
 
-My name is Srikanth Pai, and I am passionate about mathematics in all its distinct forms. I have two Master's degrees and two PhD degrees, one from IISc Bangalore and another from ICTS-TIFR Bangalore. I am trained in various subjects like engineering, physics and mathematics.
+My name is Srikanth Pai. I am passionate about mathematics and teaching. I have two Master's degrees and two PhD degrees, one from IISc Bangalore and another from ICTS-TIFR Bangalore. I am trained in engineering, physics, and mathematics.
 
-I have been an Olympiad coach for the past 14 years, and some of my students have represented the country. Fortunately, I have worked with coaching classes that have granted me some time for Olympiad training. However, the education industry of this country focuses too much on JEE-type mathematics. A diverse country like India requires diverse approaches to appreciating mathematics. I have accumulated distinct techniques and a unique approach to teaching mathematics. In the past few years:
+I have been an Olympiad coach for the past 14 years, and some of my students have represented the country in IMO. Fortunately, I have worked with coaching classes that have granted me some time for Olympiad training. However, the education industry of this country focuses too much on JEE-type mathematics. A diverse country like India requires diverse approaches to appreciating mathematics. I have accumulated distinct techniques and a unique approach to teaching mathematics. In the past few years:
 
 - I have created videos on my YouTube channel [Aha!Problems](https://www.youtube.com/channel/UCte6PsCjmIJXqVOgSEmO_vg) to spread the joy of mathematics.
 - I have blog posts outlining [problem-solving techniques](https://srikanthbpai.github.io/blog/2024/Perfect-square-Olympiad/).
-- I have taught a group theory course (undergraduate mathematics) to motivated high school students.
-- I have also published solutions to deep problems in renowned magazines like [Crux Mathematicorum](https://cms.math.ca/publications/crux/) and helped my students to publish.
+- I have taught an undergraduate course (group theory) to motivated high school students.
+- I have also published solutions to proposed problems in renowned magazines like [Crux Mathematicorum](https://cms.math.ca/publications/crux/) and helped my students publish their solutions.
 - In the future, I plan to create workbooks for high school students to enjoy more profound ideas in mathematics.
 
 I did all of this because I wanted to experience the joy of watching others enjoy mathematics because of my hard work. Hence, I named the collective effort _Mudhitha_.<u> Different students wish to experience mathematics in its distinct forms instead of the usual JEE coaching bundle alone.</u> Problem-solving, theory-building, hands-on modelling, and interdisciplinary applications are some particular forms of mathematical experiences.
@@ -92,7 +92,7 @@ Reading mathematics magazines keeps students abreast of the latest techniques. I
 - Families that do not want to continue the classes are free to do so after discussing their situation with me. I will issue a pro-rata refund.
 - I am very serious about my students' mental health. Math Olympiad problem-solving is **fun**. If a student cannot enjoy it for prolonged periods, I will ask the family to stop my classes. I will then issue a pro-rata refund.
 - The pro-rata refund for the Coaching option is computed according to the number of classes given and tests taken. The additional weekly effort and strategy are factored into the computation for Mentorship.
-- Usually classes are not cancelled during final exams since different schools will have exams at various times.
+- Usually, classes are not cancelled during final exams since different schools have exams at various times.
 
 # Contact
 
