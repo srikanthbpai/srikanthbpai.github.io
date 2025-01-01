@@ -71,9 +71,9 @@ _Mentorship_ is a unique offering where you get personalised attention in terms 
 | Counselling with parents                       | ✗        | ✓          |
 | Enabling Magazine publications                 | ✗        | ✓          |
 | Personalised strategies for Olympiad prep      | ✗        | ✓          |
-| **Limited seats** **(up to 3)**                | ✗        | ✓          |
+| **Limited seats** **(up to 5)**                | ✗        | ✓          |
 
-**Class Timings:** Weekly 4 hours from January mid to August end. Early mornings on weekends (5 AM to 7 AM). Early mornings have proven to be a game changer in learning for me. I usually wake up at that time on weekdays to do my research.
+**Class Timings:** Weekly 4 hours from February mid to August end. Early mornings on weekends (5 AM to 7 AM). Early mornings have proven to be a game changer in learning for me. I usually wake up at that time on weekdays to do my research.
 
 **Homework and Weekly practice:** After class, simple applications of taught concepts are given as homework. If the student diligently finishes their homework, it cements the ideas learnt that day. Weekly mastery sets, which include a mix of easy warmups and classic Olympiad problems, are given at the end of the week. The student should attempt as many as possible and submit the solutions within a week, but they should periodically retry the sets.
 
