@@ -45,11 +45,11 @@ categories: " Olympiad, teaching"
 
 8. <span style="color:blue"> Let  E  and  F  be the midpoints on the respective sides  CA  and  AB  of triangle  ABC, and let  P  be the second point of intersection of the circles  ABE  and  ACF . Prove that the circle  AEF  intersects the line  AP  again in the point  X  for which  AX = 2XP .</span>
 
-    <sup>A solution of the sample problem can be found [here](https://srikanthbpai.github.io/blog/2024/Inversion/).</sup>
+   <sup>A solution of the sample problem can be found [here](https://srikanthbpai.github.io/blog/2024/Inversion/).</sup>
 
 9. <span style="color:blue"> Let the incircle of triangle ABC touch side BC at D , and let DT be a diameter of the circle. If line AT meets BC at X , then BD=CX .</span>
 
-    <sup>_Hint:_ Show that a dilation that sends the incircle to the A-excircle sends T to the touchpoint of the excircle on BC. Then length chase.</sup>
+   <sup>_Hint:_ Show that a dilation that sends the incircle to the A-excircle sends T to the touchpoint of the excircle on BC. Then length chase.</sup>
 
 10. <span style="color:blue"> Let ABCD be a square. Let P be point inside the square such that PA = 1,PB = 2,PC = 3. Find ∠APB in degrees.</span> <sup> (Hint: Rotate about B by 90 degrees.)</sup>
 
