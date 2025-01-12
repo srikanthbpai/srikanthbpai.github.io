@@ -1,3 +1,15 @@
+    <style>
+    #clustrmaps-container {
+    width: 5vw; /* Adjust the width as needed */
+    float: right; /* Right align on larger screens */
+    }
+    @media screen and (max-width: 30px) { /* Adjust the breakpoint as needed */
+        #clustrmaps-container {
+            width: 10%; /* Adjust the width for smaller screens */
+            float: right; /* Keep it right-aligned or change as needed */
+        }
+    }
+    </style>
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
