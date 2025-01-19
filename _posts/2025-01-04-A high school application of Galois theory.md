@@ -102,7 +102,7 @@ _Example:_ We have already argued that $\\{\sigma_1,\sigma_2,\sigma_3,\sigma_4\\
 The following example might be hard to work out, but hopefully it is believable.
 
 _Example/Exercise:_ If $R(x) = x^3-2$, then the splitting field is the set \\[L := \mathbb{Q}(\sqrt[3]{2},\omega) = \\{a+b\sqrt[3]{2}+c\sqrt[3]{4}+d\omega+e\sqrt[3]{2}\omega\+f\sqrt[3]{4}\omega|a,b,c,d,e,f \in \mathbb{Q}\\}\\]
-In this case, dimension of $L$ is 6. But there are exactly six permutations of 3 roots, so we know all the elements of the Galois group. 
+In this case, dimension of $L$ is 6. But there are exactly six permutations of 3 roots, so we know all the elements of the Galois group.
 
 At this point one must wonder, if the elements of the Galois group permute the roots of the polynomial $P(x)$, is it possible that some permutation transformations are not allowed? Let us revisit our examples.
 
@@ -110,6 +110,6 @@ _Example:_ Recall the example of $Q(x) = x^4-10x^2 +1$. We see that $Gal(K/\math
 
 Any transformation that permutes roots is not necessarily an element of the Galois group. Sometimes the roots of a polynomial will have polynomial relations that may not be preserved by some transformations. These obstructions arise from polynomial relations between the roots.
 
-_Example:_ Consider the polynomial $S(x) = x^4-20x^2+80$ whose roots are \\[\pm\sqrt{10\pm2\sqrt{5}}.\\] Let us call $r = \sqrt{10+2\sqrt{5}},s=\sqrt{10-2\sqrt{5}}.$ Note that the roots of the polynomial are $\\{r,s,-r,-s\\}$. Any element of the Galois group permutes the roots. So is there an element of the Galois group that sends $(r,s)$ to $(s,r)$? Now we can argue that it is impossible. Suppose such an isomorphism exists. Then look at the relation \\[rs(r^2-s^2)=80,\\] applying $\sigma$ gives \\[sr(s^2-r^2)=80\\] which forces $80=-80$; a contradiction. A similar contradiction is obtained for transformations that send $(r,s)$ to $(-r,s)$ or $(r,-s)$ or $(-s,-r)$. However no contradiction is obtained from the equation $rs(r^2-s^2)=80$ for transformations that send $(r,s)$ to $(r,s),(-r,-s),(s,-r),(-s,r)$. 
+_Example:_ Consider the polynomial $S(x) = x^4-20x^2+80$ whose roots are \\[\pm\sqrt{10\pm2\sqrt{5}}.\\] Let us call $r = \sqrt{10+2\sqrt{5}},s=\sqrt{10-2\sqrt{5}}.$ Note that the roots of the polynomial are $\\{r,s,-r,-s\\}$. Any element of the Galois group permutes the roots. So is there an element of the Galois group that sends $(r,s)$ to $(s,r)$? Now we can argue that it is impossible. Suppose such an isomorphism exists. Then look at the relation \\[rs(r^2-s^2)=80,\\] applying $\sigma$ gives \\[sr(s^2-r^2)=80\\] which forces $80=-80$; a contradiction. A similar contradiction is obtained for transformations that send $(r,s)$ to $(-r,s)$ or $(r,-s)$ or $(-s,-r)$. However no contradiction is obtained from the equation $rs(r^2-s^2)=80$ for transformations that send $(r,s)$ to $(r,s),(-r,-s),(s,-r),(-s,r)$.
 
-Note that another identity is $r^2 -s^2 = rs$ which can also be used to get rid of certain permutations. 
+Note that another identity is $r^2 -s^2 = rs$ which can also be used to get rid of certain permutations.

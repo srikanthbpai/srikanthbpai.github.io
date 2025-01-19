@@ -2,7 +2,7 @@
 layout: post
 date: 2025-01-01 11:59:00-0400
 title: INMO 24-25 Practice
-description: Hints for INMO problems
+description: Hints for INMOTC problems
 tags:
   - geometry
   - INMO
