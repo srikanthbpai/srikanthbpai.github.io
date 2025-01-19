@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combi problems.md",
+                "file": "_teaching/Introduction to Programming 24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Combi problems"
+              "title": "Introduction to Programming 24"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "b5e773b0f5546460",
   "lastOpenFiles": [
+    "Combi problems.md",
     "images_medium_fg2.gif",
     "python-logo-only.png",
     "Statistics Internals 2.pdf",
@@ -209,7 +210,6 @@
     "_includes/analytics.liquid",
     "_includes/audio.liquid copy",
     "_site/assets/img/Cantor_set-1400.webp",
-    "_site/assets/img/Cantor_set-800.webp",
     "_posts/2024-11-02-Arthur-Engel's-Inequality-problems.md",
     "_posts/Untitled.md",
     "assets/img/Pasted.md",

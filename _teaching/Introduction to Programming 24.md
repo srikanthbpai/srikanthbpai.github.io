@@ -16,6 +16,7 @@ Programming basics: Plotting, iterations, recursions, simulation. Data structure
 Introduction to basics of Matlab, R and Python.
 ## Course Objectives
 The student should be able to
+
 1) Use programming to solve basic repetitive tasks.
 
 2) Produce plots and employ statistical subroutines that can be included in reports and research papers.
