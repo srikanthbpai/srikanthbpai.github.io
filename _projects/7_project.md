@@ -12,7 +12,7 @@ giscus_comments: true
 
 My name is Srikanth Pai. I am passionate about mathematics and teaching. I have two Master's degrees and two PhD degrees, one from IISc Bangalore and another from ICTS-TIFR Bangalore. I am trained in engineering, physics, and mathematics.
 
-I have been an Olympiad coach for the past 14 years, and some of my students have represented the country in IMO. Fortunately, I have worked with coaching classes that have granted me some time for Olympiad training. However, the education industry of this country focuses too much on JEE-type mathematics. A diverse country like India requires diverse approaches to appreciating mathematics. I have accumulated distinct techniques and a unique approach to teaching mathematics. In the past few years:
+I have been an Olympiad coach for the past 12 years, and some of my students have represented the country in IMO. Fortunately, I have worked with coaching classes that have granted me some time for Olympiad training. However, the education industry of this country focuses too much on JEE-type mathematics. A diverse country like India requires diverse approaches to appreciating mathematics. I have accumulated distinct techniques and a unique approach to teaching mathematics. In the past few years:
 
 - I have created videos on my YouTube channel [Aha!Problems](https://www.youtube.com/channel/UCte6PsCjmIJXqVOgSEmO_vg) to spread the joy of mathematics.
 - I have blog posts outlining [problem-solving techniques](https://srikanthbpai.github.io/blog/2024/Perfect-square-Olympiad/).
