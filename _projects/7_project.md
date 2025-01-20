@@ -56,11 +56,11 @@ Personalised attention to homework, counselling students with their families, an
 
 Target RMO 2025 has two options:
 
-In _Coaching_, you learn from a specially crafted theory path and a customised homework scheme. You can access regular tests, and I will give hints after the test if I see some effort. We will discuss solutions to some problems in class. You get access to the recorded video to revise and catch up.
+In _Teaching_, you learn from a specially crafted theory path and a customised homework scheme. You can access regular tests, and I will give hints after the test if I see some effort. We will discuss solutions to some problems in class. You get access to the recorded video to revise and catch up.
 
 _Mentorship_ is a unique offering where you get personalised attention in terms of feedback for homework, strategies and guidance for publishing solutions in renowned math magazines. The following table gives a quick snapshot, and additional details can be found below the table:
 
-| Feature                                        | Coaching | Mentorship |
+| Feature                                        | Teaching | Mentorship |
 | ---------------------------------------------- | -------- | ---------- |
 | Over 100 lecture hours with discussions        | ✓        | ✓          |
 | Recorded classes (for three months)            | ✓        | ✓          |
@@ -88,10 +88,10 @@ Reading mathematics magazines keeps students abreast of the latest techniques. I
 # Joining RMO 2025
 
 - The classes will be online through MS Teams, and there will be a trial period of 2 classes.
-- The fee for Coaching is Rs.25,000/- and Mentorship is Rs.45,000/-.
+- The fee for Teaching is Rs.25,000/- and Mentorship is Rs.45,000/-.
 - Families that do not want to continue the classes are free to do so after discussing their situation with me. I will issue a pro-rata refund.
 - I am very serious about my students' mental health. Math Olympiad problem-solving is **fun**. If a student cannot enjoy it for prolonged periods, I will ask the family to stop my classes. I will then issue a pro-rata refund.
-- The pro-rata refund for the Coaching option is computed according to the number of classes given and tests taken. The additional weekly effort and strategy are factored into the computation for Mentorship.
+- The pro-rata refund for the Teaching option is computed according to the number of classes given and tests taken. The additional weekly effort and strategy are factored into the computation for Mentorship.
 - Usually, classes are not cancelled during final exams since different schools have exams at various times.
 
 # Contact

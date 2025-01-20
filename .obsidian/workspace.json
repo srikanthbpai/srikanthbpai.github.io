@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Introduction to Programming 24.md",
+                "file": "_projects/7_project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Programming 24"
+              "title": "7_project"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "b5e773b0f5546460",
   "lastOpenFiles": [
+    "_teaching/Introduction to Programming 24.md",
     "Combi problems.md",
     "images_medium_fg2.gif",
     "python-logo-only.png",
@@ -183,7 +184,6 @@
     "_teaching/Stochastic Processes 24.md",
     "Untitled.md",
     "downloads/Prog24/Assignment1.pdf",
-    "_teaching/Introduction to Programming 24.md",
     "{{.md",
     "downloads/Prog24/Assignment 1.pdf",
     "downloads/Prog24",
