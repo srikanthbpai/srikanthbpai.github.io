@@ -34,7 +34,7 @@ Olympiad exams test mathematical prowess akin to how the Olympics test physical 
 
 Target RMO 2025 is a program that trains mathematically minded students in the standard Olympiad curriculum and guides them on their journey to RMO 2025. Families keen on cracking the exam or catalysing their child's growth have the additional option of a personalised attention package.
 
-The first iteration of this course was RMO 2024, and I am pleased about the outcomes.
+The first iteration of this course was RMO 2024, and I am pleased about the outcomes. I will be teaching an advanced batch that for RMO 2024 participants focussing on INMO level techniques (see [INMO 2025]({{ site.url }}/downloads/INMO2025.pdf) paper).
 
 # Learnings from Target RMO 2024
 
