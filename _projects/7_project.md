@@ -34,7 +34,7 @@ giscus_comments: true
 
 # Hello,
 
-If you are here to join my Target RMO 25 course from elsewhere the join button is at the bottom of the page.
+_If you are here to join my Target RMO 25 course from elsewhere, the join button is at the bottom of the page. Otherwise read on._
 
 My name is Srikanth Pai. I am passionate about mathematics and teaching. I have two Master's degrees and two PhD degrees, one from IISc Bangalore and another from ICTS-TIFR Bangalore. I am trained in engineering, physics, and mathematics. I have been an Olympiad coach for the past 12 years, and some of my students have represented the country in IMO. Fortunately, I have worked with coaching classes that have granted me some time for Olympiad training. However, the education industry of this country focuses too much on JEE-type mathematics. A diverse country like India requires diverse approaches to appreciating mathematics. I have accumulated distinct techniques and a unique approach to teaching mathematics. In the past few years:
 
@@ -112,15 +112,13 @@ Reading mathematics magazines keeps students abreast of the latest techniques. I
 # Joining RMO 2025
 
 - The classes will be online through MS Teams, and there will be a trial period of 2 classes.
-- The fee for Teaching is Rs.25,000/- and Mentorship is Rs.45,000/-.
+- The fee for **Teaching is Rs.25,000/- and Mentorship is Rs.45,000/-.**
 - Families that do not want to continue the classes are free to do so after discussing their situation with me. I will issue a pro-rata refund.
 - I am very serious about my students' mental health. Math Olympiad problem-solving is **fun**. If a student cannot enjoy it for prolonged periods, I will ask the family to stop my classes. I will then issue a pro-rata refund.
 - The pro-rata refund for the Teaching option is computed according to the number of classes given and tests taken. The additional weekly effort and strategy are factored into the computation for Mentorship.
 - Usually, classes are not cancelled during final exams since different schools have exams at various times.
 
 # Contact
-
-fill in your contact information.
 
  <div class="join-button-container">
 	  <a href="https://forms.gle/4LnU69nBVRZr1cSf7" class="join-button" target="_blank">Join Now</a>
