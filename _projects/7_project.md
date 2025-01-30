@@ -8,11 +8,35 @@ category: fun
 giscus_comments: true
 ---
 
+<!-- Optional CSS to style the button -->
+<style>
+  .join-button-container {
+    text-align: center; /* Center the button */
+    margin-top: 50px;    /* Add space above */
+  }
+
+  .join-button {
+    font-size: 36px;        /* Large text size */
+    font-weight: bold;      /* Bold letters */
+    background-color: #f4a261;  /* Light orange background color */
+    color: white;           /* White text color */
+    padding: 15px 30px;     /* Add padding around the text */
+    text-decoration: none;  /* Remove underline */
+    border-radius: 8px;     /* Rounded corners */
+    display: inline-block;  /* Make the link behave like a button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+
+  .join-button:hover {
+    background-color: #e76f51;  /* Darker shade on hover */
+  }
+</style>
+
 # Hello,
 
-My name is Srikanth Pai. I am passionate about mathematics and teaching. I have two Master's degrees and two PhD degrees, one from IISc Bangalore and another from ICTS-TIFR Bangalore. I am trained in engineering, physics, and mathematics.
+If you are here to join my Target RMO 25 course from elsewhere the join button is at the bottom of the page.
 
-I have been an Olympiad coach for the past 12 years, and some of my students have represented the country in IMO. Fortunately, I have worked with coaching classes that have granted me some time for Olympiad training. However, the education industry of this country focuses too much on JEE-type mathematics. A diverse country like India requires diverse approaches to appreciating mathematics. I have accumulated distinct techniques and a unique approach to teaching mathematics. In the past few years:
+My name is Srikanth Pai. I am passionate about mathematics and teaching. I have two Master's degrees and two PhD degrees, one from IISc Bangalore and another from ICTS-TIFR Bangalore. I am trained in engineering, physics, and mathematics. I have been an Olympiad coach for the past 12 years, and some of my students have represented the country in IMO. Fortunately, I have worked with coaching classes that have granted me some time for Olympiad training. However, the education industry of this country focuses too much on JEE-type mathematics. A diverse country like India requires diverse approaches to appreciating mathematics. I have accumulated distinct techniques and a unique approach to teaching mathematics. In the past few years:
 
 - I have created videos on my YouTube channel [Aha!Problems](https://www.youtube.com/channel/UCte6PsCjmIJXqVOgSEmO_vg) to spread the joy of mathematics.
 - I have blog posts outlining [problem-solving techniques](https://srikanthbpai.github.io/blog/2024/Perfect-square-Olympiad/).
@@ -34,7 +58,7 @@ Olympiad exams test mathematical prowess akin to how the Olympics test physical 
 
 Target RMO 2025 is a program that trains mathematically minded students in the standard Olympiad curriculum and guides them on their journey to RMO 2025. Families keen on cracking the exam or catalysing their child's growth have the additional option of a personalised attention package.
 
-The first iteration of this course was RMO 2024, and I am pleased about the outcomes. I will be teaching an advanced batch for RMO 2024 participants, focusing on INMO-level techniques (see [INMO 2025]({{ site.url }}/downloads/INMO2025.pdf) paper).
+The first iteration of this course was RMO 2024, and I am pleased about the outcomes. I will be teaching an advanced batch for RMO 2024 participants, focusing on INMO-level techniques (see [INMO 2025]({{ site.url }}/downloads/INMO_2025.pdf) paper).
 
 # Learnings from Target RMO 2024
 
@@ -95,5 +119,8 @@ Reading mathematics magazines keeps students abreast of the latest techniques. I
 - Usually, classes are not cancelled during final exams since different schools have exams at various times.
 
 # Contact
+ fill in your contact information. <div class="join-button-container">
+	  <a href="https://forms.gle/4LnU69nBVRZr1cSf7" class="join-button" target="_blank">Join Now</a>
+</div>
 
-If you are interested, email mudithamathsacademy@gmail.com or message 9945196937. Please provide your name and a suitable time for me to contact you.
+You can also email mudithamathsacademy@gmail.com or message 9945196937. Please provide your name and a suitable time for me to contact you.
