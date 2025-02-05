@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/7_project.md",
+                "file": "_teaching/Stochastic Processes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7_project"
+              "title": "Stochastic Processes"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "b5e773b0f5546460",
   "lastOpenFiles": [
-    "{{.md",
     "_projects/7_project.md",
+    "{{.md",
     "INMO_25.pdf",
     "downloads/INMO_25.pdf",
     "_teaching/Statistics for Economics 24.md",
@@ -188,7 +188,7 @@
     "images_medium_fg2.gif",
     "python-logo-only.png",
     "Statistics Internals 2.pdf",
-    "_teaching/Stochastic Processes 24.md",
+    "_teaching/Stochastic Processes.md",
     "Untitled.md",
     "downloads/Prog24/Assignment1.pdf",
     "downloads/Prog24/Assignment 1.pdf",

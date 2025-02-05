@@ -119,7 +119,6 @@ Reading mathematics magazines keeps students abreast of the latest techniques. I
 - Usually, classes are not cancelled during final exams since different schools have exams at various times.
 
 # Contact
-
  <div class="join-button-container">
 	  <a href="https://forms.gle/4LnU69nBVRZr1cSf7" class="join-button" target="_blank">Join Now</a>
 </div>
