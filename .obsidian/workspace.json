@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Stochastic Processes.md",
+                "file": "_posts/2025-2-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stochastic Processes"
+              "title": "2025-2-22-Survey-of-Levy-stable-processes in Quantitative-Finance"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "b5e773b0f5546460",
   "lastOpenFiles": [
+    "_teaching/Stochastic Processes.md",
     "_projects/7_project.md",
     "{{.md",
     "INMO_25.pdf",
@@ -188,7 +189,6 @@
     "images_medium_fg2.gif",
     "python-logo-only.png",
     "Statistics Internals 2.pdf",
-    "_teaching/Stochastic Processes.md",
     "Untitled.md",
     "downloads/Prog24/Assignment1.pdf",
     "downloads/Prog24/Assignment 1.pdf",
@@ -204,7 +204,7 @@
     "assets/img/Unknown-1.jpeg",
     "assets/img/Unknown.jpeg",
     "_posts/2024-12-08-Inversion.md",
-    "_posts/2025-1-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
+    "_posts/2025-2-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
     "_posts/2025-01-01-INMO Practice.md",
     "_posts/2025-01-04-A high school application of Galois theory.md",
     "_posts/2025-01-13-INMO Combi Practice.md",
