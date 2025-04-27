@@ -35,8 +35,7 @@ Multilinear regression methods (brief review).
 - Akaike's Information Criteria and its information theoretic motivations.
 - Dickey-Fuller tests and its theory: Derivation of asymptotic distribution using Wiener processes.
 
-I could not find a good resource for studying mathematical time series online. So I created a flashcard website for my course content: https://time-series-flashcards.onrender.com
-(NOTE: The flashcards website may take 3-5 minutes to load when there is sustained period of inactivity.)
+I could not find a good resource for studying mathematical time series online. So I created a [flashcard website](https://time-series-flashcards.onrender.com) for my course content. The flashcards website may take 3-5 minutes to load when there is sustained period of inactivity.
 ## Assignments
 
 - [Assignment 1]({{ site.url }}/downloads/TA24/Assignment1.pdf)
