@@ -10,6 +10,7 @@ category: work
 
 Timings: Wednesdays and Fridays at 11:00 AM, Tutorials on Tuesday 2:00 PM.
 
+TA for the course: Megana Prabha
 ## Prerequisites
 
 The prerequisites are *Statistics for Economics, Econometrics, Linear Algebra.*

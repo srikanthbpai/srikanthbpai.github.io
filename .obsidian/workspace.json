@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Statistics for Economics 24.md",
+                "file": "_pages/teaching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Statistics for Economics 24"
+              "title": "teaching"
             }
           }
         ]
@@ -177,6 +177,16 @@
   },
   "active": "f28f63984b16539a",
   "lastOpenFiles": [
+    "_pages/cv.md",
+    "_pages/dropdown.md",
+    "_pages/news.md",
+    "_pages/projects.md",
+    "_pages/about.md",
+    "_news/announcement_3.md",
+    "_news/announcement_1.md",
+    "_news/announcement_2.md",
+    "_teaching/Time Series Analysis 24.md",
+    "_teaching/Statistics for Economics 24.md",
     "downloads/Stats24/Finals.pdf",
     "downloads/Stats24/CC08_Statistics_for_Economics_Srikanth_BA_Semester3_Regular.pdf",
     "_teaching/Real Analysis 24.md",
@@ -186,9 +196,7 @@
     "downloads/RA24/PS5.pdf",
     "downloads/RA24/Problem Sheet 5.pdf",
     "downloads/RA24/RA-Internals2.pdf",
-    "_teaching/Time Series Analysis 24.md",
     "_teaching/Stochastic Processes.md",
-    "_pages/projects.md",
     "_pages/publications.md",
     "_pages/teaching.md",
     "_posts/2025-12-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
@@ -200,20 +208,12 @@
     "_posts/2024-10-07-Combinatorics-Problems.md",
     "_posts/2024-10-06-Number-theory-Problems.md",
     "_posts/2024-09-29-Andres-reflection-trick.md",
-    "_news/announcement_3.md",
-    "_news/announcement_2.md",
-    "_news/announcement_1.md",
-    "_pages/news.md",
-    "_pages/dropdown.md",
-    "_pages/cv.md",
     "_pages/blog.md",
     "_pages/about_einstein.md",
-    "_pages/about.md",
     "assets/img/DE09.png",
     "assets/img/Screenshot 2025-04-28 at 12.59.23 AM.png",
     "downloads/TA24/internals22.pdf",
     "downloads/TA24/Finals.pdf",
-    "downloads/TA24/Internals1.pdf",
     "{{.md",
     "_site/assets/img/Unknown-1400.webp",
     "_site/assets/img/Unknown-800.webp",
