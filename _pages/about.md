@@ -27,4 +27,6 @@ By training I am an electrical communication engineer (ME and PhD from <a href='
 
 Outside my working hours, I share my passion for mathematical problem solving on my <a href='https://youtube.com/@mudithamath?feature=shared'>YouTube channel</a>.
 
+Recently, I have been automating many parts of teaching routines using AI and "vibe-coding". Although it requires copius amounts of patience, it has been intellectually rewarding and has gotten me curious about LLMs. A nice website that is publicly available is a [flashcard website](https://time-series-flashcards.onrender.com) for the first 5 chapters of Hamilton's time series analysis. Just note than you may to wait for a few minutes for the website to load.
+
 I am a homebody. I love collecting stationaries (especially fountain pens and inks), watching animes and rom-coms. I have a decent collection of books and a diverse video game collection.

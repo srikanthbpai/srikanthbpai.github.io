@@ -49,7 +49,7 @@ First, the student should have a rigorous understanding of elementary probabilit
 - [Module test 1]({{ site.url }}/downloads/Stats24/Module-1-test.pdf): Covering basics of discrete probability theory and random variables.
 - [Internal I]({{ site.url }}/downloads/Stats24/First-Internal-Stats.pdf): Probability theory (discrete and continuous), random variables, special distributions, Law of large numbers, DeMoivre-Laplace theorem, Poisson approximation and Central limit theorem.
 - [Internal II]({{ site.url }}/downloads/Stats24/Sec-Internal-Stats.pdf): Estimators, maximum likelihood estimator, method of moments estimator, bias, consistency, efficient estimator and Cramer-Rao bound, t-statistic, z-statistic, $\chi^2$ -statistic, confidence intervals, hypothesis testing. 
-- [Finals]({{ site.url }}/downloads/Stats24/Finals24.pdf): All the syllabus in internals 1 and 2. Additionally, goodness of fit tests and linear regression were included.   
+- [Finals]({{ site.url }}/downloads/Stats24/Finals.pdf): All the syllabus in internals 1 and 2. Additionally, goodness of fit tests and linear regression were included.   
 
 ## Results
 
