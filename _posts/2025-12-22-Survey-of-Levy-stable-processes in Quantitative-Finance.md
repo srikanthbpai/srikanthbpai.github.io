@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-2-22 11:59:00-0400
+date: 2025-12-22 11:59:00-0400
 title: Levy Stable processes in Quant Finance
 description: Thoughts, Outline and Comments
 tags:
