@@ -13,20 +13,17 @@ Co-taught with Dr. Poorna Narayanan.
 
 ## Course Objectives
 
-One of the aims of this course is to teach the art of rigorous mathematical thinking and proof writing to economics undergraduates. The other aim is to familiarise our undergraduates with theoretical foundations of calculus. 
+One aim of this course is to teach economics undergraduates the art of rigorous mathematical thinking and proof writing. The other aim is to familiarise our undergraduates with the theoretical foundations of calculus. 
 
-Contents of the course serve as a foundation for arguments in statistics, and time series which usually involve asymptotics (think of law of large numbers, central limit theorem or proving covariance stationarity of MA($\infty$) processes). Since the course is taught along with a [Time Series course](({{ site.url }}/_teaching/Time_Series_Analysis_24) (which follows Hamilton's rigorous text), some exercises in this course will involve rigorously proving theorems about time series.  
+Contents of the course serve as a foundation for arguments in statistics, and time series, which usually involve asymptotics (think of the law of large numbers, central limit theorem or proving covariance stationarity of MA($\infty$) processes. Since the course is taught along with a [Time Series course](({{ site.url }}/_teaching/Time_Series_Analysis_24) (which follows Hamilton's rigorous text), some exercises in this course will involve rigorously proving theorems about time series.  
 
 ## Syllabus
 
 Principle of Mathematical induction, Introduction to logic and proofs.
 
 Sets and relations, Finite, Countable, Uncountable sets.
-
 Least Upper Bound axiom and Archimedean property, 
-
 Topology of metric spaces: Open and Closed sets, Compactness, Connectedness.
-
 Sequences, Bolzano-Weierstrass theorem, Cauchy completeness, Series and their convergence criteria. 
 
 ## Assignments
@@ -38,5 +35,6 @@ Sequences, Bolzano-Weierstrass theorem, Cauchy completeness, Series and their co
 ## Exams
 - [Internals 1]({{ site.url }}/downloads/RA25/Int1.pdf)
 - [Internals 2]({{ site.url }}/downloads/RA25/Int2.pdf)
+- [Finals]({{ site.url }}/downloads/RA25/finals.pdf) 
 ## References
 - Walter Rudin; "Principle of Mathematical Analysis", Third Edition.

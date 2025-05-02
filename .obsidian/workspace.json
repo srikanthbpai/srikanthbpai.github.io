@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-12-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
+                "file": "_teaching/Introduction to Programming 24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-22-Survey-of-Levy-stable-processes in Quantitative-Finance"
+              "title": "Introduction to Programming 24"
             }
           }
         ]
@@ -177,6 +177,16 @@
   },
   "active": "f28f63984b16539a",
   "lastOpenFiles": [
+    "downloads/Prog24/Internals1.pdf",
+    "downloads/Prog24/AE04-Internals1.pdf",
+    "downloads/Prog24/Assignment 2.pdf",
+    "_teaching/Real Analysis 24.md",
+    "downloads/RA24/finals.pdf",
+    "downloads/RA24/GE03_RealAnalysis_Srikanth_BA_Semester6_Regular.pdf",
+    "_posts/2025-04-30-Binomial-Identities-Complex-Integrals?.md",
+    "_posts/2025-01-04-A high school application of Galois theory.md",
+    "_posts/2024-10-10-Algebra-RMO-prep.md",
+    "_posts/2024-11-02-Arthur-Engel's-Inequality-problems.md",
     "_teaching/Time Series Analysis 24.md",
     "_pages/teaching.md",
     "_pages/cv.md",
@@ -190,31 +200,21 @@
     "_teaching/Statistics for Economics 24.md",
     "downloads/Stats24/Finals.pdf",
     "downloads/Stats24/CC08_Statistics_for_Economics_Srikanth_BA_Semester3_Regular.pdf",
-    "_teaching/Real Analysis 24.md",
     "downloads/RA24/Int1.pdf",
     "downloads/RA24/IA1_2025.pdf",
     "downloads/RA24/Int2.pdf",
     "downloads/RA24/PS5.pdf",
-    "downloads/RA24/Problem Sheet 5.pdf",
-    "downloads/RA24/RA-Internals2.pdf",
     "_teaching/Stochastic Processes.md",
     "_pages/publications.md",
-    "_posts/2025-12-22-Survey-of-Levy-stable-processes in Quantitative-Finance.md",
-    "_posts/2025-01-04-A high school application of Galois theory.md",
     "_posts/2025-01-01-INMO Practice.md",
     "_posts/2024-12-08-Inversion.md",
     "_posts/2024-11-06-Perfect-square-Olympiad.md",
-    "_posts/2024-11-02-Arthur-Engel's-Inequality-problems.md",
     "_posts/2024-10-07-Combinatorics-Problems.md",
     "_posts/2024-10-06-Number-theory-Problems.md",
     "_posts/2024-09-29-Andres-reflection-trick.md",
     "_pages/blog.md",
-    "_pages/about_einstein.md",
     "assets/img/DE09.png",
     "assets/img/Screenshot 2025-04-28 at 12.59.23 AM.png",
-    "downloads/TA24/internals22.pdf",
-    "downloads/TA24/Finals.pdf",
-    "{{.md",
     "_site/assets/img/Unknown-1400.webp",
     "_site/assets/img/Unknown-800.webp",
     "_site/assets/img/Unknown-480.webp",
