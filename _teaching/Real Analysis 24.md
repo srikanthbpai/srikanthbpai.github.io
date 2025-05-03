@@ -15,7 +15,7 @@ Co-taught with Dr. Poorna Narayanan.
 
 One aim of this course is to teach economics undergraduates the art of rigorous mathematical thinking and proof writing. The other aim is to familiarise our undergraduates with the theoretical foundations of calculus. 
 
-Contents of the course serve as a foundation for arguments in statistics, and time series, which usually involve asymptotics (think of the law of large numbers, central limit theorem or proving covariance stationarity of MA($\infty$) processes. Since the course is taught along with a [Time Series course](({{ site.url }}/_teaching/Time_Series_Analysis_24) (which follows Hamilton's rigorous text), some exercises in this course will involve rigorously proving theorems about time series.  
+Contents of the course serve as a foundation for arguments in statistics, and time series, which usually involve asymptotics (think of the law of large numbers, central limit theorem or proving covariance stationarity of MA($\infty$) processes. Since the course is taught along with a [Time Series course]({{ site.url }}/_teaching/Time_Series_Analysis_24) (which follows Hamilton's rigorous text), some exercises in this course will involve rigorously proving theorems about time series.  
 
 ## Syllabus
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Introduction to Programming 24.md",
+                "file": "_teaching/Real Analysis 24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Programming 24"
+              "title": "Real Analysis 24"
             }
           }
         ]
@@ -177,6 +177,7 @@
   },
   "active": "f28f63984b16539a",
   "lastOpenFiles": [
+    "_teaching/Introduction to Programming 24.md",
     "downloads/Prog24/Internals1.pdf",
     "downloads/Prog24/AE04-Internals1.pdf",
     "downloads/Prog24/Assignment 2.pdf",
@@ -203,7 +204,6 @@
     "downloads/RA24/Int1.pdf",
     "downloads/RA24/IA1_2025.pdf",
     "downloads/RA24/Int2.pdf",
-    "downloads/RA24/PS5.pdf",
     "_teaching/Stochastic Processes.md",
     "_pages/publications.md",
     "_posts/2025-01-01-INMO Practice.md",
