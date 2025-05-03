@@ -32,9 +32,11 @@ Sequences, Bolzano-Weierstrass theorem, Cauchy completeness, Series and their co
 - [Problem Sheet 2]({{ site.url }}/downloads/RA24/PS2.pdf)
 - [Problem Sheet 3]({{ site.url }}/downloads/RA24/PS3.pdf)
 - [Problem Sheet 5]({{ site.url }}/downloads/RA24/PS5.pdf)
+
 ## Exams
 - [Internals 1]({{ site.url }}/downloads/RA24/Int1.pdf)
 - [Internals 2]({{ site.url }}/downloads/RA24/Int2.pdf)
 - [Finals]({{ site.url }}/downloads/RA24/finals.pdf) 
+
 ## References
 - Walter Rudin; "Principle of Mathematical Analysis", Third Edition.
