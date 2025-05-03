@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_teaching/Real Analysis 24.md",
+                "file": "_teaching/Time Series Analysis 24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Real Analysis 24"
+              "title": "Time Series Analysis 24"
             }
           }
         ]
@@ -177,11 +177,11 @@
   },
   "active": "f28f63984b16539a",
   "lastOpenFiles": [
+    "_teaching/Real Analysis 24.md",
     "_teaching/Introduction to Programming 24.md",
     "downloads/Prog24/Internals1.pdf",
     "downloads/Prog24/AE04-Internals1.pdf",
     "downloads/Prog24/Assignment 2.pdf",
-    "_teaching/Real Analysis 24.md",
     "downloads/RA24/finals.pdf",
     "downloads/RA24/GE03_RealAnalysis_Srikanth_BA_Semester6_Regular.pdf",
     "_posts/2025-04-30-Binomial-Identities-Complex-Integrals?.md",

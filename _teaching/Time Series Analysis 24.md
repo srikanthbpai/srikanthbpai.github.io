@@ -43,9 +43,11 @@ I could not find a good resource for studying mathematical time series online. S
 - [Assignment 3]({{ site.url }}/downloads/TA24/Assignment3.pdf)
 - [Assignment 4]({{ site.url }}/downloads/TA24/Assignment4.pdf) 
 - [Assignment 5]({{ site.url }}/downloads/TA24/Assignment5.pdf)
+
 ## Exams
 - [Internals 1]({{ site.url }}/downloads/TA24/Internals1.pdf)
 -  [Internals 2]({{ site.url }}/downloads/TA24/Internals2.pdf),[Internals 2 (make up exam)]({{ site.url }}/downloads/TA24/Internals22.pdf)
 -  [Finals]({{ site.url }}/downloads/TA24/Finals.pdf)
+
 ## References
 - "Time series analysis" : James D. Hamilton, 1994, (Princeton University Press, Princeton, NJ).
