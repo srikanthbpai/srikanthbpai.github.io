@@ -27,5 +27,6 @@ The student should be able to
 
 ## Exams
 1. [Internals 1]({{ site.url }}/downloads/Prog24/Internals1.pdf)
-2. 
+2. [Internals 2]({{ site.url }}/downloads/Prog24/Internals2.pdf)
+3. [Finals]({{ site.url }}/downloads/Prog24/finals.pdf)
 
