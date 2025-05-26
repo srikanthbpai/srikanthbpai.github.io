@@ -19,11 +19,11 @@ This is an introduction to the basics of MATLAB and Python. No textbook for MATL
 
 ## Course Objectives
 The student should be able to
-1) Use programming to solve basic repetitive tasks.
-2) Produce plots and employ statistical subroutines that can be included in reports and research papers.
-3) Learn the essentials of programming, algorithms, and data structures.
-4) Appreciate the use of programming in finance and economics problems.
-5) Learn to use AI bots as a practical aid for learning rather than offloading all thinking to AI bots.
+1. Use programming to solve basic repetitive tasks.
+2. Produce plots and employ statistical subroutines that can be included in reports and research papers.
+3. Learn the essentials of programming, algorithms, and data structures.
+4. Appreciate the use of programming in finance and economics problems.
+5. Learn to use AI bots as a practical aid for learning rather than offloading all thinking to AI bots.
 
 Update: I failed to implement the last objective. 
 
