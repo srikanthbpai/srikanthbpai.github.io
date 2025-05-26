@@ -23,3 +23,31 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+/* === Theorem/Proof Styling === */
+.math-block {
+  background: #ffffff;
+  border-left: 4px solid #4CAF50;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 6px;
+  font-size: 1.05em;
+  line-height: 1.6;
+  color: #2c3e50;
+}
+
+.math-block.proof {
+  border-left-color: #007acc;
+}
+
+/* Fix dull MathJax rendering */
+.math-block mjx-container {
+  color: #2c3e50 !important;
+}
+
+.math-block > strong {
+  color: #0074D9; /* Blue for emphasis */
+  font-weight: 600;
+  font-size: 1.1em;
+  display: block;
+  margin-bottom: 0.4em;
+}
