@@ -1,13 +1,15 @@
 <style>
   #clustrmaps-container {
-    width: 5vw; /* Adjust the width as needed */
+    transform: scale(0.5);
+    transform-origin: top right;
     float: right; /* Right align on larger screens */
+    margin-right: 10px;
   }
   @media screen and (max-width: 30px) {
     /* Adjust the breakpoint as needed */
     #clustrmaps-container {
-      width: 10%; /* Adjust the width for smaller screens */
-      float: right; /* Keep it right-aligned or change as needed */
+      transform: scale(0.35); /* Smaller on mobile */
+      margin-right: 5px;
     }
   }
 </style>
