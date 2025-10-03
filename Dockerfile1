@@ -1,22 +1,18 @@
 FROM ruby:3.2
 
-# Install required system deps
 RUN apt-get update && apt-get install -y \
     build-essential \
     libprotobuf-dev \
     protobuf-compiler \
     bash \
- && apt-get clean \
- && rm -rf /var/lib/apt/lists/*
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /srv/jekyll
 
-# Copy Gemfile first (better caching for bundler install)
-COPY Gemfile* ./
-RUN gem install bundler && bundle install
+COPY Gemfile Gemfile.lock ./
 
-# Copy the rest of your Jekyll site
-COPY . .
+RUN gem install bundler && bundle install
 
 EXPOSE 4000
 
