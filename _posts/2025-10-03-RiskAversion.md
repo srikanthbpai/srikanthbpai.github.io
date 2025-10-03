@@ -16,13 +16,13 @@ display_categories:
 categories: " professional teaching project"
 related_publications: true
 ---
+
 {% capture content %}
 
->“Uncertainty must be taken in a sense radically distinct from the familiar notion of Risk, from which it has never been properly separated … a measurable uncertainty, or ‘risk’ proper … is so far different from an unmeasurable one that it is not in effect an uncertainty at all.”
->— Frank H. Knight, Risk, Uncertainty and Profit  
+> “Uncertainty must be taken in a sense radically distinct from the familiar notion of Risk, from which it has never been properly separated … a measurable uncertainty, or ‘risk’ proper … is so far different from an unmeasurable one that it is not in effect an uncertainty at all.”
+> — Frank H. Knight, Risk, Uncertainty and Profit
 
-The agents in any economy face risky gambles on a daily basis. The uncertainty associated to the choices of the agent can lead to consequences that agent does not like. The agents relative preferences about consequences is usually abstracted out by a expected utility function (sometimes justified by von Neumann and Morgenstein's theorem that produces an expected utility function from ordinal preferences). 
-
+The agents in any economy face risky gambles on a daily basis. The uncertainty associated to the choices of the agent can lead to consequences that agent does not like. The agents relative preferences about consequences is usually abstracted out by a expected utility function (sometimes justified by von Neumann and Morgenstein's theorem that produces an expected utility function from ordinal preferences).
 
 The uncertainty associated to the consequences is modelled by a probability space $(\Omega, {\cal F},P)$. The payoff of a risky gamble is denoted by a random variable $X:\Omega \to \mathbb{R}$. Suppose that the agents wealth before the gamble was offered is $w$ and the utility function associated to the agent is $u.$
 
@@ -40,14 +40,15 @@ In order to appreciate the risk profile of the agent, we perform the following e
 By Jensen's inequality for concave functions \(u\), \[\mathbb{E}(u\left(w+X\right)) < u\left(w+\mathbb{E}(X)\right).\] Since the $u$ is continuous, there must exist a real number \(\pi\) so that \[\mathbb{E}(u\left(w+X\right)) = u\left(w+\mathbb{E}(X)-\pi\right).\] Further $\pi$ unique since the function is increasing. ∎
 </div>
 
-Note that $\pi > 0$ means that the agent is willing to forego some amount of cash to avoid risk. We will assume that this amount depends on the wealth of the agent $w$ and the offered gamble $X$. The amount $\pi$ that makes the agent indifferent to the risky proposition is called a *risk premium associated to X*. 
+Note that $\pi > 0$ means that the agent is willing to forego some amount of cash to avoid risk. We will assume that this amount depends on the wealth of the agent $w$ and the offered gamble $X$. The amount $\pi$ that makes the agent indifferent to the risky proposition is called a _risk premium associated to X_.
 
-*Definition:* Suppose an agent with wealth $w$ and differentiable monotone utility function $u$ is offered a risky gamble $X$. The risk premium $\pi$ associated with gamble $X$ is defined as the real number that solves the following equation:
+_Definition:_ Suppose an agent with wealth $w$ and differentiable monotone utility function $u$ is offered a risky gamble $X$. The risk premium $\pi$ associated with gamble $X$ is defined as the real number that solves the following equation:
 $$\mathbb{E}(u\left(w+X\right)) = u\left(w+\mathbb{E}(X)-\pi\right)$$
 
-The proposition guarantees that a positive risk premium exists for concave utility function. 
+The proposition guarantees that a positive risk premium exists for concave utility function.
 
 ---
+
 ### Certainty Equivalent and Risk Premium
 
 <div class="math-block">
@@ -62,9 +63,9 @@ The **risk premium** $\pi$ is then defined as the difference between the expecte
 \pi \;=\; \mathbb{E}[X] - c.
 \]
 
-- $\pi > 0$ : risk-averse (concave $u$).  
-- $\pi = 0$ : risk-neutral (linear $u$).  
-- $\pi < 0$ : risk-loving (convex $u$).  
+- $\pi > 0$ : risk-averse (concave $u$).
+- $\pi = 0$ : risk-neutral (linear $u$).
+- $\pi < 0$ : risk-loving (convex $u$).
 
 <div class="math-block">
 <strong>Example.</strong> Suppose $X$ pays \$200 with probability $1/2$ and \$0 with probability $1/2$. Then $\mathbb{E}[X] = 100$. If the certainty equivalent is $c=80$, the risk premium is $\pi = 20$. The agent is willing to forego \$20 to avoid the risk.
@@ -72,12 +73,14 @@ The **risk premium** $\pi$ is then defined as the difference between the expecte
 
 ### Local Risk Aversion
 
-We will now compute the risk premium that a risk-averse agent is willing to pay for an *infinitesimal* gamble. This means that the payoff from the gamble is really negligible compared to the agent's wealth.
+We will now compute the risk premium that a risk-averse agent is willing to pay for an _infinitesimal_ gamble. This means that the payoff from the gamble is really negligible compared to the agent's wealth.
 
 Instead of messing with a payoff, we will allow the agent to choose a fraction $t$ of the gamble's payoff and compute the risk premium $\pi(t)$. Let $X$ be a mean-zero gamble, $\mathrm{Var}(X)=\sigma^2<\infty$. For each scale $t>0$, define the risk premium $\pi(t)$ by the certainty-equivalence condition
+
 $$
 u(x-\pi(t)) \;=\; \mathbb{E}[u(x+tX)].
 $$
+
 Local risk aversion is the coefficient that links the **second-order** cost of small risk to its variance.
 
 <div class="math-block">
@@ -124,7 +127,8 @@ Affine invariance follows immediately: if \(\tilde u = a u + b\) with \(a>0\), t
 </div>
 
 **Notes.**
-- The mean of $X$ affects *first-order* terms (drift), not the risk premium; local risk aversion governs the **variance penalty**.
+
+- The mean of $X$ affects _first-order_ terms (drift), not the risk premium; local risk aversion governs the **variance penalty**.
 - The $o(t^2)$ remainder requires $u\in C^3$ and $\mathbb{E}|X|^3<\infty$.
 - In one dimension, $r(x) = -\tfrac{d}{dx}\log u'(x)$: the (negative) local rate of decay of marginal utility.
 
