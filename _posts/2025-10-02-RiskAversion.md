@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-10-03 09:00:00-0400
+date: 2025-10-02 09:00:00-0400
 title: How do economists measure risk aversion?
 description: A quick note on how the risk premium connects to derivatives of utility.
 bibliography: references.bib
@@ -24,7 +24,7 @@ related_publications: true
 
 The agents in any economy face risky gambles on a daily basis. The uncertainty associated to the choices of the agent can lead to consequences that agent does not like. The agents relative preferences about consequences is usually abstracted out by a expected utility function (sometimes justified by von Neumann and Morgenstein's theorem that produces an expected utility function from ordinal preferences).
 
-The uncertainty associated to the consequences is modelled by a probability space $(\Omega, {\cal F},P)$. The payoff of a risky gamble is denoted by a random variable $X:\Omega \to \mathbb{R}$. Suppose that the agents wealth before the gamble was offered is $w$ and the utility function associated to the agent is $u.$
+We will discuss the risk aversion function discovered by J.W. Pratt in this blog. The uncertainty associated to the consequences is modelled by a probability space $(\Omega, {\cal F},P)$. The payoff of a risky gamble is denoted by a random variable $X:\Omega \to \mathbb{R}$. Suppose that the agents wealth before the gamble was offered is $w$ and the utility function associated to the agent is $u.$
 
 In order to appreciate the risk profile of the agent, we perform the following experiment. Let $\pi$ be a real number. We offer the agent two choices:
 
