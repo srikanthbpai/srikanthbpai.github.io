@@ -132,8 +132,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Mathematica Naturalis # blog_name will be displayed in your blog page
-blog_description: Musings on mathematics in econ, finance, computer-science and life.
+blog_name: The path of math # blog_name will be displayed in your blog page
+blog_description: My thoughts on mathematics and its practice.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -321,7 +321,7 @@ scholar:
   locale: en
 
   source: _bibliography
-  bibliography: references.bib
+  bibliography: pages.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -334,7 +334,7 @@ scholar:
   details_dir: bibliography
   details_link: Details
 
-  #query: "@*"
+  query: "@*"
   group_by: year
   group_order: descending
 

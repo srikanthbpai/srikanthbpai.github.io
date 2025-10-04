@@ -11,13 +11,15 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /srv/jekyll
 
-# Copy Gemfile first (better caching for bundler install)
-COPY Gemfile* ./
+# Copy Gemfile first for better caching
+COPY Gemfile Gemfile.lock ./
 RUN gem install bundler && bundle install
 
 # Copy the rest of your Jekyll site
 COPY . .
 
-EXPOSE 4000
+# Expose both server and livereload ports
+EXPOSE 4000 35729
 
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--force_polling"]
+# Run Jekyll
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--watch", "--livereload", "--force_polling"]

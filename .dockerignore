@@ -1,3 +1,15 @@
+# Ignore build output
 _site/
+
+# Ignore git repo
 .git/
-assets/
+.gitignore
+
+# Ignore caches
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore OS/editor junk
+.DS_Store
+Thumbs.db
