@@ -3,12 +3,6 @@ layout: post
 date: 2025-10-02 09:00:00-0400
 title: How do economists measure risk aversion?
 description: A quick note on how the risk premium connects to derivatives of utility.
-scholar:
-  style: apa       
-  locale: en
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_list: cited
 tags:
   - utility
   - risk-aversion
@@ -138,4 +132,4 @@ Pratt’s formula is elegant, but it belongs firmly to the domain of measurable 
 
 {% endcapture %}
 {{ content | markdownify }}
-{% bibliography %}
+{% bibliography --cited %}
