@@ -8,6 +8,7 @@ scholar:
   locale: en
   source: ./_bibliography
   bibliography: references.bib
+  bibliography_list: cited
 tags:
   - utility
   - risk-aversion
@@ -30,7 +31,7 @@ The agents in any economy face risky gambles on a daily basis. The uncertainty i
 
 The uncertainty associated to the consequences is modelled by a probability space $(\Omega, {\cal F},P)$. The payoff of a risky gamble is denoted by a random variable $X:\Omega \to \mathbb{R}$. Suppose that the agents wealth before the gamble was offered is $w$ and the utility function associated to the agent is $u.$
 
-Following Pratt (in @pratt1964), in order to appreciate the risk profile of the agent, we perform the following experiment. Let $\pi$ be a real number. We offer the agent two choices:
+Following Pratt (in @pratt1964risk), in order to appreciate the risk profile of the agent, we perform the following experiment. Let $\pi$ be a real number. We offer the agent two choices:
 
 1. (Risky gamble) The agent can accept a payoff of $X$ units.
 2. (Risk adjusted Certain) The agent can accept a payoff $\mathbb{E}(X) - \pi$.
