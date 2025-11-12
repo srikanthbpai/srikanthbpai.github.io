@@ -32,13 +32,17 @@ Teaching Assistants: Sriram R., Anagha R., Hariharasudhan S. (BA 2023)
 
 ## Course Objectives
 
-Our world is ruled by uncertainty, and economists routinely devise procedures for deciding under uncertainty. The course equips students with mathematical foundations for dealing with uncertainty. 
+This course provides a rigorous foundation for reasoning and decision-making under uncertainty — a central challenge in economics and data analysis. It introduces the mathematical structure of probability theory, emphasizing the formulation of random phenomena through sample spaces, events, and the axioms of probability. Students will learn to describe and analyze random variables, compute and interpret expectations, variances, and covariances, and use moment-generating functions to characterize distributions and sums of random variables.
 
-First, the student should have a rigorous understanding of elementary probability theory involving calculus of events, axioms of probability, distributions and moment-generating functions. Secondly, the student must be well versed in standard statistical inference procedures: estimate quantities of interest, compare among competing hypotheses and infer relations between different pieces of data. 
+The course further develops familiarity with standard probability models such as the Binomial, Poisson, Normal, and Gamma distributions, including their interrelationships and multivariate extensions. Students will study asymptotic results such as the Law of Large Numbers and the Central Limit Theorem, which provide approximations for complex random behavior.
+
+Building on these probabilistic foundations, the course introduces statistical inference, including point estimation, properties of estimators such as bias and efficiency, and methods such as maximum likelihood and the method of moments. Finally, students will learn the principles of hypothesis testing, developing a systematic framework for comparing competing models and drawing reliable conclusions from data.
+
 
 ## References
 
 - Richard J. Larsen, Morris L. Marx; ["Introduction to Mathematical Statistics and Its Applications"](https://www.google.co.in/books/edition/An_Introduction_to_Mathematical_Statisti/tZdbRAAACAAJ?hl=en), Prentice Hall, Fifth Edition, 2012.
+
 - Sheldon M. Ross; ["Introduction to Probability Models"](https://www.google.co.in/books/edition/Introduction_to_Probability_Models/1uxBwhAb_zYC?hl=en&gbpv=0), Academic Press, Ninth Edition, 2007.
 ## Assignments
 

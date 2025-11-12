@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-With Dr. Shenoy, completed a six-week executive-education programme on Probability for GenAI for working professionals. The course covered VAEs, GANs, and diffusion models.
+With Dr. Ajay Shenoy, completed a six-week executive-education programme on Probability for GenAI for working professionals. The course covered VAEs, GANs, and diffusion models.
