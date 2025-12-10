@@ -22,6 +22,11 @@ Martingales and the basic theorems motivated by gambling. Relations between DTMC
 
 Finance: Expected utility, risk profiles of agents and derivations of fundamental pricing equations in finance (Cochrane and Lucas views). Martingale Asset pricing theorem with proof.
 
+Poisson process: Levy process definition, proof of iid exponential interarrival times, order statistics of uniform conditional on number of arrivals, strong Markov property.
+
+Wiener process: Levy process definition, a sketch of Donskers limiting random walk theorem, almost surely everywhere non-differentiability of sample paths.
+
+
 ## Course Notes
 
 Since there are very few books that integrate macroeconomics and finance applications into a stochastic process course, I have typed up some notes. I am working on these notes and they are far from complete. So use it at your own peril: [Srikanth Pai's Course Notes (in progress)](/assets/pdf/StocProcDraft.pdf)
@@ -45,8 +50,10 @@ The course introduces undergraduates to probability theory and random processes,
 - Week 8 and 9 - homeworks from lecture notes.
 - [Week 10]({{ site.url }}/downloads/UGSP25/Week10.pdf)
 - Week 11 and 12 - homeworks from lecture notes.
+- [Week 13, 14, 15]({{ site.url }}/downloads/UGSP25/Week15.pdf)
 
 ## Main Tests
 
 - [Internal I]({{ site.url }}/downloads/UGSP25/Internals1.pdf): Students were tested on Discrete-time Markov chains.
-- For Internals II, students had to present a paper on DTMC or Martingales. The projects reports of students will be displayed here.
+- For Internals II, students had to present a paper on DTMC or Martingales. The projects reports of students can be downloaded [here]({{ site.url }}/downloads/UGSP25/Projects.zip). Each project folder contains an AI evaluation of their report, an exam paper assigned to each group. The AI evaluation is not really accurate and should not be taken seriously. However all the groups did a commendable job. I am proud of their efforts.
+- [Finals]({{ site.url }}/downloads/UGSP25/Finals.pdf) 
