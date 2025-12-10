@@ -55,5 +55,5 @@ The course introduces undergraduates to probability theory and random processes,
 ## Main Tests
 
 - [Internal I]({{ site.url }}/downloads/UGSP25/Internals1.pdf): Students were tested on Discrete-time Markov chains.
-- For Internals II, students had to present a paper on DTMC or Martingales. The projects reports of students can be downloaded [here]({{ site.url }}/downloads/UGSP25/Projects.zip). Each project folder contains an AI evaluation of their report, an exam paper assigned to each group. The AI evaluation is not really accurate and should not be taken seriously. However all the groups did a commendable job. I am proud of their efforts.
+- For Internals II, students had to present a paper on DTMC or Martingales. The projects reports of students can be downloaded [here]({{ site.url }}/downloads/UGSP25/Projects.zip). All the groups did a commendable job. I am proud of their efforts.
 - [Finals]({{ site.url }}/downloads/UGSP25/Finals.pdf) 
