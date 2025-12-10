@@ -59,12 +59,12 @@ _Srikanth Pai, Akila Hariharan, and Naveen Srinivasan (SSRN Working Paper, 2025)
 
 ## 2. Oligopoly Equilibrium with Deep Reinforcement Learning Agents
 
-In collaboration with **Tania Mitra Victoria** (B.A. Economics, MSE) and **Dr. Arun Selvan** (Associate Professor, IIT Bombay), this project investigates how oligopolistic firms using modern reinforcement learning algorithms converge—or fail to converge—to classical Nash equilibria.
+In collaboration with **Dr. Arun Selvan** (Associate Professor, IIT Bombay), this project investigates how oligopolistic firms using modern reinforcement learning algorithms converge—or fail to converge—to classical Nash equilibria.
 
-_The study tests whether DRL agents (policy-gradient, Q-learning) reproduce Cournot or Bertrand equilibria,  
-and identifies parameter regions where outcomes diverge, oscillate, or exhibit chaotic dynamics._
 
+**Paper:**  A preprint is available [here](/assets/pdf/critique.pdf)
 ---
+_Along with **Tania Mitra Victoria** (B.A. Economics, MSE) we wrote a preliminary critique of the RL methods in collusion based problems in oligopolies._
 
 ## 3. Dynamics and Fuchsian Structure in Macroeconomic Models
 
