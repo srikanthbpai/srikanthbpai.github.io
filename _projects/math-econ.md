@@ -46,7 +46,7 @@ My current work follows three connected lines of inquiry:
 
 ## 1. Patent Valuation under Fragile Institutional Enforcement
 
-In collaboration with **Akila** (B.A. Economics, MSE) and **Prof. Naveen Srinivasan** (MSE),  
+In collaboration with **Akila Hariharan** (B.A. Economics, MSE) and **Prof. Naveen Srinivasan** (MSE),  
 this work studies how uncertainty in the enforcement of intellectual property rights affects patent valuation.  
 The model employs a **continuous-time Markov process** to capture stochastic transitions between enforcement states and their effect on discounted monopoly rents.
 
@@ -57,18 +57,22 @@ _Srikanth Pai, Akila Hariharan, and Naveen Srinivasan (SSRN Working Paper, 2025)
 
 ---
 
-## 2. Oligopoly Equilibrium with Deep Reinforcement Learning Agents
+## 2. Algorithmic pricing in Oligopolies with Reinforcement Learning firms
 
-In collaboration with **Dr. Arun Selvan** (Associate Professor, IIT Bombay), this project investigates how oligopolistic firms using modern reinforcement learning algorithms converge—or fail to converge—to classical Nash equilibria.
+In collaboration with **Dr. Arun Selvan** (Associate Professor, IIT Bombay/Karlstad University, Sweden), this project investigates how oligopolistic firms using modern reinforcement learning algorithms to collude. 
 
+Along with **Tania Mitra Victoria** (B.A. Economics, MSE) we wrote a preliminary critique of the RL methods in collusion based problems in oligopolies. A preprint is available [here](/assets/pdf/critique.pdf).
 
-**Paper:**  A preprint is available [here](/assets/pdf/critique.pdf)
+The next stage of the project involves modelling environments where algorithmic agents either facilitate collusion or are designed to detect and destabilize it, especially in digital marketplaces.
+
+A student joining this project must be able to program in Python, use GitHub independently, and maintain consistent effort over extended periods.
+
 ---
-_Along with **Tania Mitra Victoria** (B.A. Economics, MSE) we wrote a preliminary critique of the RL methods in collusion based problems in oligopolies._
 
 ## 3. Dynamics and Fuchsian Structure in Macroeconomic Models
 
-I have been exploring whether methods from the theory of Fuchsian differential equations and Écalle’s resurgence analysis can offer insight into short-time adjustment dynamics in growth models.  
-Preliminary work on the Solow and RCK frameworks showed they are too regular to exhibit interesting singular behaviour, but non-autonomous or stochastic-parameter versions may reveal richer asymptotics.
+I am studying whether short-run adjustment dynamics in growth models can be understood through the analytic structure of their Laplace-transformed differential equations. When the dynamic system is Laplace-transformed, the resulting equation in the complex plane becomes Fuchsian, so its transient dynamics can be analyzed through the singularity structure of that transformed equation. Preliminary work on the Solow and RCK models shows regular singularities with limited complexity. The current objective is to identify or construct a growth model whose Laplace-domain representation yields a genuinely non-trivial Fuchsian system and therefore richer asymptotic behaviour.
+
+A student working on this project must have solid preparation in Real Analysis, Complex Analysis, and Ordinary Differential Equations, since the core methods involve analytic properties of solutions in the complex plane.  
 
 ---
