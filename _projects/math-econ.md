@@ -81,7 +81,7 @@ The intersections of social choice theory and the mathematical modeling of votin
 ### An extension of Median Voter theorem
 In the traditional Median Voter Theorem, it is assumed that every voter participates. In a recent paper with my student, Aman Ray, we relax this assumption. We model a scenario where voters only participate if a candidate falls within a specific "attraction window."  We show that in this setting, the equilibrium position is no longer the global median. Instead, it generalizes to a conditional median—a position that splits only the participating voters within that specific window into two equal halves. We identify a property we call "c-window dominance", which provides the necessary and sufficient conditions on the voter distribution for a pure-strategy Nash equilibrium to exist.
 
-**Presentation**: This work has been accepted for presentation at the conference on Recent Trends in Logic and Games 2026 (RTLG 2026). Here's a [[draft of the paper]](assets/pdf/RayPaiMedianVoterExtension.pdf) after incorporating the suggestions of the reviewers.
+**Presentation**: This work has been accepted for presentation at the conference on Recent Trends in Logic and Games 2026 (RTLG 2026). Here's a [draft of the paper]({{ site.baseurl }}/assets/pdf/RayPaiMedianVoterExtension.pdf) after incorporating the suggestions of the reviewers.
 
 ---
 ## 4. Dynamics and Fuchsian Structure in Macroeconomic Models
