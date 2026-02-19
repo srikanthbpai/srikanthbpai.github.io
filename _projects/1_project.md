@@ -30,7 +30,6 @@ related_publications: true
 }
 </style>
 
-
 <p class="lead">
 I explore how modern mathematical and computational ideas reshape classical finance.  
 My current work focuses on three connected directions:
@@ -55,14 +54,17 @@ Empirical evidence suggests that returns may follow heavy-tailed processes with 
 Our projects revisit this premise using both model-selection and pricing approaches.
 
 ### 🔹 Rolling AIC for Stable vs Normal
+
 _Tracking how market regimes switch between normal and stable distributions using rolling model-comparison techniques._  
 **Collaborator:** Hariharasudhan (B.A. Economics, MSE)
 
 ### 🔹 Event Study Analysis under Stable Tails
+
 _Analyzing stock price reactions around corporate and political events to evaluate market efficiency when returns exhibit stable tails, volatility clustering, and dependence._  
 **Collaborator:** Tania (B.A. Economics, MSE)
 
 ### 🔹 A Generalized Tempered Stable Approach to Option Pricing
+
 _Extending the Lévy–Stable framework by tempering its tails to create a tractable yet heavy-tailed model suitable for option pricing.  
 Compares traditional Black–Scholes pricing with a Generalized Tempered Stable (GTS) formulation using Fourier methods._  
 **Collaborators:** Mr. Sushant Singh and Mr. Jai Shivam (PGDM, MSE)
@@ -75,6 +77,7 @@ Classical correlation is inadequate for joint extremes.
 This stream focuses on copulas and multivariate dependence structures to capture systemic vulnerability in Indian markets.
 
 ### 🔹 Copulas and Tail Risk
+
 _Measuring joint downside crashes across Nifty stocks using lower-tail-dependence copulas._  
 **Collaborators:** Ms. Amritha (M.A. Economics, MSE) and Dr. Ekta Selarka (MSE)
 

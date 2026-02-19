@@ -16,10 +16,11 @@ display_categories:
 categories: " professional teaching project"
 related_publications: false
 author:
-  - Maahika Mathur, 
+  - Maahika Mathur,
   - Srikanth Pai
 ---
-In today's guest post, a B.A. Econ student at MSE, [Ms.Maahika Mathur](https://sites.google.com/view/maahika-mathur/) explains the logistic regression problem using the classic *Telco Customer Churn* dataset. I usually cover this problem in the *Probability for GenAI* course, co-taught with [Dr. Ajay Shenoy](https://www.linkedin.com/in/bastyajayshenoy/?originalSubdomain=in).  
+
+In today's guest post, a B.A. Econ student at MSE, [Ms.Maahika Mathur](https://sites.google.com/view/maahika-mathur/) explains the logistic regression problem using the classic _Telco Customer Churn_ dataset. I usually cover this problem in the _Probability for GenAI_ course, co-taught with [Dr. Ajay Shenoy](https://www.linkedin.com/in/bastyajayshenoy/?originalSubdomain=in).  
 I have a Python notebook that demonstrates both the mathematics and the implementation behind this method. Maahika studied that notebook and offered to write an expository article expanding on it.
 
 <div style="text-align:center; margin: 2em 0;">

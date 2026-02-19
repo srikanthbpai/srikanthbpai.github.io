@@ -9,7 +9,7 @@ Reinforcement Learning (RL) sits at the intersection of control theory, dynamic 
 A Markov Decision Process is defined by the tuple $(\mathcal{S}, \mathcal{A}, P, R, \gamma)$ where:
 
 - $\mathcal{S}$: State space
-- $\mathcal{A}$: Action space  
+- $\mathcal{A}$: Action space
 - $P(s'|s,a)$: Transition probability from state $s$ to $s'$ under action $a$
 - $R(s,a,s')$: Reward function
 - $\gamma \in [0,1)$: Discount factor
@@ -17,6 +17,7 @@ A Markov Decision Process is defined by the tuple $(\mathcal{S}, \mathcal{A}, P,
 ### 1.2 The Gridworld Problem
 
 Consider a $3 \times 3$ gridworld where:
+
 - States: $\mathcal{S} = \{(i,j) : i,j \in \{0,1,2\}\}$
 - Actions: $\mathcal{A} = \{\text{up, down, left, right}\}$
 - Goal state: $(2,2)$ with reward $+10$
@@ -25,6 +26,7 @@ Consider a $3 \times 3$ gridworld where:
 
 **Hand Calculation Example:**
 Starting from state $(0,0)$, taking action "right":
+
 - Next state: $(0,1)$ with probability $1.0$
 - Reward: $R((0,0), \text{right}, (0,1)) = -1$
 
@@ -40,14 +42,14 @@ class GridWorld:
         self.actions = ['up', 'down', 'left', 'right']
         self.goal = (2, 2)
         self.obstacle = (1, 1)
-        
+
         # Remove obstacle from valid states
         self.states = [s for s in self.states if s != self.obstacle]
-        
+
     def get_next_state(self, state, action):
         """Deterministic transitions"""
         i, j = state
-        
+
         if action == 'up':
             next_state = (max(0, i-1), j)
         elif action == 'down':
@@ -56,19 +58,19 @@ class GridWorld:
             next_state = (i, max(0, j-1))
         elif action == 'right':
             next_state = (i, min(self.size-1, j+1))
-            
+
         # Can't move into obstacle
         if next_state == self.obstacle:
             return state
-            
+
         return next_state
-    
+
     def get_reward(self, state, action, next_state):
         """Reward function"""
         if next_state == self.goal:
             return 10
         return -1
-    
+
     def is_terminal(self, state):
         return state == self.goal
 
@@ -112,14 +114,14 @@ def bellman_backup_q(env, Q, pi, state, action, gamma=0.9):
     """Single Bellman backup for Q-function"""
     next_state = env.get_next_state(state, action)
     reward = env.get_reward(state, action, next_state)
-    
+
     if env.is_terminal(next_state):
         return reward
-    
+
     # Expected Q-value under policy pi
-    expected_q = sum(pi[next_state][a] * Q[next_state][a] 
+    expected_q = sum(pi[next_state][a] * Q[next_state][a]
                      for a in env.actions)
-    
+
     return reward + gamma * expected_q
 
 # Initialize Q-function and uniform policy
@@ -156,6 +158,7 @@ This shows $Q = Q^\pi$, and since the greedy policy achieves the maximum at each
 
 **Hand Calculation Example:**
 For our gridworld, at state $(2,1)$:
+
 - Action "right" leads to goal: $Q^*((2,1), \text{right}) = 10 + 0.9 \times 0 = 10$
 - Action "up" leads to $(1,1)$ (blocked): $Q^*((2,1), \text{up}) = -1 + 0.9 \times Q^*((2,1))$
 
@@ -164,10 +167,10 @@ def bellman_optimality_backup(env, Q, state, action, gamma=0.9):
     """Bellman optimality backup"""
     next_state = env.get_next_state(state, action)
     reward = env.get_reward(state, action, next_state)
-    
+
     if env.is_terminal(next_state):
         return reward
-    
+
     # Max Q-value over all actions
     max_q = max(Q[next_state][a] for a in env.actions)
     return reward + gamma * max_q
@@ -175,7 +178,7 @@ def bellman_optimality_backup(env, Q, state, action, gamma=0.9):
 # Value iteration to find optimal Q
 def value_iteration(env, gamma=0.9, theta=1e-6, max_iter=1000):
     Q = defaultdict(lambda: defaultdict(float))
-    
+
     for iteration in range(max_iter):
         delta = 0
         for state in env.states:
@@ -185,11 +188,11 @@ def value_iteration(env, gamma=0.9, theta=1e-6, max_iter=1000):
                 old_q = Q[state][action]
                 Q[state][action] = bellman_optimality_backup(env, Q, state, action, gamma)
                 delta = max(delta, abs(old_q - Q[state][action]))
-        
+
         if delta < theta:
             print(f"Converged after {iteration + 1} iterations")
             break
-    
+
     return Q
 
 # Find optimal Q-function
@@ -226,8 +229,7 @@ This gives us the **Q-learning update**:
 
 > **Theorem 3 (Q-Learning Update Rule):**  
 > The Q-learning update is semi-gradient descent on the squared Bellman error:
-> $$Q(s,a) \leftarrow Q(s,a) - \alpha \cdot \delta(s,a)$$
-> $$Q(s,a) \leftarrow Q(s,a) + \alpha \left[R + \gamma \max_{a'} Q(s',a') - Q(s,a)\right]$$
+> $$Q(s,a) \leftarrow Q(s,a) - \alpha \cdot \delta(s,a)$$ > $$Q(s,a) \leftarrow Q(s,a) + \alpha \left[R + \gamma \max_{a'} Q(s',a') - Q(s,a)\right]$$
 
 **Hand Calculation Example:**
 Starting with $Q((0,0), \text{right}) = 0$, observing transition $(0,0) \xrightarrow{\text{right}} (0,1)$ with reward $-1$:
@@ -243,35 +245,35 @@ def q_learning_update(Q, state, action, reward, next_state, env, alpha=0.1, gamm
     else:
         max_q_next = max(Q[next_state][a] for a in env.actions)
         target = reward + gamma * max_q_next
-    
+
     # Q-learning update
     td_error = target - Q[state][action]
     Q[state][action] += alpha * td_error
-    
+
     return td_error
 
 # Simulate Q-learning
 def q_learning(env, num_episodes=1000, alpha=0.1, gamma=0.9, epsilon=0.1):
     Q = defaultdict(lambda: defaultdict(float))
-    
+
     for episode in range(num_episodes):
         state = (0, 0)  # Start state
-        
+
         while not env.is_terminal(state):
             # Epsilon-greedy action selection
             if np.random.random() < epsilon:
                 action = np.random.choice(env.actions)
             else:
                 action = max(env.actions, key=lambda a: Q[state][a])
-            
+
             next_state = env.get_next_state(state, action)
             reward = env.get_reward(state, action, next_state)
-            
+
             # Q-learning update
             q_learning_update(Q, state, action, reward, next_state, env, alpha, gamma)
-            
+
             state = next_state
-    
+
     return Q
 
 # Run Q-learning
@@ -302,10 +304,10 @@ where $s' = f(s,a)$ is the deterministic transition function.
 **Proof:**
 For any $(s,a)$:
 \begin{align}
-|(TQ_1)(s,a) - (TQ_2)(s,a)| &= \left|\gamma \max_{a'} Q_1(s',a') - \gamma \max_{a'} Q_2(s',a')\right|\\
-&= \gamma \left|\max_{a'} Q_1(s',a') - \max_{a'} Q_2(s',a')\right|\\
-&\leq \gamma \max_{a'} |Q_1(s',a') - Q_2(s',a')|\\
-&\leq \gamma \|Q_1 - Q_2\|_\infty
+|(TQ*1)(s,a) - (TQ_2)(s,a)| &= \left|\gamma \max*{a'} Q*1(s',a') - \gamma \max*{a'} Q*2(s',a')\right|\\
+&= \gamma \left|\max*{a'} Q*1(s',a') - \max*{a'} Q*2(s',a')\right|\\
+&\leq \gamma \max*{a'} |Q*1(s',a') - Q_2(s',a')|\\
+&\leq \gamma \|Q_1 - Q_2\|*\infty
 \end{align}
 
 The inequality $|\max_i x_i - \max_i y_i| \leq \max_i |x_i - y_i|$ follows from the fact that the max function is 1-Lipschitz. $\square$
@@ -316,6 +318,7 @@ The inequality $|\max_i x_i - \max_i y_i| \leq \max_i |x_i - y_i|$ follows from 
 > In deterministic environments, Q-learning converges to the unique optimal Q-function $Q^*$.
 
 **Proof:**
+
 1. **Complete metric space**: $(\mathbb{R}^{|\mathcal{S}||\mathcal{A}|}, \|\cdot\|_\infty)$ is complete.
 
 2. **Contraction mapping**: By Theorem 4, $T$ is a $\gamma$-contraction with $\gamma < 1$.
@@ -328,10 +331,12 @@ The inequality $|\max_i x_i - \max_i y_i| \leq \max_i |x_i - y_i|$ follows from 
 
 **Hand Calculation Example:**
 Consider two Q-functions that differ only at $(0,0)$:
+
 - $Q_1((0,0), \text{right}) = 5$, $Q_2((0,0), \text{right}) = 3$
 - All other values identical
 
 After applying $T$:
+
 - $(TQ_1)((0,0), \text{right}) = -1 + 0.9 \times \max Q_1((0,1), \cdot)$
 - $(TQ_2)((0,0), \text{right}) = -1 + 0.9 \times \max Q_2((0,1), \cdot)$
 
@@ -341,13 +346,13 @@ The difference is scaled by $\gamma = 0.9$, confirming contraction.
 def bellman_operator(env, Q, gamma=0.9):
     """Apply Bellman operator to entire Q-function"""
     TQ = defaultdict(lambda: defaultdict(float))
-    
+
     for state in env.states:
         if env.is_terminal(state):
             continue
         for action in env.actions:
             TQ[state][action] = bellman_optimality_backup(env, Q, state, action, gamma)
-    
+
     return TQ
 
 def q_norm_infinity(Q, env):
@@ -391,4 +396,4 @@ The framework extends naturally to function approximation, stochastic environmen
 
 ---
 
-*This post demonstrates the beautiful interplay between dynamic programming, functional analysis, and machine learning that underlies modern reinforcement learning algorithms.*
+_This post demonstrates the beautiful interplay between dynamic programming, functional analysis, and machine learning that underlies modern reinforcement learning algorithms._
