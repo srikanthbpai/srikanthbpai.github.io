@@ -201,10 +201,10 @@ _Example 2:_ Now lets work out the constant risk aversion case. For some real nu
 
 _Example 3:_ A famous example is when $wr(w) = \gamma$. Assuming $\gamma \neq 1, \gamma >0$, the solution to \\[w{u''}(w) = -\gamma u'(w)\\] is given by \\[u(w) = \dfrac{w^{(1-\gamma)}-1}{1-\gamma}.\\] This utility function is called constant relative risk aversion (CRRA) function. There is a way to justify the CRRA name but I will not explain it here. If you meet me on the street, you can ask me :)
 
-<!-- Instead of choosing a gamble whose absolute payoff is small compared to the wealth of the agent, we may consider a situation where the agent is choosing a payoff that is a small fraction of his wealth. 
+<!-- Instead of choosing a gamble whose absolute payoff is small compared to the wealth of the agent, we may consider a situation where the agent is choosing a payoff that is a small fraction of his wealth.
 
 <div class="math-block">
-<strong>Exercise (Relative risk aversion).</strong>  
+<strong>Exercise (Relative risk aversion).</strong>
 Let $w>0$ be initial wealth, and let $Y$ be a random variable with $\mathbb{E}[Y]=0$ and $\mathbb{E}[Y^2]=\sigma_Y^2<\infty$. Consider the proportional gamble
 \[
 w(1+tY), \qquad t>0 \text{ small}.
@@ -214,7 +214,7 @@ Define the fractional risk premium $\varphi(t)$ by the indifference condition
 u\!\big(w(1-\varphi(t))\big) \;=\; \mathbb{E}[u(w(1+tY))].
 \]
 
-1. Show that $\varphi(t)=O(t^2)$.  
+1. Show that $\varphi(t)=O(t^2)$.
 2. By Taylor expanding both sides around $w$, prove that as $t\to 0$,
 \[
 \varphi(t) \;=\; \tfrac12\,R(w)\,\sigma_Y^2\,t^2 + o(t^2),
@@ -222,16 +222,16 @@ u\!\big(w(1-\varphi(t))\big) \;=\; \mathbb{E}[u(w(1+tY))].
 R(w):=w\,r(w)=-\,w\,\frac{u''(w)}{u'(w)}.
 \]
 
-Thus $R(w)$, the **coefficient of relative risk aversion**, governs the willingness to pay (as a fraction of wealth) to eliminate *proportional risks*.  
+Thus $R(w)$, the **coefficient of relative risk aversion**, governs the willingness to pay (as a fraction of wealth) to eliminate *proportional risks*.
 </div>
 
 ---
 ### Corollaries
 
-1. *Constant relative risk aversion (CRRA).*  
+1. *Constant relative risk aversion (CRRA).*
 If $r(w)=\gamma/w$ for some constant $\gamma>0$, solving the differential equation gives
 \\[
-u(w) = 
+u(w) =
 \begin{cases}
 \dfrac{w^{1-\gamma}}{1-\gamma}, & \gamma\neq 1, \\
 \log w, & \gamma=1,
