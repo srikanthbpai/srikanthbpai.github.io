@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-02-19 14:30:00-0400
+date: 2026-02-18 14:30:00-0400
 title: Trigonometry from Differential Equations
 description: Deriving all of trigonometry, π, and the circumference formula from a single ODE using calculus alone.
 tags:
