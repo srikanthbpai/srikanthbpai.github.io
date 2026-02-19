@@ -37,9 +37,7 @@ I claim no novelty for this plan of attack. A whiff of these ideas is given in S
 
 ## The Fundamental Differential Equation
 
-Consider the second-order linear differential equation
-
-$$y'' + y = 0.$$
+Consider the second-order linear differential equation $y'' + y = 0.$
 
 This is one of the simplest nontrivial ODEs in mathematics. By the Picard
 existence-uniqueness theorem, given any initial conditions $y(0) = a$ and
@@ -60,7 +58,7 @@ We call $S$ the <em>sine function</em>. Let $C(x) := S'(x)$ and call it the
 **Key observation.** $C(x)$ also satisfies the same ODE with initial conditions
 $C(0) = 1$ and $C'(0) = 0$. We have the fundamental derivative relations:
 
-$$S'(x) = C(x), \quad C'(x) = -S(x).$$
+$S'(x) = C(x), \quad C'(x) = -S(x).$
 
 ---
 
@@ -123,7 +121,7 @@ Note that we have found another differential equation, albeit a non-linear one.
 
 We define an auxiliary function
 
-$$g(u) := \int_0^u \frac{dt}{\sqrt{1-t^2}} \quad \text{for } u \in (-1, 1).$$
+$g(u) := \displaystyle \int_0^u \dfrac{dt}{\sqrt{1-t^2}} \quad \text{for } u \in (-1, 1).$
 
 This integral converges (though the integrand is unbounded at $u = 1$). We have
 $g'(u) = \frac{1}{\sqrt{1-u^2}} > 0$, so $g$ is strictly increasing.
@@ -196,13 +194,46 @@ the integral equals $\frac{22}{7} - \pi$.∎
 </div>
 
 <div class="math-block">
-<strong>Theorem (Bounds on π).</strong> The integral
-$\int_0^1 \frac{x^4(1-x)^4}{1+x^2}\,dx$ is strictly positive (since the
-integrand is nonnegative and positive on $(0,1)$). Therefore,
+<strong>Proposition (Bounds on the Integral).</strong> The integral 
+$I := \int_0^1 \frac{x^4(1-x)^4}{1+x^2}\,dx$ satisfies
 \[
-\pi < \frac{22}{7} \approx 3.142857.
+\frac{1}{1260} < I < \frac{1}{630}.
 \]
-Since $\frac{22}{7}$ rounds to $3.14$ at two decimal places, we have rigorously
+</div>
+
+<div class="math-block proof">
+<strong>Proof.</strong> The integrand is continuous and nonnegative on $[0, 1]$.
+For a lower bound, we replace the denominator $1 + x^2$ with the larger value
+$2$ (achieved at $x = 1$):
+\[
+I > \int_0^1 \frac{x^4(1-x)^4}{2} \, dx = \frac{1}{2} \int_0^1 x^4(1-x)^4 \, dx.
+\]
+The integral $\int_0^1 x^4(1-x)^4 \, dx$ can be computed using the beta
+function. With exponents $a = 5, b = 5$:
+\[
+\int_0^1 x^4(1-x)^4 \, dx = \frac{\Gamma(5)\Gamma(5)}{\Gamma(10)} = \frac{4! \cdot
+4!}{9!} = \frac{576}{362880} = \frac{1}{630}.
+\]
+Thus $I > \frac{1}{1260}$.
+
+For an upper bound, we replace the denominator with the smaller value $1$
+(achieved at $x = 0$):
+\[
+I < \int_0^1 x^4(1-x)^4 \, dx = \frac{1}{630}.
+\]
+
+</div>
+<div class="math-block">
+<strong>Theorem (Rigorous Bounds on π).</strong> From Lemma (Dalzell Integral) 
+and the Proposition above, we have
+\[
+\frac{22}{7} - \frac{1}{630} < \pi < \frac{22}{7} - \frac{1}{1260}.
+\]
+In decimal form,
+\[
+3.1412698 < \pi < 3.1420635.
+\]
+Since $\frac{22}{7}$ rounds to $3.14$ at two decimal places, we have rigorously 
 proven:
 \[
 \boxed{\pi \approx 3.14}
