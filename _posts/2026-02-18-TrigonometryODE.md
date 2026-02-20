@@ -18,7 +18,7 @@ author:
   - Srikanth Pai
 ---
 
-Reconstructing Euclidean geometry on $\mathbb{R}^2$ starting from a special differential equation is a triumph of calculus. The solutions to this differential equation turn out to be a pair of functions — sine and cosine. However, the real triumph lies in the fact that all the properties of sine and cosine learned in school can be derived directly from the differential equation and theorems of calculus.
+Reconstructing Euclidean geometry on $\mathbb{R}^2$ starting from a special differential equation is a triumph of calculus. The solutions to this differential equation turn out to be a pair of functions — sine and cosine. However, the real triumph lies in the fact that ALL the properties of sine and cosine learned in school can be derived directly from the differential equation and theorems of calculus.
 
 I have written these notes for my students who chose Applied Mathematics in school, often hoping to focus on algorithmic thinking rather than proof-based reasoning. These students were carefully guided away from geometric thinking — trigonometry, vectors, complex numbers, and the deeper aspects of analytic Euclidean geometry — since these subjects demand proof and sustained reasoning. Yet shapes are among the most fundamental structures of reality, arguably more basic than the cell in biology or the particle in physics. No applied line of thought can avoid geometry for long.
 
