@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attended [RTLG 2026](https://sites.google.com/view/rtlg2026/home). Met new people and had a wonderful time. The shape of Shapley value (in Swaprava's talk) felt familiar; will upload a categorical view soon. In the meantime, a blog post on Shapley and Myerson values is now up [here](/blog/2026/ShapleySpanBC/).
+Attended [RTLG 2026](https://sites.google.com/view/rtlg2026/home). Met new people and had a wonderful time. The shape of Shapley value (in Swaprava's talk) felt familiar; will upload a categorical view soon. In the meantime, a blog post on Shapley and Myerson values is now up [here](/blog/2026/Shapley/).
