@@ -50,9 +50,3 @@ The fundamental objective of the course is to expose undergraduates to random pr
 - [Internal I]({{ site.url }}/downloads/UGSP/First-Internals.pdf): Students were tested on Discrete-time Markov chains, independent increment and stationary increment properties of a stochastic process.
 - [Internal II]({{ site.url }}/downloads/UGSP/Second-Internals.pdf): Axioms of probability theory and continuous distributions, Poisson process, CTMC and Chapman-Kolmogorov equations, differential equation viewpoint of CTMCs.
 - [Finals]({{ site.url }}/downloads/UGSP/SP-Finals-24.pdf): All the syllabi of the internals and additionally Brownian motion.
-
-## Results
-
-Three students scored the highest grades. Undergraduate students usually find this course hard, and my course was challenging because there was no proper reference material. However, I am pleased with the final paper. Lots of students surprised me with their understanding of the subject.
-
-Many students who have scored below B+ may have no understanding of stochastic processes at all. If an employer or college wants to inquire about one of my students' relative standing, please mail me. 

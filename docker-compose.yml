@@ -1,6 +1,7 @@
 version: "3"
 services:
   jekyll:
+    build: .
     image: srikanthbpai.github.io:latest
     command: bundle exec jekyll serve --host 0.0.0.0 --watch --livereload --force_polling
     ports:

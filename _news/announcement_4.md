@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Aman and I extended the famed median voter theorem to voters with bounded tolerance. Our paper is accepted for presentation at RTLG 2026. [See paper]({{ site.baseurl }}/assets/pdf/RayPaiMedianVoterExtension.pdf)
+Aman and I extended the famed median voter theorem to voters with bounded tolerance. Our paper is accepted for presentation at RTLG 2026. [See paper](/assets/pdf/RayPaiMedianVoterExtension.pdf)

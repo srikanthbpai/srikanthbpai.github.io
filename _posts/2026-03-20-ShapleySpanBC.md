@@ -1,0 +1,195 @@
+---
+layout: post
+date: 2026-03-20 09:00:00-0400
+title: "Fair Shares in Cooperation"
+description: Shapley and Myerson value.
+tags:
+  - cooperative-games
+  - Shapley-value
+  - Myerson-value
+  - coalition-formation
+related_posts: true
+giscus_comments: true
+display_categories:
+  - research
+  - game_theory
+  - mechanism_design
+categories: "research"
+related_publications: false
+---
+
+{% capture content %}
+
+> "The possibility of evaluating games is therefore of critical importance. So long as the theory is unable to assign values to the games typically found in application, only relatively simple situations — where games do not depend on other games — will be susceptible to analysis and solution."
+>
+> — L. S. Shapley, _A Value for n-Person Games_ (1952)
+
+When people cooperate, they usually produce more together than they could alone. Three researchers writing a paper together publish in a better journal than any of them would alone. Three firms sharing a supply chain reduce costs that none could reduce individually. The question that follows immediately is how to divide the gains from that cooperation fairly.
+
+<div style="margin-bottom: 1rem;"><span style="font-weight: 600;">The Puzzle.</span> In a flat consulting firm where every engineer and sales staff can work with every other, the partner who brings the most value to engagements expects to earn the most. But if the same organisation grows and it becomes a large corporation with layers of management, the same principle seems to break down. An MBA who sits between a technical team and a client, contributing little technical work but making the relationship function, often earns more than either the engineers or the sales staff. Same question of fair division, very different answer. Why?</div>
+
+The contrast is not accidental, and it is not just politics. It reflects a structural difference in who can cooperate with whom. By the end of this post, both cases will have a precise, principled answer.
+
+The answer begins with a prior question: before anyone decides to cooperate, before any coalition forms, what is each participant actually worth to the enterprise? Shapley's insight was that this has a natural answer, provided the value of every possible coalition is known in advance.
+
+<div class="math-block">
+<strong>Broad principle of allocation.</strong> Each agent's fair share is the expected marginal value of their presence, averaged over all possible coalition configurations.
+</div>
+
+Under a few simple, direct requirements, Shapley and Myerson each show that this principle determines the allocation uniquely. Shapley's version resolves the flat firm. Myerson's resolves the hierarchy.
+
+---
+
+### The Setting
+
+There are $n$ players, and any group of them can potentially cooperate. Let $N$ be the set of players and any group is a subset of the set of players. 
+- If a group $S$ cooperates, they can collectively achieve a total payoff of $v(S)$ — the worth of that coalition. 
+- We assume $v(\emptyset) = 0$: the empty coalition produces nothing. 
+
+Essentially $v:2^N \to \mathbb{R}$ is the characteristic function that assigns payoffs to groups. 
+
+We want a rule that assigns to each player $i$ a number $\phi_{i}(v)$ representing their fair share if everyone cooperates in the grand coalition. 
+
+The central difficulty is that a player's contribution is not a fixed number. It depends entirely on who has already joined. A specialist who adds enormous value to a small team might add nothing to a large team that already has several specialists. Any fair allocation rule must somehow aggregate these context-dependent contributions across all the different situations a player might find themselves in.
+
+---
+
+### Shapley: All Orderings Are Possible
+
+Shapley's 1952 answer is the most direct: treat all $n!$ possible orderings of the players as equally likely, with no restrictions. Imagine that the players arrive one by one in a random order, each demanding the value they add to whoever has arrived before them. The Shapley value is each player's expected payoff under this procedure.
+
+To make this precise, Shapley asked: what properties should a fair allocation rule satisfy? He proposed three.
+
+<div class="math-block">
+<strong>Axiom 1 (Symmetry).</strong> For any relabeling of the players given by a permutation $\pi$ of $N$,
+\[
+\phi_{\pi(i)}[\pi v] \;=\; \phi_{i}[v].
+\]
+The allocation depends only on the abstract structure of the game, not on the names of the players.
+</div>
+
+<div class="math-block">
+<strong>Axiom 2 (Efficiency).</strong> The allocation distributes the full worth of the grand coalition — no surplus is wasted and no player receives more than is available:
+\[
+\sum_{i \in N} \phi_{i}(v) = v(N).
+\]
+</div>
+
+<div class="math-block">
+<strong>Axiom 3 (Linearity).</strong> If two independent games are combined into one, each player's allocation in the combined game is the sum of their allocations in the separate games:
+\[
+\phi_{i}(v + w) = \phi_{i}(v) + \phi_{i}(w).
+\]
+</div>
+
+These three conditions are not arbitrary. Symmetry says the rule is intrinsic. Efficiency says it is exhaustive. Linearity says it respects the additive structure of games. Together they are strong enough to pin down a unique rule.
+
+<div class="math-block">
+<strong>Theorem {% cite shapley1953value --file references %}.</strong> There exists a unique allocation rule satisfying Axioms 1–3. It is given by
+\[
+\phi_{i}(v) = \sum_{S \subseteq N \setminus \{i\}} \frac{s!\,(n-s-1)!}{n!}\,\bigl[v(S \cup \{i\}) - v(S)\bigr],
+\]
+where $s = |S|$.
+</div>
+
+The weight $s!(n-s-1)!/n!$ is the probability that, when all $n!$ orderings of the players are equally likely, player $i$ finds exactly the coalition $S$ already assembled before them. The $s!$ counts the orderings of the members of $S$, the $(n-s-1)!$ counts the orderings of the players who arrive after $i$, and the $n!$ normalises over all orderings. The Shapley value is precisely the expected marginal contribution of $i$ over a uniformly random arrival order — the broad principle made exact.
+
+---
+
+### Myerson: Not Everyone Can Talk to Everyone
+
+Shapley's framework assumes that any coalition can form. In practice this is often false. Firms may not know each other exist. Researchers may not share a common language. Players in different cities may never meet. Myerson's 1977 insight was that communication constraints fundamentally alter what cooperation is possible, and therefore what fair allocation looks like.
+
+Myerson models communication by a graph $\Gamma$ on the player set $N$. An edge between $i$ and $j$ means they can communicate directly. Players who are not connected, even indirectly through intermediaries, cannot coordinate and therefore cannot jointly generate value. Within any coalition $S$, only the players in the same connected component of the graph restricted to $S$ can effectively cooperate.
+
+This changes the game. The worth of a coalition $S$ under communication constraints is not $v(S)$ but the sum of the worths of its connected components — the value that can actually be extracted given who can talk to whom. Call this $v^{\Gamma}(S)$.
+
+Myerson then asked: what axioms characterise a fair allocation given this communication structure?
+
+<div class="math-block">
+<strong>Axiom 1' (Component Efficiency).</strong> For each connected component $C$ of the communication graph $\Gamma$, the players in $C$ collectively receive $v(C)$ — the worth of their component:
+\[
+\sum_{i \in C} \mu_{i}(v, \Gamma) = v(C).
+\]
+</div>
+
+<div class="math-block">
+<strong>Axiom 2' (Fairness).</strong> Removing any communication link $(i,j)$ changes the allocations of $i$ and $j$ by the same amount:
+\[
+\mu_{i}(v, \Gamma) - \mu_{i}(v, \Gamma \setminus \{ij\}) = \mu_{j}(v, \Gamma) - \mu_{j}(v, \Gamma \setminus \{ij\}),
+\]
+for every edge $\{i,j\} \in \Gamma$.
+</div>
+
+Component efficiency says each connected group distributes its own worth. Fairness says that a communication link is equally valuable to both parties it connects — neither player can claim the link is more theirs than the other's.
+
+<div class="math-block">
+<strong>Theorem {% cite myerson1977graphs --file references %}.</strong> There exists a unique allocation rule satisfying Axioms 1'–2'. It is the Shapley value applied to the communication-restricted game $v^{\Gamma}$:
+\[
+\mu_{i}(v, \Gamma) = \phi_{i}(v^{\Gamma}) = \sum_{S \subseteq N \setminus \{i\}} \frac{s!\,(n-s-1)!}{n!}\,\bigl[v^{\Gamma}(S \cup \{i\}) - v^{\Gamma}(S)\bigr].
+\]
+</div>
+
+The Myerson value is still the expected marginal contribution of each player, still computed by the same averaging formula. What changes is the game being averaged over: instead of $v$, it is $v^{\Gamma}$, the game that accounts for what is actually achievable given the communication structure. The broad principle survives intact — fair share equals expected marginal value added — but the space of feasible coalition-formation scenarios has been constrained by the graph.
+
+---
+
+### A Concrete Example
+
+Consider three researchers — Alice ($A$), Bob ($B$), and Carol ($C$) — who can potentially co-author a paper. Working alone each can publish a note worth 1 unit. Alice and Bob collaborate well and together produce work worth 4. Alice and Carol together produce 3. Bob and Carol together produce 3. All three together produce 6.
+
+Formally: $v(\{A\}) = v(\{B\}) = v(\{C\}) = 1$, $v(\{A,B\}) = 4$, $v(\{A,C\}) = 3$, $v(\{B,C\}) = 3$, $v(\{A,B,C\}) = 6$.
+
+**Shapley values.** With no communication constraints, all orderings are possible. Alice's expected marginal contribution, computed across all 6 orderings, is:
+
+<div class="math-block">
+\[
+\phi_{A} = \frac{1}{3}(1) + \frac{1}{6}(4-1) + \frac{1}{6}(3-1) + \frac{1}{3}(6-3) = \frac{1}{3} + \frac{1}{2} + \frac{1}{3} + 1 = \frac{13}{6} \approx 2.17.
+\]
+</div>
+
+Similarly $\phi_{B} = 13/6 \approx 2.17$ and $\phi_{C} = 5/3 \approx 1.67$. Alice and Bob receive equal allocations because their positions in the game are symmetric — each collaborates equally well with the other and with Carol. Carol, whose pairwise collaborations are weaker, receives less.
+
+**Myerson values.** Now suppose Alice and Carol have never met and cannot communicate directly. The communication graph $\Gamma$ has edges $A$–$B$ and $B$–$C$ only — Bob is the bridge. In any coalition containing both Alice and Carol, they can only cooperate through Bob.
+
+The communication-restricted game replaces $v(\{A,C\})$ with $v^{\Gamma}(\{A,C\}) = v(\{A\}) + v(\{C\}) = 2$, since Alice and Carol are disconnected components in the graph restricted to $\{A,C\}$. All other coalition values are unchanged because the remaining coalitions are connected under $\Gamma$.
+
+Applying the Shapley formula to $v^{\Gamma}$:
+
+<div class="math-block">
+\[
+\mu_{A} = 2, \qquad \mu_{B} = \frac{5}{2} = 2.5, \qquad \mu_{C} = \frac{3}{2} = 1.5.
+\]
+</div>
+
+The comparison is instructive.
+
+| | Alice | Bob | Carol |
+|---|---|---|---|
+| Shapley (no constraint) | $13/6 \approx 2.17$ | $13/6 \approx 2.17$ | $5/3 \approx 1.67$ |
+| Myerson ($A$–$B$–$C$ path) | $2.00$ | $2.50$ | $1.50$ |
+
+Bob gains substantially under the communication constraint. He is the only bridge between Alice and Carol, and the Myerson value correctly recognises that his link is essential for the full three-way collaboration to function — without him, Alice and Carol cannot cooperate at all. Alice and Carol both lose relative to the unconstrained case, because each is cut off from one potential partner. The communication constraint has real distributional consequences, and the Myerson value captures them through the fairness axiom: the $A$–$B$ link is equally valuable to Alice and Bob, and the $B$–$C$ link equally valuable to Bob and Carol.
+
+<div class="math-block">
+<strong>Resolution of the puzzle:</strong> The numbers in the table make the MBA puzzle precise. Bob, the bridge, gains substantially the moment a communication constraint is introduced, even though the underlying game and everyone's individual capabilities are unchanged. This is not a modelling artifact. It reflects something real: in any organisation where not everyone can coordinate directly, the agents who hold connections between otherwise isolated groups capture a disproportionate share of the surplus they help generate. Myerson's fairness axiom explains why this is not mere rent-seeking but a principled consequence of the link's value being shared equally between the two parties it connects. The flat firm, where everyone can reach everyone, is Shapley's world. The layered corporation, where MBAs and managers serve as essential intermediaries, is Myerson's.</div>
+
+---
+
+### Stability: A Different Question
+Everything above concerns a prior question: before coalitions form, what is a principled allocation of the expected gains? The Shapley and Myerson values are answers to this question. They are measures of each player's inherent worth to the enterprise, computed without reference to what will actually happen in equilibrium.
+
+The question of which coalitions will actually form, and whether the grand coalition is stable once formed, is a different problem entirely with its own rich literature. The central concept is the *core*: the set of allocations from which no subset of players would prefer to deviate and form their own coalition. An allocation is in the core if no group can do better on their own than what the allocation assigns them.
+
+The Shapley value need not be in the core. For games where the core is non-empty, the Shapley value sometimes lies within it and sometimes does not. Shapley himself characterised the class of games, called convex games, for which the Shapley value is always in the core. More generally, the tension between fairness (the Shapley value's concern) and stability (the core's concern) is a persistent theme in cooperative game theory, and resolving it for richer environments with communication constraints, dynamic coalition formation, or incomplete information remains an active area.
+
+For those wishing to go further, the core was introduced by {% cite gillies1953solutions --file references %}. The stability of coalition structures under communication graphs was studied by Myerson in his 1980 follow-up on conference structures {% cite myerson1980conference --file references %}. Dynamic coalition formation is treated in the work of Bloch {% cite bloch1996sequential --file references %} and Ray and Vohra {% cite rayvohra1997 --file references %}. The relationship between fairness values and the core for games on networks is surveyed in Jackson's _Social and Economic Networks_ {% cite jackson2008social --file references %}, which is the most accessible entry point to the full literature.
+
+The Shapley and Myerson values do not tell us which coalitions will form. They tell us what each player is worth if cooperation does happen: a prior assessment, grounded in the structure of the game and the constraints on communication, from which rational agents can reason about whether to cooperate at all.
+
+_This post grew out of a talk by [Swaprava Nath](https://www.cse.iitb.ac.in/~swaprava/index.html) (IIT Bombay) at the [Recent Trends in Logic and Game Theory 2026](https://sites.google.com/view/rtlg2026/home) workshop. Swaprava's talk introduced me to the notion of Shapley value. Their recent work on this theme can be found [here](https://arxiv.org/abs/2510.11255). Thanks to the organisers of RTLG 2026 for a stimulating meeting._
+
+{% bibliography --cited --file references %}
+
+{% endcapture %}
+{{ content | markdownify }}

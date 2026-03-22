@@ -56,5 +56,3 @@ First, the student should have a rigorous understanding of elementary probabilit
 My course was modelled on the [MIT course on statistics for economists.](https://ocw.mit.edu/courses/14-30-introduction-to-statistical-method-in-economics-spring-2006/pages/readings/) Some students found it challenging, but I have balanced this issue by correcting the exams leniently. 
 
 Anyway, I am satisfied with the class performance. I am happy to announce that seven students scored O grades (highest grade). All these students are very good at probability and statistics. 
-
- Due to the institution's constraints, my lenient correction has some unintended consequences. Some students below a B+ grade may know very little probability and statistics. For institutions gauging a student's marks and relative performance, please ask me for a reference letter, and I can tell you precisely where my students stand.
