@@ -144,18 +144,38 @@ Formally: $v(\{A\}) = v(\{B\}) = v(\{C\}) = 1$, $v(\{A,B\}) = 4$, $v(\{A,C\}) = 
 **Shapley values.** With no communication constraints, all orderings are possible. Alice's expected marginal contribution, computed across all 6 orderings, is:
 
 <div class="math-block">
+Writing $\partial_{A}v(S) = v(S \cup \{A\}) - v(S)$ for the marginal contribution of Alice to coalition $S$:
 \[
-\phi_{A} = \frac{1}{3}(1) + \frac{1}{6}(4-1) + \frac{1}{6}(3-1) + \frac{1}{3}(6-3) = \frac{1}{3} + \frac{1}{2} + \frac{1}{3} + 1 = \frac{13}{6} \approx 2.17.
+\begin{aligned}
+\phi_{A} &= \frac{0!\cdot 2!}{3!}\,\partial_{A}v(\emptyset) + \frac{1!\cdot 1!}{3!}\,\partial_{A}v(\{B\}) + \frac{1!\cdot 1!}{3!}\,\partial_{A}v(\{C\}) + \frac{2!\cdot 0!}{3!}\,\partial_{A}v(\{B,C\}) \\[6pt]
+         &= \frac{1}{3}(1) + \frac{1}{6}(3) + \frac{1}{6}(2) + \frac{1}{3}(3) \\[6pt]
+         &= \frac{13}{6} \approx 2.17.
+\end{aligned}
 \]
 </div>
 
 Similarly $\phi_{B} = 13/6 \approx 2.17$ and $\phi_{C} = 5/3 \approx 1.67$. Alice and Bob receive equal allocations because their positions in the game are symmetric — each collaborates equally well with the other and with Carol. Carol, whose pairwise collaborations are weaker, receives less.
 
-**Myerson values.** Now suppose Alice and Carol have never met and cannot communicate directly. The communication graph $\Gamma$ has edges $A$–$B$ and $B$–$C$ only — Bob is the bridge. In any coalition containing both Alice and Carol, they can only cooperate through Bob.
+Now we see how Myerson values performs in this setup. Suppose Alice and Carol have never met and cannot communicate directly. The communication graph $\Gamma$ has edges $A$–$B$ and $B$–$C$ only — Bob is the bridge. In any coalition containing both Alice and Carol, they can only cooperate through Bob.
 
 The communication-restricted game replaces $v(\{A,C\})$ with $v^{\Gamma}(\{A,C\}) = v(\{A\}) + v(\{C\}) = 2$, since Alice and Carol are disconnected components in the graph restricted to $\{A,C\}$. All other coalition values are unchanged because the remaining coalitions are connected under $\Gamma$.
 
-Applying the Shapley formula to $v^{\Gamma}$:
+Applying the Shapley formula to $v^{\Gamma}$ for Bob.
+
+<div class="math-block">
+Writing $\partial_{B}v(S) = v(S \cup \{B\}) - v(S)$ for the marginal contribution of Bob to coalition $S$ in the restricted game $v^{\Gamma}$:
+\[
+\begin{aligned}
+\mu_{B} &= \frac{0!\cdot 2!}{3!}\,\partial_{B}v^{\Gamma}(\emptyset) + \frac{1!\cdot 1!}{3!}\,\partial_{B}v^{\Gamma}(\{A\}) + \frac{1!\cdot 1!}{3!}\,\partial_{B}v^{\Gamma}(\{C\}) + \frac{2!\cdot 0!}{3!}\,\partial_{B}v^{\Gamma}(\{A,C\}) \\[6pt]
+         &= \frac{1}{3}(3-1) + \frac{1}{6}(4-1) + \frac{1}{6}(3-1) + \frac{1}{3}(6-2) \\[6pt]
+         &= \frac{1}{3}(2) + \frac{1}{6}(3) + \frac{1}{6}(2) + \frac{1}{3}(4) \\[6pt]
+         &= \frac{2}{3} + \frac{1}{2} + \frac{1}{3} + \frac{4}{3} \\[6pt]
+         &= \frac{5}{2} = 2.5.
+\end{aligned}
+\]
+</div>
+
+The full set of values is given by:
 
 <div class="math-block">
 \[
