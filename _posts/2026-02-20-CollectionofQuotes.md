@@ -40,6 +40,7 @@ related_publications: false
 ― Pierre Laplace when asked why there was no mention of God in his theory!
 
 ## Wisdom
+
 “Fourfoil, they call it.” Ogion had halted, the coppershod foot of his staff near the little weed, so Ged looked closely at the plant, and plucked a dry seedpod from it, and finally asked, since Ogion said nothing more, “What is its use, Master?”
 “None I know of.”
 Ged kept the seedpod a while as they went on, then tossed it away.
@@ -47,10 +48,10 @@ Ged kept the seedpod a while as they went on, then tossed it away.
 
 “Wisdom comes from experience. Experience is often a result of lack of wisdom.” ― Terry Pratchett
 
-
-## Fixing jokes 
+## Fixing jokes
 
 "Think of how stupid the average person is, and realize half of them are stupider than that" - George Carlin
+
 - I believe he assumes stupidity is unimodal, otherwise the joke lands only if he says median person instead of average.
 
 {% endcapture %}

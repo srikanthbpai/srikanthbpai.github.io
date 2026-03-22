@@ -42,13 +42,14 @@ Under a few simple, direct requirements, Shapley and Myerson each show that this
 
 ### The Setting
 
-There are $n$ players, and any group of them can potentially cooperate. Let $N$ be the set of players and any group is a subset of the set of players. 
-- If a group $S$ cooperates, they can collectively achieve a total payoff of $v(S)$ — the worth of that coalition. 
-- We assume $v(\emptyset) = 0$: the empty coalition produces nothing. 
+There are $n$ players, and any group of them can potentially cooperate. Let $N$ be the set of players and any group is a subset of the set of players.
 
-Essentially $v:2^N \to \mathbb{R}$ is the characteristic function that assigns payoffs to groups. 
+- If a group $S$ cooperates, they can collectively achieve a total payoff of $v(S)$ — the worth of that coalition.
+- We assume $v(\emptyset) = 0$: the empty coalition produces nothing.
 
-We want a rule that assigns to each player $i$ a number $\phi_{i}(v)$ representing their fair share if everyone cooperates in the grand coalition. 
+Essentially $v:2^N \to \mathbb{R}$ is the characteristic function that assigns payoffs to groups.
+
+We want a rule that assigns to each player $i$ a number $\phi_{i}(v)$ representing their fair share if everyone cooperates in the grand coalition.
 
 The central difficulty is that a player's contribution is not a fixed number. It depends entirely on who has already joined. A specialist who adds enormous value to a small team might add nothing to a large team that already has several specialists. Any fair allocation rule must somehow aggregate these context-dependent contributions across all the different situations a player might find themselves in.
 
@@ -164,10 +165,10 @@ Applying the Shapley formula to $v^{\Gamma}$:
 
 The comparison is instructive.
 
-| | Alice | Bob | Carol |
-|---|---|---|---|
-| Shapley (no constraint) | $13/6 \approx 2.17$ | $13/6 \approx 2.17$ | $5/3 \approx 1.67$ |
-| Myerson ($A$–$B$–$C$ path) | $2.00$ | $2.50$ | $1.50$ |
+|                            | Alice               | Bob                 | Carol              |
+| -------------------------- | ------------------- | ------------------- | ------------------ |
+| Shapley (no constraint)    | $13/6 \approx 2.17$ | $13/6 \approx 2.17$ | $5/3 \approx 1.67$ |
+| Myerson ($A$–$B$–$C$ path) | $2.00$              | $2.50$              | $1.50$             |
 
 Bob gains substantially under the communication constraint. He is the only bridge between Alice and Carol, and the Myerson value correctly recognises that his link is essential for the full three-way collaboration to function — without him, Alice and Carol cannot cooperate at all. Alice and Carol both lose relative to the unconstrained case, because each is cut off from one potential partner. The communication constraint has real distributional consequences, and the Myerson value captures them through the fairness axiom: the $A$–$B$ link is equally valuable to Alice and Bob, and the $B$–$C$ link equally valuable to Bob and Carol.
 
@@ -177,9 +178,10 @@ Bob gains substantially under the communication constraint. He is the only bridg
 ---
 
 ### Stability: A Different Question
+
 Everything above concerns a prior question: before coalitions form, what is a principled allocation of the expected gains? The Shapley and Myerson values are answers to this question. They are measures of each player's inherent worth to the enterprise, computed without reference to what will actually happen in equilibrium.
 
-The question of which coalitions will actually form, and whether the grand coalition is stable once formed, is a different problem entirely with its own rich literature. The central concept is the *core*: the set of allocations from which no subset of players would prefer to deviate and form their own coalition. An allocation is in the core if no group can do better on their own than what the allocation assigns them.
+The question of which coalitions will actually form, and whether the grand coalition is stable once formed, is a different problem entirely with its own rich literature. The central concept is the _core_: the set of allocations from which no subset of players would prefer to deviate and form their own coalition. An allocation is in the core if no group can do better on their own than what the allocation assigns them.
 
 The Shapley value need not be in the core. For games where the core is non-empty, the Shapley value sometimes lies within it and sometimes does not. Shapley himself characterised the class of games, called convex games, for which the Shapley value is always in the core. More generally, the tension between fairness (the Shapley value's concern) and stability (the core's concern) is a persistent theme in cooperative game theory, and resolving it for richer environments with communication constraints, dynamic coalition formation, or incomplete information remains an active area.
 
