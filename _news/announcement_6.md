@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A short note with Aman Ray is now on arXiv: [Single-Peakedness Does Not Prevent Leapfrogging under Abstention](https://arxiv.org/abs/2605.25131). 
+A short note with Aman Ray is now on arXiv: [Single-Peakedness Does Not Prevent Leapfrogging under Abstention](https://arxiv.org/abs/2605.25131).
