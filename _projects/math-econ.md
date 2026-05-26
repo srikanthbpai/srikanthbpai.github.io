@@ -31,17 +31,8 @@ related_publications: true
 </style>
 
 <p class="lead">
-I explore how mathematical structure, stochastic dynamics, and learning mechanisms inform policy and equilibrium outcomes in economics.  
-My current work follows three connected lines of inquiry:
+This page lists my current research projects and working papers. I am primarily interested in mathematical foundations of economics, asset pricing theory, macroeconomic dynamics and spatial models of voting.
 </p>
-
-<div class="highlight-box">
-<ol>
-  <li><strong>Dynamic Policy and Enforcement:</strong> Markovian and control-theoretic approaches to modelling innovation, regulation, and patent rent persistence.</li>
-  <li><strong>Learning and Strategic Behaviour:</strong> Reinforcement-learning agents and their equilibrium properties in oligopolistic competition.</li>
-  <li><strong>Analytic Structure of Dynamics:</strong> Using tools from differential equations and asymptotic analysis to study macroeconomic adjustment.</li>
-</ol>
-</div>
 
 ---
 
@@ -68,21 +59,30 @@ Along with **Tania Mitra Victoria** (B.A. Economics, MSE) we wrote a preliminary
 A Critique of Reinforcement-Learning Approaches to Collusion in Oligopoly</a>  
 _Srikanth Pai, Arunselvan Ramaswamy, and Tania Mitra Victoria (SSRN Working Paper, 2026)_
 
-The next stage of the project involves modelling environments where algorithmic agents either facilitate collusion or are designed to detect and destabilize it, especially in digital marketplaces.
-
-A student joining this project must be able to program in Python, use GitHub independently, and maintain consistent effort over extended periods.
+The next stage of the project involves modelling environments where algorithmic agents either facilitate collusion or are designed to detect and destabilize it, especially in digital marketplaces. A student joining this project must be able to program in Python, use GitHub independently, and maintain consistent effort over extended periods.
 
 ---
 
-## 3. Mathematical models of voting
+## 3. Spatial Models of Voting
 
 The intersections of social choice theory and the mathematical modeling of voting systems are exciting to me. I am interested in learning the effects on agent preferences, reasoning capacities and ignorance limits on the existence of desirable aggregation rules and voting outcomes.
 
 ### An extension of Median Voter theorem
 
-In the traditional Median Voter Theorem, it is assumed that every voter participates. In a recent paper with my student, Aman Ray, we relax this assumption. We model a scenario where voters only participate if a candidate falls within a specific "attraction window." We show that in this setting, the equilibrium position is no longer the global median. Instead, it generalizes to a conditional median—a position that splits only the participating voters within that specific window into two equal halves. We identify a property we call "c-window dominance", which provides the necessary and sufficient conditions on the voter distribution for a pure-strategy Nash equilibrium to exist.
+In the traditional Median Voter Theorem, it is assumed that every voter participates. In a recent paper with my student, **Aman Ray**, we relax this assumption. We model a scenario where voters only participate if a candidate falls within a specific "attraction window." We show that in this setting, the equilibrium position is no longer the global median. Instead, it generalizes to a conditional median—a position that splits only the participating voters within that specific window into two equal halves. We identify a property we call "c-window dominance", which provides the necessary and sufficient conditions on the voter distribution for a pure-strategy Nash equilibrium to exist.
 
 **Presentation**: This work has been accepted for presentation at the conference on Recent Trends in Logic and Games 2026 (RTLG 2026). Here's a [draft of the paper]({{ site.baseurl }}/assets/pdf/RayPaiMedianVoterExtension.pdf) after incorporating the suggestions of the reviewers.
+
+### Single-peakedness and leapfrogging under abstention
+
+In a recent note with **Aman Ray**, we study a two-party spatial election in which voters may abstain for ideological reasons. We ask whether single-peaked voter preferences and single-peaked party ideological preferences are enough to prevent the parties from choosing policy positions in reversed ideological order.
+
+We first show that under full turnout, single-peakedness rules out such reversals. With ideological abstention, however, single-peakedness alone is not enough: a party’s deviation can attract voters who were previously alienated and outside the electorate. We give a four-voter, seven-policy example where reversal occurs in equilibrium, and then identify an additional ordinal condition on party preferences that restores order preservation.
+
+**Preprint:**  
+<a href="https://arxiv.org/abs/2605.25131" target="_blank">
+Single-Peakedness Does Not Prevent Leapfrogging under Abstention</a>  
+_Aman Ray and Srikanth B. Pai (arXiv preprint, 2026)_
 
 ---
 

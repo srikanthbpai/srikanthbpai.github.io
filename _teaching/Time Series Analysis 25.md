@@ -20,11 +20,9 @@ Our undergraduates have already studied a Macroeconomics course that heavily dre
 
 ## Course Objectives
 
-This course develops the mathematical foundations underlying the Box–Jenkins methodology. The primary objective is to train students to reason rigorously about time series models—how they are constructed, when they are valid, and why they work. Rather than treating models as recipes, the course aims to equip students with the conceptual tools needed to build, modify, and critically assess models on their own.
+This course teaches the mathematical foundations of the Box–Jenkins approach to time series. Students will learn how time series models are constructed, what assumptions they require, and why the main methods work. The course will not treat ARIMA models as recipes. The goal is to help students build, modify, and critically evaluate models with mathematical clarity.
 
-A secondary objective is to expose students to the process by which mathematical methods are developed: starting from concrete problems, introducing abstraction only when necessary, and understanding the trade-offs involved in modeling choices. 
-
-Classroom discussions focus on conceptual, mathematical and programming exploration. Examinations and assignments test precision, rigor, and depth of understanding.
+We will move from concrete examples to abstraction only when needed. Classroom work will combine mathematical reasoning, conceptual discussion, and programming exploration. Assignments and examinations will test precision, rigor, and depth of understanding.
 
 ---
 
@@ -43,19 +41,20 @@ Classroom discussions focus on conceptual, mathematical and programming explorat
 
 ---
 
-## Course Resources
-
-To support the course, I have developed a custom flashcard-based resource:
-
-👉 https://time-series-flashcards.onrender.com
-
-The site may take 3–5 minutes to load after long periods of inactivity. Last years webpage can also be accessed on this site.
-
 ## Assignments
 
 - [Homework 1]({{ site.url }}/downloads/TSA25/HW1.pdf)
+- [Homework 2]({{ site.url }}/downloads/TSA25/HW2.pdf)
+- [Homework 3]({{ site.url }}/downloads/TSA25/HW3.pdf)
+- [Homework 4]({{ site.url }}/downloads/TSA25/HW4.pdf)
 
 ## Exams
+
+- [Test 1]({{ site.url }}/downloads/TSA25/Test1.pdf)
+- [Test 2]({{ site.url }}/downloads/TSA25/Test2.pdf)
+- [Internal 1]({{ site.url }}/downloads/TSA25/Int1.pdf)
+- [Internal 2]({{ site.url }}/downloads/TSA25/Int2.pdf)
+- [Finals]({{ site.url }}/downloads/TSA25/Finals.pdf)
 
 
 ## References
