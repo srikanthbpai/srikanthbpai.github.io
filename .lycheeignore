@@ -1,0 +1,4 @@
+# LinkedIn blocks automated link checkers from GitHub Actions and may return HTTP 999.
+https://www.linkedin.com/.*
+http://www.linkedin.com/.*
+linkedin.com
