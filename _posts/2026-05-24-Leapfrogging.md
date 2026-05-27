@@ -17,69 +17,51 @@ categories: "research"
 related_publications: true
 ---
 
-Spatial models usually make ideological politics look orderly. Voters and parties have ideal points. Moving away from an ideal point makes things worse. In ordinal terms, preferences are single-peaked.
+In a two-party election, suppose one party is identified with the left and the other with the right. If parties choose policy positions in order to win elections, can equilibrium force an ideologically strange outcome where the left party is positioned to the right of the right party? This is the phenomenon is called leapfrogging. Adams studied this empirically in 2001 and argued that parties rarely leapfrog over time. So there is a natural theoretical question: what assumptions rule out such reversals?
 
-This gives a natural expectation: in a two-party election, the left party should not end up to the right of the right party in equilibrium.
+Aman Ray and I wrote a short note on this question: [Single-Peakedness Does Not Prevent Leapfrogging under Abstention](https://arxiv.org/abs/2605.25131). The model is inspired by the one-dimensional spatial tradition of Hotelling and Downs, but we formulate it ordinally. Following the ideological-party tradition associated with Wittman, parties have ideological preferences. In many spatial models these preferences are represented by concave utility functions: each party has an ideal point, and moving away from that ideal point lowers utility. Ordinally, this implies single-peakedness.
 
-That expectation is correct if everyone votes. In a short note with Aman Ray, we show that single-peaked voter preferences and single-peaked party ideological preferences rule out such reversals under full turnout.
-
-But elections rarely have full turnout. Some voters abstain because no party is close enough to represent them. Once this kind of ideological abstention is allowed, the usual intuition can fail.
-
-The reason is simple. A party’s deviation does not merely move existing voters from one party to another. It can also bring previously alienated voters into the electorate.
-
-This post explains the mechanism through the smallest kind of example: four voters and seven policy positions.
+Our first observation is that if no voter abstains, then single-peaked voter preferences and single-peaked party ideological preferences are enough to rule out leapfrogging. The surprise is that this conclusion fails once voters may abstain for ideological reasons. A party’s deviation can then change not only which party voters support, but also which voters participate. Under abstention, single-peakedness alone is not enough. The counterexample below shows this with four voters and seven policy positions.
 
 ---
 
-### The question
+### Setup
 
-There are two parties, \(L\) and \(R\), and policies lie on a line.
-
-The party \(L\) is ideologically left of party \(R\). A reversal occurs if, in equilibrium, \(L\) chooses a policy position to the right of \(R\). This is what we call leapfrogging.
-
-The question is:
+Take seven ordered policies.
 
 <div class="math-block">
-Can single-peaked preferences alone prevent leapfrogging when voters may abstain for ideological reasons?
-</div>
-
-The answer is no.
-
----
-
-### What abstention changes
-
-Suppose each voter has an acceptable set of policies. A voter participates only if at least one party chooses a policy inside that acceptable set. If both parties are too far away, the voter abstains.
-
-This one change alters the logic of deviations.
-
-Without abstention, when a party moves, it competes for a fixed electorate. A deviation can change which party a voter supports, but not whether the voter exists in the election.
-
-With abstention, a deviation can activate voters who were previously outside the electorate. So the payoff from moving to a new position may come not from stealing current voters, but from attracting a different band of voters who were previously alienated.
-
-That is the obstruction.
-
----
-
-### A four-voter example
-
-Take seven ordered policies,
-
 \[
 x_1 < x_2 < x_3 < x_4 < x_5 < x_6 < x_7.
 \]
+</div>
 
-Party \(L\) has ideological ideal point \(x_3\), and party \(R\) has ideological ideal point \(x_5\). Thus \(L\) is the left party and \(R\) is the right party.
+There are two parties, $A$ and $B$.
+
+Party $A$ is the left party, with ideological ideal point $x_3$. Party $B$ is the right party, with ideological ideal point $x_5$.
 
 Now consider the policy profile
 
+<div class="math-block">
 \[
-L = x_6,\qquad R = x_2.
+A=x_6,\qquad B=x_2.
 \]
+</div>
 
-This is reversed ideological order: the left party is to the right of the right party.
+This is reversed ideological order:
 
-The four voters are:
+<div class="math-block">
+\[
+x_2 < \tau_A=x_3 < \tau_B=x_5 < x_6.
+\]
+</div>
+
+So the left party is positioned to the right of the right party.
+
+---
+
+### Voters
+
+There are four voters.
 
 | Voter | Ideal point | Attraction interval | Preference ranking |
 |---|---:|---|---|
@@ -88,42 +70,43 @@ The four voters are:
 | $v_6$ | $x_6$ | $\{x_5,x_6,x_7\}$ | $x_6 \succ x_5 \succ x_7 \succ x_4 \succ x_3 \succ x_2 \succ x_1$ |
 | $v_7$ | $x_7$ | $\{x_6,x_7\}$ | $x_7 \succ x_6 \succ x_5 \succ x_4 \succ x_3 \succ x_2 \succ x_1$ |
 
-At the reversed profile $(x_6,x_2)$, all four voters are active. Voters $v_1$ and $v_2$ vote for the party at $x_2$, while voters $v_6$ and $v_7$ vote for the party at $x_6$. So the election is tied.
+Each voter has single-peaked preferences.
 
-The unilateral deviations are:
+At the profile $(A,B)=(x_6,x_2)$, all four voters participate. Voters $v_1$ and $v_2$ vote for $B$ at $x_2$. Voters $v_6$ and $v_7$ vote for $A$ at $x_6$.
+
+So the election is tied.
+
+---
+
+### Deviations
+
+The unilateral deviations are summarized below.
 
 | Deviating platform | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $x_7$ |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Outcome when $A$ deviates against $x_2$ | $T$ | $T$ | $B$ | $B$ | $B$ | $T$ | $T$ |
 | Outcome when $B$ deviates against $x_6$ | $T$ | $T$ | $A$ | $A$ | $A$ | $T$ | $T$ |
 
-Here $A$ is the left party with ideal point $x_3$, and $B$ is the right party with ideal point $x_5$.
+Here $T$ denotes a tie.
 
-So against $x_2$, party $A$ cannot win by deviating. Its non-losing positions are $x_1,x_2,x_6,x_7$, and among these it prefers $x_6$. Against $x_6$, party $B$ cannot win by deviating. Its non-losing positions are $x_1,x_2,x_6,x_7$, and among these it prefers $x_2$.
-
-Therefore $(x_6,x_2)$ is a Nash equilibrium even though
-
-$$
-x_2 < \tau_A=x_3 < \tau_B=x_5 < x_6.
-$$
-
-This is mutual leapfrogging. The example does not rely on strange voter preferences. The voters are single-peaked. The failure comes from turnout being endogenous.
-
----
-
-### The lesson
-
-Single-peakedness is not useless. It still matters.
-
-But with ideological abstention, voter single-peakedness and party single-peakedness are not enough by themselves to preserve ideological order.
-
-The additional condition has to be placed on party ideological preferences. In the paper, we identify a mild order-preserving condition under which leapfrogging is impossible. Standard concave ideological utilities satisfy this condition.
-
-So the lesson is precise:
+Against $x_2$, party $A$ cannot win by deviating. Its non-losing positions are
 
 <div class="math-block">
-Full turnout lets single-peakedness do the work.  
-Ideological abstention requires one more order-preserving assumption.
+\[
+x_1,x_2,x_6,x_7.
+\]
 </div>
 
-The short note is available here: [Single-Peakedness Does Not Prevent Leapfrogging under Abstention](https://arxiv.org/abs/2605.25131).
+Among these, party $A$ prefers $x_6$.
+
+Against $x_6$, party $B$ cannot win by deviating. Its non-losing positions are again
+
+<div class="math-block">
+\[
+x_1,x_2,x_6,x_7.
+\]
+</div>
+
+Among these, party $B$ prefers $x_2$.
+
+Therefore $(x_6,x_2)$ is a Nash equilibrium.
