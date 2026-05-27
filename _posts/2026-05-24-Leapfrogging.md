@@ -63,12 +63,12 @@ So the left party is positioned to the right of the right party.
 
 There are four voters.
 
-| Voter | Ideal point | Attraction interval | Preference ranking |
-|---|---:|---|---|
-| $v_1$ | $x_1$ | $\{x_1,x_2\}$ | $x_1 \succ x_2 \succ x_3 \succ x_4 \succ x_5 \succ x_6 \succ x_7$ |
-| $v_2$ | $x_2$ | $\{x_1,x_2,x_3\}$ | $x_2 \succ x_1 \succ x_3 \succ x_4 \succ x_5 \succ x_6 \succ x_7$ |
-| $v_6$ | $x_6$ | $\{x_5,x_6,x_7\}$ | $x_6 \succ x_5 \succ x_7 \succ x_4 \succ x_3 \succ x_2 \succ x_1$ |
-| $v_7$ | $x_7$ | $\{x_6,x_7\}$ | $x_7 \succ x_6 \succ x_5 \succ x_4 \succ x_3 \succ x_2 \succ x_1$ |
+| Voter | Ideal point | Attraction interval | Preference ranking                                                |
+| ----- | ----------: | ------------------- | ----------------------------------------------------------------- |
+| $v_1$ |       $x_1$ | $\{x_1,x_2\}$       | $x_1 \succ x_2 \succ x_3 \succ x_4 \succ x_5 \succ x_6 \succ x_7$ |
+| $v_2$ |       $x_2$ | $\{x_1,x_2,x_3\}$   | $x_2 \succ x_1 \succ x_3 \succ x_4 \succ x_5 \succ x_6 \succ x_7$ |
+| $v_6$ |       $x_6$ | $\{x_5,x_6,x_7\}$   | $x_6 \succ x_5 \succ x_7 \succ x_4 \succ x_3 \succ x_2 \succ x_1$ |
+| $v_7$ |       $x_7$ | $\{x_6,x_7\}$       | $x_7 \succ x_6 \succ x_5 \succ x_4 \succ x_3 \succ x_2 \succ x_1$ |
 
 Each voter has single-peaked preferences.
 
@@ -82,10 +82,10 @@ So the election is tied.
 
 The unilateral deviations are summarized below.
 
-| Deviating platform | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $x_7$ |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Outcome when $A$ deviates against $x_2$ | $T$ | $T$ | $B$ | $B$ | $B$ | $T$ | $T$ |
-| Outcome when $B$ deviates against $x_6$ | $T$ | $T$ | $A$ | $A$ | $A$ | $T$ | $T$ |
+| Deviating platform                      | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $x_7$ |
+| --------------------------------------- | ----: | ----: | ----: | ----: | ----: | ----: | ----: |
+| Outcome when $A$ deviates against $x_2$ |   $T$ |   $T$ |   $B$ |   $B$ |   $B$ |   $T$ |   $T$ |
+| Outcome when $B$ deviates against $x_6$ |   $T$ |   $T$ |   $A$ |   $A$ |   $A$ |   $T$ |   $T$ |
 
 Here $T$ denotes a tie.
 
