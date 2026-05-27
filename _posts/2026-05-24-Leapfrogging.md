@@ -2,7 +2,7 @@
 layout: post
 date: 2026-05-24 09:00:00+0530
 title: "When Abstention Lets Parties Reverse Positions"
-description: A small example showing why single-peakedness does not by itself prevent leapfrogging under ideological abstention.
+description: Single-peakedness does not by itself prevent leapfrogging under ideological abstention.
 tags:
   - spatial-voting
   - abstention
@@ -16,8 +16,6 @@ display_categories:
 categories: "research"
 related_publications: true
 ---
-
-{% capture content %}
 
 Spatial models usually make ideological politics look orderly. Voters and parties have ideal points. Moving away from an ideal point makes things worse. In ordinal terms, preferences are single-peaked.
 
@@ -81,13 +79,35 @@ L = x_6,\qquad R = x_2.
 
 This is reversed ideological order: the left party is to the right of the right party.
 
-The example constructs four voters with single-peaked preferences and suitable acceptance sets such that this reversed profile is a Nash equilibrium. At the equilibrium profile, all four voters participate. Nevertheless, neither party has a profitable deviation.
+The four voters are:
 
-Why can this happen?
+| Voter | Ideal point | Attraction interval | Preference ranking |
+|---|---:|---|---|
+| $v_1$ | $x_1$ | $\{x_1,x_2\}$ | $x_1 \succ x_2 \succ x_3 \succ x_4 \succ x_5 \succ x_6 \succ x_7$ |
+| $v_2$ | $x_2$ | $\{x_1,x_2,x_3\}$ | $x_2 \succ x_1 \succ x_3 \succ x_4 \succ x_5 \succ x_6 \succ x_7$ |
+| $v_6$ | $x_6$ | $\{x_5,x_6,x_7\}$ | $x_6 \succ x_5 \succ x_7 \succ x_4 \succ x_3 \succ x_2 \succ x_1$ |
+| $v_7$ | $x_7$ | $\{x_6,x_7\}$ | $x_7 \succ x_6 \succ x_5 \succ x_4 \succ x_3 \succ x_2 \succ x_1$ |
 
-Because when a party deviates, it changes the set of voters who participate. A move that looks ideologically attractive may lose the voters currently supporting the party and may fail to activate enough new voters. Conversely, a position on the “wrong” side can be electorally protected because it is the position that keeps the right band of voters participating.
+At the reversed profile $(x_6,x_2)$, all four voters are active. Voters $v_1$ and $v_2$ vote for the party at $x_2$, while voters $v_6$ and $v_7$ vote for the party at $x_6$. So the election is tied.
 
-So the example does not rely on strange voter preferences. The voters are single-peaked. The failure comes from turnout being endogenous.
+The unilateral deviations are:
+
+| Deviating platform | $x_1$ | $x_2$ | $x_3$ | $x_4$ | $x_5$ | $x_6$ | $x_7$ |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Outcome when $A$ deviates against $x_2$ | $T$ | $T$ | $B$ | $B$ | $B$ | $T$ | $T$ |
+| Outcome when $B$ deviates against $x_6$ | $T$ | $T$ | $A$ | $A$ | $A$ | $T$ | $T$ |
+
+Here $A$ is the left party with ideal point $x_3$, and $B$ is the right party with ideal point $x_5$.
+
+So against $x_2$, party $A$ cannot win by deviating. Its non-losing positions are $x_1,x_2,x_6,x_7$, and among these it prefers $x_6$. Against $x_6$, party $B$ cannot win by deviating. Its non-losing positions are $x_1,x_2,x_6,x_7$, and among these it prefers $x_2$.
+
+Therefore $(x_6,x_2)$ is a Nash equilibrium even though
+
+$$
+x_2 < \tau_A=x_3 < \tau_B=x_5 < x_6.
+$$
+
+This is mutual leapfrogging. The example does not rely on strange voter preferences. The voters are single-peaked. The failure comes from turnout being endogenous.
 
 ---
 
@@ -107,7 +127,3 @@ Ideological abstention requires one more order-preserving assumption.
 </div>
 
 The short note is available here: [Single-Peakedness Does Not Prevent Leapfrogging under Abstention](https://arxiv.org/abs/2605.25131).
-
-{% endcapture %}
-
-{% include post_content.html %}
