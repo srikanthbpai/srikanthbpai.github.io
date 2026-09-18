@@ -10,11 +10,9 @@ category: work
 ## Logistics
 
 **Instructor:** Srikanth B. Pai  
-**Course:** Statistics for Economics  
-**Schedule:** Two lectures per week  
-**Semester window:** July 15--November 10  
-**Venue:** To be announced  
-**Teaching Assistants:** To be announced  
+**Schedule:** Tuesdays and Thursdays, 9:30--11:00 AM  
+**Venue:** New BA Building, first floor  
+**Teaching Assistants:** Saisree S, Aarti Balu, Shreya Shatarupa, and Sai Vibhuti Srivastava  
 
 This page contains the public course outline. The weekly plan is tentative and may be modified depending on pace, holidays, and internal examination dates.
 
@@ -53,29 +51,18 @@ The textbook is the main reference. Additional problems, notes, or practice shee
 
 ## Assignments
 
-Assignments will be updated during the semester.
-
-- Week 1: TBA
-- Week 2: TBA
-- Week 3: TBA
-- Week 4: TBA
-- Week 5: TBA
-- Week 6: TBA
-- Week 7: TBA
-- Week 8: Internal Test 1 / no regular assignment unless announced
-- Week 9: TBA
-- Week 10: TBA
-- Week 11: TBA
-- Week 12: TBA
-- Week 13: TBA
-- Week 14: TBA
-- Week 15: Internal Test 2 / no regular assignment unless announced
+- [Homework 1]({{ site.url }}/downloads/Stats26/homework1.pdf)
+- [Homework 2]({{ site.url }}/downloads/Stats26/homework2.pdf)
+- [Homework 3]({{ site.url }}/downloads/Stats26/homework3.pdf)
+- [Homework 4]({{ site.url }}/downloads/Stats26/homework4.pdf)
+- [Homework 5]({{ site.url }}/downloads/Stats26/homework5.pdf)
+- [Problem Set: Lectures 10--12]({{ site.url }}/downloads/Stats26/problemset_L10-L12.pdf)
 
 ## Tests
 
-- Internal Test 1: Date and syllabus to be announced.
-- Internal Test 2: Date and syllabus to be announced.
-- End-Semester Examination: As per institute schedule.
+- [Internal 1]({{ site.url }}/downloads/Stats26/Internal1.pdf)
+- [Internal 1: Make-up]({{ site.url }}/downloads/Stats26/Internal1_v2.pdf)
+- [Test 1]({{ site.url }}/downloads/Stats26/Test1.pdf)
 
 ## Remarks
 

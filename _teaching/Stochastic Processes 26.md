@@ -1,16 +1,20 @@
 ---
 layout: page
 title: Stochastic Processes 2026
-description: Stochastic Process
+description: BA III year elective course at MSE
 img: assets/img/BrownianMotion.png
 importance: 1
 category: work
 ---
 ## Logistics
 
-Timings: To be announced
+Timings: Wednesday and Friday, 11:30 AM--1:00 PM
 
-Teaching Assistants: To be announced
+Venue: Cognizant Lab, COE Building
+
+Teaching Assistant: Aman Ray
+
+Tutorial: Monday, 9:30--11:00 AM
 
 ## Syllabus
 
@@ -27,7 +31,12 @@ The main course notes are [Lecture Notes on Stochastic Processes]({{ site.url }}
 
 ## Course Objectives
 
-The course introduces undergraduates to probability theory and random processes. The objective is twofold: (i) to equip students with the mathematical tools needed to identify and characterize the essential properties of stochastic processes, and (ii) to train them to compute and interpret quantities such as expectations, distributions, transition probabilities, and limiting behavior. Emphasis is placed on precise definitions, proofs, examples, and problem-solving.
+The course introduces undergraduates to probability theory and random processes. Its objectives are twofold:
+
+1. To equip students with the mathematical tools needed to identify and characterize the essential properties of stochastic processes.
+2. To train students to compute and interpret quantities such as expectations, distributions, transition probabilities, and limiting behavior.
+
+Emphasis is placed on precise definitions, proofs, examples, and problem-solving.
 
 ## References
 - Sheldon M. Ross; ["Introduction to Probability Models"](https://www.google.co.in/books/edition/Introduction_to_Probability_Models/1uxBwhAb_zYC?hl=en&gbpv=0), Academic Press, Ninth Edition, 2007.
@@ -45,5 +54,5 @@ The course introduces undergraduates to probability theory and random processes.
 
 ## Main Tests
 
-- [Internal 1]({{ site.url }}/downloads/UGSP26/Internal1.pdf)
 - [Test 1]({{ site.url }}/downloads/UGSP26/Test1.pdf)
+- [Internal 1]({{ site.url }}/downloads/UGSP26/Internal1.pdf)
