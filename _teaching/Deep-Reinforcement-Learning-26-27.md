@@ -13,7 +13,7 @@ related_publications: false
 Timings: Monday--Thursday, 11:15 AM--12:45 PM  
 Venue: Cognizant Lab, COE Building, second floor  
 Teaching Assistant: Rajat Kumar Mishra  
-Students: MSc Data Science (Semester 1, 2026) and MBA (joint)
+Students: MSc Data Science (Semester 3, 2026) and MBA (joint)
 
 ## Syllabus
 
@@ -46,9 +46,11 @@ methods, feature construction, least-squares methods.
 
 ## Assignments
 
-- [Problem Set: Week 1]({{ site.url }}/downloads/DRL26/problem_set_week1.pdf)
+- [Homework 1]({{ site.url }}/downloads/DRL26/homework1.pdf)
 - [Homework 2]({{ site.url }}/downloads/DRL26/homework2.pdf)
+- [Homework 3]({{ site.url }}/downloads/DRL26/homework3.pdf)
 
 ## Tests
 
 - [Class Test]({{ site.url }}/downloads/DRL26/class_test.pdf)
+- [Internal 1]({{ site.url }}/downloads/DRL26/Internal1.pdf)
