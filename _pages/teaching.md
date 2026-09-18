@@ -1,66 +1,30 @@
 ---
 layout: page
-title: teaching
+title: Teaching
+nav_title: teaching
 permalink: /teaching/
 description: Course materials.
 nav: true
 nav_order: 4
-display_categories: [work, teaching]
-horizontal: false
 giscus_comments: true
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.teaching | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## 2026
 
-{% else %}
+- [Deep and Reinforcement Learning 2026]({{ '/teaching/Deep-Reinforcement-Learning-26-27/' | relative_url }})
+- [Statistics for Economics 2026]({{ '/teaching/Statistics-for-Economics-26/' | relative_url }})
+- [Stochastic Processes 2026]({{ '/teaching/Stochastic-Processes-26/' | relative_url }})
 
-<!-- Display projects without categories -->
+## 2025
 
-{% assign sorted_projects = site.teaching | sort: "importance" %}
+- [Statistics for Economics 2025]({{ '/teaching/Statistics-for-Economics-25/' | relative_url }})
+- [Stochastic Processes 2025]({{ '/teaching/Stochastic-Processes-25/' | relative_url }})
+- [Time Series Analysis 2025]({{ '/teaching/Time-Series-Analysis-25/' | relative_url }})
 
-  <!-- Generate cards for each project -->
+## 2024
 
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+- [Introduction to Programming 2024]({{ '/teaching/Introduction-to-Programming-24/' | relative_url }})
+- [Real Analysis 2024]({{ '/teaching/Real-Analysis-24/' | relative_url }})
+- [Statistics for Economics 2024]({{ '/teaching/Statistics-for-Economics-24/' | relative_url }})
+- [Stochastic Processes 2024]({{ '/teaching/Stochastic-Processes/' | relative_url }})
+- [Time Series Analysis 2024]({{ '/teaching/Time-Series-Analysis-24/' | relative_url }})

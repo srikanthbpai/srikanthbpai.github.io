@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DE 09 Time Series Analysis 2024
+title: Time Series Analysis 2024
 description: Introduction to Time Series Analysis
 img: assets/img/DE09.png
 importance: 1

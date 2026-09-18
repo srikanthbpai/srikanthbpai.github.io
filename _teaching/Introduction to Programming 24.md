@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction to Programming 24-25
+title: Introduction to Programming 2024
 description: MATLAB, R and Python
 img: assets/img/AE04.png
 importance: 1
@@ -37,4 +37,3 @@ Update: I failed to implement the last objective.
 3. [Finals]({{ site.url }}/downloads/Prog24/finals.pdf)
 
 Comments: If a student scored A or above, then they understand programming to some extent.  
-
