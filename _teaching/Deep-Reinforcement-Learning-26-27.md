@@ -10,8 +10,9 @@ related_publications: false
 
 ## Logistics
 
-Timings: TBD  
-Venue: TBD  
+Timings: Monday--Thursday, 11:15 AM--12:45 PM  
+Venue: Cognizant Lab, COE Building, second floor  
+Teaching Assistant: Rajat Kumar Mishra  
 Students: MSc Data Science (Semester 1, 2026) and MBA (joint)
 
 ## Syllabus
@@ -43,23 +44,11 @@ methods, feature construction, least-squares methods.
 1. Ian Goodfellow, Yoshua Bengio, Aaron Courville, *Deep Learning*, MIT Press, 2016.
 2. Richard S. Sutton, Andrew G. Barto, *Reinforcement Learning: An Introduction*, MIT Press, 2nd edition, 2018.
 
-## Lectures
+## Assignments
 
-Each row is published after the class. Lecture notes are the primary document; slides are an aid for projection.
+- [Problem Set: Week 1]({{ site.url }}/downloads/DRL26/problem_set_week1.pdf)
+- [Homework 2]({{ site.url }}/downloads/DRL26/homework2.pdf)
 
-| \# | Topic | Notes | Slides | Homework |
-|---|---|---|---|---|
-| 1.1 | The Learning Problem | [Notes](https://srikanthbpai.github.io/downloads/DRL26-27/M1-L1-notes.pdf) | [Slides](https://srikanthbpai.github.io/downloads/DRL26-27/M1-L1-slides.pdf) | [HW](https://srikanthbpai.github.io/downloads/DRL26-27/M1-L1-hw.pdf) |
-<!-- END LECTURE TABLE -->
+## Tests
 
-## Module Tests
-
-| Module | Test |
-|---|---|
-<!-- END TEST TABLE -->
-
-## Consolidation Labs
-
-| Module | Notebook |
-|---|---|
-<!-- END LAB TABLE -->
+- [Class Test]({{ site.url }}/downloads/DRL26/class_test.pdf)
