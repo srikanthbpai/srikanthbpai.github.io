@@ -40,6 +40,8 @@ Supplementary notes: [*Ordinary Differential Equations* by Gabriel Nagy]({{ site
 - [Homework 2]({{ site.url }}/downloads/ODE25/HW2.pdf)
 - [Homework 3]({{ site.url }}/downloads/ODE25/HW3.pdf)
 
+Some homework assignments consisted of exercise selections posted on GCR rather than separate documents.
+
 ## Tests
 
 - [Test 1]({{ site.url }}/downloads/ODE25/Test1.pdf)
@@ -52,6 +54,4 @@ Supplementary notes: [*Ordinary Differential Equations* by Gabriel Nagy]({{ site
 ## Additional Practice
 
 - [Mock Test]({{ site.url }}/downloads/ODE25/MockTest.pdf)
-- [Practice Final with Solutions]({{ site.url }}/downloads/ODE25/PracticeFinal.pdf)
-- [Practice Test Solutions]({{ site.url }}/downloads/ODE25/PracticeSolutions.pdf)
 - [Problems on PDEs and Systems of ODEs]({{ site.url }}/downloads/ODE25/PDEs-and-Systems.pdf)

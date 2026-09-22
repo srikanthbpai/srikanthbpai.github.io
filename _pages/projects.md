@@ -2,64 +2,32 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research interests and working papers.
 nav: true
 nav_order:
-display_categories: [work, professional]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+This page highlights my main research directions and papers. For a complete and up-to-date list of publications, see my [Google Scholar profile](https://scholar.google.com/citations?user=gQKsJ84AAAAJ).
 
-{% else %}
+## Political Economy
 
-<!-- Display projects without categories -->
+My main current research is in political economy, especially spatial models of voting, abstention, party positioning, and political polarization. I work in this area with **Aman Ray**.
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+- [When Does Party Convergence Persist under Alienation-Based Abstention?](https://arxiv.org/abs/2608.03788) — with Aman Ray.
+- [Single-Peakedness Does Not Prevent Leapfrogging under Abstention](https://arxiv.org/abs/2605.25131) — with Aman Ray.
 
-  <!-- Generate cards for each project -->
+## Applied Mathematics and Coding Theory
 
-{% if page.horizontal %}
+I work with **B. Sundar Rajan** on mathematical questions arising in coding theory and projective spaces.
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+- [A lattice singleton bound](https://doi.org/10.1109/ISIT.2013.6620557) — with B. Sundar Rajan.
+- [On the bounds of certain maximal linear codes in a projective space](https://doi.org/10.1109/ISIT.2015.7282523) — with B. Sundar Rajan.
+
+### Finite fields
+
+- **The Braun--Etzion--Vardy bound for binary linear subspace codes** — a paper submitted to *Finite Fields and Their Applications*. It proves the binary case of the Braun--Etzion--Vardy conjecture and supersedes my earlier work with B. Sundar Rajan. A public link will be added after the review process.
+
+## Miscellaneous
+
+- [Patent Valuation under Fragile Institutional Enforcement — A Continuous-Time Markov Approach](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5552758) — with Akila Hariharan and Naveen Srinivasan.
+- [A Critique of Reinforcement-Learning Approaches to Collusion in Oligopoly](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5900103) — with Tania Mitra Victoria and Arun Selvan.
