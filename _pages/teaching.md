@@ -17,6 +17,7 @@ giscus_comments: true
 
 ## 2025
 
+- [Ordinary Differential Equations 2025]({{ '/teaching/Ordinary-Differential-Equations-25/' | relative_url }})
 - [Statistics for Economics 2025]({{ '/teaching/Statistics-for-Economics-25/' | relative_url }})
 - [Stochastic Processes 2025]({{ '/teaching/Stochastic-Processes-25/' | relative_url }})
 - [Time Series Analysis 2025]({{ '/teaching/Time-Series-Analysis-25/' | relative_url }})
