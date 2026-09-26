@@ -28,11 +28,6 @@ category: work
 - Support vector machines and kernel methods
 - Neural networks and practical model building
 
-## Lecture notes and handouts
-
-- [Probability Handout]({{ site.url }}/downloads/IntroductionML25/ProbHandout.pdf)
-- [K-means Theorems]({{ site.url }}/downloads/IntroductionML25/KmeansTheorems.pdf)
-
 ## Assignments
 
 - [Homework 1]({{ site.url }}/downloads/IntroductionML25/HW1.pdf)
