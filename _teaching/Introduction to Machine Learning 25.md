@@ -31,8 +31,6 @@ category: work
 ## Lecture notes and handouts
 
 - [Probability Handout]({{ site.url }}/downloads/IntroductionML25/ProbHandout.pdf)
-- [Faster Regression]({{ site.url }}/downloads/IntroductionML25/Faster-regression.pdf)
-- [Gradient Descent and Random Forests]({{ site.url }}/downloads/IntroductionML25/Gradient-Descent-Random-Forest.pdf)
 - [K-means Theorems]({{ site.url }}/downloads/IntroductionML25/KmeansTheorems.pdf)
 
 ## Assignments
@@ -41,6 +39,7 @@ category: work
 - [Homework 2]({{ site.url }}/downloads/IntroductionML25/HW2.pdf)
 - [Homework 3]({{ site.url }}/downloads/IntroductionML25/HW3.pdf)
 - [Homework 4]({{ site.url }}/downloads/IntroductionML25/HW4.pdf)
+- [Exercises in Gradient Descent and Random Forests]({{ site.url }}/downloads/IntroductionML25/Gradient-Descent-Random-Forest.pdf)
 
 ## Examinations
 
