@@ -17,6 +17,8 @@ giscus_comments: true
 
 ## 2025
 
+- [Linear Algebra 2025]({{ '/teaching/Linear-Algebra-25/' | relative_url }})
+- [Introduction to Machine Learning 2025]({{ '/teaching/Introduction-to-Machine-Learning-25/' | relative_url }})
 - [Ordinary Differential Equations 2025]({{ '/teaching/Ordinary-Differential-Equations-25/' | relative_url }})
 - [Statistics for Economics 2025]({{ '/teaching/Statistics-for-Economics-25/' | relative_url }})
 - [Stochastic Processes 2025]({{ '/teaching/Stochastic-Processes-25/' | relative_url }})
