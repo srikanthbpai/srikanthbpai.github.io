@@ -51,6 +51,7 @@ Emphasis is placed on precise definitions, proofs, examples, and problem-solving
 - [Problem Set 4]({{ site.url }}/downloads/UGSP26/pset04.pdf)
 - [Problem Set 5]({{ site.url }}/downloads/UGSP26/pset05.pdf)
 - [Problem Set 6]({{ site.url }}/downloads/UGSP26/pset06.pdf)
+- [Problem Set 7]({{ site.url }}/downloads/UGSP26/pset07.pdf)
 - [Problem Set 8]({{ site.url }}/downloads/UGSP26/pset08.pdf)
 
 ## Main Tests
