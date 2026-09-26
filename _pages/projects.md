@@ -30,7 +30,7 @@ For a complete publication list, see my [Google Scholar profile](https://scholar
 <ul class="research-list">
 <li><a href="https://doi.org/10.1109/ISIT.2013.6620557">A lattice singleton bound</a> — <em>2013 IEEE International Symposium on Information Theory (ISIT)</em>, pp. 1904–1908; with B. Sundar Rajan.</li>
 <li><a href="https://doi.org/10.1109/ISIT.2015.7282523">On the bounds of certain maximal linear codes in a projective space</a> — <em>2015 IEEE International Symposium on Information Theory (ISIT)</em>, pp. 591–595; with B. Sundar Rajan.</li>
-<li><strong>The Braun--Etzion--Vardy bound for binary linear subspace codes</strong> — submitted to <em>Finite Fields and Their Applications</em>; supersedes the earlier work with B. Sundar Rajan.</li>
+<li><strong>The Braun--Etzion--Vardy bound for binary linear subspace codes</strong> — submitted to <em>Finite Fields and Their Applications</em>.</li>
 </ul>
 
 ## Miscellaneous
