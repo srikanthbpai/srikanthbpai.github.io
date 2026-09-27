@@ -58,6 +58,10 @@ The textbook is the main reference. Additional problems, notes, or practice shee
 - [Homework 5]({{ site.url }}/downloads/Stats26/homework5.pdf)
 - [Problem Set: Lectures 10--12]({{ site.url }}/downloads/Stats26/problemset_L10-L12.pdf)
 
+## Challenge Problems
+
+- [Challenge Problems]({{ site.url }}/downloads/Stats26/ChallengeProblems.pdf)
+
 ## Tests
 
 - [Internal 1]({{ site.url }}/downloads/Stats26/Internal1.pdf)
