@@ -1,23 +1,6 @@
-<style>
-  #clustrmaps-container {
-    transform: scale(1);
-    transform-origin: top right;
-    float: right; /* Right align on larger screens */
-    margin: 0 0 0.5rem 1rem;
-  }
-  @media screen and (max-width: 576px) {
-    #clustrmaps-container {
-      float: none;
-      margin: 0 0 0.75rem 0;
-    }
-  }
-</style>
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      <div id="clustrmaps-container">
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=1VjAIakiHNVi6jf0F8r4A3FStvQqKoQbwhyR5pRH7yg"></script>
-      </div>
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
