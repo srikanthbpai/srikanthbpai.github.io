@@ -59,3 +59,14 @@ Emphasis is placed on precise definitions, proofs, examples, and problem-solving
 
 - [Test 1]({{ site.url }}/downloads/UGSP26/Test1.pdf)
 - [Internal 1]({{ site.url }}/downloads/UGSP26/Internal1.pdf)
+
+## Interactive coupling demonstration
+
+<div style="width:100%; overflow:hidden;">
+  <iframe
+    src="{{ '/assets/html/coupling-animation.html' | relative_url }}"
+    title="Interactive coupling demonstration"
+    style="display:block; width:100%; height:900px; min-height:720px; border:0;"
+    loading="lazy"
+    allow="fullscreen"></iframe>
+</div>
