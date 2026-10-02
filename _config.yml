@@ -306,8 +306,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["probability", "stocks", "time-series", "machine-learning", "category-theory", "differential-equations"] # these tags will be displayed on the front page of your blog
-display_categories: ["personal", "professional", "teaching", "project"] # these categories will be displayed on the front page of your blog
+display_tags: ["Voting", "problems", "probability", "StableMarriage", "gametheory", "economics", "stocks", "utility", "risk-aversion", "Arrow-Pratt", "CLT", "Integrals", "Series", "logistic-regression", "customer-churn", "Python", "trigonometry", "calculus", "differential-equations", "pedagogy", "quotes", "funny", "cooperative-games", "Shapley-value", "Myerson-value", "coalition-formation", "spatial-voting", "abstention", "single-peakedness", "political-economy", "AI", "research", "authorship", "mathematics"] # tags used by published posts
+display_categories: ["Cool math", "Survey", "professional teaching project", "Fun", "Exposition", "Miscellaneous", "research"] # categories used by published posts
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
