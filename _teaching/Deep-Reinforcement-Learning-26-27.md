@@ -44,6 +44,10 @@ methods, feature construction, least-squares methods.
 1. Ian Goodfellow, Yoshua Bengio, Aaron Courville, *Deep Learning*, MIT Press, 2016.
 2. Richard S. Sutton, Andrew G. Barto, *Reinforcement Learning: An Introduction*, MIT Press, 2nd edition, 2018.
 
+## Lecture Materials
+
+- [Introduction to Graphical Models]({{ site.url }}/downloads/DRL26/Intro-2-Graphical-Models.pdf)
+
 ## Assignments
 
 - [Homework 1]({{ site.url }}/downloads/DRL26/homework1.pdf)
