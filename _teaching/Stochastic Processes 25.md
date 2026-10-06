@@ -27,10 +27,6 @@ Poisson process: Levy process definition, proof of iid exponential interarrival 
 Wiener process: Levy process definition, a sketch of Donskers limiting random walk theorem, almost surely everywhere non-differentiability of sample paths.
 
 
-## Course Notes
-
-Since there are very few books that integrate macroeconomics and finance applications into a stochastic process course, I have typed up some notes. I am working on these notes and they are far from complete. So use it at your own peril: [Srikanth Pai's Course Notes (in progress)](/assets/pdf/StocProcDraft.pdf)
-
 ## Course Objectives
 The course introduces undergraduates to probability theory and random processes, with an emphasis on methods used to analyze dynamic phenomena in economics and finance. The objective is twofold: (i) to equip students with the mathematical tools to identify and characterize the essential properties of stochastic processes, and (ii) to train them to compute and interpret quantities of interest such as expectations, distributions, and limiting behaviors. Alongside the theory, students will read and analyze classic papers in economics and finance where stochastic methods play a central role, in order to see how abstract tools are applied in frontier research.
 
@@ -56,4 +52,4 @@ The course introduces undergraduates to probability theory and random processes,
 
 - [Internal I]({{ site.url }}/downloads/UGSP25/Internals1.pdf): Students were tested on Discrete-time Markov chains.
 - For Internals II, students had to present a paper on DTMC or Martingales. The projects reports of students can be downloaded [here]({{ site.url }}/downloads/UGSP25/Projects.zip). All the groups did a commendable job. I am proud of their efforts.
-- [Finals]({{ site.url }}/downloads/UGSP25/Finals.pdf) 
+- [Finals]({{ site.url }}/downloads/UGSP25/Finals.pdf)

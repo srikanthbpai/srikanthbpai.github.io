@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Application to Statistics}{29}{0}{1}
+\beamer@sectionintoc {2}{Practice}{44}{0}{2}
+\beamer@sectionintoc {3}{Bayesian Estimation Theory}{55}{0}{3}

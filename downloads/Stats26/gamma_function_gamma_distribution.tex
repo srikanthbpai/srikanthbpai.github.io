@@ -1,0 +1,1361 @@
+% !TEX program = pdflatex
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usetheme{Madrid}
+\usefonttheme{professionalfonts}
+\usepackage{amsmath,amssymb,mathtools,bm,booktabs}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\definecolor{navy}{RGB}{23,48,87}
+\definecolor{gold}{RGB}{196,137,40}
+\definecolor{ink}{RGB}{35,39,47}
+\definecolor{softblue}{RGB}{235,242,252}
+\setbeamercolor{structure}{fg=navy}
+\setbeamercolor{frametitle}{fg=white,bg=navy}
+\setbeamercolor{title}{fg=white,bg=navy}
+\setbeamercolor{block title}{fg=white,bg=navy}
+\setbeamercolor{block body}{fg=ink,bg=softblue}
+\setbeamercolor{alerted text}{fg=gold!85!black}
+\setbeamercolor{normal text}{fg=ink}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.78\paperwidth,ht=2.6ex,dp=1.2ex,leftskip=1em]{author in head/foot}%
+      Gamma function and Gamma distribution
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.22\paperwidth,ht=2.6ex,dp=1.2ex,center]{date in head/foot}%
+      \insertframenumber{} / \inserttotalframenumber
+    \end{beamercolorbox}%
+  }%
+}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\GammaDist}{\operatorname{Gamma}}
+\newcommand{\Exp}{\operatorname{Exp}}
+\newcommand{\Normal}{\mathcal{N}}
+
+\title{From Gamma Functions to Statistical Inference}
+\subtitle{Beta, chi-square, Student's t, and F distributions}
+\author{Srikanth Pai\texorpdfstring{\\}{ }\small Assistant Professor\texorpdfstring{\\}{ }\small Madras School of Economics}
+\date{}
+
+\begin{document}
+
+\begin{frame}[plain]
+  \begin{beamercolorbox}[wd=\paperwidth,sep=0.8em,center]{title}
+    {\usebeamerfont{title}\inserttitle\par}
+    \vspace{0.25em}
+    {\usebeamerfont{subtitle}\insertsubtitle\par}
+  \end{beamercolorbox}
+  \centering
+  \vfill
+  \includegraphics[width=3.8cm]{MSELOGO.png}\par
+  \vspace{0.35cm}
+  {\large Srikanth Pai\par}
+  {\normalsize Assistant Professor\par}
+  {\normalsize Madras School of Economics\par}
+\end{frame}
+
+\begin{frame}{Roadmap}
+  \begin{center}
+    \Large
+    \begin{tabular}{c@{\qquad}c@{\qquad}c}
+      \textcolor{navy}{\textbf{Gamma function}} &
+      $\longrightarrow$ &
+      \textcolor{navy}{\textbf{Gamma distribution}} \\
+      \rule{0pt}{1.1cm}\small $\Gamma(a)=\displaystyle\int_0^\infty x^{a-1}e^{-x}\,dx$
+      && \small $X\sim\GammaDist(\alpha,\beta)$ \\
+      && \small $\text{rate parameter }\beta$
+    \end{tabular}
+  \end{center}
+  \vspace{0.35cm}
+  \centering
+  \textcolor{navy}{\large Gamma function $\longrightarrow$ Gamma distribution $\longrightarrow$ MGF identifications}
+\end{frame}
+
+\begin{frame}{The Gamma function: factorials beyond the integers}
+  \begin{block}{Definition}
+    For $a>0$,
+    \[
+      \Gamma(a)=\int_0^\infty x^{a-1}e^{-x}\,dx.
+    \]
+  \end{block}
+  \begin{itemize}
+    \item The integrand is positive, and the integral is finite for every $a>0$.
+    \item Integration by parts gives the fundamental recurrence:
+      \[
+        \Gamma(a+1)=a\,\Gamma(a).
+      \]
+    \item Since $\Gamma(1)=1$, for integers $n\ge 1$,
+      \[
+        \Gamma(n)=(n-1)!.
+      \]
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{A special value}
+  \begin{block}{$\Gamma(1/2)$}
+    Put $x=u^2$:
+    \[
+      \Gamma\!\left(\tfrac12\right)
+      =2\int_0^\infty e^{-u^2}\,du
+      =\sqrt{\pi}.
+    \]
+  \end{block}
+  \vspace{.2cm}
+  Hence
+  \[
+    \Gamma\!\left(n+\tfrac12\right)
+    =\frac{(2n)!}{4^n n!}\sqrt{\pi}.
+  \]
+\end{frame}
+
+\begin{frame}{The Gamma distribution (rate parameterization)}
+  \begin{block}{Definition}
+    A positive random variable $X$ has a Gamma distribution with shape $\alpha>0$ and rate $\beta>0$ if
+    \[
+      X\sim\GammaDist(\alpha,\beta),\qquad
+      f_X(x)=\frac{\beta^\alpha}{\Gamma(\alpha)}x^{\alpha-1}e^{-\beta x},\quad x>0.
+    \]
+  \end{block}
+  \begin{itemize}
+    \item \textbf{Shape} $\alpha$ controls the behavior near zero and the overall skew.
+    \item \textbf{Rate} $\beta$ is the reciprocal scale: larger $\beta$ concentrates mass closer to zero.
+    \item Beware: some books use a scale $\theta=1/\beta$ instead.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{MGF, mean, and variance}
+  \begin{block}{MGF of $X\sim\GammaDist(\alpha,\beta)$}
+    For $t<\beta$,
+    \[
+      M_X(t)=\E(e^{tX})
+      =\left(\frac{\beta}{\beta-t}\right)^\alpha.
+    \]
+  \end{block}
+  \begin{columns}[T]
+    \begin{column}{.50\textwidth}
+      Differentiate at $t=0$:
+      \[
+        \E(X)=M_X'(0)=\frac{\alpha}{\beta}.
+      \]
+    \end{column}
+    \begin{column}{.46\textwidth}
+      Using $\Var(X)=M_X''(0)-[M_X'(0)]^2$:
+      \[
+        \Var(X)=\frac{\alpha}{\beta^2}.
+      \]
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{A couple of concrete Gamma calculations}
+  \begin{exampleblock}{Example 1: an ordinary shape}
+    If $X\sim\GammaDist(4,3)$, then
+    \[
+      \E(X)=\frac43,\qquad \Var(X)=\frac49,
+      \qquad M_X(t)=\left(\frac{3}{3-t}\right)^4.
+    \]
+  \end{exampleblock}
+  \begin{exampleblock}{Example 2: a half-shape}
+    If $Y\sim\GammaDist\!\left(\tfrac12,\tfrac12\right)$, then
+    \[
+      \E(Y)=1,\qquad \Var(Y)=2,
+      \qquad M_Y(t)=(1-2t)^{-1/2}.
+    \]
+  \end{exampleblock}
+\end{frame}
+
+\begin{frame}{Three random quantities to keep in mind}
+  \begin{enumerate}
+    \item Let $Z\sim\Normal(0,1)$ and consider $Y=Z^2$.
+    \item Let $Z_1,\dots,Z_d$ be independent $\Normal(0,1)$ variables and set
+      \[
+        Q_d=Z_1^2+\cdots+Z_d^2.
+      \]
+    \item Let $E_1,\dots,E_n$ be iid $\Exp(\lambda)$ variables and set
+      \[
+        S_n=E_1+\cdots+E_n.
+      \]
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}{The square of a standard normal}
+  \begin{block}{Direct MGF calculation}
+    For $Z\sim\Normal(0,1)$ and $t<1/2$,
+    \[
+      \begin{aligned}
+      M_{Z^2}(t)
+      &=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}
+        \exp\!\left(tz^2-\frac{z^2}{2}\right)\,dz\\
+      &=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}
+        \exp\!\left[-\frac{1-2t}{2}z^2\right]dz
+      =(1-2t)^{-1/2}.
+      \end{aligned}
+    \]
+  \end{block}
+  \centering
+  \Large $Z^2\sim\GammaDist\!\left(\tfrac12,\tfrac12\right)$
+  \qquad
+  \small $\E(Z^2)=1,\;\Var(Z^2)=2$.
+\end{frame}
+
+\begin{frame}{Chi-square as a Gamma distribution}
+  \begin{block}{Definition and identification}
+    If $Z_1,\dots,Z_d$ are independent standard normals, then
+    \[
+      \chi^2_d:=\sum_{j=1}^{d}Z_j^2
+      \sim\GammaDist\!\left(\frac d2,\frac12\right).
+    \]
+  \end{block}
+  \begin{columns}[T]
+    \begin{column}{.48\textwidth}
+      \textbf{Mean}
+      \[
+        \E(\chi^2_d)=\frac{d/2}{1/2}=d.
+      \]
+    \end{column}
+    \begin{column}{.48\textwidth}
+      \textbf{Variance}
+      \[
+        \Var(\chi^2_d)=\frac{d/2}{(1/2)^2}=2d.
+      \]
+    \end{column}
+  \end{columns}
+  \vfill
+  \centering\small
+  For example, $\chi^2_4\sim\GammaDist(2,1/2)$, so its mean is $4$ and its variance is $8$.
+\end{frame}
+
+\begin{frame}{A sum of iid exponential waiting times}
+  \begin{block}{Start with one waiting time}
+    If $E\sim\Exp(\lambda)$ in the rate convention, then
+    \[
+      f_E(x)=\lambda e^{-\lambda x},\quad x>0,
+      \qquad M_E(t)=\frac{\lambda}{\lambda-t},\quad t<\lambda.
+    \]
+  \end{block}
+  Let $S_n=E_1+\cdots+E_n$ with iid copies $E_i$.
+  \[
+    M_{S_n}(t)=\prod_{i=1}^{n}M_{E_i}(t)
+    =\left(\frac{\lambda}{\lambda-t}\right)^n.
+  \]
+  \begin{alertblock}{MGF identification}
+    \[
+      S_n\sim\GammaDist(n,\lambda),
+      \qquad \E(S_n)=\frac{n}{\lambda},
+      \qquad \Var(S_n)=\frac{n}{\lambda^2}.
+    \]
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}{Summary}
+  \begin{enumerate}
+    \item $\Gamma(a+1)=a\Gamma(a)$ and $\Gamma(n)=(n-1)!$.
+    \item In the \textbf{rate} parameterization,
+      \[
+        X\sim\GammaDist(\alpha,\beta)
+        \Longrightarrow
+        M_X(t)=\left(\frac{\beta}{\beta-t}\right)^\alpha,
+        \quad \E(X)=\frac\alpha\beta,
+        \quad \Var(X)=\frac\alpha{\beta^2}.
+      \]
+    \item Independent sums multiply MGFs, which explains the closure of the Gamma family under common-rate sums.
+    \item The key identifications are
+      \[
+        Z^2\sim\GammaDist\!\left(\tfrac12,\tfrac12\right),\quad
+        \chi^2_d\sim\GammaDist\!\left(\tfrac d2,\tfrac12\right),\quad
+        \sum_{i=1}^n E_i\sim\GammaDist(n,\lambda).
+      \]
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}{Beta distribution}
+  If $U\sim\operatorname{Beta}(a,b)$, with $a,b>0$, then
+  \[
+    f_U(u)=\frac{1}{B(a,b)}u^{a-1}(1-u)^{b-1},\qquad 0<u<1,
+  \]
+  where
+  \[
+    B(a,b)=\int_0^1u^{a-1}(1-u)^{b-1}\,du.
+  \]
+\end{frame}
+
+\begin{frame}{Order statistics of a uniform sample}
+  Let $U_1,\dots,U_n\stackrel{\mathrm{iid}}\sim\operatorname{Unif}(0,1)$ and let
+  $U_{(1)}\le\cdots\le U_{(n)}$ be the order statistics.
+  \uncover<1->{
+    \[
+      \boxed{U_{(k)}\sim\operatorname{Beta}(k,n-k+1).}
+    \]
+  }
+  \uncover<2->{
+    For $0<u<1$,
+    \[
+      \begin{aligned}
+        f_{U_{(k)}}(u)
+        &=\frac{n!}{(k-1)!(n-k)!}
+          u^{k-1}(1-u)^{n-k}\\
+        &=\frac{1}{B(k,n-k+1)}u^{k-1}(1-u)^{n-k}.
+      \end{aligned}
+    \]
+  }
+\end{frame}
+
+\begin{frame}{The Beta--Gamma relation}
+  For $a,b>0$,
+  \[
+    \Gamma(a)\Gamma(b)
+    =\int_0^\infty\!\!\int_0^\infty
+      x^{a-1}y^{b-1}e^{-(x+y)}\,dx\,dy.
+  \]
+  Use
+  \[
+    r=x+y,\qquad u=\frac{x}{x+y},\qquad
+    x=ru,\qquad y=r(1-u),\qquad dx\,dy=r\,dr\,du.
+  \]
+  Then
+  \[
+    \begin{aligned}
+      \Gamma(a)\Gamma(b)
+      &=\left[\int_0^1u^{a-1}(1-u)^{b-1}\,du\right]
+        \left[\int_0^\infty r^{a+b-1}e^{-r}\,dr\right]\\
+      &=B(a,b)\Gamma(a+b).
+  \end{aligned}
+\]
+\end{frame}
+
+\begin{frame}{Exercise: Beta-function moments}
+  Let $U\sim\operatorname{Beta}(a,b)$. For $r>-a$ and $s<b$, show that
+  \[
+    \mathbb E\!\left[U^r(1-U)^{-s}\right]
+    =\frac{B(a+r,b-s)}{B(a,b)}.
+  \]
+\end{frame}
+
+\begin{frame}{Mean and variance of a Beta random variable}
+  For $U\sim\operatorname{Beta}(a,b)$,
+  \uncover<1->{
+    \[
+      \E(U)=\frac{a}{a+b},
+      \qquad
+      \Var(U)=\frac{ab}{(a+b)^2(a+b+1)}.
+    \]
+  }
+  \uncover<2->{
+    \[
+      \begin{aligned}
+        \E(U)
+        &=\frac{B(a+1,b)}{B(a,b)}
+          =\frac{a}{a+b},\\[.4em]
+        \E(U^2)
+        &=\frac{B(a+2,b)}{B(a,b)}
+          =\frac{a(a+1)}{(a+b)(a+b+1)},\\[.4em]
+        \Var(U)
+        &=\E(U^2)-[\E(U)]^2
+          =\frac{ab}{(a+b)^2(a+b+1)}.
+      \end{aligned}
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Gamma--Beta construction}
+  Let $X$ and $Y$ be independent with
+  \[
+    X\sim\GammaDist(a,\lambda),
+    \qquad
+    Y\sim\GammaDist(b,\lambda).
+  \]
+  Define
+  \[
+    S=X+Y,
+    \qquad
+    U=\frac{X}{X+Y}.
+  \]
+  Then
+  \[
+    \boxed{S\sim\GammaDist(a+b,\lambda),
+    \qquad U\sim\operatorname{Beta}(a,b),
+    \qquad S\perp U.}
+  \]
+\end{frame}
+
+\begin{frame}{Student's $t$ distribution}
+  Let
+  \[
+    Z\sim N(0,1),\qquad V\sim\chi^2_d,
+    \qquad Z\perp V.
+  \]
+  Define
+  \[
+    T_d=\frac{Z}{\sqrt{V/d}}.
+  \]
+  Then
+  \[
+    \boxed{T_d\sim t_d.}
+  \]
+  Since $\chi^2_d\sim\GammaDist\!\left(\frac d2,\frac12\right)$, this definition uses the distributions already developed.
+\end{frame}
+
+\begin{frame}{Deriving the $t_d$ density: CDF and differentiation}
+  \small
+  \begin{enumerate}
+    \item For $t\in\mathbb R$,
+      \[
+        F_{T_d}(t)
+        =\Pr\!\left(Z\le t\sqrt{V/d}\right)
+        =\int_0^\infty \Phi\!\left(t\sqrt{v/d}\right)f_V(v)\,dv.
+      \]
+    \item Differentiate under the integral sign:
+      \[
+        f_{T_d}(t)
+        =\int_0^\infty
+          \phi\!\left(t\sqrt{v/d}\right)\sqrt{v/d}\,f_V(v)\,dv.
+      \]
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}{Deriving the $t_d$ density: substitution and result}
+  \small
+  \begin{enumerate}
+    \setcounter{enumi}{2}
+    \item Insert the normal and chi-square densities:
+      \[
+        f_{T_d}(t)
+        =\frac{2^{-d/2}}{\sqrt{2\pi d}\,\Gamma(d/2)}
+        \int_0^\infty v^{(d+1)/2-1}
+        e^{-\frac12(1+t^2/d)v}\,dv.
+      \]
+    \item Set $w=\frac12(1+t^2/d)v$ and use the Gamma integral:
+      \[
+        \boxed{
+        f_{T_d}(t)=
+        \frac{\Gamma((d+1)/2)}{\sqrt{d\pi}\,\Gamma(d/2)}
+        \left(1+\frac{t^2}{d}\right)^{-(d+1)/2}}
+      \]
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}{Student's $t$ densities}
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+      width=.92\textwidth,
+      height=.62\textheight,
+      xmin=-4,xmax=4,
+      ymin=0,ymax=.43,
+      axis lines=left,
+      xlabel={$t$},
+      ylabel={$f(t)$},
+      grid=major,
+      legend style={at={(0.98,0.98)},anchor=north east,font=\scriptsize},
+      tick label style={font=\scriptsize},
+      label style={font=\small}
+    ]
+      \addplot[navy,thick,samples=200,domain=-4:4]
+        {1/(pi*(1+x^2))};
+      \addlegendentry{$t_1$}
+      \addplot[gold!85!black,thick,samples=200,domain=-4:4]
+        {1/(2*sqrt(2))*(1+x^2/2)^(-3/2)};
+      \addlegendentry{$t_2$}
+      \addplot[red!75!black,thick,samples=200,domain=-4:4]
+        {8/(3*pi*sqrt(5))*(1+x^2/5)^(-3)};
+      \addlegendentry{$t_5$}
+      \addplot[green!45!black,thick,samples=200,domain=-4:4]
+        {945/(768*sqrt(10))*(1+x^2/10)^(-11/2)};
+      \addlegendentry{$t_{10}$}
+      \addplot[black,dashed,thick,samples=200,domain=-4:4]
+        {1/sqrt(2*pi)*exp(-x^2/2)};
+      \addlegendentry{$N(0,1)$}
+    \end{axis}
+  \end{tikzpicture}
+
+  \scriptsize Curves are computed from the displayed density formula; as $d$ increases, $t_d$ approaches $N(0,1)$.
+\end{frame}
+
+\begin{frame}{Cochran's theorem: normal-sample form}
+  Let $X_1,\dots,X_n\stackrel{\mathrm{iid}}\sim N(\mu,\sigma^2)$, with
+  \[
+    \bar X=\frac1n\sum_{i=1}^nX_i,\qquad
+    S^2=\frac1{n-1}\sum_{i=1}^n(X_i-\bar X)^2.
+  \]
+  Then
+  \[
+    \frac{\bar X-\mu}{\sigma/\sqrt n}\sim N(0,1),
+    \qquad
+    \frac{(n-1)S^2}{\sigma^2}\sim\chi^2_{n-1},
+  \]
+  and
+  \[
+    \boxed{\bar X\ \text{and}\ S^2\ \text{are independent}.}
+  \]
+\end{frame}
+
+\begin{frame}{Confidence interval for a normal mean}
+  Cochran's theorem gives
+  \[
+    \frac{\bar X-\mu}{S/\sqrt n}\sim t_{n-1}.
+  \]
+  Therefore,
+  \[
+    \Pr\!\left(
+      -t_{1-\alpha/2,n-1}
+      \le\frac{\bar X-\mu}{S/\sqrt n}
+      \le t_{1-\alpha/2,n-1}
+    \right)=1-\alpha.
+  \]
+  Rearranging gives
+  \[
+    \boxed{
+      \mu\in
+      \bar X\pm t_{1-\alpha/2,n-1}\frac{S}{\sqrt n}
+    }.
+  \]
+\end{frame}
+
+\begin{frame}{The $F$ distribution}
+  Let $U$ and $V$ be independent with
+  \[
+    U\sim\chi^2_{d_1},\qquad V\sim\chi^2_{d_2}.
+  \]
+  Then
+  \[
+    \boxed{
+      F=\frac{U/d_1}{V/d_2}\sim F_{d_1,d_2}.}
+  \]
+  Since $U/(U+V)\sim\operatorname{Beta}(d_1/2,d_2/2)$,
+  \[
+    F=\frac{d_2}{d_1}\frac{U/(U+V)}{1-U/(U+V)}.
+  \]
+  In particular,
+  \[
+    T_d^2\sim F_{1,d}.
+  \]
+\end{frame}
+
+\begin{frame}{Mean and variance of an $F$ random variable}
+  If $F\sim F_{d_1,d_2}$, then
+  \[
+    \E(F)=\frac{d_2}{d_2-2},
+    \qquad d_2>2,
+  \]
+  and
+  \[
+    \Var(F)=
+    \frac{2d_2^2(d_1+d_2-2)}
+    {d_1(d_2-2)^2(d_2-4)},
+    \qquad d_2>4.
+  \]
+  \[
+    \text{Use }F=\frac{d_2}{d_1}\frac{U}{1-U},
+    \qquad U\sim\operatorname{Beta}\!\left(\frac{d_1}{2},\frac{d_2}{2}\right).
+  \]
+\end{frame}
+
+\section{Application to Statistics}
+
+\begin{frame}{Application to Statistics}
+  \centering
+  \Large Confidence intervals from chi-square and Gamma pivots
+\end{frame}
+
+\begin{frame}{Why these intervals matter}
+  \begin{itemize}
+    \item \textbf{Manufacturing:} how variable are the fill volumes from a production line?
+    \item \textbf{Calibration:} what is the uncertainty in the mean measurement error?
+    \item \textbf{Service systems:} what is the average waiting time or event rate?
+    \item \textbf{Process comparison:} how does the variability of one process compare with another?
+  \end{itemize}
+  \vfill
+  \centering
+  \textcolor{navy}{\large Data $\longrightarrow$ pivot $\longrightarrow$ confidence interval}
+\end{frame}
+
+\begin{frame}{How the reference distributions appear}
+  \small
+  \renewcommand{\arraystretch}{1.45}
+  \begin{tabular}{p{.34\textwidth}p{.38\textwidth}c}
+    \toprule
+    \textbf{Statistical question} & \textbf{Pivotal quantity} & \textbf{Law}\\
+    \midrule
+    Normal mean, $\sigma$ known
+      & $\dfrac{\bar X-\mu}{\sigma/\sqrt n}$ & $N(0,1)$\\[.5em]
+    Normal variance, $\mu$ known
+      & $\dfrac{\sum(X_i-\mu)^2}{\sigma^2}$ & $\chi^2_n$\\[.5em]
+    Normal mean, $\sigma$ unknown
+      & $\dfrac{\bar X-\mu}{S/\sqrt n}$ & $t_{n-1}$\\[.5em]
+    Ratio of two normal variances
+      & $\dfrac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2}$ & $F_{n_1-1,n_2-1}$\\[.5em]
+    Exponential rate $\lambda$
+      & $2\lambda\sum E_i$ & $\chi^2_{2n}$\\
+    \bottomrule
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{Variance confidence interval: mean known}
+  Suppose $X_1,\dots,X_n\stackrel{\mathrm{iid}}\sim N(\mu,\sigma^2)$ and $\mu$ is known. Then
+  \[
+    \frac{1}{\sigma^2}\sum_{i=1}^n(X_i-\mu)^2\sim\chi^2_n.
+  \]
+  If $\chi^2_{\nu,p}$ is the $p$-quantile of $\chi^2_\nu$, then
+  \[
+    \boxed{
+      \frac{\sum_{i=1}^n(X_i-\mu)^2}{\chi^2_{n,1-\alpha/2}}
+      \le \sigma^2 \le
+      \frac{\sum_{i=1}^n(X_i-\mu)^2}{\chi^2_{n,\alpha/2}}
+    }.
+  \]
+\end{frame}
+
+\begin{frame}{Worked example: variance, mean known}
+  A calibration instrument has known mean error $\mu=0$. Ten measured errors are
+  \[
+    2,-1,3,-2,1,0,-3,2,-1,1.
+  \]
+  Construct a $95\%$ confidence interval for $\sigma^2$.
+
+  \uncover<2->{
+    \small
+    \[
+      \sum x_i^2=34,\qquad
+      \chi^2_{10,.975}=20.483,\qquad
+      \chi^2_{10,.025}=3.940.
+    \]
+    \[
+      \boxed{\sigma^2\in
+      \left(\frac{34}{20.483},\frac{34}{3.940}\right)
+      =(1.66,8.63)}.
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Variance confidence interval: mean unknown}
+  For $X_1,\dots,X_n\stackrel{\mathrm{iid}}\sim N(\mu,\sigma^2)$,
+  \[
+    \frac{(n-1)S^2}{\sigma^2}\sim\chi^2_{n-1}.
+  \]
+  Hence
+  \[
+    \boxed{
+      \frac{(n-1)S^2}{\chi^2_{n-1,1-\alpha/2}}
+      \le \sigma^2 \le
+      \frac{(n-1)S^2}{\chi^2_{n-1,\alpha/2}}
+    }.
+  \]
+\end{frame}
+
+\begin{frame}{Worked example: variance, mean unknown}
+  A bottling machine produces the following fill volumes, in mL:
+  \[
+    498,501,500,502,499,503,497,500.
+  \]
+  Assuming normality, construct a $95\%$ confidence interval for $\sigma^2$.
+
+  \uncover<2->{
+    \small
+    \[
+      n=8,\qquad \bar x=500,\qquad S^2=4,
+      \qquad (n-1)S^2=28.
+    \]
+    \[
+      \boxed{\sigma^2\in
+      \left(\frac{28}{\chi^2_{7,.975}},\frac{28}{\chi^2_{7,.025}}\right)
+      =\left(\frac{28}{16.013},\frac{28}{1.690}\right)
+      =(1.75,16.57)\ \text{mL}^2}.
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Confidence interval for an exponential rate}
+  If $E_1,\dots,E_n\stackrel{\mathrm{iid}}\sim\operatorname{Exp}(\lambda)$ and
+  $S=\sum_{i=1}^nE_i$, then
+  \[
+    S\sim\GammaDist(n,\lambda),
+    \qquad 2\lambda S\sim\chi^2_{2n}.
+  \]
+  Therefore, with $\theta=1/\lambda$,
+  \[
+    \boxed{
+      \lambda\in
+      \left(\frac{\chi^2_{2n,\alpha/2}}{2S},
+      \frac{\chi^2_{2n,1-\alpha/2}}{2S}\right)}
+  \]
+  and
+  \[
+    \boxed{
+      \theta\in
+      \left(\frac{2S}{\chi^2_{2n,1-\alpha/2}},
+      \frac{2S}{\chi^2_{2n,\alpha/2}}\right)}.
+  \]
+\end{frame}
+
+\begin{frame}{Worked example: exponential waiting times}
+  The time gaps between help-desk calls, in minutes, are
+  \[
+    4,7,3,6,5,9.
+  \]
+  Assuming iid exponential waiting times, construct a $95\%$ confidence interval for the rate $\lambda$ and mean waiting time $\theta=1/\lambda$.
+
+  \uncover<2->{
+    \small
+    \[
+      n=6,\qquad S=34,\qquad
+      \chi^2_{12,.025}=4.404,\qquad
+      \chi^2_{12,.975}=23.337.
+    \]
+    \[
+      \boxed{\lambda\in(0.0648,0.3432)\ \text{per minute}},
+      \qquad
+      \boxed{\theta\in(2.914,15.441)\ \text{minutes}}.
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Confidence interval for a ratio of variances}
+  For two independent normal samples,
+  \[
+    R=\frac{\sigma_1^2}{\sigma_2^2},
+    \qquad
+    \frac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2}
+    =\frac{S_1^2/S_2^2}{R}
+    \sim F_{n_1-1,n_2-1}.
+  \]
+  Thus a $100(1-\alpha)\%$ confidence interval for $R$ is
+  \[
+    \boxed{
+      \left[
+      \frac{S_1^2/S_2^2}{F_{1-\alpha/2;\,n_1-1,n_2-1}},
+      \frac{S_1^2/S_2^2}{F_{\alpha/2;\,n_1-1,n_2-1}}
+      \right]}.
+  \]
+\end{frame}
+
+\begin{frame}{Worked example: comparing process precision}
+  Two filling machines produce bottle volumes, in mL:
+  \[
+    \begin{array}{c|cccccccc}
+      \text{Machine A} &100&102&98&101&99&103&97&100\\
+      \text{Machine B} &98&100&101&99&102&99&100&101
+    \end{array}
+  \]
+  Assuming independent normal measurements, construct a $95\%$ confidence interval for
+  $\sigma_A^2/\sigma_B^2$.
+
+  \uncover<2->{
+    \small
+    \[
+      S_A^2=4,\qquad S_B^2=\frac{12}{7},\qquad
+      \frac{S_A^2}{S_B^2}=\frac73,
+    \]
+    \[
+      F_{7,.975}=4.995,\qquad F_{7,.025}=0.200,
+      \qquad
+      \boxed{\frac{\sigma_A^2}{\sigma_B^2}\in
+      \left(\frac{7/3}{4.995},\frac{7/3}{0.200}\right)
+      =(0.47,11.66)}.
+    \]
+  }
+\end{frame}
+
+\section{Practice}
+
+\begin{frame}{Practice: identify the pivot}
+  For each situation:
+  \begin{enumerate}
+    \item identify the parameter of interest;
+    \item choose a pivot;
+    \item identify its reference distribution and degrees of freedom;
+    \item invert the probability statement to obtain the interval.
+  \end{enumerate}
+  \vfill
+  \centering
+  \textcolor{navy}{\large The cases are deliberately mixed.}
+\end{frame}
+
+\begin{frame}{Practice 1: component lifetime}
+  A normal model is reasonable for component lifetimes. From $n=16$ components,
+  \[
+    \bar x=52.4\ \text{hours},\qquad s=6.8\ \text{hours}.
+  \]
+  Construct a $95\%$ confidence interval for the mean lifetime $\mu$.
+
+  \uncover<2->{
+    \small
+    \[
+      T=\frac{\bar X-\mu}{S/\sqrt n}\sim t_{15},
+      \qquad
+      \mu\in\bar x\pm t_{15,.975}\frac{s}{\sqrt{16}}.
+    \]
+    \[
+      \boxed{\mu\in 52.4\pm2.131\left(\frac{6.8}{4}\right)
+      =(48.78,56.02)\ \text{hours}.}
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Practice 2: waiting time}
+  Interarrival times at a service desk are modeled as iid exponential. For $n=8$
+  observed gaps, the total waiting time is $S=36$ minutes.
+  Construct a $95\%$ confidence interval for the mean waiting time $\theta=1/\lambda$.
+
+  \uncover<2->{
+    \small
+    \[
+      2\lambda S\sim\chi^2_{16},
+      \qquad
+      \theta\in
+      \left(\frac{2S}{\chi^2_{16,.975}},
+      \frac{2S}{\chi^2_{16,.025}}\right).
+    \]
+    \[
+      \boxed{\theta\in
+      \left(\frac{72}{28.845},\frac{72}{6.908}\right)
+      =(2.50,10.42)\ \text{minutes}.}
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Practice 3: sensor precision}
+  A sensor has a calibrated mean error of zero. Ten independent errors are normal,
+  and their squared deviations from zero sum to $42$.
+  Construct a $95\%$ confidence interval for the error variance $\sigma^2$.
+
+  \uncover<2->{
+    \small
+    \[
+      \frac{\sum X_i^2}{\sigma^2}\sim\chi^2_{10},
+      \qquad
+      \sigma^2\in
+      \left(\frac{42}{\chi^2_{10,.975}},
+      \frac{42}{\chi^2_{10,.025}}\right).
+    \]
+    \[
+      \boxed{\sigma^2\in
+      \left(\frac{42}{20.483},\frac{42}{3.940}\right)
+      =(2.05,10.66)\ \text{error units}^2.}
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Practice 4: relative precision}
+  Two independent laboratories report sample variances
+  \[
+    n_1=n_2=8,\qquad S_1^2=3.0,\qquad S_2^2=2.0.
+  \]
+  Assuming normal measurements, construct a $95\%$ confidence interval for
+  $\sigma_1^2/\sigma_2^2$.
+
+  \uncover<2->{
+    \small
+    \[
+      \frac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2}\sim F_{7,7},
+      \qquad
+      \frac{S_1^2}{S_2^2}=1.5.
+    \]
+    \[
+      \boxed{\frac{\sigma_1^2}{\sigma_2^2}\in
+      \left(\frac{1.5}{4.995},\frac{1.5}{0.200}\right)
+      =(0.30,7.50).}
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Practice 5: known measurement error}
+  A measurement process has known standard deviation $\sigma=4$ units. A sample of
+  $n=25$ measurements has mean $\bar x=73.2$ units.
+  Construct a $95\%$ confidence interval for the population mean $\mu$.
+
+  \uncover<2->{
+    \small
+    \[
+      \frac{\bar X-\mu}{\sigma/\sqrt n}\sim N(0,1),
+      \qquad
+      \mu\in\bar x\pm z_{.975}\frac{\sigma}{\sqrt n}.
+    \]
+    \[
+      \boxed{\mu\in 73.2\pm1.96\left(\frac45\right)
+      =(71.63,74.77)\ \text{units}.}
+    \]
+  }
+\end{frame}
+
+\section{Bayesian Estimation Theory}
+
+\begin{frame}[plain]
+  \centering
+  \vfill
+  {\Huge\color{navy}\bfseries Bayesian estimation theory\par}
+  \vspace{0.6cm}
+  {\Large Updating beliefs about unknown parameters\par}
+  \vfill
+\end{frame}
+
+\begin{frame}{Bayes' theorem: the update rule}
+  \begin{block}{Bayes' theorem}
+    For events $A$ and $B$ with $P(B)>0$,
+    \[
+      P(A\mid B)=\frac{P(B\mid A)P(A)}{P(B)}.
+    \]
+  \end{block}
+
+  \uncover<2->{%
+    \[
+      \text{posterior}
+      =\frac{\text{evidence under }A\times\text{prior}}
+      {\text{total evidence}}.
+    \]
+  }
+\end{frame}
+
+\begin{frame}{A simple Bayesian example}
+  Suppose $1\%$ of devices have a fault. A diagnostic test is positive with
+  probability $0.90$ when a fault is present and $0.05$ otherwise.
+
+  \uncover<2->{%
+    Let $F$ denote the event of a fault and $+$ denote a positive test:
+    \[
+      P(F)=0.01,\qquad P(+\mid F)=0.90,\qquad P(+\mid F^c)=0.05.
+    \]
+  }
+
+  \uncover<3->{%
+    \[
+      P(+)=0.90(0.01)+0.05(0.99)=0.0545.
+    \]
+  }
+
+  \uncover<4->{%
+    \[
+      \boxed{P(F\mid +)=\frac{0.90(0.01)}{0.0545}\approx 0.165.}
+    \]
+    A positive test changes, but does not determine, our uncertainty.
+  }
+\end{frame}
+
+\begin{frame}{Why is a Bayesian view needed?}
+  The parameter $\theta$ is unknown, while the data arrive through a model.
+
+  \uncover<2->{%
+    \begin{itemize}
+      \item Before seeing data, uncertainty about $\theta$ must be represented.
+      \item The likelihood records what the observed data say about $\theta$.
+      \item After seeing data, we want a complete updated distribution, not only one number.
+      \item New observations should be incorporated without restarting the analysis.
+    \end{itemize}
+  }
+
+  \uncover<3->{%
+    \begin{block}{Bayesian philosophy}
+      Probability describes uncertainty about the unknown quantity; Bayes' theorem
+      updates that uncertainty when evidence arrives.
+    \end{block}
+  }
+\end{frame}
+
+\begin{frame}{Prior, likelihood, and posterior}
+  Let $\theta$ be the unknown parameter and $x$ the observed data.
+
+  \uncover<2->{%
+    \[
+      \underbrace{\pi(\theta)}_{\text{prior}}
+      \qquad
+      \underbrace{L(\theta;x)=p(x\mid\theta)}_{\text{likelihood}}
+    \]
+  }
+
+  \uncover<3->{%
+    \[
+      \underbrace{\pi(\theta\mid x)}_{\text{posterior}}
+      =
+      \frac{L(\theta;x)\,\pi(\theta)}
+      {\displaystyle\int L(u;x)\pi(u)\,du}.
+    \]
+  }
+
+  \uncover<4->{%
+    \[
+      \boxed{\pi(\theta\mid x)\propto L(\theta;x)\pi(\theta).}
+    \]
+    The likelihood is already familiar: Bayes' theorem tells us how to use it
+    to update a distribution for $\theta$.
+  }
+\end{frame}
+
+\begin{frame}{Sequential evidence and conjugacy}
+  If observations arrive one at a time, the current posterior becomes the next prior:
+  \[
+    \pi_{n+1}(\theta)\propto p(x_{n+1}\mid\theta)\,\pi_n(\theta).
+  \]
+
+  \uncover<2->{%
+    \begin{block}{Conjugate prior}
+      A prior family is \emph{conjugate} for a likelihood family if the posterior
+      belongs to the same family as the prior.
+    \end{block}
+  }
+
+  \uncover<3->{%
+    \[
+      \text{same algebraic form}
+      \quad\Longrightarrow\quad
+      \text{simple hyperparameter update}.
+    \]
+    This makes repeated updating transparent.
+  }
+\end{frame}
+
+\begin{frame}{Bernoulli data: Beta prior}
+  Let $X_1,\ldots,X_n\mid p\overset{\text{iid}}{\sim}\operatorname{Bernoulli}(p)$.
+  Suppose $s=\sum X_i$ successes and $f=n-s$ failures.
+
+  \uncover<2->{%
+    Choose the prior
+    \[
+      p\sim\operatorname{Beta}(a,b),
+      \qquad
+      \pi(p)\propto p^{a-1}(1-p)^{b-1}.
+    \]
+  }
+
+  \uncover<3->{%
+    The likelihood is
+    \[
+      L(p;x)=p^s(1-p)^f.
+    \]
+    The Beta family is conjugate for Bernoulli data.
+  }
+\end{frame}
+
+\begin{frame}{Bernoulli--Beta update}
+  \uncover<1->{%
+    \[
+      \pi(p\mid x)
+      \propto
+      p^s(1-p)^f\,p^{a-1}(1-p)^{b-1}.
+    \]
+  }
+
+  \uncover<2->{%
+    \[
+      \pi(p\mid x)
+      \propto
+      p^{a+s-1}(1-p)^{b+f-1}.
+    \]
+  }
+
+  \uncover<3->{%
+    \[
+      \boxed{p\mid x\sim\operatorname{Beta}(a+s,b+f).}
+    \]
+    Data add successes to the first shape parameter and failures to the second.
+  }
+
+  \uncover<4->{%
+    \[
+      p\sim\operatorname{Beta}(2,2),\quad s=4,\quad f=2
+      \quad\Longrightarrow\quad
+      p\mid x\sim\operatorname{Beta}(6,4).
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Poisson data: Gamma prior in rate format}
+  Let $X_1,\ldots,X_n\mid\lambda\overset{\text{iid}}{\sim}\operatorname{Poisson}(\lambda)$,
+  where $\lambda$ is the event rate.
+
+  \uncover<2->{%
+    Use the rate parameterisation
+    \[
+      \lambda\sim\GammaDist(a,b),
+      \qquad
+      \pi(\lambda)\propto\lambda^{a-1}e^{-b\lambda}.
+    \]
+  }
+
+  \uncover<3->{%
+    If $t=\sum x_i$, then
+    \[
+      L(\lambda;x)\propto\lambda^t e^{-n\lambda}.
+    \]
+    Thus Gamma is conjugate for Poisson data.
+  }
+\end{frame}
+
+\begin{frame}{Poisson--Gamma update}
+  \uncover<1->{%
+    \[
+      \pi(\lambda\mid x)
+      \propto
+      \lambda^t e^{-n\lambda}
+      \lambda^{a-1}e^{-b\lambda}.
+    \]
+  }
+
+  \uncover<2->{%
+    \[
+      \pi(\lambda\mid x)
+      \propto
+      \lambda^{a+t-1}e^{-(b+n)\lambda}.
+    \]
+  }
+
+  \uncover<3->{%
+    \[
+      \boxed{\lambda\mid x\sim\GammaDist(a+t,b+n)}
+      \qquad\text{(second parameter is the rate).}
+    \]
+  }
+
+  \uncover<4->{%
+    For counts $(2,1,0,3)$, a $\GammaDist(2,1)$ prior gives
+    \[
+      t=6,\qquad \lambda\mid x\sim\GammaDist(8,5).
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Normal data: Normal prior}
+  Let $X_1,\ldots,X_n\mid\mu\overset{\text{iid}}{\sim}\Normal(\mu,\sigma^2)$,
+  with $\sigma^2$ known.
+
+  \uncover<2->{%
+    Put a Normal prior on the mean:
+    \[
+      \mu\sim\Normal(m_0,\tau_0^2).
+    \]
+  }
+
+  \uncover<3->{%
+    The likelihood depends on the sample through $\bar X$:
+    \[
+      L(\mu;x)\propto
+      \exp\!\left\{-\frac{n}{2\sigma^2}(\bar x-\mu)^2\right\}.
+    \]
+    The Normal family is conjugate for a Normal mean with known variance.
+  }
+\end{frame}
+
+\begin{frame}{Normal--Normal update}
+  \uncover<1->{%
+    Define posterior precision and mean by
+    \[
+      \frac{1}{\tau_n^2}
+      =
+      \frac{1}{\tau_0^2}+\frac{n}{\sigma^2},
+      \qquad
+      m_n
+      =
+      \tau_n^2
+      \left(\frac{m_0}{\tau_0^2}
+      +\frac{n\bar x}{\sigma^2}\right).
+    \]
+  }
+
+  \uncover<2->{%
+    \[
+      \boxed{\mu\mid x\sim\Normal(m_n,\tau_n^2).}
+    \]
+    The posterior mean is a precision-weighted average of prior mean and sample mean.
+  }
+
+  \uncover<3->{%
+    With $m_0=70$, $\tau_0^2=16$, $n=4$, $\bar x=73$, and $\sigma^2=9$,
+    \[
+      \tau_n^2=\frac{144}{73}\approx1.97,
+      \qquad
+      m_n=\frac{5302}{73}\approx72.63.
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Bayesian point estimation}
+  After observing $x$, the posterior distribution contains the updated uncertainty
+  about $\theta$.
+
+  \uncover<2->{%
+    \begin{block}{Posterior mean}
+      Under squared-error loss,
+      \[
+        \widehat\theta_{\mathrm{Bayes}}
+        =\E[\theta\mid x].
+      \]
+    \end{block}
+  }
+
+  \uncover<3->{%
+    \begin{block}{Posterior mode / MAP estimate}
+      \[
+        \widehat\theta_{\mathrm{MAP}}
+        =\arg\max_\theta\,\pi(\theta\mid x).
+      \]
+      It is the most plausible value under the posterior.
+    \end{block}
+  }
+
+  \uncover<4->{%
+    These are estimates of the unknown parameter, obtained from the posterior;
+    they are not claims that the parameter itself is random in the physical world.
+  }
+\end{frame}
+
+\begin{frame}[plain]
+  \centering
+  \vfill
+  {\Huge\color{navy}\bfseries Credible intervals\par}
+  \vspace{0.6cm}
+  {\Large Intervals obtained from the posterior distribution\par}
+  \vfill
+\end{frame}
+
+\begin{frame}{Posterior intervals: credible intervals}
+  A Bayesian interval is constructed from the posterior distribution, not from
+  a repeated-sampling pivot.
+
+  \uncover<2->{%
+    An equal-tail $(1-\alpha)$ credible interval is
+    \[
+      \left[
+        q_{\alpha/2}(\theta\mid x),
+        q_{1-\alpha/2}(\theta\mid x)
+      \right],
+    \]
+    where $q_r(\theta\mid x)$ is the $r$-quantile of the posterior.
+  }
+
+  \uncover<3->{%
+    \[
+      P\!\left(
+        q_{\alpha/2}\le\theta\le q_{1-\alpha/2}
+        \mid x
+      \right)=1-\alpha.
+    \]
+  }
+
+  \uncover<4->{%
+    \begin{block}{Key distinction}
+      A $95\%$ credible interval has posterior probability $0.95$ given the data.
+      The posterior is the distribution used to update the interval statement.
+    \end{block}
+  }
+\end{frame}
+
+\begin{frame}{Bayesian estimation: the workflow}
+  \begin{enumerate}
+    \item Specify a prior distribution for the unknown parameter.
+    \item Write the likelihood from the sampling model.
+    \item Multiply prior and likelihood to obtain the posterior.
+    \item Read off posterior mean, mode, or credible intervals.
+  \end{enumerate}
+
+  \uncover<2->{%
+    \[
+      \boxed{
+        \text{prior information}
+        +\text{data through likelihood}
+        \longrightarrow
+        \text{posterior information}
+      }
+    \]
+  }
+
+  \uncover<3->{%
+    Conjugacy makes this update algebraic for the Bernoulli--Beta,
+    Poisson--Gamma, and Normal--Normal examples.
+  }
+\end{frame}
+
+\begin{frame}{Worked exercise: Bernoulli--Beta}
+  Six inspected components include four that pass a quality test. Use the prior
+  $p\sim\operatorname{Beta}(2,2)$ for the pass probability $p$.
+
+  \uncover<2->{%
+    \[
+      p\mid x\sim\operatorname{Beta}(2+4,2+2)
+      =\operatorname{Beta}(6,4).
+    \]
+  }
+
+  \uncover<3->{%
+    \[
+      \widehat p_{\mathrm{Bayes}}
+      =\E[p\mid x]=\frac{6}{10}=0.600,
+      \qquad
+      \widehat p_{\mathrm{MAP}}=\frac{5}{8}=0.625.
+    \]
+  }
+
+  \uncover<4->{%
+    Using the $2.5\%$ and $97.5\%$ Beta quantiles,
+    \[
+      \boxed{p\in[0.299,0.863]\quad\text{with posterior probability }0.95.}
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Worked exercise: Poisson--Gamma}
+  A machine records $(2,1,0,3)$ arrivals in four equal time periods. Use the
+  prior $\lambda\sim\GammaDist(2,1)$, with the second parameter as the rate.
+
+  \uncover<2->{%
+    The total count is $t=6$, so
+    \[
+      \lambda\mid x\sim\GammaDist(2+6,1+4)=\GammaDist(8,5).
+    \]
+  }
+
+  \uncover<3->{%
+    \[
+      \widehat\lambda_{\mathrm{Bayes}}
+      =\E[\lambda\mid x]=\frac{8}{5}=1.60,
+      \qquad
+      \widehat\lambda_{\mathrm{MAP}}=\frac{7}{5}=1.40.
+    \]
+  }
+
+  \uncover<4->{%
+    Gamma quantiles in rate format give
+    \[
+      \boxed{\lambda\in[0.691,2.885]\quad\text{with posterior probability }0.95.}
+    \]
+  }
+\end{frame}
+
+\begin{frame}{Worked exercise: Normal--Normal}
+  Four measurements have $\bar x=73$ and known variance $\sigma^2=9$.
+  Use the prior $\mu\sim\Normal(70,16)$ for the population mean.
+
+  \uncover<2->{%
+    \[
+      \mu\mid x\sim
+      \Normal\left(
+        \frac{5302}{73},\frac{144}{73}
+      \right)
+      \approx\Normal(72.63,1.97).
+    \]
+  }
+
+  \uncover<3->{%
+    For a Normal posterior, mean and mode agree:
+    \[
+      \widehat\mu_{\mathrm{Bayes}}
+      =\widehat\mu_{\mathrm{MAP}}
+      =72.63.
+    \]
+  }
+
+  \uncover<4->{%
+    With posterior standard deviation
+    $\sqrt{144/73}\approx1.404$,
+    \[
+      \boxed{\mu\in
+      72.63\pm1.96(1.404)
+      =[69.88,75.38]\quad\text{with posterior probability }0.95.}
+    \]
+  }
+\end{frame}
+
+\end{document}

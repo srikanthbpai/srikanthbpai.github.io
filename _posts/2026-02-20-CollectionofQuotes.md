@@ -32,6 +32,8 @@ related_publications: false
 
 ## Wit
 
+“When playing a game, the goal is to win, but it is the goal that is important, not the winning.” — Reiner Knizia
+
 "When Euler died, he simply said I am finished and collapsed, to which someone in the audience muttered darkly: Another conjecture of Euler is proved." -Paul Erdos.
 
 “Real stupidity beats artificial intelligence every time.”― Hogfather, Terry Pratchett.
