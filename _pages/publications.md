@@ -13,8 +13,6 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-<div class="publications">
-
 ## Peer-reviewed journals
 
 - [On the bounds of certain maximal linear codes in a projective space](https://doi.org/10.1109/TIT.2015.2449308) — *IEEE Transactions on Information Theory*, 61(9), 2015; with B. Sundar Rajan.
@@ -25,10 +23,12 @@ nav_order: 2
 
 ## Peer-reviewed conference and workshop proceedings
 
+<div class="publications">
+
 {% bibliography %}
+
+</div>
 
 ## Working papers
 
 - [Patent Valuation under Fragile Institutional Enforcement — A Continuous-Time Markov Approach](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5552758) — with Akila Hariharan and Naveen Srinivasan.
-
-</div>
