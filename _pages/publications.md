@@ -20,3 +20,8 @@ nav_order: 2
 - [On the bounds of certain maximal linear codes in a projective space](https://doi.org/10.1109/ISIT.2015.7282523) — *2015 IEEE International Symposium on Information Theory (ISIT)*, pp. 591–595; with B. Sundar Rajan.
 - [A lattice singleton bound](https://doi.org/10.1109/ISIT.2013.6620557) — *2013 IEEE International Symposium on Information Theory (ISIT)*, pp. 1904–1908; with B. Sundar Rajan.
 - [On the design of location-invariant sensing performance for secondary users](https://doi.org/10.1109/UKIWCWS.2009.5749411) — *2009 First UK-India International Workshop on Cognitive Wireless Systems (UKIWCWS)*, pp. 1–5; with Tanumay Datta and Chandra R. Murthy.
+
+## Working papers
+
+- [Are opposite-order equilibria impossible?](https://mse.ac.in/wp-content/uploads/2026/10/Working-paper-313.pdf) — MSE Working Paper WP-313, 2026; with Aman Ray.
+- [Centripetal Structure in Electoral Competition with Alienation-Based Abstention](https://mse.ac.in/wp-content/uploads/2026/10/Working-paper-312.pdf) — MSE Working Paper WP-312, 2026; with Aman Ray.
