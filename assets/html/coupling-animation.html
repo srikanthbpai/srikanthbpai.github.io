@@ -1,21 +1,50 @@
 <!doctype html>
 <html lang="en" data-visualize-standalone>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-<title>Coupling Animation</title>
-<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
-</head>
-<body>
-<iframe id="codex-visualization" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Coupling Animation" data-srcdoc="&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot; data-visualize-standalone&gt;
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <title>Coupling Animation</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        background: light-dark(rgb(255 255 255), rgb(24 24 24));
+      }
+      html,
+      body {
+        margin: 0;
+      }
+      body {
+        box-sizing: border-box;
+        padding: 1rem;
+        background: inherit;
+      }
+      iframe {
+        display: block;
+        width: 100%;
+        height: calc(100vh - 2rem);
+        margin: 0 auto;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe
+      id="codex-visualization"
+      sandbox="allow-scripts"
+      referrerpolicy="no-referrer"
+      title="Coupling Animation"
+      data-srcdoc='&lt;!doctype html&gt;
+&lt;html lang="en" data-visualize-standalone&gt;
 &lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;meta name="referrer" content="no-referrer"&gt;
+&lt;meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;"&gt;
 &lt;title&gt;Coupling Animation&lt;/title&gt;
 &lt;style&gt;:root {
   color-scheme: light dark;
@@ -109,9 +138,9 @@
   --viz-series-6: light-dark(rgb(58 185 177), rgb(90 203 194));
 
   /* Internal implementation variables; not part of the agent contract. */
-  --font-sans: -apple-system, system-ui, &quot;Segoe UI&quot;, sans-serif;
+  --font-sans: -apple-system, system-ui, "Segoe UI", sans-serif;
   --font-mono:
-    ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;,
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
     monospace;
   --font-size-normal: max(11px, var(--font-size-base));
   --font-size-tooltip: calc(var(--font-size-base) - 1px);
@@ -133,7 +162,7 @@
   --radius-2xl: calc(var(--radius) * 1.6);
   --radius-full: 9999px;
   --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
-  --checkmark-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E&quot;);
+  --checkmark-image: url("data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E");
 
   /* Legacy aliases; not part of the current agent contract. */
   --viz-bg: transparent;
@@ -148,11 +177,11 @@
   --viz-warning: var(--destructive);
 }
 
-:root[data-theme=&quot;light&quot;] {
+:root[data-theme="light"] {
   color-scheme: light;
 }
 
-:root[data-theme=&quot;dark&quot;] {
+:root[data-theme="dark"] {
   color-scheme: dark;
 }
 
@@ -306,12 +335,12 @@ code:not(pre code) {
   padding-inline-end: 16px;
 }
 
-.table :is(.text-end, [align=&quot;right&quot;]) {
+.table :is(.text-end, [align="right"]) {
   text-align: end;
   font-variant-numeric: tabular-nums;
 }
 
-.table :is(.text-center, [align=&quot;center&quot;]) {
+.table :is(.text-center, [align="center"]) {
   text-align: center;
 }
 
@@ -558,7 +587,7 @@ a.btn {
 }
 
 .btn:not(:disabled):hover,
-.nav-link:not(:disabled):not([aria-disabled=&quot;true&quot;]):hover {
+.nav-link:not(:disabled):not([aria-disabled="true"]):hover {
   background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
 }
 
@@ -719,7 +748,7 @@ a.btn {
   z-index: -1;
   inset: 3px;
   border-radius: 12px;
-  content: &quot;&quot;;
+  content: "";
   pointer-events: none;
 }
 
@@ -787,14 +816,14 @@ a.btn {
   overflow-wrap: anywhere;
 }
 
-.viz-carousel-options &gt; [aria-current=&quot;true&quot;],
+.viz-carousel-options &gt; [aria-current="true"],
 .viz-carousel-options &gt; button:hover {
   background: var(--viz-carousel-hover);
 }
 
 .btn:disabled,
 .nav-link:disabled,
-.nav-link[aria-disabled=&quot;true&quot;] {
+.nav-link[aria-disabled="true"] {
   cursor: not-allowed;
   opacity: 0.4;
 }
@@ -826,13 +855,13 @@ a.btn {
   color: var(--muted-foreground);
 }
 
-.form-control[type=&quot;file&quot;] {
+.form-control[type="file"] {
   padding: 0;
   overflow: hidden;
   cursor: var(--cursor-interaction, pointer);
 }
 
-.form-control[type=&quot;file&quot;]::file-selector-button {
+.form-control[type="file"]::file-selector-button {
   min-height: 26px;
   margin-right: 8px;
   padding: 0 8px;
@@ -844,22 +873,22 @@ a.btn {
   font: inherit;
 }
 
-.form-control[type=&quot;file&quot;]:not(:disabled):hover::file-selector-button {
+.form-control[type="file"]:not(:disabled):hover::file-selector-button {
   background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
 }
 
-.form-control-color[type=&quot;color&quot;] {
+.form-control-color[type="color"] {
   width: 40px;
   height: 28px;
   padding: 3px;
   cursor: var(--cursor-interaction, pointer);
 }
 
-.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch-wrapper {
+.form-control-color[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
 
-.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch {
+.form-control-color[type="color"]::-webkit-color-swatch {
   border: 0;
   border-radius: calc(var(--radius-lg) - 4px);
   corner-shape: var(--corner-shape);
@@ -939,7 +968,7 @@ textarea.form-control {
     box-shadow 150ms;
 }
 
-.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+.form-check:not(.form-switch) .form-check-input[type="checkbox"] {
   border-color: var(--input);
   border-radius: var(--radius-sm);
   corner-shape: var(--corner-shape);
@@ -952,28 +981,28 @@ textarea.form-control {
   background-color: var(--card);
 }
 
-.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;]:checked {
+.form-check:not(.form-switch) .form-check-input[type="checkbox"]:checked {
   border-color: var(--primary);
   background-color: var(--primary);
 }
 
 .form-check:not(.form-switch)
-  .form-check-input[type=&quot;checkbox&quot;]:checked::before {
+  .form-check-input[type="checkbox"]:checked::before {
   display: block;
   width: 100%;
   height: 100%;
   background: var(--primary-foreground);
-  content: &quot;&quot;;
+  content: "";
   mask: var(--checkmark-image) center / 12px 12px no-repeat;
 }
 
-.form-check-input[type=&quot;radio&quot;] {
+.form-check-input[type="radio"] {
   width: 14px;
   height: 14px;
   border-radius: var(--radius-full);
 }
 
-.form-check-input[type=&quot;radio&quot;]:checked {
+.form-check-input[type="radio"]:checked {
   border: 2px solid var(--primary);
   background:
     radial-gradient(circle, var(--primary-foreground) 0 2.5px, transparent 3px),
@@ -1027,7 +1056,7 @@ textarea.form-control {
   border-radius: var(--radius-full);
   background: light-dark(var(--primary-foreground), var(--foreground));
   box-shadow: var(--shadow-sm);
-  content: &quot;&quot;;
+  content: "";
   transform: translate(2px, -50%);
   transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
 }
@@ -1106,8 +1135,8 @@ textarea.form-control {
 }
 
 .btn:not(.btn-primary, .viz-tile):is(
-  [aria-pressed=&quot;true&quot;],
-  [aria-selected=&quot;true&quot;],
+  [aria-pressed="true"],
+  [aria-selected="true"],
   .is-selected
 ) {
   border-color: var(--primary);
@@ -1115,7 +1144,7 @@ textarea.form-control {
   background: var(--primary);
 }
 
-.btn.viz-tile:is([aria-pressed=&quot;true&quot;], [aria-selected=&quot;true&quot;], .is-selected) {
+.btn.viz-tile:is([aria-pressed="true"], [aria-selected="true"], .is-selected) {
   border-color: var(--primary);
   box-shadow: inset 0 0 0 1px var(--primary);
 }
@@ -1149,22 +1178,22 @@ textarea.form-control {
     font-size: max(16px, var(--font-size-normal));
   }
 
-  .form-control[type=&quot;file&quot;]::file-selector-button {
+  .form-control[type="file"]::file-selector-button {
     min-width: 44px;
     min-height: 44px;
   }
 
-  .form-control-color[type=&quot;color&quot;] {
+  .form-control-color[type="color"] {
     width: 44px;
     height: 44px;
   }
 
   .form-control:is(
-    [type=&quot;date&quot;],
-    [type=&quot;datetime-local&quot;],
-    [type=&quot;month&quot;],
-    [type=&quot;time&quot;],
-    [type=&quot;week&quot;]
+    [type="date"],
+    [type="datetime-local"],
+    [type="month"],
+    [type="time"],
+    [type="week"]
   ) {
     min-width: 0;
     max-width: 100%;
@@ -1186,7 +1215,7 @@ textarea.form-control {
     left: 50%;
     width: 44px;
     height: 44px;
-    content: &quot;&quot;;
+    content: "";
     transform: translate(-50%, -50%);
   }
 
@@ -1243,10 +1272,10 @@ svg.lucide {
 html&gt;body{padding:0}&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;script type=&quot;application/json&quot; id=&quot;codex-visualization-widget-state&quot;&gt;__CODEX_VISUALIZATION_WIDGET_STATE__&lt;/script&gt;
+&lt;script type="application/json" id="codex-visualization-widget-state"&gt;__CODEX_VISUALIZATION_WIDGET_STATE__&lt;/script&gt;
 &lt;script&gt;(() =&gt; {
   const root = document.documentElement;
-  const mediaQuery = globalThis.matchMedia(&quot;(prefers-color-scheme: dark)&quot;);
+  const mediaQuery = globalThis.matchMedia("(prefers-color-scheme: dark)");
   const apply = Reflect.apply;
   const isArray = Array.isArray;
   const hasOwn = Object.hasOwn;
@@ -1255,22 +1284,22 @@ html&gt;body{padding:0}&lt;/style&gt;
   const parse = JSON.parse;
   const encode = TextEncoder.prototype.encode.bind(new TextEncoder());
   const initialStateElement = document.getElementById(
-    &quot;codex-visualization-widget-state&quot;,
+    "codex-visualization-widget-state",
   );
-  const initialGlobals = parse(initialStateElement?.textContent ?? &quot;{}&quot;);
+  const initialGlobals = parse(initialStateElement?.textContent ?? "{}");
   initialStateElement?.remove();
   /** @type {Record&lt;string, unknown&gt; | null} */
   let state = initialGlobals.widgetState ?? null;
-  const statePersistence = initialGlobals.statePersistence ?? &quot;none&quot;;
+  const statePersistence = initialGlobals.statePersistence ?? "none";
   let nextStateRequestId = 0;
   /** @type {Map&lt;number, { resolve: () =&gt; void; reject: (error: Error) =&gt; void; timeout: ReturnType&lt;typeof globalThis.setTimeout&gt;; serializedState: string }&gt;} */
   const pendingStateWrites = new Map();
   const persistenceError = () =&gt;
     Object.assign(
-      new Error(&quot;The host could not persist the widget state update&quot;),
+      new Error("The host could not persist the widget state update"),
       {
         code: -32000,
-        data: { code: &quot;widget_state_persistence_failed&quot;, retryable: false },
+        data: { code: "widget_state_persistence_failed", retryable: false },
       },
     );
   /**
@@ -1285,9 +1314,9 @@ html&gt;body{padding:0}&lt;/style&gt;
     }
     return getter;
   };
-  const getMessageData = getPrototypeGetter(MessageEvent.prototype, &quot;data&quot;);
-  const getMessagePorts = getPrototypeGetter(MessageEvent.prototype, &quot;ports&quot;);
-  const getMessageSource = getPrototypeGetter(MessageEvent.prototype, &quot;source&quot;);
+  const getMessageData = getPrototypeGetter(MessageEvent.prototype, "data");
+  const getMessagePorts = getPrototypeGetter(MessageEvent.prototype, "ports");
+  const getMessageSource = getPrototypeGetter(MessageEvent.prototype, "source");
   // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
   const addHostMessageListener = MessagePort.prototype.addEventListener;
   // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
@@ -1305,12 +1334,12 @@ html&gt;body{padding:0}&lt;/style&gt;
   };
   const openExternal = ({ href }) =&gt; {
     if (globalThis.navigator.userActivation?.isActive === true) {
-      postToHost(&quot;open-external&quot;, { href });
+      postToHost("open-external", { href });
     }
   };
   const sendFollowUpMessage = ({ context, prompt, title }) =&gt; {
     if (globalThis.navigator.userActivation?.isActive === true) {
-      postToHost(&quot;follow-up&quot;, { context, prompt, title });
+      postToHost("follow-up", { context, prompt, title });
     }
     return Promise.resolve();
   };
@@ -1319,24 +1348,24 @@ html&gt;body{padding:0}&lt;/style&gt;
    * @returns {Promise&lt;void&gt;}
    */
   const setWidgetState = async (next) =&gt; {
-    const nextState = typeof next === &quot;function&quot; ? next(state) : next;
+    const nextState = typeof next === "function" ? next(state) : next;
     if (
       nextState == null ||
-      typeof nextState !== &quot;object&quot; ||
+      typeof nextState !== "object" ||
       isArray(nextState)
     ) {
-      throw new TypeError(&quot;Widget state must be a JSON object&quot;);
+      throw new TypeError("Widget state must be a JSON object");
     }
     const inputState = stringify(
       nextState,
       (_key, /** @type {unknown} */ value) =&gt; {
         if (
-          typeof value === &quot;undefined&quot; ||
-          typeof value === &quot;function&quot; ||
-          typeof value === &quot;symbol&quot; ||
-          (typeof value === &quot;number&quot; &amp;&amp; !Number.isFinite(value))
+          typeof value === "undefined" ||
+          typeof value === "function" ||
+          typeof value === "symbol" ||
+          (typeof value === "number" &amp;&amp; !Number.isFinite(value))
         ) {
-          throw new TypeError(&quot;Widget state must be a JSON object&quot;);
+          throw new TypeError("Widget state must be a JSON object");
         }
         return value;
       },
@@ -1344,10 +1373,10 @@ html&gt;body{padding:0}&lt;/style&gt;
     const parsedState = parse(inputState);
     if (
       parsedState == null ||
-      typeof parsedState !== &quot;object&quot; ||
+      typeof parsedState !== "object" ||
       isArray(parsedState)
     ) {
-      throw new TypeError(&quot;Widget state must be a JSON object&quot;);
+      throw new TypeError("Widget state must be a JSON object");
     }
     const storedState = {
       modelContent: null,
@@ -1357,32 +1386,32 @@ html&gt;body{padding:0}&lt;/style&gt;
     const serializedState = stringify(storedState);
     if (encode(serializedState).length &gt; 16 * 1024) {
       throw new TypeError(
-        &quot;Widget state must be a JSON object of at most 16 KiB&quot;,
+        "Widget state must be a JSON object of at most 16 KiB",
       );
     }
     if (
-      hasOwn(storedState, &quot;imageIds&quot;) &amp;&amp;
+      hasOwn(storedState, "imageIds") &amp;&amp;
       (!isArray(storedState.imageIds) ||
         storedState.imageIds.some(
-          (/** @type {unknown} */ id) =&gt; typeof id !== &quot;string&quot;,
+          (/** @type {unknown} */ id) =&gt; typeof id !== "string",
         ))
     ) {
-      throw new TypeError(&quot;Widget state imageIds must be an array of strings&quot;);
+      throw new TypeError("Widget state imageIds must be an array of strings");
     }
     if (storedState.imageIds?.length &gt; 0) {
       throw Object.assign(
-        new TypeError(&quot;Visualization state does not support image attachments&quot;),
-        { code: -32602, data: { code: &quot;images_unsupported&quot; } },
+        new TypeError("Visualization state does not support image attachments"),
+        { code: -32602, data: { code: "images_unsupported" } },
       );
     }
     state = storedState;
     globalThis.openai.widgetState = state;
     globalThis.dispatchEvent(
-      new CustomEvent(&quot;openai:set_globals&quot;, {
+      new CustomEvent("openai:set_globals", {
         detail: { globals: { widgetState: state } },
       }),
     );
-    if (statePersistence === &quot;none&quot;) {
+    if (statePersistence === "none") {
       throw persistenceError();
     }
     const id = ++nextStateRequestId;
@@ -1392,11 +1421,11 @@ html&gt;body{padding:0}&lt;/style&gt;
         reject(persistenceError());
       }, 30_000);
       pendingStateWrites.set(id, { resolve, reject, timeout, serializedState });
-      postToHost(&quot;widget-state-write&quot;, { id, state: serializedState });
+      postToHost("widget-state-write", { id, state: serializedState });
     });
   };
   const syncTheme = () =&gt; {
-    const theme = mediaQuery.matches ? &quot;dark&quot; : &quot;light&quot;;
+    const theme = mediaQuery.matches ? "dark" : "light";
     root.dataset.theme = theme;
     globalThis.openai = {
       ...globalThis.openai,
@@ -1408,16 +1437,16 @@ html&gt;body{padding:0}&lt;/style&gt;
       visualizationTheme: theme,
       widgetState: state,
       statePersistence,
-      stateModelContext: &quot;none&quot;,
+      stateModelContext: "none",
     };
     globalThis.dispatchEvent(
-      new CustomEvent(&quot;openai:set_globals&quot;, {
+      new CustomEvent("openai:set_globals", {
         detail: { globals: globalThis.openai },
       }),
     );
   };
   const sendHeight = () =&gt; {
-    postToHost(&quot;height&quot;, {
+    postToHost("height", {
       height: Math.ceil(
         Math.max(
           document.body.scrollHeight,
@@ -1428,7 +1457,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   };
 
   globalThis.addEventListener(
-    &quot;message&quot;,
+    "message",
     (event) =&gt; {
       const data = apply(getMessageData, event, []);
       const ports = apply(getMessagePorts, event, []);
@@ -1436,8 +1465,8 @@ html&gt;body{padding:0}&lt;/style&gt;
       if (
         hostPort != null ||
         source !== parentWindow ||
-        typeof data !== &quot;object&quot; ||
-        data?.type !== &quot;codex-visualization-initialize&quot; ||
+        typeof data !== "object" ||
+        data?.type !== "codex-visualization-initialize" ||
         !isArray(ports) ||
         ports.length !== 1
       ) {
@@ -1447,18 +1476,18 @@ html&gt;body{padding:0}&lt;/style&gt;
       const nextHostPort = ports[0];
       try {
         apply(addHostMessageListener, nextHostPort, [
-          &quot;message&quot;,
+          "message",
           (event) =&gt; {
             const data = apply(getMessageData, event, []);
-            if (typeof data === &quot;object&quot; &amp;&amp; data?.type === &quot;measure&quot;) {
+            if (typeof data === "object" &amp;&amp; data?.type === "measure") {
               sendHeight();
             } else if (
-              typeof data === &quot;object&quot; &amp;&amp;
-              data?.type === &quot;widget-state-result&quot;
+              typeof data === "object" &amp;&amp;
+              data?.type === "widget-state-result"
             ) {
               /** @type {unknown} */
               const id = data.id;
-              if (typeof id !== &quot;number&quot;) {
+              if (typeof id !== "number") {
                 return;
               }
               const pending = pendingStateWrites.get(id);
@@ -1480,15 +1509,15 @@ html&gt;body{padding:0}&lt;/style&gt;
       }
       hostPort = nextHostPort;
       for (const [id, { serializedState }] of pendingStateWrites) {
-        postToHost(&quot;widget-state-write&quot;, { id, state: serializedState });
+        postToHost("widget-state-write", { id, state: serializedState });
       }
       sendHeight();
     },
     { capture: true },
   );
   document.currentScript?.remove();
-  mediaQuery.addEventListener(&quot;change&quot;, syncTheme);
-  globalThis.addEventListener(&quot;click&quot;, (event) =&gt; {
+  mediaQuery.addEventListener("change", syncTheme);
+  globalThis.addEventListener("click", (event) =&gt; {
     if (event.defaultPrevented) {
       return;
     }
@@ -1498,12 +1527,12 @@ html&gt;body{padding:0}&lt;/style&gt;
     } else if (event.target instanceof globalThis.Node) {
       element = event.target.parentElement;
     }
-    const link = element?.closest(&quot;a[href]&quot;);
-    const href = link?.getAttribute(&quot;href&quot;);
+    const link = element?.closest("a[href]");
+    const href = link?.getAttribute("href");
     if (href == null) {
       return;
     }
-    if (href.startsWith(&quot;#&quot;)) {
+    if (href.startsWith("#")) {
       let id;
       try {
         id = decodeURIComponent(href.slice(1));
@@ -1518,7 +1547,7 @@ html&gt;body{padding:0}&lt;/style&gt;
         return;
       }
       event.preventDefault();
-      postToHost(&quot;scroll-to&quot;, {
+      postToHost("scroll-to", {
         top: target.getBoundingClientRect().top + globalThis.scrollY,
       });
       return;
@@ -1530,7 +1559,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   syncTheme();
 })();
 &lt;/script&gt;
-&lt;div id=&quot;coupling-demo&quot;&gt;
+&lt;div id="coupling-demo"&gt;
   &lt;style&gt;
     #coupling-demo { color: var(--foreground); width: 100%; }
     #coupling-demo .top { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 12px; flex-wrap: wrap; }
@@ -1566,74 +1595,74 @@ html&gt;body{padding:0}&lt;/style&gt;
     }
   &lt;/style&gt;
 
-  &lt;div class=&quot;top&quot;&gt;
+  &lt;div class="top"&gt;
     &lt;div&gt;
       &lt;h2&gt;Coupling two Markov chains&lt;/h2&gt;
-      &lt;div id=&quot;cp-subtitle&quot; class=&quot;text-muted&quot;&gt;Independent draws until meeting; one shared draw afterwards&lt;/div&gt;
+      &lt;div id="cp-subtitle" class="text-muted"&gt;Independent draws until meeting; one shared draw afterwards&lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class=&quot;status tabular-nums&quot; aria-live=&quot;polite&quot;&gt;
-      &lt;span&gt;Step &lt;strong id=&quot;cp-step&quot;&gt;0&lt;/strong&gt;&lt;/span&gt;
-      &lt;span&gt;Draws &lt;strong id=&quot;cp-u&quot;&gt;U&lt;sub&gt;X&lt;/sub&gt; = -, U&lt;sub&gt;Y&lt;/sub&gt; = -&lt;/strong&gt;&lt;/span&gt;
-      &lt;span id=&quot;cp-meeting&quot;&gt;Not yet coupled&lt;/span&gt;
+    &lt;div class="status tabular-nums" aria-live="polite"&gt;
+      &lt;span&gt;Step &lt;strong id="cp-step"&gt;0&lt;/strong&gt;&lt;/span&gt;
+      &lt;span&gt;Draws &lt;strong id="cp-u"&gt;U&lt;sub&gt;X&lt;/sub&gt; = -, U&lt;sub&gt;Y&lt;/sub&gt; = -&lt;/strong&gt;&lt;/span&gt;
+      &lt;span id="cp-meeting"&gt;Not yet coupled&lt;/span&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;div class=&quot;stage&quot;&gt;
-    &lt;svg id=&quot;cp-svg&quot; viewBox=&quot;0 0 736 250&quot; role=&quot;img&quot; aria-labelledby=&quot;cp-title cp-desc&quot;&gt;
-      &lt;title id=&quot;cp-title&quot;&gt;Animated coupling of two lazy random walks&lt;/title&gt;
-      &lt;desc id=&quot;cp-desc&quot;&gt;Two chains move on one aligned state space. By default they use independent random draws until they meet, then share every draw and remain together.&lt;/desc&gt;
-      &lt;g id=&quot;cp-grid&quot;&gt;&lt;/g&gt;
-      &lt;g id=&quot;cp-x&quot; class=&quot;token&quot;&gt;
-        &lt;circle class=&quot;token-x&quot; r=&quot;18&quot;&gt;&lt;/circle&gt;
-        &lt;text class=&quot;token-text&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;central&quot;&gt;X&lt;/text&gt;
+  &lt;div class="stage"&gt;
+    &lt;svg id="cp-svg" viewBox="0 0 736 250" role="img" aria-labelledby="cp-title cp-desc"&gt;
+      &lt;title id="cp-title"&gt;Animated coupling of two lazy random walks&lt;/title&gt;
+      &lt;desc id="cp-desc"&gt;Two chains move on one aligned state space. By default they use independent random draws until they meet, then share every draw and remain together.&lt;/desc&gt;
+      &lt;g id="cp-grid"&gt;&lt;/g&gt;
+      &lt;g id="cp-x" class="token"&gt;
+        &lt;circle class="token-x" r="18"&gt;&lt;/circle&gt;
+        &lt;text class="token-text" text-anchor="middle" dominant-baseline="central"&gt;X&lt;/text&gt;
       &lt;/g&gt;
-      &lt;g id=&quot;cp-y&quot; class=&quot;token&quot;&gt;
-        &lt;circle class=&quot;token-y&quot; r=&quot;18&quot;&gt;&lt;/circle&gt;
-        &lt;text class=&quot;token-text&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;central&quot;&gt;Y&lt;/text&gt;
+      &lt;g id="cp-y" class="token"&gt;
+        &lt;circle class="token-y" r="18"&gt;&lt;/circle&gt;
+        &lt;text class="token-text" text-anchor="middle" dominant-baseline="central"&gt;Y&lt;/text&gt;
       &lt;/g&gt;
-      &lt;g id=&quot;cp-joined&quot; class=&quot;token&quot; style=&quot;display:none&quot;&gt;
-        &lt;circle class=&quot;token-joined&quot; r=&quot;22&quot;&gt;&lt;/circle&gt;
-        &lt;text class=&quot;token-text&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;central&quot;&gt;X = Y&lt;/text&gt;
+      &lt;g id="cp-joined" class="token" style="display:none"&gt;
+        &lt;circle class="token-joined" r="22"&gt;&lt;/circle&gt;
+        &lt;text class="token-text" text-anchor="middle" dominant-baseline="central"&gt;X = Y&lt;/text&gt;
       &lt;/g&gt;
     &lt;/svg&gt;
-    &lt;div class=&quot;rule text-small&quot;&gt;
+    &lt;div class="rule text-small"&gt;
       &lt;span&gt;&lt;b&gt;U &amp;lt; 0.4&lt;/b&gt;: left&lt;/span&gt;
       &lt;span&gt;&lt;b&gt;0.4 ≤ U &amp;lt; 0.6&lt;/b&gt;: stay&lt;/span&gt;
       &lt;span&gt;&lt;b&gt;U ≥ 0.6&lt;/b&gt;: right&lt;/span&gt;
       &lt;span&gt;At an endpoint, an outward move stays put.&lt;/span&gt;
     &lt;/div&gt;
-    &lt;div class=&quot;legend text-small&quot; aria-hidden=&quot;true&quot;&gt;
-      &lt;span class=&quot;legend-item&quot;&gt;&lt;i class=&quot;dot dot-x&quot;&gt;&lt;/i&gt;Chain X&lt;/span&gt;
-      &lt;span class=&quot;legend-item&quot;&gt;&lt;i class=&quot;dot dot-y&quot;&gt;&lt;/i&gt;Chain Y&lt;/span&gt;
-      &lt;span class=&quot;legend-item&quot;&gt;&lt;i class=&quot;dot dot-j&quot;&gt;&lt;/i&gt;Coupled&lt;/span&gt;
+    &lt;div class="legend text-small" aria-hidden="true"&gt;
+      &lt;span class="legend-item"&gt;&lt;i class="dot dot-x"&gt;&lt;/i&gt;Chain X&lt;/span&gt;
+      &lt;span class="legend-item"&gt;&lt;i class="dot dot-y"&gt;&lt;/i&gt;Chain Y&lt;/span&gt;
+      &lt;span class="legend-item"&gt;&lt;i class="dot dot-j"&gt;&lt;/i&gt;Coupled&lt;/span&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 
-  &lt;div class=&quot;viz-controls&quot; aria-label=&quot;Simulation controls&quot;&gt;
-    &lt;label class=&quot;form-label field&quot;&gt;Coupling
-      &lt;select id=&quot;cp-mode&quot; class=&quot;form-select&quot;&gt;
-        &lt;option value=&quot;sticky&quot; selected&gt;Independent, then lock&lt;/option&gt;
-        &lt;option value=&quot;sync&quot;&gt;Shared randomness&lt;/option&gt;
+  &lt;div class="viz-controls" aria-label="Simulation controls"&gt;
+    &lt;label class="form-label field"&gt;Coupling
+      &lt;select id="cp-mode" class="form-select"&gt;
+        &lt;option value="sticky" selected&gt;Independent, then lock&lt;/option&gt;
+        &lt;option value="sync"&gt;Shared randomness&lt;/option&gt;
       &lt;/select&gt;
     &lt;/label&gt;
-    &lt;label class=&quot;form-label field&quot;&gt;Start X
-      &lt;select id=&quot;cp-start-x&quot; class=&quot;form-select&quot;&gt;
-        &lt;option value=&quot;0&quot; selected&gt;0&lt;/option&gt;&lt;option value=&quot;1&quot;&gt;1&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;2&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;3&lt;/option&gt;&lt;option value=&quot;4&quot;&gt;4&lt;/option&gt;&lt;option value=&quot;5&quot;&gt;5&lt;/option&gt;&lt;option value=&quot;6&quot;&gt;6&lt;/option&gt;
+    &lt;label class="form-label field"&gt;Start X
+      &lt;select id="cp-start-x" class="form-select"&gt;
+        &lt;option value="0" selected&gt;0&lt;/option&gt;&lt;option value="1"&gt;1&lt;/option&gt;&lt;option value="2"&gt;2&lt;/option&gt;&lt;option value="3"&gt;3&lt;/option&gt;&lt;option value="4"&gt;4&lt;/option&gt;&lt;option value="5"&gt;5&lt;/option&gt;&lt;option value="6"&gt;6&lt;/option&gt;
       &lt;/select&gt;
     &lt;/label&gt;
-    &lt;label class=&quot;form-label field&quot;&gt;Start Y
-      &lt;select id=&quot;cp-start-y&quot; class=&quot;form-select&quot;&gt;
-        &lt;option value=&quot;0&quot;&gt;0&lt;/option&gt;&lt;option value=&quot;1&quot;&gt;1&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;2&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;3&lt;/option&gt;&lt;option value=&quot;4&quot;&gt;4&lt;/option&gt;&lt;option value=&quot;5&quot;&gt;5&lt;/option&gt;&lt;option value=&quot;6&quot; selected&gt;6&lt;/option&gt;
+    &lt;label class="form-label field"&gt;Start Y
+      &lt;select id="cp-start-y" class="form-select"&gt;
+        &lt;option value="0"&gt;0&lt;/option&gt;&lt;option value="1"&gt;1&lt;/option&gt;&lt;option value="2"&gt;2&lt;/option&gt;&lt;option value="3"&gt;3&lt;/option&gt;&lt;option value="4"&gt;4&lt;/option&gt;&lt;option value="5"&gt;5&lt;/option&gt;&lt;option value="6" selected&gt;6&lt;/option&gt;
       &lt;/select&gt;
     &lt;/label&gt;
-    &lt;label class=&quot;form-label field&quot;&gt;Speed
-      &lt;select id=&quot;cp-speed&quot; class=&quot;form-select&quot;&gt;
-        &lt;option value=&quot;1200&quot;&gt;Slow&lt;/option&gt;&lt;option value=&quot;700&quot; selected&gt;Normal&lt;/option&gt;&lt;option value=&quot;350&quot;&gt;Fast&lt;/option&gt;
+    &lt;label class="form-label field"&gt;Speed
+      &lt;select id="cp-speed" class="form-select"&gt;
+        &lt;option value="1200"&gt;Slow&lt;/option&gt;&lt;option value="700" selected&gt;Normal&lt;/option&gt;&lt;option value="350"&gt;Fast&lt;/option&gt;
       &lt;/select&gt;
     &lt;/label&gt;
-    &lt;button type=&quot;button&quot; id=&quot;cp-play&quot; class=&quot;btn btn-primary&quot;&gt;&lt;i data-lucide=&quot;play&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Play&lt;/button&gt;
-    &lt;button type=&quot;button&quot; id=&quot;cp-step-btn&quot; class=&quot;btn&quot;&gt;&lt;i data-lucide=&quot;step-forward&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Step&lt;/button&gt;
-    &lt;button type=&quot;button&quot; id=&quot;cp-reset&quot; class=&quot;btn&quot;&gt;&lt;i data-lucide=&quot;rotate-ccw&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Reset&lt;/button&gt;
+    &lt;button type="button" id="cp-play" class="btn btn-primary"&gt;&lt;i data-lucide="play" aria-hidden="true"&gt;&lt;/i&gt; Play&lt;/button&gt;
+    &lt;button type="button" id="cp-step-btn" class="btn"&gt;&lt;i data-lucide="step-forward" aria-hidden="true"&gt;&lt;/i&gt; Step&lt;/button&gt;
+    &lt;button type="button" id="cp-reset" class="btn"&gt;&lt;i data-lucide="rotate-ccw" aria-hidden="true"&gt;&lt;/i&gt; Reset&lt;/button&gt;
   &lt;/div&gt;
 
   &lt;script&gt;
@@ -1735,14 +1764,14 @@ html&gt;body{padding:0}&lt;/style&gt;
       function stop() {
         if (timer) clearInterval(timer);
         timer = null;
-        play.innerHTML = &#x27;&lt;i data-lucide=&quot;play&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Play&#x27;;
+        play.innerHTML = &#x27;&lt;i data-lucide="play" aria-hidden="true"&gt;&lt;/i&gt; Play&#x27;;
         play.setAttribute(&#x27;aria-pressed&#x27;, &#x27;false&#x27;);
         if (window.lucide) lucide.createIcons({ attrs: { width: 16, height: 16 } });
       }
 
       function togglePlay() {
         if (timer) { stop(); return; }
-        play.innerHTML = &#x27;&lt;i data-lucide=&quot;pause&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Pause&#x27;;
+        play.innerHTML = &#x27;&lt;i data-lucide="pause" aria-hidden="true"&gt;&lt;/i&gt; Pause&#x27;;
         play.setAttribute(&#x27;aria-pressed&#x27;, &#x27;true&#x27;);
         if (window.lucide) lucide.createIcons({ attrs: { width: 16, height: 16 } });
         takeStep();
@@ -1807,8 +1836,8 @@ html&gt;body{padding:0}&lt;/style&gt;
   &lt;/script&gt;
 &lt;/div&gt;
 
-&lt;script src=&quot;https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src="https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 (() =&gt; {
   if (window.FloatingUIDOM == null) {
@@ -1816,7 +1845,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   }
   const { autoUpdate, computePosition, flip, offset, shift, size } =
     window.FloatingUIDOM;
-  const tooltipPlacements = new Set([&quot;top&quot;, &quot;right&quot;, &quot;bottom&quot;, &quot;left&quot;]);
+  const tooltipPlacements = new Set(["top", "right", "bottom", "left"]);
   const tooltipId = `codex-visualization-tooltip-${
     window.crypto?.randomUUID?.() ?? Date.now().toString(36)
   }`;
@@ -1836,7 +1865,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   const getTrigger = (event) =&gt; {
     for (const target of event.composedPath()) {
       if (target?.nodeType === Node.ELEMENT_NODE) {
-        const trigger = target.closest(&quot;[data-tooltip]&quot;);
+        const trigger = target.closest("[data-tooltip]");
         if (trigger) return trigger;
       }
     }
@@ -1845,23 +1874,23 @@ html&gt;body{padding:0}&lt;/style&gt;
   const containsTarget = (trigger, target) =&gt;
     target?.nodeType != null &amp;&amp; trigger.contains(target);
   const getContent = (trigger) =&gt;
-    trigger.getAttribute(&quot;data-tooltip&quot;)?.trim() ?? &quot;&quot;;
+    trigger.getAttribute("data-tooltip")?.trim() ?? "";
   const getPlacement = (trigger) =&gt; {
-    const placement = trigger.getAttribute(&quot;data-tooltip-placement&quot;);
-    return tooltipPlacements.has(placement) ? placement : &quot;top&quot;;
+    const placement = trigger.getAttribute("data-tooltip-placement");
+    return tooltipPlacements.has(placement) ? placement : "top";
   };
   const getTooltip = () =&gt; {
     if (tooltip == null) {
-      tooltip = document.createElement(&quot;div&quot;);
+      tooltip = document.createElement("div");
       tooltip.id = tooltipId;
-      tooltip.className = &quot;tooltip&quot;;
-      tooltip.setAttribute(&quot;role&quot;, &quot;tooltip&quot;);
+      tooltip.className = "tooltip";
+      tooltip.setAttribute("role", "tooltip");
     }
     return tooltip;
   };
   const setDescribedBy = (trigger, described) =&gt; {
     const ids = new Set(
-      (trigger.getAttribute(&quot;aria-describedby&quot;) ?? &quot;&quot;)
+      (trigger.getAttribute("aria-describedby") ?? "")
         .split(/\s+/)
         .filter(Boolean),
     );
@@ -1871,9 +1900,9 @@ html&gt;body{padding:0}&lt;/style&gt;
       ids.delete(tooltipId);
     }
     if (ids.size === 0) {
-      trigger.removeAttribute(&quot;aria-describedby&quot;);
+      trigger.removeAttribute("aria-describedby");
     } else {
-      trigger.setAttribute(&quot;aria-describedby&quot;, [...ids].join(&quot; &quot;));
+      trigger.setAttribute("aria-describedby", [...ids].join(" "));
     }
   };
   const clearOpenTimeout = () =&gt; {
@@ -1910,18 +1939,18 @@ html&gt;body{padding:0}&lt;/style&gt;
           padding: tooltipGap,
           apply({ availableHeight, availableWidth, elements }) {
             elements.floating.style.setProperty(
-              &quot;--tooltip-available-width&quot;,
+              "--tooltip-available-width",
               `${Math.max(0, availableWidth)}px`,
             );
             elements.floating.style.setProperty(
-              &quot;--tooltip-available-height&quot;,
+              "--tooltip-available-height",
               `${Math.max(0, availableHeight)}px`,
             );
           },
         }),
       ],
       placement: getPlacement(trigger),
-      strategy: &quot;fixed&quot;,
+      strategy: "fixed",
     })
       .then(({ x, y }) =&gt; {
         if (activeTrigger !== trigger || request !== positionRequest) {
@@ -1929,7 +1958,7 @@ html&gt;body{padding:0}&lt;/style&gt;
         }
         const scale = window.devicePixelRatio || 1;
         floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
-        floating.style.visibility = &quot;visible&quot;;
+        floating.style.visibility = "visible";
       })
       .catch(() =&gt; {
         if (activeTrigger === trigger &amp;&amp; request === positionRequest) {
@@ -1949,8 +1978,8 @@ html&gt;body{padding:0}&lt;/style&gt;
     closeTooltip();
     const floating = getTooltip();
     floating.textContent = content;
-    floating.style.visibility = &quot;hidden&quot;;
-    floating.style.transform = &quot;translate(0, 0)&quot;;
+    floating.style.visibility = "hidden";
+    floating.style.transform = "translate(0, 0)";
     document.body.appendChild(floating);
     activeTrigger = trigger;
     setDescribedBy(trigger, true);
@@ -1983,7 +2012,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     }, delay);
   };
   const handlePointerOpen = (event) =&gt; {
-    if (event.pointerType === &quot;touch&quot;) {
+    if (event.pointerType === "touch") {
       return;
     }
     const trigger = getTrigger(event);
@@ -1994,10 +2023,10 @@ html&gt;body{padding:0}&lt;/style&gt;
   };
   const handlePointer = (event) =&gt; {
     lastPointerWasTouch =
-      event.type === &quot;pointerdown&quot; &amp;&amp; event.pointerType === &quot;touch&quot;;
+      event.type === "pointerdown" &amp;&amp; event.pointerType === "touch";
   };
   const handleTouchClick = (event) =&gt; {
-    const isTouch = event.pointerType === &quot;touch&quot; || lastPointerWasTouch;
+    const isTouch = event.pointerType === "touch" || lastPointerWasTouch;
     lastPointerWasTouch = false;
     if (!isTouch || event.detail === 0) {
       return;
@@ -2036,12 +2065,12 @@ html&gt;body{padding:0}&lt;/style&gt;
   };
   const handleFocusIn = (event) =&gt; {
     const trigger = getTrigger(event);
-    if (trigger?.matches(&quot;:focus-visible&quot;)) {
+    if (trigger?.matches(":focus-visible")) {
       requestOpen(trigger, true);
     }
   };
   const handleKeyDown = (event) =&gt; {
-    if (event.key === &quot;Escape&quot;) {
+    if (event.key === "Escape") {
       closeTooltip();
     }
   };
@@ -2072,7 +2101,7 @@ html&gt;body{padding:0}&lt;/style&gt;
   };
   const discoverRoots = (node) =&gt; {
     if (node.shadowRoot) listen(node.shadowRoot);
-    for (const element of node.querySelectorAll(&quot;*&quot;)) {
+    for (const element of node.querySelectorAll("*")) {
       if (element.shadowRoot) listen(element.shadowRoot);
     }
   };
@@ -2110,25 +2139,25 @@ html&gt;body{padding:0}&lt;/style&gt;
 
   // Events between children of one shadow root never reach the document.
   listen(document);
-  window.addEventListener(&quot;pagehide&quot;, destroy, { once: true });
+  window.addEventListener("pagehide", destroy, { once: true });
 })();
 &lt;/script&gt;
-&lt;script id=&quot;codex-visualization-tabs&quot;&gt;
+&lt;script id="codex-visualization-tabs"&gt;
 (() =&gt; {
-  const selector = &#x27;.nav[role=&quot;tablist&quot;] [role=&quot;tab&quot;]&#x27;;
-  const disabled = &#x27;:disabled,[aria-disabled=&quot;true&quot;]&#x27;;
+  const selector = &#x27;.nav[role="tablist"] [role="tab"]&#x27;;
+  const disabled = &#x27;:disabled,[aria-disabled="true"]&#x27;;
   const selectTab = (selected) =&gt; {
-    const panelId = selected.getAttribute(&quot;aria-controls&quot;);
-    for (const tab of selected.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;)) {
+    const panelId = selected.getAttribute("aria-controls");
+    for (const tab of selected.closest(&#x27;[role="tablist"]&#x27;).querySelectorAll(&#x27;[role="tab"]&#x27;)) {
       const active = tab === selected;
-      tab.classList.toggle(&quot;active&quot;, active);
-      tab.setAttribute(&quot;aria-selected&quot;, String(active));
-      const id = tab.getAttribute(&quot;aria-controls&quot;);
+      tab.classList.toggle("active", active);
+      tab.setAttribute("aria-selected", String(active));
+      const id = tab.getAttribute("aria-controls");
       const panel = id &amp;&amp; document.getElementById(id);
       if (panel != null) {
         panel.hidden = id !== panelId;
         if (!panel.hidden &amp;&amp; selected.id) {
-          panel.setAttribute(&quot;aria-labelledby&quot;, selected.id);
+          panel.setAttribute("aria-labelledby", selected.id);
         }
       }
     }
@@ -2138,22 +2167,22 @@ html&gt;body{padding:0}&lt;/style&gt;
     if (event.defaultPrevented || tab == null || tab.matches(disabled)) {
       return;
     }
-    if (event.type === &quot;click&quot;) {
+    if (event.type === "click") {
       selectTab(tab);
       return;
     }
     const tabs = Array.from(
-      tab.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;),
+      tab.closest(&#x27;[role="tablist"]&#x27;).querySelectorAll(&#x27;[role="tab"]&#x27;),
     ).filter((candidate) =&gt; !candidate.matches(disabled));
     const current = tabs.indexOf(tab);
     let next;
-    if (event.key === &quot;ArrowRight&quot; || event.key === &quot;ArrowDown&quot;) {
+    if (event.key === "ArrowRight" || event.key === "ArrowDown") {
       next = (current + 1) % tabs.length;
-    } else if (event.key === &quot;ArrowLeft&quot; || event.key === &quot;ArrowUp&quot;) {
+    } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
       next = (current + tabs.length - 1) % tabs.length;
-    } else if (event.key === &quot;Home&quot;) {
+    } else if (event.key === "Home") {
       next = 0;
-    } else if (event.key === &quot;End&quot;) {
+    } else if (event.key === "End") {
       next = tabs.length - 1;
     } else {
       return;
@@ -2163,38 +2192,38 @@ html&gt;body{padding:0}&lt;/style&gt;
     selectTab(tabs[next]);
   };
 
-  for (const list of document.querySelectorAll(&#x27;.nav[role=&quot;tablist&quot;]&#x27;)) {
+  for (const list of document.querySelectorAll(&#x27;.nav[role="tablist"]&#x27;)) {
     const selected =
-      list.querySelector(&#x27;[role=&quot;tab&quot;][aria-selected=&quot;true&quot;]&#x27;) ??
-      list.querySelector(&#x27;[role=&quot;tab&quot;].active&#x27;) ??
-      list.querySelector(&#x27;[role=&quot;tab&quot;]&#x27;);
+      list.querySelector(&#x27;[role="tab"][aria-selected="true"]&#x27;) ??
+      list.querySelector(&#x27;[role="tab"].active&#x27;) ??
+      list.querySelector(&#x27;[role="tab"]&#x27;);
     if (selected != null) {
       selectTab(selected);
     }
   }
-  document.addEventListener(&quot;click&quot;, interact);
-  document.addEventListener(&quot;keydown&quot;, interact);
-  window.addEventListener(&quot;pagehide&quot;, () =&gt; {
-    document.removeEventListener(&quot;click&quot;, interact);
-    document.removeEventListener(&quot;keydown&quot;, interact);
+  document.addEventListener("click", interact);
+  document.addEventListener("keydown", interact);
+  window.addEventListener("pagehide", () =&gt; {
+    document.removeEventListener("click", interact);
+    document.removeEventListener("keydown", interact);
   }, { once: true });
 })();
 &lt;/script&gt;
-&lt;script id=&quot;codex-visualization-carousel&quot;&gt;
+&lt;script id="codex-visualization-carousel"&gt;
   (() =&gt; {
-    for (const root of document.querySelectorAll(&quot;.viz-carousel&quot;)) {
+    for (const root of document.querySelectorAll(".viz-carousel")) {
       const panels = Array.from(
-        root.querySelectorAll(&quot;:scope &gt; [data-variant]&quot;),
+        root.querySelectorAll(":scope &gt; [data-variant]"),
       );
       if (panels.length === 0) {
         continue;
       }
-      root.setAttribute(&quot;role&quot;, &quot;group&quot;);
+      root.setAttribute("role", "group");
       panels.forEach((panel, index) =&gt; {
         panel.hidden = index !== 0;
-        panel.setAttribute(&quot;role&quot;, &quot;group&quot;);
-        if (!panel.hasAttribute(&quot;aria-label&quot;)) {
-          panel.setAttribute(&quot;aria-label&quot;, panel.dataset.variant);
+        panel.setAttribute("role", "group");
+        if (!panel.hasAttribute("aria-label")) {
+          panel.setAttribute("aria-label", panel.dataset.variant);
         }
       });
       root.dataset.activeVariant = panels[0].dataset.variant;
@@ -2202,48 +2231,48 @@ html&gt;body{padding:0}&lt;/style&gt;
         continue;
       }
 
-      const controls = document.createElement(&quot;div&quot;);
-      controls.className = &quot;viz-carousel-controls&quot;;
+      const controls = document.createElement("div");
+      controls.className = "viz-carousel-controls";
       // Portable copy of the settings dropdown&#x27;s legacy glyph; no 14px icon-package preset matches it.
       // https://github.com/openai/openai/blob/master/codex/codex-apps/webview/src/icons/chevron.svg
       controls.innerHTML = `
-      &lt;button type=&quot;button&quot; class=&quot;viz-carousel-previous cursor-interaction&quot;&gt;&lt;i data-lucide=&quot;chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;
-      &lt;details class=&quot;viz-carousel-picker&quot;&gt;
-        &lt;summary class=&quot;cursor-interaction&quot;&gt;
-          &lt;span class=&quot;viz-carousel-count tabular-nums&quot;&gt;&lt;/span&gt;
-          &lt;span class=&quot;viz-carousel-name&quot;&gt;&lt;/span&gt;
-          &lt;svg class=&quot;viz-carousel-caret&quot; width=&quot;14&quot; height=&quot;14&quot; viewBox=&quot;0 0 20 21&quot; fill=&quot;none&quot; aria-hidden=&quot;true&quot; focusable=&quot;false&quot;&gt;
-            &lt;path d=&quot;M15.2793 7.71101C15.539 7.45131 15.961 7.45131 16.2207 7.71101C16.4804 7.97071 16.4804 8.39272 16.2207 8.65242L10.4707 14.4024C10.211 14.6621 9.78902 14.6621 9.52932 14.4024L3.77932 8.65242L3.69436 8.54792C3.52385 8.28979 3.55205 7.93828 3.77932 7.71101C4.00659 7.48374 4.3581 7.45554 4.61623 7.62605L4.72073 7.71101L10 12.9903L15.2793 7.71101Z&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;0.6&quot; /&gt;
+      &lt;button type="button" class="viz-carousel-previous cursor-interaction"&gt;&lt;i data-lucide="chevron-left" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+      &lt;details class="viz-carousel-picker"&gt;
+        &lt;summary class="cursor-interaction"&gt;
+          &lt;span class="viz-carousel-count tabular-nums"&gt;&lt;/span&gt;
+          &lt;span class="viz-carousel-name"&gt;&lt;/span&gt;
+          &lt;svg class="viz-carousel-caret" width="14" height="14" viewBox="0 0 20 21" fill="none" aria-hidden="true" focusable="false"&gt;
+            &lt;path d="M15.2793 7.71101C15.539 7.45131 15.961 7.45131 16.2207 7.71101C16.4804 7.97071 16.4804 8.39272 16.2207 8.65242L10.4707 14.4024C10.211 14.6621 9.78902 14.6621 9.52932 14.4024L3.77932 8.65242L3.69436 8.54792C3.52385 8.28979 3.55205 7.93828 3.77932 7.71101C4.00659 7.48374 4.3581 7.45554 4.61623 7.62605L4.72073 7.71101L10 12.9903L15.2793 7.71101Z" fill="currentColor" stroke="currentColor" stroke-width="0.6" /&gt;
           &lt;/svg&gt;
         &lt;/summary&gt;
-        &lt;div class=&quot;viz-carousel-options&quot;&gt;&lt;/div&gt;
+        &lt;div class="viz-carousel-options"&gt;&lt;/div&gt;
       &lt;/details&gt;
-      &lt;button type=&quot;button&quot; class=&quot;viz-carousel-next cursor-interaction&quot;&gt;&lt;i data-lucide=&quot;chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;`;
-      const previous = controls.querySelector(&quot;.viz-carousel-previous&quot;);
-      const next = controls.querySelector(&quot;.viz-carousel-next&quot;);
-      const picker = controls.querySelector(&quot;.viz-carousel-picker&quot;);
-      const summary = picker.querySelector(&quot;summary&quot;);
-      const count = controls.querySelector(&quot;.viz-carousel-count&quot;);
-      const name = controls.querySelector(&quot;.viz-carousel-name&quot;);
-      const options = controls.querySelector(&quot;.viz-carousel-options&quot;);
-      const status = document.createElement(&quot;span&quot;);
-      status.className = &quot;sr-only&quot;;
-      status.setAttribute(&quot;role&quot;, &quot;status&quot;);
-      status.setAttribute(&quot;aria-live&quot;, &quot;polite&quot;);
-      status.setAttribute(&quot;aria-atomic&quot;, &quot;true&quot;);
+      &lt;button type="button" class="viz-carousel-next cursor-interaction"&gt;&lt;i data-lucide="chevron-right" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;`;
+      const previous = controls.querySelector(".viz-carousel-previous");
+      const next = controls.querySelector(".viz-carousel-next");
+      const picker = controls.querySelector(".viz-carousel-picker");
+      const summary = picker.querySelector("summary");
+      const count = controls.querySelector(".viz-carousel-count");
+      const name = controls.querySelector(".viz-carousel-name");
+      const options = controls.querySelector(".viz-carousel-options");
+      const status = document.createElement("span");
+      status.className = "sr-only";
+      status.setAttribute("role", "status");
+      status.setAttribute("aria-live", "polite");
+      status.setAttribute("aria-atomic", "true");
       previous.setAttribute(
-        &quot;aria-label&quot;,
-        root.dataset.previousLabel ?? &quot;Previous variant&quot;,
+        "aria-label",
+        root.dataset.previousLabel ?? "Previous variant",
       );
-      next.setAttribute(&quot;aria-label&quot;, root.dataset.nextLabel ?? &quot;Next variant&quot;);
+      next.setAttribute("aria-label", root.dataset.nextLabel ?? "Next variant");
 
       let active = 0;
       const choices = panels.map((panel, index) =&gt; {
-        const choice = document.createElement(&quot;button&quot;);
-        choice.type = &quot;button&quot;;
-        choice.className = &quot;cursor-interaction&quot;;
+        const choice = document.createElement("button");
+        choice.type = "button";
+        choice.className = "cursor-interaction";
         choice.textContent = panel.dataset.variant;
-        choice.addEventListener(&quot;click&quot;, () =&gt; {
+        choice.addEventListener("click", () =&gt; {
           select(index);
           summary.focus();
         });
@@ -2256,7 +2285,7 @@ html&gt;body{padding:0}&lt;/style&gt;
         panels.forEach((panel, position) =&gt; {
           panel.hidden = position !== active;
           choices[position].setAttribute(
-            &quot;aria-current&quot;,
+            "aria-current",
             String(position === active),
           );
         });
@@ -2268,14 +2297,14 @@ html&gt;body{padding:0}&lt;/style&gt;
           status.textContent = `${count.textContent}: ${name.textContent}`;
         }
       };
-      previous.addEventListener(&quot;click&quot;, () =&gt;
+      previous.addEventListener("click", () =&gt;
         select((active + panels.length - 1) % panels.length),
       );
-      next.addEventListener(&quot;click&quot;, () =&gt;
+      next.addEventListener("click", () =&gt;
         select((active + 1) % panels.length),
       );
-      picker.addEventListener(&quot;keydown&quot;, (event) =&gt; {
-        if (event.key === &quot;Escape&quot; &amp;&amp; picker.open) {
+      picker.addEventListener("keydown", (event) =&gt; {
+        if (event.key === "Escape" &amp;&amp; picker.open) {
           event.preventDefault();
           picker.open = false;
           summary.focus();
@@ -2288,18 +2317,18 @@ html&gt;body{padding:0}&lt;/style&gt;
       };
       const sizePicker = () =&gt; {
         root.style.setProperty(
-          &quot;--viz-carousel-picker-height&quot;,
+          "--viz-carousel-picker-height",
           `${picker.open ? options.offsetHeight : 0}px`,
         );
       };
-      picker.addEventListener(&quot;toggle&quot;, sizePicker);
-      window.addEventListener(&quot;resize&quot;, sizePicker);
-      document.addEventListener(&quot;pointerdown&quot;, dismiss);
+      picker.addEventListener("toggle", sizePicker);
+      window.addEventListener("resize", sizePicker);
+      document.addEventListener("pointerdown", dismiss);
       window.addEventListener(
-        &quot;pagehide&quot;,
+        "pagehide",
         () =&gt; {
-          document.removeEventListener(&quot;pointerdown&quot;, dismiss);
-          window.removeEventListener(&quot;resize&quot;, sizePicker);
+          document.removeEventListener("pointerdown", dismiss);
+          window.removeEventListener("resize", sizePicker);
         },
         { once: true },
       );
@@ -2308,7 +2337,7 @@ html&gt;body{padding:0}&lt;/style&gt;
     }
   })();
 &lt;/script&gt;
-&lt;script id=&quot;codex-visualization-lucide&quot; async src=&quot;https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js&quot;&gt;&lt;/script&gt;
+&lt;script id="codex-visualization-lucide" async src="https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 (() =&gt; {
   const initialize = () =&gt; {
@@ -2319,212 +2348,181 @@ html&gt;body{padding:0}&lt;/style&gt;
     return;
   }
   document
-    .getElementById(&quot;codex-visualization-lucide&quot;)
-    ?.addEventListener(&quot;load&quot;, initialize, { once: true });
+    .getElementById("codex-visualization-lucide")
+    ?.addEventListener("load", initialize, { once: true });
 })();
 &lt;/script&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;
-"></iframe>
-<script>(() => {
-  const frame = document.getElementById("codex-visualization");
-  if (!(frame instanceof HTMLIFrameElement)) {
-    return;
-  }
-  let viewportHeight = globalThis.innerHeight;
-  const storageKey = `codex:visualization-widget-state-v2:${JSON.stringify([
-    globalThis.location.pathname,
-    globalThis.location.search,
-  ])}`;
-  const parseState = (serializedState) => {
-    if (
-      typeof serializedState !== "string" ||
-      new TextEncoder().encode(serializedState).length > 16 * 1024
-    ) {
-      throw new TypeError(
-        "Widget state must be a JSON object of at most 16 KiB",
-      );
-    }
-    /** @type {unknown} */
-    const state = JSON.parse(serializedState);
-    if (
-      state == null ||
-      typeof state !== "object" ||
-      Array.isArray(state) ||
-      ("imageIds" in state &&
-        (!Array.isArray(state.imageIds) || state.imageIds.length > 0))
-    ) {
-      throw new TypeError("Widget state must be a JSON object");
-    }
-    const storedState = { modelContent: null, privateContent: null, ...state };
-    const canonicalState = JSON.stringify(
-      storedState,
-      (_key, /** @type {unknown} */ value) => {
-        if (typeof value === "number" && !Number.isFinite(value)) {
-          throw new TypeError("Widget state must contain finite numbers");
-        }
-        return value;
-      },
-    );
-    if (new TextEncoder().encode(canonicalState).length > 16 * 1024) {
-      throw new TypeError(
-        "Widget state must be a JSON object of at most 16 KiB",
-      );
-    }
-    return storedState;
-  };
-  let storage = null;
-  let state = null;
-  try {
-    const localStorage = globalThis.localStorage;
-    const probeKey = `${storageKey}:probe`;
-    localStorage.setItem(probeKey, "1");
-    localStorage.removeItem(probeKey);
-    storage = localStorage;
-    const savedState = storage.getItem(storageKey);
-    if (savedState != null) {
-      try {
-        state = parseState(savedState);
-      } catch {
-        // Invalid saved state does not disable future writes.
-      }
-    }
-  } catch {
-    storage = null;
-  }
-  const initialGlobals = {
-    widgetState: state,
-    statePersistence: storage == null ? "none" : "local",
-  };
-
-  const channel = new MessageChannel();
-  channel.port1.addEventListener("message", (event) => {
-    const data = event.data;
-    if (typeof data !== "object" || data == null) {
-      return;
-    }
-    if (data.type === "widget-state-write") {
-      if (!Number.isSafeInteger(data.id) || data.id <= 0) {
-        return;
-      }
-      let ok = false;
-      try {
-        if (storage != null) {
-          const state = parseState(data.state);
-          storage.setItem(storageKey, JSON.stringify(state));
-          ok = true;
-        }
-      } catch {
-        // Storage denial, quota limits, and invalid state return a failed receipt.
-      }
-      channel.port1.postMessage({
-        type: "widget-state-result",
-        id: data.id,
-        ok,
-      });
-      return;
-    }
-    if (data.type === "height") {
-      const height = data.height;
-      if (
-        typeof height === "number" &&
-        Number.isFinite(height) &&
-        height >= 0 &&
-        height <= 10_000
-      ) {
-        frame.style.height = Math.ceil(height) + "px";
-      }
-      return;
-    }
-    if (data.type === "scroll-to") {
-      const top = data.top;
-      if (
-        typeof top === "number" &&
-        Number.isFinite(top) &&
-        top >= 0 &&
-        globalThis.navigator.userActivation?.isActive === true
-      ) {
-        globalThis.scrollTo({
-          top: Math.ceil(
-            globalThis.scrollY + frame.getBoundingClientRect().top + top,
-          ),
-        });
-      }
-      return;
-    }
-    if (data.type === "open-external") {
-      const rawHref = data.href;
-      if (typeof rawHref !== "string") {
-        return;
-      }
-      let href;
-      try {
-        const url = new URL(rawHref, document.baseURI);
-        if (url.protocol !== "https:") {
+'
+    ></iframe>
+    <script>
+      (() => {
+        const frame = document.getElementById("codex-visualization");
+        if (!(frame instanceof HTMLIFrameElement)) {
           return;
         }
-        href = url.href;
-      } catch {
-        return;
-      }
-      if (globalThis.navigator.userActivation?.isActive === true) {
-        const anchor = document.createElement("a");
-        anchor.href = href;
-        anchor.rel = "noopener noreferrer";
-        anchor.target = "_blank";
-        document.body.appendChild(anchor);
-        anchor.click();
-        anchor.remove();
-      }
-      return;
-    }
-    if (data.type === "follow-up") {
-      const prompt = data.prompt;
-      if (
-        typeof prompt !== "string" ||
-        globalThis.navigator.userActivation?.isActive !== true
-      ) {
-        return;
-      }
-      const title = data.title;
-      globalThis.prompt(typeof title === "string" ? title : prompt, prompt);
-    }
-  });
-  channel.port1.start();
-  const srcdoc = frame.dataset.srcdoc;
-  if (srcdoc == null) {
-    return;
-  }
-  globalThis.addEventListener("resize", () => {
-    const height = Number.parseFloat(frame.style.height);
-    if (!Number.isFinite(height) || height <= viewportHeight) {
-      frame.style.removeProperty("height");
-    }
-    viewportHeight = globalThis.innerHeight;
-    channel.port1.postMessage({ type: "measure" });
-  });
-  frame.addEventListener(
-    "load",
-    () => {
-      frame.contentWindow?.postMessage(
-        { type: "codex-visualization-initialize" },
-        "*",
-        [channel.port2],
-      );
-    },
-    { once: true },
-  );
-  // Match the trusted bootstrap element, not the same text in an authored title.
-  frame.srcdoc = srcdoc.replace(
-    '<script type="application/json" id="codex-visualization-widget-state">__CODEX_VISUALIZATION_WIDGET_STATE__<\/script>',
-    () =>
-      '<script type="application/json" id="codex-visualization-widget-state">' +
-      JSON.stringify(initialGlobals).replaceAll("<", "\\u003c") +
-      "<\/script>",
-  );
-  delete frame.dataset.srcdoc;
-})();
-</script>
-</body>
+        let viewportHeight = globalThis.innerHeight;
+        const storageKey = `codex:visualization-widget-state-v2:${JSON.stringify([globalThis.location.pathname, globalThis.location.search])}`;
+        const parseState = (serializedState) => {
+          if (typeof serializedState !== "string" || new TextEncoder().encode(serializedState).length > 16 * 1024) {
+            throw new TypeError("Widget state must be a JSON object of at most 16 KiB");
+          }
+          /** @type {unknown} */
+          const state = JSON.parse(serializedState);
+          if (
+            state == null ||
+            typeof state !== "object" ||
+            Array.isArray(state) ||
+            ("imageIds" in state && (!Array.isArray(state.imageIds) || state.imageIds.length > 0))
+          ) {
+            throw new TypeError("Widget state must be a JSON object");
+          }
+          const storedState = { modelContent: null, privateContent: null, ...state };
+          const canonicalState = JSON.stringify(storedState, (_key, /** @type {unknown} */ value) => {
+            if (typeof value === "number" && !Number.isFinite(value)) {
+              throw new TypeError("Widget state must contain finite numbers");
+            }
+            return value;
+          });
+          if (new TextEncoder().encode(canonicalState).length > 16 * 1024) {
+            throw new TypeError("Widget state must be a JSON object of at most 16 KiB");
+          }
+          return storedState;
+        };
+        let storage = null;
+        let state = null;
+        try {
+          const localStorage = globalThis.localStorage;
+          const probeKey = `${storageKey}:probe`;
+          localStorage.setItem(probeKey, "1");
+          localStorage.removeItem(probeKey);
+          storage = localStorage;
+          const savedState = storage.getItem(storageKey);
+          if (savedState != null) {
+            try {
+              state = parseState(savedState);
+            } catch {
+              // Invalid saved state does not disable future writes.
+            }
+          }
+        } catch {
+          storage = null;
+        }
+        const initialGlobals = {
+          widgetState: state,
+          statePersistence: storage == null ? "none" : "local",
+        };
+
+        const channel = new MessageChannel();
+        channel.port1.addEventListener("message", (event) => {
+          const data = event.data;
+          if (typeof data !== "object" || data == null) {
+            return;
+          }
+          if (data.type === "widget-state-write") {
+            if (!Number.isSafeInteger(data.id) || data.id <= 0) {
+              return;
+            }
+            let ok = false;
+            try {
+              if (storage != null) {
+                const state = parseState(data.state);
+                storage.setItem(storageKey, JSON.stringify(state));
+                ok = true;
+              }
+            } catch {
+              // Storage denial, quota limits, and invalid state return a failed receipt.
+            }
+            channel.port1.postMessage({
+              type: "widget-state-result",
+              id: data.id,
+              ok,
+            });
+            return;
+          }
+          if (data.type === "height") {
+            const height = data.height;
+            if (typeof height === "number" && Number.isFinite(height) && height >= 0 && height <= 10_000) {
+              frame.style.height = Math.ceil(height) + "px";
+            }
+            return;
+          }
+          if (data.type === "scroll-to") {
+            const top = data.top;
+            if (typeof top === "number" && Number.isFinite(top) && top >= 0 && globalThis.navigator.userActivation?.isActive === true) {
+              globalThis.scrollTo({
+                top: Math.ceil(globalThis.scrollY + frame.getBoundingClientRect().top + top),
+              });
+            }
+            return;
+          }
+          if (data.type === "open-external") {
+            const rawHref = data.href;
+            if (typeof rawHref !== "string") {
+              return;
+            }
+            let href;
+            try {
+              const url = new URL(rawHref, document.baseURI);
+              if (url.protocol !== "https:") {
+                return;
+              }
+              href = url.href;
+            } catch {
+              return;
+            }
+            if (globalThis.navigator.userActivation?.isActive === true) {
+              const anchor = document.createElement("a");
+              anchor.href = href;
+              anchor.rel = "noopener noreferrer";
+              anchor.target = "_blank";
+              document.body.appendChild(anchor);
+              anchor.click();
+              anchor.remove();
+            }
+            return;
+          }
+          if (data.type === "follow-up") {
+            const prompt = data.prompt;
+            if (typeof prompt !== "string" || globalThis.navigator.userActivation?.isActive !== true) {
+              return;
+            }
+            const title = data.title;
+            globalThis.prompt(typeof title === "string" ? title : prompt, prompt);
+          }
+        });
+        channel.port1.start();
+        const srcdoc = frame.dataset.srcdoc;
+        if (srcdoc == null) {
+          return;
+        }
+        globalThis.addEventListener("resize", () => {
+          const height = Number.parseFloat(frame.style.height);
+          if (!Number.isFinite(height) || height <= viewportHeight) {
+            frame.style.removeProperty("height");
+          }
+          viewportHeight = globalThis.innerHeight;
+          channel.port1.postMessage({ type: "measure" });
+        });
+        frame.addEventListener(
+          "load",
+          () => {
+            frame.contentWindow?.postMessage({ type: "codex-visualization-initialize" }, "*", [channel.port2]);
+          },
+          { once: true }
+        );
+        // Match the trusted bootstrap element, not the same text in an authored title.
+        frame.srcdoc = srcdoc.replace(
+          '<script type="application/json" id="codex-visualization-widget-state">__CODEX_VISUALIZATION_WIDGET_STATE__<\/script>',
+          () =>
+            '<script type="application/json" id="codex-visualization-widget-state">' +
+            JSON.stringify(initialGlobals).replaceAll("<", "\\u003c") +
+            "<\/script>"
+        );
+        delete frame.dataset.srcdoc;
+      })();
+    </script>
+  </body>
 </html>

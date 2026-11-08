@@ -17,7 +17,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.2"
+          ruby-version: "3.2.11"
           bundler-cache: true
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
@@ -43,4 +43,4 @@ jobs:
         with:
           fail: true
           # only check local links
-          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'
+          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --exclude 'https://fonts.googleapis.com/' --exclude 'https://fonts.gstatic.com/' --exclude 'https://github.com/openai/openai/blob/master/codex/codex-apps/webview/src/icons/chevron.svg' --verbose --no-progress '_site/**/*.html'

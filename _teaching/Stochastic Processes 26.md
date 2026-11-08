@@ -44,7 +44,7 @@ Emphasis is placed on precise definitions, proofs, examples, and problem-solving
 
 ## References
 - Sheldon M. Ross; ["Introduction to Probability Models"](https://www.google.co.in/books/edition/Introduction_to_Probability_Models/1uxBwhAb_zYC?hl=en&gbpv=0), Academic Press, Ninth Edition, 2007.
-- Anurag Kumar; ["Discrete Event Stochastic Processes: Lecture Notes for an Engineering Curriculum"](https://ece.iisc.ac.in/anurag/wp-content/uploads/2026/08/discrete-event-stochastic-processes_Aug-Dec2026.pdf), Indian Institute of Science.
+- Anurag Kumar; ["Discrete Event Stochastic Processes: Lecture Notes for an Engineering Curriculum"](https://ece.iisc.ac.in/anurag/wp-content/uploads/2020/07/discrete-event-stochastic-processes.pdf), Indian Institute of Science.
 - Brzezniak and Zastawniak; "Basic Stochastic Processes", Springer, Second Indian Reprint, 2009.
 
 ## Lecture Materials
