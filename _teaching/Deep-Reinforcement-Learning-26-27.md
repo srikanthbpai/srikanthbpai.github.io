@@ -36,8 +36,8 @@ principle of optimality, policy evaluation, policy improvement, value iteration.
 
 **5. Approximate Methods in Reinforcement Learning**  
 Monte Carlo prediction, action-value estimation, Monte Carlo control, exploration and
-exploitation, importance sampling, value-function approximation, stochastic gradient
-methods, feature construction, least-squares methods.
+exploitation, importance sampling, value-function approximation, and a basic introduction
+to Proximal Policy Optimization (PPO) and Soft Actor-Critic (SAC).
 
 ## References
 
